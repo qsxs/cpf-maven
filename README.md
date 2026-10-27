@@ -1,12 +1,15 @@
 # CPF OHOS 临时 Maven 验收仓
 
-公开 Maven 根：[https://qsxs.github.io/cpf-maven/](https://qsxs.github.io/cpf-maven/)。本仓仅作迁仓期间临时匿名验收，不是长期发行承诺，也不表示主应用已切换依赖。Pages 实际发布分支为 `codex/initial-maven`，由用户手动启用。
+公开 Maven 根：`https://qsxs.github.io/cpf-maven/`；浏览器可查看 [GitHub 制品仓库](https://github.com/qsxs/cpf-maven)。本仓仅作迁仓期间临时匿名验收，不是长期发行承诺，也不表示主应用已切换依赖。Pages 实际发布分支为 `codex/initial-maven`，由用户手动启用。
 
 已验根坐标：
 
 ```text
 com.github.qsxs.gridlayout-compose:grid:2.8.0-cpf11-preview-ed3472803fdb-40432726650-1
+io.github.qsxs.cpf.poko:poko-annotations:0.23.1-cpf11-preview-cbaa758d0b76-40451679040-1
 ```
+
+## Grid
 
 [Grid source `ed3472803fdb`](https://github.com/qsxs/gridlayout-compose/commit/ed3472803fdb637d601391f62f43aba1bfea551f) 经 [producer 40432726650/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40432726650/attempts/1) 八阶段与完整 Verify，通过 [Maven 制品提交 `7aeb4841317a`](https://github.com/qsxs/cpf-maven/commit/7aeb4841317a4db677a365bab458c5b281a31915) 一次发布完整 root/双 leaf 图。115 文件、474253B 与 staging 逐字节一致，匿名 HTTP 全量核验通过；后续 README 提交不改变该制品身份。
 
@@ -16,4 +19,12 @@ com.github.qsxs.gridlayout-compose:grid:2.8.0-cpf11-preview-ed3472803fdb-4043272
 
 所有来源与各自原许可证保留在对应 Fork 和附带制品中。新增版本须保留 POM/GMM/双 ABI Klib/sources/license/校验文件的完整原字节，不覆盖已验版本；工作流只交 staging/evidence，由 Root 核对后手动发布。官方制品替换需真实坐标、完整双 ABI/API、届时工具链兼容及独立消费验证后另行决定，不预填官方 GAV。
 
-Windows urllib 对十个大文件曾固定截断6890B，curl原件全匹配；云端 consumer 匿名 HTTP 完整成功进一步区分了本机传输观察，不能归因库损坏。Grid 文档提交发布后安全暂停，不在本批启动其他库。
+Windows urllib 对十个大文件曾固定截断 6890B，curl 原件全匹配；云端 consumer 匿名 HTTP 完整成功进一步区分了本机传输观察，不能归因库损坏。
+
+## Poko annotations
+
+[Poko Fork source `cbaa758d0b76`](https://github.com/qsxs/Poko/commit/cbaa758d0b7610e0e445b8fd50739aa05afaea6e) 的 [producer 40451679040/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40451679040/attempts/1) 已完成 metadata、双 Native 生产及完整 staging Verify。[Pages 制品提交 `7c7abe30bb95`](https://github.com/qsxs/cpf-maven/commit/7c7abe30bb9510d0290794522471cb99469f6dac) 的 110 个文件、158468 字节与 staging 匿名逐字节对齐，既有 Grid 版本未被覆盖。
+
+[consumer 第 1 次](https://github.com/qsxs/cpf-port-tooling/actions/runs/40457201932/attempts/1)的 Gradle 8.11.1 job 和[第 2 次](https://github.com/qsxs/cpf-port-tooling/actions/runs/40457201932/attempts/2)的 Gradle 9.5 job 分别从公开根 GAV 完成 metadata、OHOS x64 和 arm64 编译。Gradle 8 未加载 Poko 插件；Gradle 9 使用 0.23.2 插件，检查自有 probe 的三个生成声明签名和双 Native 非空 IR。第 2 次两个 job 均报告成功，详细证据分别采用 Gradle 8 第 1 次和 Gradle 9 第 2 次。
+
+第 1 次 Gradle 9 因官方 sysroot 下载超时失败，随后第 2 次成功；第 1 次整体不能称为成功。未检查生成方法体，link、runtime、设备和 Android/iOS 回归均未验证。Pages 为临时验收仓，App 引用尚未切换。
