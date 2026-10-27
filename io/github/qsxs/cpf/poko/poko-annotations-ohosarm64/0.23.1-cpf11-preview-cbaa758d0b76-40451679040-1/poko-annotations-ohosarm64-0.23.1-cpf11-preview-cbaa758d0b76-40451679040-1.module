@@ -1,0 +1,72 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../poko-annotations/0.23.1-cpf11-preview-cbaa758d0b76-40451679040-1/poko-annotations-0.23.1-cpf11-preview-cbaa758d0b76-40451679040-1.module",
+    "group": "io.github.qsxs.cpf.poko",
+    "module": "poko-annotations",
+    "version": "0.23.1-cpf11-preview-cbaa758d0b76-40451679040-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "poko-annotations-ohosArm64Main-0.23.1-cpf11-preview-cbaa758d0b76-40451679040-1.klib",
+          "url": "poko-annotations-ohosarm64-0.23.1-cpf11-preview-cbaa758d0b76-40451679040-1.klib",
+          "size": 9275,
+          "sha512": "fe5441d2e1a08684a4e306c7f494ec84d9e8e280a68ef231ef8240b2fc76e79873cd0c9b00e105b764d64c4d4fbc55a448cbae6ebe555a9a372e3296fb2a3c54",
+          "sha256": "e0631a93de019f94cd94074d1a4eefc661c32df31f18897b8d4141d201184448",
+          "sha1": "12536fc5eb48c650175cfaabe5a6e59b9f83eec1",
+          "md5": "02331391b00b4f5ca69fbb9fdbbdfe89"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "poko-annotations-ohosarm64-0.23.1-cpf11-preview-cbaa758d0b76-40451679040-1-sources.jar",
+          "url": "poko-annotations-ohosarm64-0.23.1-cpf11-preview-cbaa758d0b76-40451679040-1-sources.jar",
+          "size": 7631,
+          "sha512": "a9eba7695e8a93dac1c5f81656a684a8eb1e012abdb1371df12d7b31b97d198c82b75afa2dc1c9c13750e6eb37bc9596a713f0da5772a1fe473ae7814415c0c4",
+          "sha256": "aad4a9790e9df7e6c3e1e3118692042eae2ceba2f8a0114b13d16eaa70f6a6e7",
+          "sha1": "77a0d7a76ab17565473ff273293a428c485bad40",
+          "md5": "4306469a4b936bfa8fa4e175d11c4b69"
+        }
+      ]
+    }
+  ]
+}
