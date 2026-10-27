@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.qsxs.cpf.colormath",
+    "module": "colormath",
+    "version": "3.6.1-cpf11-preview-86f87c1c333f-40461897858-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "colormath-metadata-3.6.1-cpf11-preview-86f87c1c333f-40461897858-1.jar",
+          "url": "colormath-3.6.1-cpf11-preview-86f87c1c333f-40461897858-1.jar",
+          "size": 49819,
+          "sha512": "dda67df51c9bc06343d7918b93aa959202728e6eb2b3cd5d538894de7f08716cc8d684a0d54881751f10433fad4be95537238533e926956144209035e7ee788c",
+          "sha256": "82a8fe42f5f5cbc01b3752ff78bc20eb177062a054ed8e6ef1ab4c32a154e2c5",
+          "sha1": "2366fdaa9466a92bdf5e6536de29e688ba20f5c3",
+          "md5": "2702c6cc95b5e5c2eb808cb8e7f81140"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "colormath-kotlin-3.6.1-cpf11-preview-86f87c1c333f-40461897858-1-sources.jar",
+          "url": "colormath-3.6.1-cpf11-preview-86f87c1c333f-40461897858-1-sources.jar",
+          "size": 72623,
+          "sha512": "f9c5cc4ae03afbd54779bb97dbd2338842231065106cda9459dbfe7d1e8bc43b49f287a27ec3c3461e19d162427cd6bb226c8c5961c38f8eda8b25deaab227c5",
+          "sha256": "50b258f017e28ca5873f018e0dbac1e05f14902bb902295e7204212b6da7b574",
+          "sha1": "467d33887906a48d4fc60b99b1c47ef2d923c602",
+          "md5": "4832a991e7b668934edd1c61b452710c"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colormath-ohosarm64/3.6.1-cpf11-preview-86f87c1c333f-40461897858-1/colormath-ohosarm64-3.6.1-cpf11-preview-86f87c1c333f-40461897858-1.module",
+        "group": "io.github.qsxs.cpf.colormath",
+        "module": "colormath-ohosarm64",
+        "version": "3.6.1-cpf11-preview-86f87c1c333f-40461897858-1"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colormath-ohosarm64/3.6.1-cpf11-preview-86f87c1c333f-40461897858-1/colormath-ohosarm64-3.6.1-cpf11-preview-86f87c1c333f-40461897858-1.module",
+        "group": "io.github.qsxs.cpf.colormath",
+        "module": "colormath-ohosarm64",
+        "version": "3.6.1-cpf11-preview-86f87c1c333f-40461897858-1"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colormath-ohosx64/3.6.1-cpf11-preview-86f87c1c333f-40461897858-1/colormath-ohosx64-3.6.1-cpf11-preview-86f87c1c333f-40461897858-1.module",
+        "group": "io.github.qsxs.cpf.colormath",
+        "module": "colormath-ohosx64",
+        "version": "3.6.1-cpf11-preview-86f87c1c333f-40461897858-1"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colormath-ohosx64/3.6.1-cpf11-preview-86f87c1c333f-40461897858-1/colormath-ohosx64-3.6.1-cpf11-preview-86f87c1c333f-40461897858-1.module",
+        "group": "io.github.qsxs.cpf.colormath",
+        "module": "colormath-ohosx64",
+        "version": "3.6.1-cpf11-preview-86f87c1c333f-40461897858-1"
+      }
+    }
+  ]
+}
