@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.qsxs.gridlayout-compose",
+    "module": "grid",
+    "version": "2.8.0-cpf11-preview-ed3472803fdb-40432726650-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grid-metadata-2.8.0-cpf11-preview-ed3472803fdb-40432726650-1.jar",
+          "url": "grid-2.8.0-cpf11-preview-ed3472803fdb-40432726650-1.jar",
+          "size": 24716,
+          "sha512": "37a76589839dda938e0d428a941dee142079abd9a520e38b8ae782c278d5717507299d2f4e53ff58a07609f369a8a6564dbf0994351012f4c8c24b49086f5237",
+          "sha256": "da99d5d390f2c89456b50f45a3ad5a5f8703b916f16398a75b33ea2ee57dff84",
+          "sha1": "83de8cfc5490b84d9e68c861509298ed76418b2d",
+          "md5": "ca252e1221e094ad4c2ae618242fc2a6"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "grid-kotlin-2.8.0-cpf11-preview-ed3472803fdb-40432726650-1-sources.jar",
+          "url": "grid-2.8.0-cpf11-preview-ed3472803fdb-40432726650-1-sources.jar",
+          "size": 29938,
+          "sha512": "492d9ef423e6cf14197c2ba4b1562ff93838757768164da7a79c17ba5ea570268ef8998fc7141f28bf5d6200476dff0678a240a0d4d20704e8490d0df3f010ca",
+          "sha256": "0fe2916328612507b2ac058a2b0fb40f2fac27848a1791e97d2f4a542ee79b18",
+          "sha1": "66176f35e700cf8baacea1b2a13a1d0fad11b4fa",
+          "md5": "4ebc03f0526ff8a97f24c22f16589eed"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../grid-ohosarm64/2.8.0-cpf11-preview-ed3472803fdb-40432726650-1/grid-ohosarm64-2.8.0-cpf11-preview-ed3472803fdb-40432726650-1.module",
+        "group": "com.github.qsxs.gridlayout-compose",
+        "module": "grid-ohosarm64",
+        "version": "2.8.0-cpf11-preview-ed3472803fdb-40432726650-1"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../grid-ohosarm64/2.8.0-cpf11-preview-ed3472803fdb-40432726650-1/grid-ohosarm64-2.8.0-cpf11-preview-ed3472803fdb-40432726650-1.module",
+        "group": "com.github.qsxs.gridlayout-compose",
+        "module": "grid-ohosarm64",
+        "version": "2.8.0-cpf11-preview-ed3472803fdb-40432726650-1"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../grid-ohosx64/2.8.0-cpf11-preview-ed3472803fdb-40432726650-1/grid-ohosx64-2.8.0-cpf11-preview-ed3472803fdb-40432726650-1.module",
+        "group": "com.github.qsxs.gridlayout-compose",
+        "module": "grid-ohosx64",
+        "version": "2.8.0-cpf11-preview-ed3472803fdb-40432726650-1"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../grid-ohosx64/2.8.0-cpf11-preview-ed3472803fdb-40432726650-1/grid-ohosx64-2.8.0-cpf11-preview-ed3472803fdb-40432726650-1.module",
+        "group": "com.github.qsxs.gridlayout-compose",
+        "module": "grid-ohosx64",
+        "version": "2.8.0-cpf11-preview-ed3472803fdb-40432726650-1"
+      }
+    }
+  ]
+}
