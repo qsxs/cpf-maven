@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material-kolor/5.0.0-cpf11-preview-c5ef77766b60-40672306467-1/material-kolor-5.0.0-cpf11-preview-c5ef77766b60-40672306467-1.module",
+    "group": "io.github.qsxs.cpf.materialkolor",
+    "module": "material-kolor",
+    "version": "5.0.0-cpf11-preview-c5ef77766b60-40672306467-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.qsxs.cpf.materialkolor",
+          "module": "material-color-utilities",
+          "version": {
+            "requires": "5.0.0-cpf11-preview-c5ef77766b60-40672306467-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "io.github.qsxs.cpf.colormath",
+          "module": "colormath",
+          "version": {
+            "requires": "3.6.1-cpf11-preview-86f87c1c333f-40461897858-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-kolor-ohosArm64Main-5.0.0-cpf11-preview-c5ef77766b60-40672306467-1.klib",
+          "url": "material-kolor-ohosarm64-5.0.0-cpf11-preview-c5ef77766b60-40672306467-1.klib",
+          "size": 137521,
+          "sha512": "7c7f60cf2c0e0990906625e77c51116911ed4f18059f961066e2d0350d0e499ca1b500bc23a969e81661600c887735ef36808bd13522f594d8e68061c01e6f2e",
+          "sha256": "72183213f0ad60a527578579a76d9fef141eb0a7cb6ab4f654437f7a57fdf8c3",
+          "sha1": "72da430e41dcc02e8bc5854ba8d0b756f5aa72d0",
+          "md5": "5a774e8d43ff346baaaa2bdd35d80a01"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "material-kolor-ohosarm64-5.0.0-cpf11-preview-c5ef77766b60-40672306467-1-sources.jar",
+          "url": "material-kolor-ohosarm64-5.0.0-cpf11-preview-c5ef77766b60-40672306467-1-sources.jar",
+          "size": 37506,
+          "sha512": "581cd6cd9fcf850c84d8c6c8d6dd74d8a482bf05697c7fdc139ccd7c933e5ba05830b3ecda12268e06b7e33a4347bfdcb93331c053d6bc764f9820c6af1d203a",
+          "sha256": "56863946f0392085e60edd2ead8e4f6a406cc8a0f154158034b6003c0608a529",
+          "sha1": "48ea2efa580aa333c90149d94a3bbd5616cecdf6",
+          "md5": "982db390b28cfd214702dfad30d99272"
+        }
+      ]
+    }
+  ]
+}

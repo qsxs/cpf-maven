@@ -1,0 +1,1413 @@
+{
+  "fingerprint": "e386bbde944a7c06b096c7a42e5ee479ff547ed4dd8d07c9fe68278c6706e104",
+  "sourceCommit": "c5ef77766b6098677d541e82f362b666a8a0fff2",
+  "upstream": {
+    "repository": "https://github.com/jordond/MaterialKolor",
+    "tag": "5.0.0",
+    "commit": "13c67cfa5a724cb6dca7d15674b3ad2acf894853"
+  },
+  "group": "io.github.qsxs.cpf.materialkolor",
+  "module": "material-color-utilities",
+  "version": "5.0.0-cpf11-preview-c5ef77766b60-40672306467-1",
+  "sourceMembers": [
+    {
+      "member": "commonMain/com/materialkolor/blend/Blend.kt",
+      "size": 4305,
+      "sha256": "f0b5b90754ef0ec33ed7325ea41352e88ba12bb15fa143203a891404c2425613"
+    },
+    {
+      "member": "commonMain/com/materialkolor/contrast/Contrast.kt",
+      "size": 12334,
+      "sha256": "8a4655a732cbf09aab007b37202177a664f1861af72cab98b5c42bff9d5e4b6d"
+    },
+    {
+      "member": "commonMain/com/materialkolor/dislike/DislikeAnalyzer.kt",
+      "size": 1913,
+      "sha256": "4e7a6a30b835f5388fe0ce451aec6019746e7642ae45c8020fc8f16b7a6b23ad"
+    },
+    {
+      "member": "commonMain/com/materialkolor/dynamiccolor/ColorSpec.kt",
+      "size": 5681,
+      "sha256": "d3f39048d6004eb06d60b2a61e90b023fd73d46606fa1fb8c6964c973bc3904c"
+    },
+    {
+      "member": "commonMain/com/materialkolor/dynamiccolor/ColorSpec2021.kt",
+      "size": 55763,
+      "sha256": "73b7a46ffd48a8b865acdfe47db28f196cf9ef1ba22b87ae01c043cbda1f09e9"
+    },
+    {
+      "member": "commonMain/com/materialkolor/dynamiccolor/ColorSpec2025.kt",
+      "size": 93161,
+      "sha256": "e16b195fb316b5edab300c01c2d9a20779427a8c3155def8a3c5e7ed2de2e8f8"
+    },
+    {
+      "member": "commonMain/com/materialkolor/dynamiccolor/ColorSpecs.kt",
+      "size": 1008,
+      "sha256": "56be2d35ef1418328f2bee74c0307a0caf1a8fb91857663fd42687f44a2b834e"
+    },
+    {
+      "member": "commonMain/com/materialkolor/dynamiccolor/ContrastCurve.kt",
+      "size": 2031,
+      "sha256": "c696c28953f70abe3260da02ad030af54db1fe673e8aace4dd14c324f2ff8ac7"
+    },
+    {
+      "member": "commonMain/com/materialkolor/dynamiccolor/DynamicColor.kt",
+      "size": 23727,
+      "sha256": "ec9922b5f2f8865a0dbc34dad67b195f453b176eb7b85d608b73be70a5ece743"
+    },
+    {
+      "member": "commonMain/com/materialkolor/dynamiccolor/MaterialDynamicColors.kt",
+      "size": 10445,
+      "sha256": "955e7f8f5fc59523e70eacde50f7ad37bb33626c2f461e68fa8f0b083f547c25"
+    },
+    {
+      "member": "commonMain/com/materialkolor/dynamiccolor/ToneDeltaPair.kt",
+      "size": 2680,
+      "sha256": "32f4e0f0d3db7cae28bd187492a44db7a3ca36717a532bae9d5da9ffa3a83be9"
+    },
+    {
+      "member": "commonMain/com/materialkolor/dynamiccolor/TonePolarity.kt",
+      "size": 1334,
+      "sha256": "7eaf7450bd373d396483f32f16a9822c796d7e9d1388475cd0ff7262134a16f8"
+    },
+    {
+      "member": "commonMain/com/materialkolor/hct/Cam16.kt",
+      "size": 16620,
+      "sha256": "d8c8c2868d73c653c956e8555e9ea6457e3927b63f9449c4269b2872a4a43856"
+    },
+    {
+      "member": "commonMain/com/materialkolor/hct/Hct.kt",
+      "size": 5770,
+      "sha256": "693b98342e476912e82ef255433330286d125e2f9d8adae2f27c6a3429ed5819"
+    },
+    {
+      "member": "commonMain/com/materialkolor/hct/HctSolver.kt",
+      "size": 23404,
+      "sha256": "22d1d586690018f1661dc49acde57c70e837c1135181f4662bd206606141e8db"
+    },
+    {
+      "member": "commonMain/com/materialkolor/hct/ViewingConditions.kt",
+      "size": 7054,
+      "sha256": "7f2df51eb3d4afd3e03de00ed427c53b976440368841d776b4ae78c8ded4ca50"
+    },
+    {
+      "member": "commonMain/com/materialkolor/palettes/CorePalette.kt",
+      "size": 2905,
+      "sha256": "c25212e8deb7492aac69ecc7d533f25d2fc6bb71ea32ec1baa4a05441f05ac45"
+    },
+    {
+      "member": "commonMain/com/materialkolor/palettes/TonalPalette.kt",
+      "size": 7092,
+      "sha256": "6e2701311775c560bc70304d483cb274a149d19cdc49924435686f0a27d4eca6"
+    },
+    {
+      "member": "commonMain/com/materialkolor/quantize/PointProvider.kt",
+      "size": 1657,
+      "sha256": "bee73aa52d049c6aeb00bb499da77f3d4288daa7b6e460318b68315de89e0d9b"
+    },
+    {
+      "member": "commonMain/com/materialkolor/quantize/PointProviderLab.kt",
+      "size": 2010,
+      "sha256": "2c640c41eb391cbe4ce298743074815dd68b551d65ce61ab9d7e469544679cea"
+    },
+    {
+      "member": "commonMain/com/materialkolor/quantize/Quantizer.kt",
+      "size": 757,
+      "sha256": "0b3c1d945d11f1c15112f3ce6ebc2451bc770fd4cb0736bd59feded2d9201457"
+    },
+    {
+      "member": "commonMain/com/materialkolor/quantize/QuantizerCelebi.kt",
+      "size": 2214,
+      "sha256": "bbf1a56c543d2ef67eae0f49a3aa04d9010aeea70d24a83de1d3f2c1b5ca27a1"
+    },
+    {
+      "member": "commonMain/com/materialkolor/quantize/QuantizerMap.kt",
+      "size": 1309,
+      "sha256": "166462cf4de2192c81ea443266669c431ab0a4b6390ff9c3590ca6472eae046e"
+    },
+    {
+      "member": "commonMain/com/materialkolor/quantize/QuantizerResult.kt",
+      "size": 796,
+      "sha256": "0ef685e0d7d5c94cb4b995f60004ec5674ce4de58311fb63a6c059e25272f68e"
+    },
+    {
+      "member": "commonMain/com/materialkolor/quantize/QuantizerWsmeans.kt",
+      "size": 8593,
+      "sha256": "9a0c2ba157edc50a8ab1d1c8573fdb25a05ea86f650372cb87d6a2e1938b53c8"
+    },
+    {
+      "member": "commonMain/com/materialkolor/quantize/QuantizerWu.kt",
+      "size": 15582,
+      "sha256": "a9ff19930bd953c8da509ccd2124d48e5d4e749b80ed0c531365639394fb5227"
+    },
+    {
+      "member": "commonMain/com/materialkolor/scheme/DynamicScheme.kt",
+      "size": 15508,
+      "sha256": "fc2f833aa440dd3ce811f374d711023c5d001212152f5d427773e5d5b6c3801c"
+    },
+    {
+      "member": "commonMain/com/materialkolor/scheme/SchemeContent.kt",
+      "size": 3742,
+      "sha256": "f5c1f4c945f258def81ffda184e6f5a508b85e8c3917f67d915c8ae0fc58ab63"
+    },
+    {
+      "member": "commonMain/com/materialkolor/scheme/SchemeExpressive.kt",
+      "size": 2596,
+      "sha256": "fd844c77bc09c0ac50165f44b33f62b75e703ac989231911fc8acc3feff05dc1"
+    },
+    {
+      "member": "commonMain/com/materialkolor/scheme/SchemeFidelity.kt",
+      "size": 3581,
+      "sha256": "c4acd4bad1eb34e6e89793a2d7cc832758d1b08a09d71729d5defa4d1dc326e7"
+    },
+    {
+      "member": "commonMain/com/materialkolor/scheme/SchemeFruitSalad.kt",
+      "size": 3266,
+      "sha256": "a4f17f05db722990e8d87aa48591710d5e95853b641d25d906152b7e462f1f1f"
+    },
+    {
+      "member": "commonMain/com/materialkolor/scheme/SchemeMonochrome.kt",
+      "size": 3248,
+      "sha256": "3dc56fad92e4320d3e4c768ad1ca37a927a16ac93e9bd1de005fa42aeb701f66"
+    },
+    {
+      "member": "commonMain/com/materialkolor/scheme/SchemeNeutral.kt",
+      "size": 2405,
+      "sha256": "ef01b6502f3c3aaf04a4c336a6e7416c978438e36e35e3c38040f130fd2b88ce"
+    },
+    {
+      "member": "commonMain/com/materialkolor/scheme/SchemeRainbow.kt",
+      "size": 3235,
+      "sha256": "a57088b5f4172cab2409ffd564e25ad8bef3b621395faace282ddcb2835946db"
+    },
+    {
+      "member": "commonMain/com/materialkolor/scheme/SchemeTonalSpot.kt",
+      "size": 2778,
+      "sha256": "00be09c64635ba36f27ea8442116d9e4b28d0e736dc39457d31373d385946f21"
+    },
+    {
+      "member": "commonMain/com/materialkolor/scheme/SchemeVibrant.kt",
+      "size": 2455,
+      "sha256": "d6d6dcf6fc33bd80fe1bba915c48d13d81a5a7757d5c33a1a1f3b92ba2d9395d"
+    },
+    {
+      "member": "commonMain/com/materialkolor/scheme/Variant.kt",
+      "size": 2606,
+      "sha256": "d59b555c0f8cbee00e990b6a316eb6e9618bfd7c98e9b25048cfedde007b6293"
+    },
+    {
+      "member": "commonMain/com/materialkolor/score/Score.kt",
+      "size": 6221,
+      "sha256": "7fc21024298035c75cad64cb7b5c3547483d0d1316236296e642fdf30a0b9097"
+    },
+    {
+      "member": "commonMain/com/materialkolor/temperature/TemperatureCache.kt",
+      "size": 12907,
+      "sha256": "73f1ae2453350301e3832fffab9bdd1c5f61bba93642c3a27f5705075cf7bd1f"
+    },
+    {
+      "member": "commonMain/com/materialkolor/utils/ColorUtils.kt",
+      "size": 10179,
+      "sha256": "dce9c59e606b61c5e5631eed11d1e3877fad9f6a0950205a561b71fad2bf06e7"
+    },
+    {
+      "member": "commonMain/com/materialkolor/utils/MathUtils.kt",
+      "size": 4335,
+      "sha256": "167c60dfdc4d2ffedb1befd6465a437c45efec1d4253a98733700be200f30e25"
+    },
+    {
+      "member": "commonMain/com/materialkolor/utils/Pow.kt",
+      "size": 259,
+      "sha256": "c8c56b466072a0c8570298a4377441a047475c625b85dec5f698fe1c8dc1859e"
+    }
+  ],
+  "upstreamFiles": {
+    "sourceRoot": "../material-color-utilities/src/commonMain/kotlin",
+    "sourceMembers": [
+      {
+        "member": "commonMain/com/materialkolor/blend/Blend.kt",
+        "size": 4305,
+        "sha256": "f0b5b90754ef0ec33ed7325ea41352e88ba12bb15fa143203a891404c2425613"
+      },
+      {
+        "member": "commonMain/com/materialkolor/contrast/Contrast.kt",
+        "size": 12334,
+        "sha256": "8a4655a732cbf09aab007b37202177a664f1861af72cab98b5c42bff9d5e4b6d"
+      },
+      {
+        "member": "commonMain/com/materialkolor/dislike/DislikeAnalyzer.kt",
+        "size": 1913,
+        "sha256": "4e7a6a30b835f5388fe0ce451aec6019746e7642ae45c8020fc8f16b7a6b23ad"
+      },
+      {
+        "member": "commonMain/com/materialkolor/dynamiccolor/ColorSpec.kt",
+        "size": 5681,
+        "sha256": "d3f39048d6004eb06d60b2a61e90b023fd73d46606fa1fb8c6964c973bc3904c"
+      },
+      {
+        "member": "commonMain/com/materialkolor/dynamiccolor/ColorSpec2021.kt",
+        "size": 55763,
+        "sha256": "73b7a46ffd48a8b865acdfe47db28f196cf9ef1ba22b87ae01c043cbda1f09e9"
+      },
+      {
+        "member": "commonMain/com/materialkolor/dynamiccolor/ColorSpec2025.kt",
+        "size": 93161,
+        "sha256": "e16b195fb316b5edab300c01c2d9a20779427a8c3155def8a3c5e7ed2de2e8f8"
+      },
+      {
+        "member": "commonMain/com/materialkolor/dynamiccolor/ColorSpecs.kt",
+        "size": 1008,
+        "sha256": "56be2d35ef1418328f2bee74c0307a0caf1a8fb91857663fd42687f44a2b834e"
+      },
+      {
+        "member": "commonMain/com/materialkolor/dynamiccolor/ContrastCurve.kt",
+        "size": 2031,
+        "sha256": "c696c28953f70abe3260da02ad030af54db1fe673e8aace4dd14c324f2ff8ac7"
+      },
+      {
+        "member": "commonMain/com/materialkolor/dynamiccolor/DynamicColor.kt",
+        "size": 23727,
+        "sha256": "ec9922b5f2f8865a0dbc34dad67b195f453b176eb7b85d608b73be70a5ece743"
+      },
+      {
+        "member": "commonMain/com/materialkolor/dynamiccolor/MaterialDynamicColors.kt",
+        "size": 10445,
+        "sha256": "955e7f8f5fc59523e70eacde50f7ad37bb33626c2f461e68fa8f0b083f547c25"
+      },
+      {
+        "member": "commonMain/com/materialkolor/dynamiccolor/ToneDeltaPair.kt",
+        "size": 2680,
+        "sha256": "32f4e0f0d3db7cae28bd187492a44db7a3ca36717a532bae9d5da9ffa3a83be9"
+      },
+      {
+        "member": "commonMain/com/materialkolor/dynamiccolor/TonePolarity.kt",
+        "size": 1334,
+        "sha256": "7eaf7450bd373d396483f32f16a9822c796d7e9d1388475cd0ff7262134a16f8"
+      },
+      {
+        "member": "commonMain/com/materialkolor/hct/Cam16.kt",
+        "size": 16620,
+        "sha256": "d8c8c2868d73c653c956e8555e9ea6457e3927b63f9449c4269b2872a4a43856"
+      },
+      {
+        "member": "commonMain/com/materialkolor/hct/Hct.kt",
+        "size": 5770,
+        "sha256": "693b98342e476912e82ef255433330286d125e2f9d8adae2f27c6a3429ed5819"
+      },
+      {
+        "member": "commonMain/com/materialkolor/hct/HctSolver.kt",
+        "size": 23404,
+        "sha256": "22d1d586690018f1661dc49acde57c70e837c1135181f4662bd206606141e8db"
+      },
+      {
+        "member": "commonMain/com/materialkolor/hct/ViewingConditions.kt",
+        "size": 7054,
+        "sha256": "7f2df51eb3d4afd3e03de00ed427c53b976440368841d776b4ae78c8ded4ca50"
+      },
+      {
+        "member": "commonMain/com/materialkolor/palettes/CorePalette.kt",
+        "size": 2905,
+        "sha256": "c25212e8deb7492aac69ecc7d533f25d2fc6bb71ea32ec1baa4a05441f05ac45"
+      },
+      {
+        "member": "commonMain/com/materialkolor/palettes/TonalPalette.kt",
+        "size": 7092,
+        "sha256": "6e2701311775c560bc70304d483cb274a149d19cdc49924435686f0a27d4eca6"
+      },
+      {
+        "member": "commonMain/com/materialkolor/quantize/PointProvider.kt",
+        "size": 1657,
+        "sha256": "bee73aa52d049c6aeb00bb499da77f3d4288daa7b6e460318b68315de89e0d9b"
+      },
+      {
+        "member": "commonMain/com/materialkolor/quantize/PointProviderLab.kt",
+        "size": 2010,
+        "sha256": "2c640c41eb391cbe4ce298743074815dd68b551d65ce61ab9d7e469544679cea"
+      },
+      {
+        "member": "commonMain/com/materialkolor/quantize/Quantizer.kt",
+        "size": 757,
+        "sha256": "0b3c1d945d11f1c15112f3ce6ebc2451bc770fd4cb0736bd59feded2d9201457"
+      },
+      {
+        "member": "commonMain/com/materialkolor/quantize/QuantizerCelebi.kt",
+        "size": 2214,
+        "sha256": "bbf1a56c543d2ef67eae0f49a3aa04d9010aeea70d24a83de1d3f2c1b5ca27a1"
+      },
+      {
+        "member": "commonMain/com/materialkolor/quantize/QuantizerMap.kt",
+        "size": 1309,
+        "sha256": "166462cf4de2192c81ea443266669c431ab0a4b6390ff9c3590ca6472eae046e"
+      },
+      {
+        "member": "commonMain/com/materialkolor/quantize/QuantizerResult.kt",
+        "size": 796,
+        "sha256": "0ef685e0d7d5c94cb4b995f60004ec5674ce4de58311fb63a6c059e25272f68e"
+      },
+      {
+        "member": "commonMain/com/materialkolor/quantize/QuantizerWsmeans.kt",
+        "size": 8593,
+        "sha256": "9a0c2ba157edc50a8ab1d1c8573fdb25a05ea86f650372cb87d6a2e1938b53c8"
+      },
+      {
+        "member": "commonMain/com/materialkolor/quantize/QuantizerWu.kt",
+        "size": 15582,
+        "sha256": "a9ff19930bd953c8da509ccd2124d48e5d4e749b80ed0c531365639394fb5227"
+      },
+      {
+        "member": "commonMain/com/materialkolor/scheme/DynamicScheme.kt",
+        "size": 15508,
+        "sha256": "fc2f833aa440dd3ce811f374d711023c5d001212152f5d427773e5d5b6c3801c"
+      },
+      {
+        "member": "commonMain/com/materialkolor/scheme/SchemeContent.kt",
+        "size": 3742,
+        "sha256": "f5c1f4c945f258def81ffda184e6f5a508b85e8c3917f67d915c8ae0fc58ab63"
+      },
+      {
+        "member": "commonMain/com/materialkolor/scheme/SchemeExpressive.kt",
+        "size": 2596,
+        "sha256": "fd844c77bc09c0ac50165f44b33f62b75e703ac989231911fc8acc3feff05dc1"
+      },
+      {
+        "member": "commonMain/com/materialkolor/scheme/SchemeFidelity.kt",
+        "size": 3581,
+        "sha256": "c4acd4bad1eb34e6e89793a2d7cc832758d1b08a09d71729d5defa4d1dc326e7"
+      },
+      {
+        "member": "commonMain/com/materialkolor/scheme/SchemeFruitSalad.kt",
+        "size": 3266,
+        "sha256": "a4f17f05db722990e8d87aa48591710d5e95853b641d25d906152b7e462f1f1f"
+      },
+      {
+        "member": "commonMain/com/materialkolor/scheme/SchemeMonochrome.kt",
+        "size": 3248,
+        "sha256": "3dc56fad92e4320d3e4c768ad1ca37a927a16ac93e9bd1de005fa42aeb701f66"
+      },
+      {
+        "member": "commonMain/com/materialkolor/scheme/SchemeNeutral.kt",
+        "size": 2405,
+        "sha256": "ef01b6502f3c3aaf04a4c336a6e7416c978438e36e35e3c38040f130fd2b88ce"
+      },
+      {
+        "member": "commonMain/com/materialkolor/scheme/SchemeRainbow.kt",
+        "size": 3235,
+        "sha256": "a57088b5f4172cab2409ffd564e25ad8bef3b621395faace282ddcb2835946db"
+      },
+      {
+        "member": "commonMain/com/materialkolor/scheme/SchemeTonalSpot.kt",
+        "size": 2778,
+        "sha256": "00be09c64635ba36f27ea8442116d9e4b28d0e736dc39457d31373d385946f21"
+      },
+      {
+        "member": "commonMain/com/materialkolor/scheme/SchemeVibrant.kt",
+        "size": 2455,
+        "sha256": "d6d6dcf6fc33bd80fe1bba915c48d13d81a5a7757d5c33a1a1f3b92ba2d9395d"
+      },
+      {
+        "member": "commonMain/com/materialkolor/scheme/Variant.kt",
+        "size": 2606,
+        "sha256": "d59b555c0f8cbee00e990b6a316eb6e9618bfd7c98e9b25048cfedde007b6293"
+      },
+      {
+        "member": "commonMain/com/materialkolor/score/Score.kt",
+        "size": 6221,
+        "sha256": "7fc21024298035c75cad64cb7b5c3547483d0d1316236296e642fdf30a0b9097"
+      },
+      {
+        "member": "commonMain/com/materialkolor/temperature/TemperatureCache.kt",
+        "size": 12907,
+        "sha256": "73f1ae2453350301e3832fffab9bdd1c5f61bba93642c3a27f5705075cf7bd1f"
+      },
+      {
+        "member": "commonMain/com/materialkolor/utils/ColorUtils.kt",
+        "size": 10179,
+        "sha256": "dce9c59e606b61c5e5631eed11d1e3877fad9f6a0950205a561b71fad2bf06e7"
+      },
+      {
+        "member": "commonMain/com/materialkolor/utils/MathUtils.kt",
+        "size": 4335,
+        "sha256": "167c60dfdc4d2ffedb1befd6465a437c45efec1d4253a98733700be200f30e25"
+      },
+      {
+        "member": "commonMain/com/materialkolor/utils/Pow.kt",
+        "size": 259,
+        "sha256": "c8c56b466072a0c8570298a4377441a047475c625b85dec5f698fe1c8dc1859e"
+      }
+    ],
+    "sources": {
+      "path": "vendor/material-color-utilities/material-color-utilities-5.0.0-sources.jar",
+      "size": 96132,
+      "sha256": "c06749aa620702c9fe419b2aa87d4ff2ad28cb6fa1fa5efa72a67f370ba60bb1"
+    },
+    "gmm": {
+      "path": "vendor/material-color-utilities/material-color-utilities-5.0.0.module",
+      "size": 17624,
+      "sha256": "12462856606ddcff0f4746e442b6a2cb5f4cd2116844f16446afcf7e7c12c724"
+    },
+    "pom": {
+      "path": "vendor/material-color-utilities/material-color-utilities-5.0.0.pom",
+      "size": 2057,
+      "sha256": "899c66aae218ee04552f7e8449ae65e836d7c1e8df589964ebea89a53ffe6b51",
+      "url": "https://repo.maven.apache.org/maven2/com/materialkolor/material-color-utilities/5.0.0/material-color-utilities-5.0.0.pom"
+    },
+    "license": {
+      "path": "legal/material-color-utilities/LICENSE",
+      "size": 10755,
+      "sha256": "8ded460ad5bd3ab9082eaa2f7502cc9bb621eaff87cecc55d823f21758707cea"
+    }
+  },
+  "rootLicense": {
+    "path": "legal/upstream-root/LICENSE",
+    "size": 1071,
+    "sha256": "8c6e9406804f46a424c033510a28d02c64a0d94862a27c71af231a91cc1504d3",
+    "url": "https://raw.githubusercontent.com/jordond/MaterialKolor/5.0.0/LICENSE"
+  },
+  "licenseFacts": {
+    "root": "MIT text at upstream root",
+    "mciSourceJar": "Apache-2.0 text commonMain/com/materialkolor/LICENSE",
+    "mciOriginalPom": "MIT declaration in Maven Central POM",
+    "mciPortPom": "Apache-2.0 as in prior port"
+  },
+  "dependencies": {
+    "schemaVersion": 1,
+    "repository": "https://qsxs.github.io/cpf-maven/",
+    "dependencies": {
+      "poko": {
+        "group": "io.github.qsxs.cpf.poko",
+        "module": "poko-annotations",
+        "version": "0.23.1-cpf11-preview-cbaa758d0b76-40451679040-1",
+        "sourceCommit": "cbaa758d0b7610e0e445b8fd50739aa05afaea6e",
+        "rootGmmSha256": "297a49f82436065a6091bac3a3a98ad0825731cabdd1a25b0e05866972a88bca",
+        "artifacts": {
+          "metadata": {
+            "size": 10198,
+            "sha256": "8bb1ddcba299e63559faeecf69864238e25330d00b38586c4c2195caa3f47e7e",
+            "payload": {
+              "default/manifest": {
+                "size": 317,
+                "sha256": "5e41540776fa11f2b8d0e31e3e0dfb263197a0c53ee9d6e8aa3aeedb39af6261"
+              },
+              "default/linkdata/module": {
+                "size": 78,
+                "sha256": "79ae9fc1ad08a896b86596a7332a6744ed822b8458e35ea062c72d6251e9d755"
+              },
+              "default/linkdata/package_dev.drewhamilton.poko/0_poko.knm": {
+                "size": 449,
+                "sha256": "26117150075b2369d30fc855dbf7072fa7cd1006db984e2dc854091aa0359288"
+              },
+              "default/linkdata/package_dev.drewhamilton.poko/1_poko.knm": {
+                "size": 7479,
+                "sha256": "6f966db0c19a3b8bb086e0d04b60e3a4a72639da2970d4df9ecfb27ed5d7a685"
+              },
+              "default/linkdata/package_dev.drewhamilton.poko/2_poko.knm": {
+                "size": 1428,
+                "sha256": "5dab5f43974c665c519ccbf904ed56bb5a4e811538b0d698354afa1cd5464ea6"
+              }
+            }
+          },
+          "ohos_x64": {
+            "size": 9262,
+            "sha256": "569a5fb313d5648f371c7611db860bd03ba4b8e89a1fb8f6a933932b585c2a40",
+            "payload": {
+              "default/manifest": {
+                "size": 318,
+                "sha256": "e3417278e3fba017fda4bfa29ecb6a8a87bcdf87a01c55fb9a76367661b93f5e"
+              },
+              "default/ir/bodies.knb": {
+                "size": 332,
+                "sha256": "658c8cd0e2075162644f361796c7fe312ec22a824d43b0bf3f3d25294669306c"
+              },
+              "default/ir/debugInfo.knd": {
+                "size": 282,
+                "sha256": "cb3b1e072f9946532e8b9319659cf03ee380637a4b451677bb30690447067d31"
+              },
+              "default/ir/fileEntries.knf": {
+                "size": 167,
+                "sha256": "388476ba12356d7d0313061714494cb4fda50dfd57fc00212d7e9e10109395c3"
+              },
+              "default/ir/files.knf": {
+                "size": 45,
+                "sha256": "068551f904f427b538ecf7def6af9e5629830a9b751bdf3893f109dab913430e"
+              },
+              "default/ir/irDeclarations.knd": {
+                "size": 1061,
+                "sha256": "cc53829595fd4409e2b98975f77b947c9758c2c2939b662d22956870eec96d49"
+              },
+              "default/ir/signatures.knt": {
+                "size": 609,
+                "sha256": "8a28f4a8959ee8a60b897249f16b2acdc4e60eb0cd79d413766af6ce89022b93"
+              },
+              "default/ir/strings.knt": {
+                "size": 1011,
+                "sha256": "cce55fa004975914ace2e8c19949016b4a79a7b11a91ba137b7948131898a7f8"
+              },
+              "default/ir/types.knt": {
+                "size": 165,
+                "sha256": "7bc26da3abef26b2bd06c36ae70eddcc46015b1e6f724c56abbc08de480caa6c"
+              },
+              "default/ir_inlinable_functions/bodies.knb": {
+                "size": 12,
+                "sha256": "91f06235671ba18eb5f8270590be31f5ae3797ee3fdedbbaa00b29fd2ec6caf2"
+              },
+              "default/ir_inlinable_functions/debugInfo.knd": {
+                "size": 12,
+                "sha256": "91f06235671ba18eb5f8270590be31f5ae3797ee3fdedbbaa00b29fd2ec6caf2"
+              },
+              "default/ir_inlinable_functions/fileEntries.knf": {
+                "size": 12,
+                "sha256": "91f06235671ba18eb5f8270590be31f5ae3797ee3fdedbbaa00b29fd2ec6caf2"
+              },
+              "default/ir_inlinable_functions/files.knf": {
+                "size": 11,
+                "sha256": "0f12c2f818e12fcc640fc71a4a8365bac4b6ab28971b56da08fdf562535c0f48"
+              },
+              "default/ir_inlinable_functions/irDeclarations.knd": {
+                "size": 12,
+                "sha256": "91f06235671ba18eb5f8270590be31f5ae3797ee3fdedbbaa00b29fd2ec6caf2"
+              },
+              "default/ir_inlinable_functions/signatures.knt": {
+                "size": 12,
+                "sha256": "91f06235671ba18eb5f8270590be31f5ae3797ee3fdedbbaa00b29fd2ec6caf2"
+              },
+              "default/ir_inlinable_functions/strings.knt": {
+                "size": 13,
+                "sha256": "3d87fcf14c927b3ba6539fc4d59647ed14b4d9ca3ba9e03752797ae7c08d9ba0"
+              },
+              "default/ir_inlinable_functions/types.knt": {
+                "size": 12,
+                "sha256": "91f06235671ba18eb5f8270590be31f5ae3797ee3fdedbbaa00b29fd2ec6caf2"
+              },
+              "default/linkdata/module": {
+                "size": 67,
+                "sha256": "6fb768ee951391f6ca4fcba64c74a907de32476be7bf4076d75fb3c37a9bb32d"
+              },
+              "default/linkdata/package_dev.drewhamilton.poko/0_poko.knm": {
+                "size": 449,
+                "sha256": "26117150075b2369d30fc855dbf7072fa7cd1006db984e2dc854091aa0359288"
+              },
+              "default/linkdata/package_dev.drewhamilton.poko/1_poko.knm": {
+                "size": 7479,
+                "sha256": "6f966db0c19a3b8bb086e0d04b60e3a4a72639da2970d4df9ecfb27ed5d7a685"
+              },
+              "default/linkdata/package_dev.drewhamilton.poko/2_poko.knm": {
+                "size": 1428,
+                "sha256": "5dab5f43974c665c519ccbf904ed56bb5a4e811538b0d698354afa1cd5464ea6"
+              }
+            }
+          },
+          "ohos_arm64": {
+            "size": 9275,
+            "sha256": "e0631a93de019f94cd94074d1a4eefc661c32df31f18897b8d4141d201184448",
+            "payload": {
+              "default/manifest": {
+                "size": 320,
+                "sha256": "60d2b1955ee6059ec986f5497f661030eeacd25728af5c9fa18838d22e770e0e"
+              },
+              "default/ir/bodies.knb": {
+                "size": 332,
+                "sha256": "658c8cd0e2075162644f361796c7fe312ec22a824d43b0bf3f3d25294669306c"
+              },
+              "default/ir/debugInfo.knd": {
+                "size": 282,
+                "sha256": "cb3b1e072f9946532e8b9319659cf03ee380637a4b451677bb30690447067d31"
+              },
+              "default/ir/fileEntries.knf": {
+                "size": 167,
+                "sha256": "388476ba12356d7d0313061714494cb4fda50dfd57fc00212d7e9e10109395c3"
+              },
+              "default/ir/files.knf": {
+                "size": 45,
+                "sha256": "068551f904f427b538ecf7def6af9e5629830a9b751bdf3893f109dab913430e"
+              },
+              "default/ir/irDeclarations.knd": {
+                "size": 1061,
+                "sha256": "cc53829595fd4409e2b98975f77b947c9758c2c2939b662d22956870eec96d49"
+              },
+              "default/ir/signatures.knt": {
+                "size": 609,
+                "sha256": "8a28f4a8959ee8a60b897249f16b2acdc4e60eb0cd79d413766af6ce89022b93"
+              },
+              "default/ir/strings.knt": {
+                "size": 1011,
+                "sha256": "cce55fa004975914ace2e8c19949016b4a79a7b11a91ba137b7948131898a7f8"
+              },
+              "default/ir/types.knt": {
+                "size": 165,
+                "sha256": "7bc26da3abef26b2bd06c36ae70eddcc46015b1e6f724c56abbc08de480caa6c"
+              },
+              "default/ir_inlinable_functions/bodies.knb": {
+                "size": 12,
+                "sha256": "91f06235671ba18eb5f8270590be31f5ae3797ee3fdedbbaa00b29fd2ec6caf2"
+              },
+              "default/ir_inlinable_functions/debugInfo.knd": {
+                "size": 12,
+                "sha256": "91f06235671ba18eb5f8270590be31f5ae3797ee3fdedbbaa00b29fd2ec6caf2"
+              },
+              "default/ir_inlinable_functions/fileEntries.knf": {
+                "size": 12,
+                "sha256": "91f06235671ba18eb5f8270590be31f5ae3797ee3fdedbbaa00b29fd2ec6caf2"
+              },
+              "default/ir_inlinable_functions/files.knf": {
+                "size": 11,
+                "sha256": "0f12c2f818e12fcc640fc71a4a8365bac4b6ab28971b56da08fdf562535c0f48"
+              },
+              "default/ir_inlinable_functions/irDeclarations.knd": {
+                "size": 12,
+                "sha256": "91f06235671ba18eb5f8270590be31f5ae3797ee3fdedbbaa00b29fd2ec6caf2"
+              },
+              "default/ir_inlinable_functions/signatures.knt": {
+                "size": 12,
+                "sha256": "91f06235671ba18eb5f8270590be31f5ae3797ee3fdedbbaa00b29fd2ec6caf2"
+              },
+              "default/ir_inlinable_functions/strings.knt": {
+                "size": 13,
+                "sha256": "3d87fcf14c927b3ba6539fc4d59647ed14b4d9ca3ba9e03752797ae7c08d9ba0"
+              },
+              "default/ir_inlinable_functions/types.knt": {
+                "size": 12,
+                "sha256": "91f06235671ba18eb5f8270590be31f5ae3797ee3fdedbbaa00b29fd2ec6caf2"
+              },
+              "default/linkdata/module": {
+                "size": 67,
+                "sha256": "6fb768ee951391f6ca4fcba64c74a907de32476be7bf4076d75fb3c37a9bb32d"
+              },
+              "default/linkdata/package_dev.drewhamilton.poko/0_poko.knm": {
+                "size": 449,
+                "sha256": "26117150075b2369d30fc855dbf7072fa7cd1006db984e2dc854091aa0359288"
+              },
+              "default/linkdata/package_dev.drewhamilton.poko/1_poko.knm": {
+                "size": 7479,
+                "sha256": "6f966db0c19a3b8bb086e0d04b60e3a4a72639da2970d4df9ecfb27ed5d7a685"
+              },
+              "default/linkdata/package_dev.drewhamilton.poko/2_poko.knm": {
+                "size": 1428,
+                "sha256": "5dab5f43974c665c519ccbf904ed56bb5a4e811538b0d698354afa1cd5464ea6"
+              }
+            }
+          }
+        }
+      },
+      "colormath": {
+        "group": "io.github.qsxs.cpf.colormath",
+        "module": "colormath",
+        "version": "3.6.1-cpf11-preview-86f87c1c333f-40461897858-1",
+        "sourceCommit": "86f87c1c333f0eb68af52afc88b73d82a536d6cf",
+        "rootGmmSha256": "9a518cc72bf41370bcf2848bd2a13b86c1ed6c5a714dad15ab98fde50af5087c",
+        "artifacts": {
+          "metadata": {
+            "size": 49819,
+            "sha256": "82a8fe42f5f5cbc01b3752ff78bc20eb177062a054ed8e6ef1ab4c32a154e2c5",
+            "payload": {
+              "default/manifest": {
+                "size": 163,
+                "sha256": "3752b15f0c6e7776591b4ba7f8367f9c555992e371d8adb03465b4fe5291d6ee"
+              },
+              "default/linkdata/module": {
+                "size": 228,
+                "sha256": "a63db40d96fc9f2b092379c9fd1b84febfbda9f1dafd2ac133c6b2415f50a50b"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/0_colormath.knm": {
+                "size": 1164,
+                "sha256": "f0597140b3220fa3355e3e79903760f767ee2d8ce1c2baf3b1bfba729bb83ee8"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/1_colormath.knm": {
+                "size": 922,
+                "sha256": "b383d57e6849ec5a8385354dcc6d641c250d5fae0e4a2475c19284bcc9040989"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/2_colormath.knm": {
+                "size": 1455,
+                "sha256": "31562dff20eabf2eaf7a0856c1041cbd62742abd1a4a897da159ef90892ccbfb"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/3_colormath.knm": {
+                "size": 1605,
+                "sha256": "4d0c7a69e4d5cd26ed9554cde0da07f68869051eefe2152044071da639e012c9"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/4_colormath.knm": {
+                "size": 340,
+                "sha256": "6b3d0ca0ad4fb745aded12a871aa0b22f28e6aadcbfc9010160e38457b0eef15"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/5_colormath.knm": {
+                "size": 639,
+                "sha256": "6dd4549a2f3b1342038420d072d1700372a910cf5d3a6f7f16f1f4886f84b39d"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.calculate/0_calculate.knm": {
+                "size": 442,
+                "sha256": "d3f36ff1b98d62068c0f6db0c3d76edfee5ac5d744db043095aaddfbcdeabae3"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.calculate/1_calculate.knm": {
+                "size": 985,
+                "sha256": "f77d741e24574588d8919296072fb55d39358a7b14026a81775db6819b27aca0"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.calculate/2_calculate.knm": {
+                "size": 212,
+                "sha256": "3f22ecd49c61ee0e27d9c1007756bcf1e7e0613b97909fc407ce153687b01167"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/0_internal.knm": {
+                "size": 1317,
+                "sha256": "14b1199fd790d9f7dfd42ce1c735e5f4b07a025fec3dbed12fc0ec48430d0759"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/1_internal.knm": {
+                "size": 356,
+                "sha256": "f9991f233e5cba97ed358e9c48f875cfc601545a2879e6e308790dc89418b5b4"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/2_internal.knm": {
+                "size": 323,
+                "sha256": "afe8a90aabc3491c194a5d7650554a5d5ed4db554132217a2fdb8412efcfc03b"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/3_internal.knm": {
+                "size": 974,
+                "sha256": "c7967b24e2195635e570ba14b4b222ccee4b0ff0d057a954effaa9fcacc276e0"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/4_internal.knm": {
+                "size": 1371,
+                "sha256": "00ce6455af8e0f61b4c28a85b7902d09946ffd74271dadfa07a96f6e0d471e84"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/00_model.knm": {
+                "size": 914,
+                "sha256": "21d140ecd8f74ed452a16a91a721f0f07d0543d969a5b3c74d663ebe978a907d"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/01_model.knm": {
+                "size": 915,
+                "sha256": "f0afb2ccd3affbeec75a840697a7584dedab1ee76da7214d8f45e5110f1825ca"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/02_model.knm": {
+                "size": 1142,
+                "sha256": "cf3989724d3fe878bbc83739670c2f3b71ef051b152af380cb7ff45ab72a7457"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/03_model.knm": {
+                "size": 1183,
+                "sha256": "48e5ebb50e38b71c14253d5ca0dbfe90161be87290b262458e5d284246682792"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/04_model.knm": {
+                "size": 1103,
+                "sha256": "3dcfc7d9561026bd647e422de18712ff4f70bafbbf7b21547f218a6abb9cc1bd"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/05_model.knm": {
+                "size": 1582,
+                "sha256": "2d20cde496a52fe3c7e93e6064b721acdbaa140580401781a07a7af25508b1b8"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/06_model.knm": {
+                "size": 1103,
+                "sha256": "e883185d91e396452f5b976fd00107f0977d345754339a54458e54102f089add"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/07_model.knm": {
+                "size": 1108,
+                "sha256": "ce863af494bce0b1243a7f96b64dba70f3021e2aa784e690c933de323adbbfd9"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/08_model.knm": {
+                "size": 1902,
+                "sha256": "cfd979aced5a034d93cc97c0e21c24bc71cebb2ebb4cab6524ab694989ac5468"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/09_model.knm": {
+                "size": 1183,
+                "sha256": "d93c718cdb0d8482e4979b6130e1df54b907fa2dc64eb775c085205f93a14087"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/10_model.knm": {
+                "size": 1161,
+                "sha256": "cefe9a9b9f5a05b93bfd1b44061025bfd0141f5a8cdea693fead1e02c0b953c3"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/11_model.knm": {
+                "size": 1827,
+                "sha256": "01fa95b9f079983d40e9dd67bce0ccadc687dc2d1df00723a6b3b61a75b4e8e2"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/12_model.knm": {
+                "size": 1860,
+                "sha256": "effdc2ae1cb36b92d9dbb1108b34337ea9ba7ff6102a0d966297ade40e99ff57"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/13_model.knm": {
+                "size": 1938,
+                "sha256": "2a8b7d81b77cb2703fc97727c38073a22d850255aecac127ab042be13c332528"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/14_model.knm": {
+                "size": 1827,
+                "sha256": "8fde707d88e8e54e51af46ba0f6e81ea4761e35f2bde0966db619d7e8d59efa7"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/15_model.knm": {
+                "size": 1330,
+                "sha256": "e28214c5188b2c402168cb0e23c32689c6f84e303ee8c6113610beaadf15c71d"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/16_model.knm": {
+                "size": 1153,
+                "sha256": "1f7214e8a12da0517275f1e60682cac0b9dd62ba92c23a2ed2915b2c7ecaf9e5"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/17_model.knm": {
+                "size": 3048,
+                "sha256": "47e43b2d49970369dde5074e7a36f4e00aa253d12293a3a1aa302669ca3b6cce"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/18_model.knm": {
+                "size": 3285,
+                "sha256": "2a232fb929a1daf8d1327e82cad3abbf3ea70e657d339fa264df65e16f3a9548"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/19_model.knm": {
+                "size": 1315,
+                "sha256": "8d86481dfa2cb0d65ce17c002af35391ec83552ef8409a410c15564acd9b8905"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/20_model.knm": {
+                "size": 2444,
+                "sha256": "84ec5a9cc89b928ecec0a81cef37ed3182f062b19918163fb892d8cf3cb6aa9f"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/21_model.knm": {
+                "size": 603,
+                "sha256": "edc8280a5012ac459a8e30f10f71537ec00b633f1754585a031a57c6d52a930a"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/0_transform.knm": {
+                "size": 940,
+                "sha256": "b617fe64568e78ddd7395cb570eb96333cb4b4efe9663a3196d6d14e3510c786"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/1_transform.knm": {
+                "size": 1168,
+                "sha256": "58c5fdd8a79514fd943b49f6aaf4f20e92e38883aa4329a552859e7a29431074"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/2_transform.knm": {
+                "size": 635,
+                "sha256": "ecc5b50c5f7678a76d7ade8348a73154e229e73766719b26045c3961dd4d32b0"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/3_transform.knm": {
+                "size": 3966,
+                "sha256": "b4201004ea9ef47b501e12d7faa430c2d386402fc3dcdedb605b1c4527016141"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/4_transform.knm": {
+                "size": 1256,
+                "sha256": "1c3980e53ffe914284788e5259eb9754172af2c0093e4d357de1098c5da3e27e"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/5_transform.knm": {
+                "size": 642,
+                "sha256": "c1e87dfcd4b314b50f5ddf8e7037ec1662d2cea67b21a04147b58084bfe191d3"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/6_transform.knm": {
+                "size": 424,
+                "sha256": "5ef8c1245fd826b1b08c79951ebd088df72f02de640913bb9b2b055856cab21d"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/7_transform.knm": {
+                "size": 578,
+                "sha256": "73e29393dc6ff00382ba50a6ed6263e6a9211ea51bd412f07a20f2aa194b7bc0"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/8_transform.knm": {
+                "size": 458,
+                "sha256": "18ed81932f3c79cbbb21f03c1557d98a60e3f798eea8f9c9d4d91456f629e73c"
+              }
+            }
+          },
+          "ohos_x64": {
+            "size": 338048,
+            "sha256": "adab077a34782b7f43fa46155bda5dff9711e592a74bb8cc4648a618fb62116c",
+            "payload": {
+              "default/manifest": {
+                "size": 309,
+                "sha256": "2c1b8af910ab40d46652f1dab4a80a7e7150dd63b8766162ad7e66ba9c7bda47"
+              },
+              "default/ir/bodies.knb": {
+                "size": 390466,
+                "sha256": "66cd764527f8c2c8901ef7780d5454a0ea28ee20f891223dfd5ef25ddc232b4e"
+              },
+              "default/ir/debugInfo.knd": {
+                "size": 102042,
+                "sha256": "c77f81f04757d185f38e66a89cb2474040df6419b806a7c3104745d15b633f8d"
+              },
+              "default/ir/fileEntries.knf": {
+                "size": 7633,
+                "sha256": "729bb43e99b5bfb54a669d45ddf3d50e59b3058cdcf4cf5ece22419455ba84f4"
+              },
+              "default/ir/files.knf": {
+                "size": 1165,
+                "sha256": "805c0a5f4ce29ee3c42cd06571f76fb6ce8048f187d619f9c20b309dd6b97227"
+              },
+              "default/ir/irDeclarations.knd": {
+                "size": 89940,
+                "sha256": "8310fe3b8a8187c320858f97b2a3719e4bda63a4e7237d634bb16fbe41d30ded"
+              },
+              "default/ir/signatures.knt": {
+                "size": 134431,
+                "sha256": "3561af738ccd57f3463f986ac7109be19860955c35b70e350a42680574260d37"
+              },
+              "default/ir/strings.knt": {
+                "size": 75302,
+                "sha256": "39cfdce5c5d2229b25094751c92cee2a1ccd1dd7ca30d3ed9949fbf1dbaf270c"
+              },
+              "default/ir/types.knt": {
+                "size": 13064,
+                "sha256": "07ba3cacf38798a5cc2061aa83fb4b433474a9bf31c1f2d73f839eb83ca7be34"
+              },
+              "default/ir_inlinable_functions/bodies.knb": {
+                "size": 10471,
+                "sha256": "e079b3253b8087bea24c01b3d926acbe204730a34a1ec5b5896c70431f437d8a"
+              },
+              "default/ir_inlinable_functions/debugInfo.knd": {
+                "size": 4799,
+                "sha256": "4be106b2ce28887b713007f546a9bdcc2ec33def0fecebea75ed5b506e30d725"
+              },
+              "default/ir_inlinable_functions/fileEntries.knf": {
+                "size": 459,
+                "sha256": "3cd511a2c3918a941e5559907322c67966994e2ed98704da06ae9209eded78e9"
+              },
+              "default/ir_inlinable_functions/files.knf": {
+                "size": 29,
+                "sha256": "94c513aad15622b06ccb752a1c57f9a5d045a3562198889ceade3de4ee7a3edf"
+              },
+              "default/ir_inlinable_functions/irDeclarations.knd": {
+                "size": 1228,
+                "sha256": "e42824d868622e04e5b52e73feed99774072d27b7a46c495edc36df4fc0c4f26"
+              },
+              "default/ir_inlinable_functions/signatures.knt": {
+                "size": 2578,
+                "sha256": "3825ff6537c2b657bf025f3a6955042b0cc63fcbadd71efac03dca08a5eafe46"
+              },
+              "default/ir_inlinable_functions/strings.knt": {
+                "size": 1994,
+                "sha256": "93d9db3e606116a56d2472db8c1d7b8304561d42ab03357a79bfae22ce41c963"
+              },
+              "default/ir_inlinable_functions/types.knt": {
+                "size": 611,
+                "sha256": "2ebc924e11f8736e806244cbb8462dc2b2d632bbaa2cdc14cbde6d26c4b0906f"
+              },
+              "default/linkdata/module": {
+                "size": 217,
+                "sha256": "a3c0afba21a607740c36fae73f1453ca8ca721518f4a3e36091c227dbc91d420"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/0_colormath.knm": {
+                "size": 3033,
+                "sha256": "20da2f24ef629a3997076a134adf2d59e44a98d35d17655d72ce2495d06041ad"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/1_colormath.knm": {
+                "size": 2274,
+                "sha256": "3121694e5b6f6157184b89aeb839aeb472f024b83e7578915cb3404b22291a8a"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/2_colormath.knm": {
+                "size": 2179,
+                "sha256": "bb2fa89f261a305c692d5fb09bb1e27c5d0a85b1264f77d14e27f06edcb8196e"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/3_colormath.knm": {
+                "size": 5606,
+                "sha256": "633d89abd0590bc4510fca19021318a2312155e11be46fdf24a6974022fa062c"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/4_colormath.knm": {
+                "size": 738,
+                "sha256": "f84de409d86611c2dbfba93552800fba49845f4b8c1a6a0779c211df59bd3c3d"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/5_colormath.knm": {
+                "size": 1700,
+                "sha256": "43bfa92455cb660d637272ce96575b009b299f9d65990cfe6a127d0d80e31699"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.calculate/0_calculate.knm": {
+                "size": 2002,
+                "sha256": "7ada70a9bcb2460760739a3a780e89ab87b85b5fca66e7c1b988790ae59f2216"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.calculate/1_calculate.knm": {
+                "size": 2664,
+                "sha256": "4dcf28b6d14bbe90e37c87324c7d3631a8d29a6afd5c9909916605b2438349b9"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.calculate/2_calculate.knm": {
+                "size": 321,
+                "sha256": "c7eb596778dbeaf2368b1764c2de98b86f155a711af5eb8d3d67a3aff87e3326"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/0_internal.knm": {
+                "size": 1317,
+                "sha256": "14b1199fd790d9f7dfd42ce1c735e5f4b07a025fec3dbed12fc0ec48430d0759"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/1_internal.knm": {
+                "size": 475,
+                "sha256": "864486a90d6b74ac4baa494fd9486b82e4bcbe96c6d16a74101c6a692d5a5007"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/2_internal.knm": {
+                "size": 459,
+                "sha256": "1efe4a8b95a208601bbba207e995de41039157a1168614a30800d0925a5c4c8d"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/3_internal.knm": {
+                "size": 1108,
+                "sha256": "f6e7cae9375e1872a374a2924cce5a135f14aa19f8afd534342af0b9e1b17ec6"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/4_internal.knm": {
+                "size": 1484,
+                "sha256": "8d2e5dde6ae9b3081efdb0b8583c17dcd6025baae7d8b32be9ca78cca3408e0c"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/00_model.knm": {
+                "size": 4438,
+                "sha256": "0f05950210b75c97f8fd2a5326a47e2bd2b3c8f7c5726b4528ebe44c64bfd9c7"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/01_model.knm": {
+                "size": 2565,
+                "sha256": "fcf6db61a2a92f0bb3ff7155adb19769cf9bbac4a9ff9ae58185e3ee720330fa"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/02_model.knm": {
+                "size": 3107,
+                "sha256": "3a8dba490fe4087b360eb5c29bf4c053ab54132e15dbd8bac700e22a2901ccd9"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/03_model.knm": {
+                "size": 3589,
+                "sha256": "39abaf6f16d7497b23210d498e8f2187d58176101d9f4e3791b5d2dfd446cf67"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/04_model.knm": {
+                "size": 3345,
+                "sha256": "91e4be06f15b233ffb61264422a12138d83981fd840e62bc76dddd68d8456eba"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/05_model.knm": {
+                "size": 3772,
+                "sha256": "022e7bc4950e1747ed752a3a90afba0512c9e90a0a0b4238a0c0cb4697007602"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/06_model.knm": {
+                "size": 3329,
+                "sha256": "7640c35e59a5b3d8313aec4372cc5464cf51c4354a23ca5c9696f151f5936724"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/07_model.knm": {
+                "size": 2766,
+                "sha256": "ec456ad523e99d60094aad42a9584569dea17db3ddb4a2f8a86d21ec66ffa8b9"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/08_model.knm": {
+                "size": 4642,
+                "sha256": "0cb443689619b66d2a402e8127503f278d39599753991ce5cdcd1a5e484205df"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/09_model.knm": {
+                "size": 4178,
+                "sha256": "69f3daa1671055088c5fa82b6ccb359a4df9c2708e58ad072ea0cc9e26beeea1"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/10_model.knm": {
+                "size": 3937,
+                "sha256": "a1ef86eebdcc104e363f2e649b9db11d445f02bea3fd96bfde909ebf2a47df62"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/11_model.knm": {
+                "size": 4940,
+                "sha256": "9719bf630d58805f0527697e0d7a80e07820cee03131b308028625fae826753b"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/12_model.knm": {
+                "size": 5010,
+                "sha256": "50befe09bd11fa59174d3d1c9ebf2cf04f150c91d1b2745d119e71e331a68160"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/13_model.knm": {
+                "size": 5163,
+                "sha256": "53fb5214c0e411fdfd678742d441a9f300c932289d1c65a637f4665fc67e8ba9"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/14_model.knm": {
+                "size": 4798,
+                "sha256": "3baec5d13c78de6e9beb0a0cec09b777f13b14964d8670af51abd9933751c7ac"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/15_model.knm": {
+                "size": 3036,
+                "sha256": "99f9c442dc1e46d965255637b8e1c6584696166105ac565500357bcaa1fba0ed"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/16_model.knm": {
+                "size": 3071,
+                "sha256": "e82de18d7e695cb25a4cd895f381a3b4c75d308f561536cac69283b2a8c71b95"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/17_model.knm": {
+                "size": 11491,
+                "sha256": "cd4bd6d7188ba13a0a39eaaabf78ded43d49f5f2daf34e44df397d19b048efa8"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/18_model.knm": {
+                "size": 8277,
+                "sha256": "ceea181d3f0e3d1f30ab9c4d66b2fa76b49f042fc0980efdd8512e2530697940"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/19_model.knm": {
+                "size": 5138,
+                "sha256": "caab2a3e53b5c7bada00532483a7e4ddf3e5ccc2065cf41e43778c57658431ae"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/20_model.knm": {
+                "size": 5807,
+                "sha256": "951ce2aa422bdce90e1ffbb84b15305c9df6ef9f400b133e450ff6f99714e9ab"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/21_model.knm": {
+                "size": 1358,
+                "sha256": "d338b6cdc6e37139b69898c0f32b96c65afcda39e8a02d333d6774b2c557d8a2"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/0_transform.knm": {
+                "size": 1695,
+                "sha256": "87d1009d61ef8cc2067d82a2b5cc62e1f64171b910fd6985f3ec9ac55093e0c8"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/1_transform.knm": {
+                "size": 3337,
+                "sha256": "314ba896b5f1ac3439d5f898f1e70f5442f21597bf5f7c038c1ec520890257c5"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/2_transform.knm": {
+                "size": 982,
+                "sha256": "c8b21fe200c09f7dd5705a80f1910f4a892e90c860991225874f1f91f22a5afb"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/3_transform.knm": {
+                "size": 7135,
+                "sha256": "c0b5e0429f69bb4b86217e550cc4f74af8a95c706b0b98d323b8074040d5be5c"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/4_transform.knm": {
+                "size": 3199,
+                "sha256": "47ec5cdebe631f83ca6b1e56c47e9f648b46e01b771e0ed28513ac5a0f524019"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/5_transform.knm": {
+                "size": 1441,
+                "sha256": "3089e62fa138855a0a58ecbdf09b4ea62b0d2e1bd3bba7f9db4d78cfb5927fe9"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/6_transform.knm": {
+                "size": 854,
+                "sha256": "6e0224a63c1050c8c6d273e794a509314af0fa0bc0d4413d5cd4b46fe9738988"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/7_transform.knm": {
+                "size": 962,
+                "sha256": "0c5ae1b44e660a538e776208422de1a6b2c0968a6f1dcc641bb12f8f27f5c9c1"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/8_transform.knm": {
+                "size": 596,
+                "sha256": "e250173990a54cfc91f8c2049f6b32565a0a05d47a2b6167fa8926381a47430d"
+              }
+            }
+          },
+          "ohos_arm64": {
+            "size": 338060,
+            "sha256": "bedd5ad56b6ac723f650292bbe310b878342557da5e95c871dc9f20c182d7c73",
+            "payload": {
+              "default/manifest": {
+                "size": 311,
+                "sha256": "1037d41fdb189365a8aef25190b4954fee1637e967f0e66d0e74159adba64ea4"
+              },
+              "default/ir/bodies.knb": {
+                "size": 390466,
+                "sha256": "66cd764527f8c2c8901ef7780d5454a0ea28ee20f891223dfd5ef25ddc232b4e"
+              },
+              "default/ir/debugInfo.knd": {
+                "size": 102042,
+                "sha256": "c77f81f04757d185f38e66a89cb2474040df6419b806a7c3104745d15b633f8d"
+              },
+              "default/ir/fileEntries.knf": {
+                "size": 7633,
+                "sha256": "729bb43e99b5bfb54a669d45ddf3d50e59b3058cdcf4cf5ece22419455ba84f4"
+              },
+              "default/ir/files.knf": {
+                "size": 1165,
+                "sha256": "805c0a5f4ce29ee3c42cd06571f76fb6ce8048f187d619f9c20b309dd6b97227"
+              },
+              "default/ir/irDeclarations.knd": {
+                "size": 89940,
+                "sha256": "8310fe3b8a8187c320858f97b2a3719e4bda63a4e7237d634bb16fbe41d30ded"
+              },
+              "default/ir/signatures.knt": {
+                "size": 134431,
+                "sha256": "3561af738ccd57f3463f986ac7109be19860955c35b70e350a42680574260d37"
+              },
+              "default/ir/strings.knt": {
+                "size": 75302,
+                "sha256": "39cfdce5c5d2229b25094751c92cee2a1ccd1dd7ca30d3ed9949fbf1dbaf270c"
+              },
+              "default/ir/types.knt": {
+                "size": 13064,
+                "sha256": "07ba3cacf38798a5cc2061aa83fb4b433474a9bf31c1f2d73f839eb83ca7be34"
+              },
+              "default/ir_inlinable_functions/bodies.knb": {
+                "size": 10471,
+                "sha256": "e079b3253b8087bea24c01b3d926acbe204730a34a1ec5b5896c70431f437d8a"
+              },
+              "default/ir_inlinable_functions/debugInfo.knd": {
+                "size": 4799,
+                "sha256": "4be106b2ce28887b713007f546a9bdcc2ec33def0fecebea75ed5b506e30d725"
+              },
+              "default/ir_inlinable_functions/fileEntries.knf": {
+                "size": 459,
+                "sha256": "3cd511a2c3918a941e5559907322c67966994e2ed98704da06ae9209eded78e9"
+              },
+              "default/ir_inlinable_functions/files.knf": {
+                "size": 29,
+                "sha256": "94c513aad15622b06ccb752a1c57f9a5d045a3562198889ceade3de4ee7a3edf"
+              },
+              "default/ir_inlinable_functions/irDeclarations.knd": {
+                "size": 1228,
+                "sha256": "e42824d868622e04e5b52e73feed99774072d27b7a46c495edc36df4fc0c4f26"
+              },
+              "default/ir_inlinable_functions/signatures.knt": {
+                "size": 2578,
+                "sha256": "3825ff6537c2b657bf025f3a6955042b0cc63fcbadd71efac03dca08a5eafe46"
+              },
+              "default/ir_inlinable_functions/strings.knt": {
+                "size": 1994,
+                "sha256": "93d9db3e606116a56d2472db8c1d7b8304561d42ab03357a79bfae22ce41c963"
+              },
+              "default/ir_inlinable_functions/types.knt": {
+                "size": 611,
+                "sha256": "2ebc924e11f8736e806244cbb8462dc2b2d632bbaa2cdc14cbde6d26c4b0906f"
+              },
+              "default/linkdata/module": {
+                "size": 217,
+                "sha256": "a3c0afba21a607740c36fae73f1453ca8ca721518f4a3e36091c227dbc91d420"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/0_colormath.knm": {
+                "size": 3033,
+                "sha256": "20da2f24ef629a3997076a134adf2d59e44a98d35d17655d72ce2495d06041ad"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/1_colormath.knm": {
+                "size": 2274,
+                "sha256": "3121694e5b6f6157184b89aeb839aeb472f024b83e7578915cb3404b22291a8a"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/2_colormath.knm": {
+                "size": 2179,
+                "sha256": "bb2fa89f261a305c692d5fb09bb1e27c5d0a85b1264f77d14e27f06edcb8196e"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/3_colormath.knm": {
+                "size": 5606,
+                "sha256": "633d89abd0590bc4510fca19021318a2312155e11be46fdf24a6974022fa062c"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/4_colormath.knm": {
+                "size": 738,
+                "sha256": "f84de409d86611c2dbfba93552800fba49845f4b8c1a6a0779c211df59bd3c3d"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath/5_colormath.knm": {
+                "size": 1700,
+                "sha256": "43bfa92455cb660d637272ce96575b009b299f9d65990cfe6a127d0d80e31699"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.calculate/0_calculate.knm": {
+                "size": 2002,
+                "sha256": "7ada70a9bcb2460760739a3a780e89ab87b85b5fca66e7c1b988790ae59f2216"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.calculate/1_calculate.knm": {
+                "size": 2664,
+                "sha256": "4dcf28b6d14bbe90e37c87324c7d3631a8d29a6afd5c9909916605b2438349b9"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.calculate/2_calculate.knm": {
+                "size": 321,
+                "sha256": "c7eb596778dbeaf2368b1764c2de98b86f155a711af5eb8d3d67a3aff87e3326"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/0_internal.knm": {
+                "size": 1317,
+                "sha256": "14b1199fd790d9f7dfd42ce1c735e5f4b07a025fec3dbed12fc0ec48430d0759"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/1_internal.knm": {
+                "size": 475,
+                "sha256": "864486a90d6b74ac4baa494fd9486b82e4bcbe96c6d16a74101c6a692d5a5007"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/2_internal.knm": {
+                "size": 459,
+                "sha256": "1efe4a8b95a208601bbba207e995de41039157a1168614a30800d0925a5c4c8d"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/3_internal.knm": {
+                "size": 1108,
+                "sha256": "f6e7cae9375e1872a374a2924cce5a135f14aa19f8afd534342af0b9e1b17ec6"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.internal/4_internal.knm": {
+                "size": 1484,
+                "sha256": "8d2e5dde6ae9b3081efdb0b8583c17dcd6025baae7d8b32be9ca78cca3408e0c"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/00_model.knm": {
+                "size": 4438,
+                "sha256": "0f05950210b75c97f8fd2a5326a47e2bd2b3c8f7c5726b4528ebe44c64bfd9c7"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/01_model.knm": {
+                "size": 2565,
+                "sha256": "fcf6db61a2a92f0bb3ff7155adb19769cf9bbac4a9ff9ae58185e3ee720330fa"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/02_model.knm": {
+                "size": 3107,
+                "sha256": "3a8dba490fe4087b360eb5c29bf4c053ab54132e15dbd8bac700e22a2901ccd9"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/03_model.knm": {
+                "size": 3589,
+                "sha256": "39abaf6f16d7497b23210d498e8f2187d58176101d9f4e3791b5d2dfd446cf67"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/04_model.knm": {
+                "size": 3345,
+                "sha256": "91e4be06f15b233ffb61264422a12138d83981fd840e62bc76dddd68d8456eba"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/05_model.knm": {
+                "size": 3772,
+                "sha256": "022e7bc4950e1747ed752a3a90afba0512c9e90a0a0b4238a0c0cb4697007602"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/06_model.knm": {
+                "size": 3329,
+                "sha256": "7640c35e59a5b3d8313aec4372cc5464cf51c4354a23ca5c9696f151f5936724"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/07_model.knm": {
+                "size": 2766,
+                "sha256": "ec456ad523e99d60094aad42a9584569dea17db3ddb4a2f8a86d21ec66ffa8b9"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/08_model.knm": {
+                "size": 4642,
+                "sha256": "0cb443689619b66d2a402e8127503f278d39599753991ce5cdcd1a5e484205df"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/09_model.knm": {
+                "size": 4178,
+                "sha256": "69f3daa1671055088c5fa82b6ccb359a4df9c2708e58ad072ea0cc9e26beeea1"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/10_model.knm": {
+                "size": 3937,
+                "sha256": "a1ef86eebdcc104e363f2e649b9db11d445f02bea3fd96bfde909ebf2a47df62"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/11_model.knm": {
+                "size": 4940,
+                "sha256": "9719bf630d58805f0527697e0d7a80e07820cee03131b308028625fae826753b"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/12_model.knm": {
+                "size": 5010,
+                "sha256": "50befe09bd11fa59174d3d1c9ebf2cf04f150c91d1b2745d119e71e331a68160"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/13_model.knm": {
+                "size": 5163,
+                "sha256": "53fb5214c0e411fdfd678742d441a9f300c932289d1c65a637f4665fc67e8ba9"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/14_model.knm": {
+                "size": 4798,
+                "sha256": "3baec5d13c78de6e9beb0a0cec09b777f13b14964d8670af51abd9933751c7ac"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/15_model.knm": {
+                "size": 3036,
+                "sha256": "99f9c442dc1e46d965255637b8e1c6584696166105ac565500357bcaa1fba0ed"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/16_model.knm": {
+                "size": 3071,
+                "sha256": "e82de18d7e695cb25a4cd895f381a3b4c75d308f561536cac69283b2a8c71b95"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/17_model.knm": {
+                "size": 11491,
+                "sha256": "cd4bd6d7188ba13a0a39eaaabf78ded43d49f5f2daf34e44df397d19b048efa8"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/18_model.knm": {
+                "size": 8277,
+                "sha256": "ceea181d3f0e3d1f30ab9c4d66b2fa76b49f042fc0980efdd8512e2530697940"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/19_model.knm": {
+                "size": 5138,
+                "sha256": "caab2a3e53b5c7bada00532483a7e4ddf3e5ccc2065cf41e43778c57658431ae"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/20_model.knm": {
+                "size": 5807,
+                "sha256": "951ce2aa422bdce90e1ffbb84b15305c9df6ef9f400b133e450ff6f99714e9ab"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.model/21_model.knm": {
+                "size": 1358,
+                "sha256": "d338b6cdc6e37139b69898c0f32b96c65afcda39e8a02d333d6774b2c557d8a2"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/0_transform.knm": {
+                "size": 1695,
+                "sha256": "87d1009d61ef8cc2067d82a2b5cc62e1f64171b910fd6985f3ec9ac55093e0c8"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/1_transform.knm": {
+                "size": 3337,
+                "sha256": "314ba896b5f1ac3439d5f898f1e70f5442f21597bf5f7c038c1ec520890257c5"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/2_transform.knm": {
+                "size": 982,
+                "sha256": "c8b21fe200c09f7dd5705a80f1910f4a892e90c860991225874f1f91f22a5afb"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/3_transform.knm": {
+                "size": 7135,
+                "sha256": "c0b5e0429f69bb4b86217e550cc4f74af8a95c706b0b98d323b8074040d5be5c"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/4_transform.knm": {
+                "size": 3199,
+                "sha256": "47ec5cdebe631f83ca6b1e56c47e9f648b46e01b771e0ed28513ac5a0f524019"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/5_transform.knm": {
+                "size": 1441,
+                "sha256": "3089e62fa138855a0a58ecbdf09b4ea62b0d2e1bd3bba7f9db4d78cfb5927fe9"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/6_transform.knm": {
+                "size": 854,
+                "sha256": "6e0224a63c1050c8c6d273e794a509314af0fa0bc0d4413d5cd4b46fe9738988"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/7_transform.knm": {
+                "size": 962,
+                "sha256": "0c5ae1b44e660a538e776208422de1a6b2c0968a6f1dcc641bb12f8f27f5c9c1"
+              },
+              "default/linkdata/package_com.github.ajalt.colormath.transform/8_transform.knm": {
+                "size": 596,
+                "sha256": "e250173990a54cfc91f8c2049f6b32565a0a05d47a2b6167fa8926381a47430d"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "toolingCommit": "d0cff88fd1ea2e4f08bb4409f1c802cca0c7f285"
+}
