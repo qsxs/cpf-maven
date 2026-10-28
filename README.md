@@ -10,6 +10,7 @@ io.github.qsxs.cpf.poko:poko-annotations:0.23.1-cpf11-preview-cbaa758d0b76-40451
 io.github.qsxs.cpf.colormath:colormath:3.6.1-cpf11-preview-86f87c1c333f-40461897858-1
 io.github.qsxs.cpf.materialkolor:material-kolor:5.0.0-cpf11-preview-c5ef77766b60-40672306467-1
 io.github.qsxs.cpf.materialkolor:material-color-utilities:5.0.0-cpf11-preview-c5ef77766b60-40672306467-1
+io.github.qsxs.cpf.colorpicker:colorpicker-compose:1.2.0-cpf11-preview-779519a9bc21-40674004251-1
 ```
 
 ## Grid
@@ -51,3 +52,11 @@ Windows urllib 对十个大文件曾固定截断 6890B，curl 原件全匹配；
 许可事实分别为：上游仓库根 LICENSE 和主模块发布 POM 为 MIT；MCI sources JAR 内 LICENSE 为 Apache-2.0，但 MCI 上游 POM 标注 MIT，现 CPF MCI POM 沿用旧 OHOS 配置标注 Apache-2.0。原始 POM 与 LICENSE 保留，不推断双许可。
 
 未检查生成方法体，未单独验证 Gradle 8.11.1 消费；link、runtime、设备和 Android/iOS 回归未运行，App 引用尚未切换。
+
+## ColorPicker Compose
+
+上游 [skydoves/colorpicker-compose 1.2.0](https://github.com/skydoves/colorpicker-compose/commit/85f81afbccaf5c0837e402686b8db9d67cc74c59) 的 21 份原始 common 源与 Apache-2.0 许可证由 [Fork source `779519a9bc21`](https://github.com/qsxs/colorpicker-compose/commit/779519a9bc21278c9496a11c43828dc194cbe64c) 保留。[producer 40674004251/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40674004251/attempts/1) 与 [consumer 40676245219/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40676245219/attempts/1) 的实际工作流提交 B 均为 `abadbfb0b5c33b35dfafdb966e8e759276c5de45`，共享工具内容锁 A 为 `d0cff88fd1ea2e4f08bb4409f1c802cca0c7f285`。
+
+[Pages 制品提交 `af5af74fb640`](https://github.com/qsxs/cpf-maven/commit/af5af74fb6409cb9d2bc165253594e583ac8c4c2) 的 140 个文件、606,736 字节与 staging 经匿名 HTTP 逐字节对齐；对应上面列出的 [ColorPicker 根 POM](https://qsxs.github.io/cpf-maven/io/github/qsxs/cpf/colorpicker/colorpicker-compose/1.2.0-cpf11-preview-779519a9bc21-40674004251-1/colorpicker-compose-1.2.0-cpf11-preview-779519a9bc21-40674004251-1.pom)。Producer 的 x64/arm64 各核验 53 个不同 API 名称，Native metadata 签名核查 50 个名称并另查 8 个枚举生成成员的 Native IR 签名；三个目标均验证 Compose 和 serialization 两个原有 `.08` 编译器插件，Compose runtime/foundation/ui 库依赖仍为 `implementation`。
+
+Consumer 仅用一个探针覆盖 `HsvColorPicker` 的 `initialColor`/`onColorChanged`、`BrightnessSlider`、`ColorEnvelope.color` 和 `selectByColor(color, true)`；Gradle 9.5.0 完成 common metadata、OHOS x64、arm64 真实编译，12 个公开对象均首次请求成功且与 staging 对齐。Gradle 8.11.1 消费、link、runtime、设备和 Android/iOS 回归未运行，App 引用尚未切换。
