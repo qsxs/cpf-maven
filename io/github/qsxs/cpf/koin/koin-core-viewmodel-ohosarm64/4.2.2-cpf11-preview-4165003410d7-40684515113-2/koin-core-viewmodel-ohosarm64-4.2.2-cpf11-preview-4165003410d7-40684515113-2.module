@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../koin-core-viewmodel/4.2.2-cpf11-preview-4165003410d7-40684515113-2/koin-core-viewmodel-4.2.2-cpf11-preview-4165003410d7-40684515113-2.module",
+    "group": "io.github.qsxs.cpf.koin",
+    "module": "koin-core-viewmodel",
+    "version": "4.2.2-cpf11-preview-4165003410d7-40684515113-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.qsxs.cpf.koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2-cpf11-preview-4165003410d7-40684515113-2"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.11.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.11.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koin-core-viewmodel-ohosArm64Main-4.2.2-cpf11-preview-4165003410d7-40684515113-2.klib",
+          "url": "koin-core-viewmodel-ohosarm64-4.2.2-cpf11-preview-4165003410d7-40684515113-2.klib",
+          "size": 155100,
+          "sha512": "3ee835652056078bb1fabb2959b020d669d648029c37ce11b201071645c16659a3915162ad7ff50bd6d06f2b59b754711a31433c0ace95040548262da8010929",
+          "sha256": "9f9ea6cd658936df84bf892c886bb32aca815a7f4b391af8a8cb341d2a93e79e",
+          "sha1": "55b1bbe661b5da5be309eeec63ba813f4067e070",
+          "md5": "2aff75bad6afa9d52cf29583fa89d682"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "koin-core-viewmodel-ohosarm64-4.2.2-cpf11-preview-4165003410d7-40684515113-2-sources.jar",
+          "url": "koin-core-viewmodel-ohosarm64-4.2.2-cpf11-preview-4165003410d7-40684515113-2-sources.jar",
+          "size": 35299,
+          "sha512": "6126c8672c7d67023172e763f050369ac6452046ebdd610f0003cf28bc8fe35b5e1f8b45e816b21c819641743eae7ed5f0939b00e282ee6d65a7ebb2a349dcf2",
+          "sha256": "3a7cdc98334f04ecd6e13be4a2f31cff9c78e5c7ab3499a191917d67d10911e5",
+          "sha1": "cefa0159cb028a1c84401dd4f1c73f8c766d1cc7",
+          "md5": "6edf46952b4969a986dc86ddbe731b5b"
+        }
+      ]
+    }
+  ]
+}

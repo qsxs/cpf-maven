@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.qsxs.cpf.koin",
+    "module": "koin-compose",
+    "version": "4.2.2-cpf11-preview-4165003410d7-40684515113-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.qsxs.cpf.koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.2.2-cpf11-preview-4165003410d7-40684515113-2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koin-compose-metadata-4.2.2-cpf11-preview-4165003410d7-40684515113-2.jar",
+          "url": "koin-compose-4.2.2-cpf11-preview-4165003410d7-40684515113-2.jar",
+          "size": 31460,
+          "sha512": "cb8a203a035eb26a1be9525477c9bd7802978b35e3a46df92b2737aa40fd78724c1e1a7046d44edb5eb045ea00954a6e54c914a1d42a3f7e39cc7a3ba7fae614",
+          "sha256": "d770520af502ab7ae579f3d1d21dc9b80f4c3f9d7c19a0b65352dd93c1da8df6",
+          "sha1": "f89eb3e27950e14cee1111447e682ef335e4f2de",
+          "md5": "861b2c967e74516b9f7dcfdcbf89ac9b"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "koin-compose-kotlin-4.2.2-cpf11-preview-4165003410d7-40684515113-2-sources.jar",
+          "url": "koin-compose-4.2.2-cpf11-preview-4165003410d7-40684515113-2-sources.jar",
+          "size": 34319,
+          "sha512": "b462283922925474eebe54f734a6bcb6f4749ef333e484d4ae419c2335408293750271c892aa877c59012b1a32bd74238a859c805aeab982b1b1532a0d49a5de",
+          "sha256": "a6e0714e1b4032d53dc5c6740be89fa36d6c9cdbf6110931cbe27eafb4d19967",
+          "sha1": "fd8fd69805c8d877c101840e38263fb780c7ccd9",
+          "md5": "b0edcf3ee80d8c1b050cf21857eabaa8"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koin-compose-ohosarm64/4.2.2-cpf11-preview-4165003410d7-40684515113-2/koin-compose-ohosarm64-4.2.2-cpf11-preview-4165003410d7-40684515113-2.module",
+        "group": "io.github.qsxs.cpf.koin",
+        "module": "koin-compose-ohosarm64",
+        "version": "4.2.2-cpf11-preview-4165003410d7-40684515113-2"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koin-compose-ohosarm64/4.2.2-cpf11-preview-4165003410d7-40684515113-2/koin-compose-ohosarm64-4.2.2-cpf11-preview-4165003410d7-40684515113-2.module",
+        "group": "io.github.qsxs.cpf.koin",
+        "module": "koin-compose-ohosarm64",
+        "version": "4.2.2-cpf11-preview-4165003410d7-40684515113-2"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koin-compose-ohosx64/4.2.2-cpf11-preview-4165003410d7-40684515113-2/koin-compose-ohosx64-4.2.2-cpf11-preview-4165003410d7-40684515113-2.module",
+        "group": "io.github.qsxs.cpf.koin",
+        "module": "koin-compose-ohosx64",
+        "version": "4.2.2-cpf11-preview-4165003410d7-40684515113-2"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koin-compose-ohosx64/4.2.2-cpf11-preview-4165003410d7-40684515113-2/koin-compose-ohosx64-4.2.2-cpf11-preview-4165003410d7-40684515113-2.module",
+        "group": "io.github.qsxs.cpf.koin",
+        "module": "koin-compose-ohosx64",
+        "version": "4.2.2-cpf11-preview-4165003410d7-40684515113-2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.qsxs.cpf.koin",
+    "module": "koin-compose-viewmodel",
+    "version": "4.2.2-cpf11-preview-4165003410d7-40684515113-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.qsxs.cpf.koin",
+          "module": "koin-compose",
+          "version": {
+            "requires": "4.2.2-cpf11-preview-4165003410d7-40684515113-2"
+          }
+        },
+        {
+          "group": "io.github.qsxs.cpf.koin",
+          "module": "koin-core-viewmodel",
+          "version": {
+            "requires": "4.2.2-cpf11-preview-4165003410d7-40684515113-2"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koin-compose-viewmodel-metadata-4.2.2-cpf11-preview-4165003410d7-40684515113-2.jar",
+          "url": "koin-compose-viewmodel-4.2.2-cpf11-preview-4165003410d7-40684515113-2.jar",
+          "size": 25898,
+          "sha512": "6a51ee99f759098b30b387efe0d8f2aae22bbb011d3b4fa76f2b2e4f4ee59a9d3d07dde9f5c66cbc9561487c432612aa3b41cbdd08492aee4ff764d0b47afca5",
+          "sha256": "7e283435e4655316f7c434003085189b14fb1f43102b0b030787435acf625643",
+          "sha1": "f331df7969c0fad2e86274e1864d00f2106eb1df",
+          "md5": "08708458fc9f862ca2c33d8cff5edee2"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "koin-compose-viewmodel-kotlin-4.2.2-cpf11-preview-4165003410d7-40684515113-2-sources.jar",
+          "url": "koin-compose-viewmodel-4.2.2-cpf11-preview-4165003410d7-40684515113-2-sources.jar",
+          "size": 25663,
+          "sha512": "96c27a9bd3498c0412e9f43900d78584e9f538379eb267d520426dd5c01f42c6538e8b595ecbf320beb169752cf82ebe5c716614308716acc6272c5befda60f8",
+          "sha256": "506cd5d320b564b8ed91888e0dace0093077e9238158d360032978eb729fe42a",
+          "sha1": "4159d45e2ef4c412c31cdd445f96032e49498c58",
+          "md5": "f2154f4740d181b8dacb276c783a0349"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koin-compose-viewmodel-ohosarm64/4.2.2-cpf11-preview-4165003410d7-40684515113-2/koin-compose-viewmodel-ohosarm64-4.2.2-cpf11-preview-4165003410d7-40684515113-2.module",
+        "group": "io.github.qsxs.cpf.koin",
+        "module": "koin-compose-viewmodel-ohosarm64",
+        "version": "4.2.2-cpf11-preview-4165003410d7-40684515113-2"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koin-compose-viewmodel-ohosarm64/4.2.2-cpf11-preview-4165003410d7-40684515113-2/koin-compose-viewmodel-ohosarm64-4.2.2-cpf11-preview-4165003410d7-40684515113-2.module",
+        "group": "io.github.qsxs.cpf.koin",
+        "module": "koin-compose-viewmodel-ohosarm64",
+        "version": "4.2.2-cpf11-preview-4165003410d7-40684515113-2"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koin-compose-viewmodel-ohosx64/4.2.2-cpf11-preview-4165003410d7-40684515113-2/koin-compose-viewmodel-ohosx64-4.2.2-cpf11-preview-4165003410d7-40684515113-2.module",
+        "group": "io.github.qsxs.cpf.koin",
+        "module": "koin-compose-viewmodel-ohosx64",
+        "version": "4.2.2-cpf11-preview-4165003410d7-40684515113-2"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koin-compose-viewmodel-ohosx64/4.2.2-cpf11-preview-4165003410d7-40684515113-2/koin-compose-viewmodel-ohosx64-4.2.2-cpf11-preview-4165003410d7-40684515113-2.module",
+        "group": "io.github.qsxs.cpf.koin",
+        "module": "koin-compose-viewmodel-ohosx64",
+        "version": "4.2.2-cpf11-preview-4165003410d7-40684515113-2"
+      }
+    }
+  ]
+}
