@@ -60,3 +60,20 @@ Windows urllib 对十个大文件曾固定截断 6890B，curl 原件全匹配；
 [Pages 制品提交 `af5af74fb640`](https://github.com/qsxs/cpf-maven/commit/af5af74fb6409cb9d2bc165253594e583ac8c4c2) 的 140 个文件、606,736 字节与 staging 经匿名 HTTP 逐字节对齐；对应上面列出的 [ColorPicker 根 POM](https://qsxs.github.io/cpf-maven/io/github/qsxs/cpf/colorpicker/colorpicker-compose/1.2.0-cpf11-preview-779519a9bc21-40674004251-1/colorpicker-compose-1.2.0-cpf11-preview-779519a9bc21-40674004251-1.pom)。Producer 的 x64/arm64 各核验 53 个不同 API 名称，Native metadata 签名核查 50 个名称并另查 8 个枚举生成成员的 Native IR 签名；三个目标均验证 Compose 和 serialization 两个原有 `.08` 编译器插件，Compose runtime/foundation/ui 库依赖仍为 `implementation`。
 
 Consumer 仅用一个探针覆盖 `HsvColorPicker` 的 `initialColor`/`onColorChanged`、`BrightnessSlider`、`ColorEnvelope.color` 和 `selectByColor(color, true)`；Gradle 9.5.0 完成 common metadata、OHOS x64、arm64 真实编译，12 个公开对象均首次请求成功且与 staging 对齐。Gradle 8.11.1 消费、link、runtime、设备和 Android/iOS 回归未运行，App 引用尚未切换。
+
+## Koin 四模块
+
+上游 [InsertKoinIO/koin 4.2.2](https://github.com/InsertKoinIO/koin/commit/dc86ef8dd8fbe8564fb7453c03f5b738da3450bb) 的 114 份 common/Native 原源和 Apache-2.0 许可证由 [Fork source `4165003410d7`](https://github.com/qsxs/koin/commit/4165003410d767a5281441312f70d21dea4d6aab) 保留。[producer 40684515113/2](https://github.com/qsxs/cpf-port-tooling/actions/runs/40684515113/attempts/2) 使用工作流提交 B `4d01825448f83e87619888dade7e919562e8ecd4` 和共享工具内容锁 A `d0cff88fd1ea2e4f08bb4409f1c802cca0c7f285`。
+
+四个根 GAV 已生产、发布并完成公开消费编译验证：
+
+```text
+io.github.qsxs.cpf.koin:koin-core:4.2.2-cpf11-preview-4165003410d7-40684515113-2
+io.github.qsxs.cpf.koin:koin-core-viewmodel:4.2.2-cpf11-preview-4165003410d7-40684515113-2
+io.github.qsxs.cpf.koin:koin-compose:4.2.2-cpf11-preview-4165003410d7-40684515113-2
+io.github.qsxs.cpf.koin:koin-compose-viewmodel:4.2.2-cpf11-preview-4165003410d7-40684515113-2
+```
+
+[Pages 制品提交 `4a430bb48508`](https://github.com/qsxs/cpf-maven/commit/4a430bb48508ba7ac948be3f052499262ce40957) 的 380 个文件、3,455,187 字节与 staging 经匿名 HTTP 逐字节对齐；可查看 [koin-core 根 POM](https://qsxs.github.io/cpf-maven/io/github/qsxs/cpf/koin/koin-core/4.2.2-cpf11-preview-4165003410d7-40684515113-2/koin-core-4.2.2-cpf11-preview-4165003410d7-40684515113-2.pom)。15 条项目边的上传输入与输出记录匹配（7 条 metadata、8 条 Native），但不是重新哈希全部 runner 输入；metadata CLI 参数在 runner 内核验，原始 `producer.json`/`arguments.txt` 未上传，不能独立复核各参数，Native 任务输入也不是完整 argv。
+
+Stately 使用既有匿名 CPF `2.1.0-1.1.0` 制品，15 个对象身份匹配，不表示新构建或普遍 ABI 兼容。[consumer 40703356336/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40703356336/attempts/1) 在 metadata 阶段下载 sysroot 超时；正常重试的 [/2](https://github.com/qsxs/cpf-port-tooling/actions/runs/40703356336/attempts/2) 使用工作流 `ed0e29a75c6f2a8a31af4a1c0ae68b8e170ffb0d` 和 Gradle 9.5.0，完成 Scope/ViewModel 探针的 common metadata、OHOS x64、arm64 编译。该次使用 K/N 标准按需下载，预填候选未应用。四模块的 48 个公开对象与 staging 对齐，依赖边和三个解析配置已独立核对。转换后的四个 metadata Klib 只保留 runner 路径、大小、SHA 和 metadataTrace，未上传本体，无法在本机独立重算内部成员；Native Klib 完整文件 SHA 可与 staging 对齐。Gradle 8 消费、link、runtime、设备与 Android/iOS 回归未验，App 引用尚未切换。
