@@ -11,6 +11,7 @@ io.github.qsxs.cpf.colormath:colormath:3.6.1-cpf11-preview-86f87c1c333f-40461897
 io.github.qsxs.cpf.materialkolor:material-kolor:5.0.0-cpf11-preview-c5ef77766b60-40672306467-1
 io.github.qsxs.cpf.materialkolor:material-color-utilities:5.0.0-cpf11-preview-c5ef77766b60-40672306467-1
 io.github.qsxs.cpf.colorpicker:colorpicker-compose:1.2.0-cpf11-preview-779519a9bc21-40674004251-1
+io.github.qsxs.cpf.reorderable:reorderable:3.1.0-cpf11-preview-85707894c99f-40715768847-1
 ```
 
 ## Grid
@@ -77,3 +78,11 @@ io.github.qsxs.cpf.koin:koin-compose-viewmodel:4.2.2-cpf11-preview-4165003410d7-
 [Pages 制品提交 `4a430bb48508`](https://github.com/qsxs/cpf-maven/commit/4a430bb48508ba7ac948be3f052499262ce40957) 的 380 个文件、3,455,187 字节与 staging 经匿名 HTTP 逐字节对齐；可查看 [koin-core 根 POM](https://qsxs.github.io/cpf-maven/io/github/qsxs/cpf/koin/koin-core/4.2.2-cpf11-preview-4165003410d7-40684515113-2/koin-core-4.2.2-cpf11-preview-4165003410d7-40684515113-2.pom)。15 条项目边的上传输入与输出记录匹配（7 条 metadata、8 条 Native），但不是重新哈希全部 runner 输入；metadata CLI 参数在 runner 内核验，原始 `producer.json`/`arguments.txt` 未上传，不能独立复核各参数，Native 任务输入也不是完整 argv。
 
 Stately 使用既有匿名 CPF `2.1.0-1.1.0` 制品，15 个对象身份匹配，不表示新构建或普遍 ABI 兼容。[consumer 40703356336/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40703356336/attempts/1) 在 metadata 阶段下载 sysroot 超时；正常重试的 [/2](https://github.com/qsxs/cpf-port-tooling/actions/runs/40703356336/attempts/2) 使用工作流 `ed0e29a75c6f2a8a31af4a1c0ae68b8e170ffb0d` 和 Gradle 9.5.0，完成 Scope/ViewModel 探针的 common metadata、OHOS x64、arm64 编译。该次使用 K/N 标准按需下载，预填候选未应用。四模块的 48 个公开对象与 staging 对齐，依赖边和三个解析配置已独立核对。转换后的四个 metadata Klib 只保留 runner 路径、大小、SHA 和 metadataTrace，未上传本体，无法在本机独立重算内部成员；Native Klib 完整文件 SHA 可与 staging 对齐。Gradle 8 消费、link、runtime、设备与 Android/iOS 回归未验，App 引用尚未切换。
+
+## Reorderable
+
+上游 [Calvin-LL/Reorderable v3.1.0](https://github.com/Calvin-LL/Reorderable/commit/66de5751227c440bcdbd63acc94999231ed67487) 的 9 份原源与 Apache-2.0 许可由 [Fork source `85707894c99f`](https://github.com/qsxs/Reorderable/commit/85707894c99f8ce4c3fe10a84c870c71cee0b10b) 保留。[producer 40715768847/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40715768847/attempts/1) 使用工作流 B `8fd0a63cf246b2b8e90132b091506b49c9ebfb26`、共享工具内容锁 A `d0cff88fd1ea2e4f08bb4409f1c802cca0c7f285`，完成 metadata 与双 ABI 生产；每 ABI 核验 43 个 Native metadata 名称和 4 个枚举 IR 签名。Runner 物理输入已清理，记录与来源锁匹配，但不能在本机重新哈希。
+
+已发布根 GAV 为 `io.github.qsxs.cpf.reorderable:reorderable:3.1.0-cpf11-preview-85707894c99f-40715768847-1`（[根 POM](https://qsxs.github.io/cpf-maven/io/github/qsxs/cpf/reorderable/reorderable/3.1.0-cpf11-preview-85707894c99f-40715768847-1/reorderable-3.1.0-cpf11-preview-85707894c99f-40715768847-1.pom)）。[Pages 制品提交 `3d5fe28dcc5b`](https://github.com/qsxs/cpf-maven/commit/3d5fe28dcc5b3a4cf326a8c413e649d7e0e2746a) 的 140 个文件、565,377 字节与 staging 匿名核验全部对齐；期间 15 次传输超时后重试，最终 140/140 匹配。
+
+[consumer 40719398970/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40719398970/attempts/1) 使用工作流 B `2f30528fb9e0a90164d111788d701fd177897e63` 和 Gradle 9.5.0，完成 1328B LazyList/LazyGrid 状态、item 和两种拖拽 handle 探针的 metadata、OHOS x64、arm64 编译；12 个不同公开对象均首次 HTTP 成功并与 staging 对齐，三配置选择正确 root/leaf，Native Klib SHA 和 IR 已独立核对。Metadata 转换 Klib 原件未上传，不能在本机独立重哈希其内部成员。Gradle 8 消费、link、runtime、设备和 Android/iOS 回归未验，App 引用尚未切换。
