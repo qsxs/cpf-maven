@@ -8,6 +8,8 @@
 com.github.qsxs.gridlayout-compose:grid:2.8.0-cpf11-preview-ed3472803fdb-40432726650-1
 io.github.qsxs.cpf.poko:poko-annotations:0.23.1-cpf11-preview-cbaa758d0b76-40451679040-1
 io.github.qsxs.cpf.colormath:colormath:3.6.1-cpf11-preview-86f87c1c333f-40461897858-1
+io.github.qsxs.cpf.materialkolor:material-kolor:5.0.0-cpf11-preview-c5ef77766b60-40672306467-1
+io.github.qsxs.cpf.materialkolor:material-color-utilities:5.0.0-cpf11-preview-c5ef77766b60-40672306467-1
 ```
 
 ## Grid
@@ -37,3 +39,15 @@ Windows urllib 对十个大文件曾固定截断 6890B，curl 原件全匹配；
 [Pages 制品提交 `8b5e6932bb24`](https://github.com/qsxs/cpf-maven/commit/8b5e6932bb2490bca64f40e29e1f113090628274) 的 125 个文件、1,106,922 字节与 staging 经匿名 HTTP 逐字节对齐；[根 POM](https://qsxs.github.io/cpf-maven/io/github/qsxs/cpf/colormath/colormath/3.6.1-cpf11-preview-86f87c1c333f-40461897858-1/colormath-3.6.1-cpf11-preview-86f87c1c333f-40461897858-1.pom)对应上面列出的根 GAV。未覆盖先前版本。
 
 [consumer 40668960640/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40668960640/attempts/1) 使用工作流提交 `b606affac816befd3b33269e57d9b79b89c31b0f` 和 Gradle 9.5.0，从匿名根 GAV 经 GMM 完成 common metadata、OHOS x64 与 arm64 编译，`Color.toHSL()` 探针及 9 个公开 HTTP 对象核验通过。只验证 Gradle 9.5.0，未单独验证 Gradle 8.11.1；链接、运行时、设备与 Android/iOS 回归未运行。App 尚未切换，不能据此认定 MaterialKolor 整体已完成。
+
+## MaterialKolor 两模块
+
+上游 [jordond/MaterialKolor 5.0.0](https://github.com/jordond/MaterialKolor/commit/13c67cfa5a724cb6dca7d15674b3ad2acf894853) 的主模块 23 份和 MCI 42 份原源由 [Fork source `c5ef77766b60`](https://github.com/qsxs/MaterialKolor/commit/c5ef77766b6098677d541e82f362b666a8a0fff2) 保留；[producer 40672306467/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40672306467/attempts/1) 的工作流提交为 `b606affac816befd3b33269e57d9b79b89c31b0f`，共享工具内容锁 A 为 `d0cff88fd1ea2e4f08bb4409f1c802cca0c7f285`。
+
+[Pages 制品提交 `b2652094e033`](https://github.com/qsxs/cpf-maven/commit/b2652094e03379619138c7ec83ff614d5863a2a1) 的 280 个文件、1,994,693 字节与 staging 经匿名 HTTP 逐字节对齐；对应 [material-kolor 根 POM](https://qsxs.github.io/cpf-maven/io/github/qsxs/cpf/materialkolor/material-kolor/5.0.0-cpf11-preview-c5ef77766b60-40672306467-1/material-kolor-5.0.0-cpf11-preview-c5ef77766b60-40672306467-1.pom) 和 [MCI 根 POM](https://qsxs.github.io/cpf-maven/io/github/qsxs/cpf/materialkolor/material-color-utilities/5.0.0-cpf11-preview-c5ef77766b60-40672306467-1/material-color-utilities-5.0.0-cpf11-preview-c5ef77766b60-40672306467-1.pom)。
+
+[consumer 40675388144/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40675388144/attempts/1) 使用工作流 `abadbfb0b5c33b35dfafdb966e8e759276c5de45` 和 Gradle 9.5.0，只直接依赖主模块根 GAV，经 GMM 传递解析 MCI、Poko、Colormath，并完成真实主题 API 的 metadata、OHOS x64、arm64 编译；39 条公开 HTTP 记录（38 个不同 URL）与各自 staging 记录对齐。Producer 和 consumer 各检查 54 项，即 6 个 MCI 类的三个生成方法在三个目标的 metadata 声明与签名；双 Native 另检查 IR 签名及非空 IR。
+
+许可事实分别为：上游仓库根 LICENSE 和主模块发布 POM 为 MIT；MCI sources JAR 内 LICENSE 为 Apache-2.0，但 MCI 上游 POM 标注 MIT，现 CPF MCI POM 沿用旧 OHOS 配置标注 Apache-2.0。原始 POM 与 LICENSE 保留，不推断双许可。
+
+未检查生成方法体，未单独验证 Gradle 8.11.1 消费；link、runtime、设备和 Android/iOS 回归未运行，App 引用尚未切换。
