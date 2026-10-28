@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../reorderable/3.1.0-cpf11-preview-85707894c99f-40715768847-1/reorderable-3.1.0-cpf11-preview-85707894c99f-40715768847-1.module",
+    "group": "io.github.qsxs.cpf.reorderable",
+    "module": "reorderable",
+    "version": "3.1.0-cpf11-preview-85707894c99f-40715768847-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reorderable-ohosArm64Main-3.1.0-cpf11-preview-85707894c99f-40715768847-1.klib",
+          "url": "reorderable-ohosarm64-3.1.0-cpf11-preview-85707894c99f-40715768847-1.klib",
+          "size": 148242,
+          "sha512": "3462b4ba4b0e1178ae76e304d76b6391f218213d9b241b4df4481f019ca4c1f0f4b81eaa302df6f89384964d04f05c8244aa79e9c6587e7ccf135dfc81c3009a",
+          "sha256": "62cb4c10bfbad0164e54a640ce2d8f31dfdc15b190f4b60496621cb07b239402",
+          "sha1": "f6b8926a4d212b437451d5f808d06ae1462f6bdf",
+          "md5": "c46e886b15ff0573d5fa86da9c849524"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "reorderable-ohosarm64-3.1.0-cpf11-preview-85707894c99f-40715768847-1-sources.jar",
+          "url": "reorderable-ohosarm64-3.1.0-cpf11-preview-85707894c99f-40715768847-1-sources.jar",
+          "size": 31214,
+          "sha512": "15a0bbada02da55c2f89e27318dad2b991d6a028c19849450dbc5b081574d9605e5abcb6587084db4c37ec2a821216ef4623b210b098f554ceb7adfb168af37b",
+          "sha256": "4d4bf589f76f9a1d9641b7f6b3c4672d8580b4c9c195d46e6e9cf3c37267a072",
+          "sha1": "54d9202796cabb03d37b899fbeb30afc506fcf84",
+          "md5": "c91201ca0cc8e8fb90cd4018722fefc3"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reorderable-3.1.0-cpf11-preview-85707894c99f-40715768847-1.kotlin_resources.zip",
+          "url": "reorderable-ohosarm64-3.1.0-cpf11-preview-85707894c99f-40715768847-1-kotlin_resources.kotlin_resources.zip",
+          "size": 372,
+          "sha512": "0140fda14eb41b73807dfe0b836e3c7ddaa9009a441a18c364049a63baa8965ad69b1067b1940cf95942715687e10282bcfbee8586755da74462874425292b55",
+          "sha256": "6872829d77af6c383ef0c06e03767f923958ecbc5fc1394cac092d8255d00adb",
+          "sha1": "37958d339586fba97ae1226e3b944505ffa24e1c",
+          "md5": "f670827be5cfde4beeb777f814fbc3c3"
+        }
+      ]
+    }
+  ]
+}
