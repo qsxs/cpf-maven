@@ -7,6 +7,7 @@
 ```text
 com.github.qsxs.gridlayout-compose:grid:2.8.0-cpf11-preview-ed3472803fdb-40432726650-1
 io.github.qsxs.cpf.poko:poko-annotations:0.23.1-cpf11-preview-cbaa758d0b76-40451679040-1
+io.github.qsxs.cpf.colormath:colormath:3.6.1-cpf11-preview-86f87c1c333f-40461897858-1
 ```
 
 ## Grid
@@ -28,3 +29,11 @@ Windows urllib 对十个大文件曾固定截断 6890B，curl 原件全匹配；
 [consumer 第 1 次](https://github.com/qsxs/cpf-port-tooling/actions/runs/40457201932/attempts/1)的 Gradle 8.11.1 job 和[第 2 次](https://github.com/qsxs/cpf-port-tooling/actions/runs/40457201932/attempts/2)的 Gradle 9.5 job 分别从公开根 GAV 完成 metadata、OHOS x64 和 arm64 编译。Gradle 8 未加载 Poko 插件；Gradle 9 使用 0.23.2 插件，检查自有 probe 的三个生成声明签名和双 Native 非空 IR。第 2 次两个 job 均报告成功，详细证据分别采用 Gradle 8 第 1 次和 Gradle 9 第 2 次。
 
 第 1 次 Gradle 9 因官方 sysroot 下载超时失败，随后第 2 次成功；第 1 次整体不能称为成功。未检查生成方法体，link、runtime、设备和 Android/iOS 回归均未验证。Pages 为临时验收仓，App 引用尚未切换。
+
+## Colormath
+
+上游 [ajalt/colormath 3.6.1](https://github.com/ajalt/colormath/commit/5e776b66ea6ffc5dc5dc360ab88ca5aefbd2a310) 的 45 份原源与 MIT 许可证由 [Fork source `86f87c1c333f`](https://github.com/qsxs/colormath/commit/86f87c1c333f0eb68af52afc88b73d82a536d6cf) 保留；[producer 40461897858/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40461897858/attempts/1) 的工作流提交为 `49d54d239482838dc187ba6b1ce8c9f8cd8231c0`，共享工具内容锁为 `d0cff88fd1ea2e4f08bb4409f1c802cca0c7f285`。
+
+[Pages 制品提交 `8b5e6932bb24`](https://github.com/qsxs/cpf-maven/commit/8b5e6932bb2490bca64f40e29e1f113090628274) 的 125 个文件、1,106,922 字节与 staging 经匿名 HTTP 逐字节对齐；[根 POM](https://qsxs.github.io/cpf-maven/io/github/qsxs/cpf/colormath/colormath/3.6.1-cpf11-preview-86f87c1c333f-40461897858-1/colormath-3.6.1-cpf11-preview-86f87c1c333f-40461897858-1.pom)对应上面列出的根 GAV。未覆盖先前版本。
+
+[consumer 40668960640/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40668960640/attempts/1) 使用工作流提交 `b606affac816befd3b33269e57d9b79b89c31b0f` 和 Gradle 9.5.0，从匿名根 GAV 经 GMM 完成 common metadata、OHOS x64 与 arm64 编译，`Color.toHSL()` 探针及 9 个公开 HTTP 对象核验通过。只验证 Gradle 9.5.0，未单独验证 Gradle 8.11.1；链接、运行时、设备与 Android/iOS 回归未运行。App 尚未切换，不能据此认定 MaterialKolor 整体已完成。
