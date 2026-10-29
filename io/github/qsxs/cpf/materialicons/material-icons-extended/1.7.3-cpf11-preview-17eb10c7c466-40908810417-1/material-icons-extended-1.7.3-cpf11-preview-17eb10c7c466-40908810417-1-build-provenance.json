@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "fingerprint": "9b3c197423a78dcd011f53260b6e8e84d55e1c702054226590775032782691c2",
+  "sourceCommit": "17eb10c7c46658be710f1bdc543aa9f85c96563e",
+  "originalPortCommit": "a2c2a1ddfc81e876ee2fe1686681aa3b00b160ac",
+  "upstreamForkCommit": "6a03ba934d30f31bf55c36d36e46aec9a7701477",
+  "toolingCommit": "d0cff88fd1ea2e4f08bb4409f1c802cca0c7f285",
+  "toolingFilesVerified": 20,
+  "group": "io.github.qsxs.cpf.materialicons",
+  "version": "1.7.3-cpf11-preview-17eb10c7c466-40908810417-1",
+  "sources": {
+    "material-icons-core": {
+      "count": 281,
+      "sourceSetSha256": "8a4755af41813e67ea22571afc9cf69e000dfb1dd03b3e1648675e733ce20b2a",
+      "caseCollisionGroups": [],
+      "mappingSha256": "6911a43a94a3c26edb9bd8a89cd63812b765cdfcc74f08cc85d8831541607feb"
+    },
+    "material-icons-extended": {
+      "count": 11105,
+      "sourceSetSha256": "78ff1bcd5e8e0a0e466a951771b4c7ed232990e4067fa4fb7a4e2290f2f4d78a",
+      "caseCollisionGroups": [
+        {
+          "members": [
+            "commonMain/androidx/compose/material/icons/filled/AddChart.kt",
+            "commonMain/androidx/compose/material/icons/filled/Addchart.kt"
+          ],
+          "stagedPaths": [
+            "commonMain/androidx/compose/material/icons/filled/__case_1/AddChart.kt",
+            "commonMain/androidx/compose/material/icons/filled/__case_2/Addchart.kt"
+          ]
+        },
+        {
+          "members": [
+            "commonMain/androidx/compose/material/icons/outlined/AddChart.kt",
+            "commonMain/androidx/compose/material/icons/outlined/Addchart.kt"
+          ],
+          "stagedPaths": [
+            "commonMain/androidx/compose/material/icons/outlined/__case_1/AddChart.kt",
+            "commonMain/androidx/compose/material/icons/outlined/__case_2/Addchart.kt"
+          ]
+        },
+        {
+          "members": [
+            "commonMain/androidx/compose/material/icons/rounded/AddChart.kt",
+            "commonMain/androidx/compose/material/icons/rounded/Addchart.kt"
+          ],
+          "stagedPaths": [
+            "commonMain/androidx/compose/material/icons/rounded/__case_1/AddChart.kt",
+            "commonMain/androidx/compose/material/icons/rounded/__case_2/Addchart.kt"
+          ]
+        },
+        {
+          "members": [
+            "commonMain/androidx/compose/material/icons/sharp/AddChart.kt",
+            "commonMain/androidx/compose/material/icons/sharp/Addchart.kt"
+          ],
+          "stagedPaths": [
+            "commonMain/androidx/compose/material/icons/sharp/__case_1/AddChart.kt",
+            "commonMain/androidx/compose/material/icons/sharp/__case_2/Addchart.kt"
+          ]
+        },
+        {
+          "members": [
+            "commonMain/androidx/compose/material/icons/twotone/AddChart.kt",
+            "commonMain/androidx/compose/material/icons/twotone/Addchart.kt"
+          ],
+          "stagedPaths": [
+            "commonMain/androidx/compose/material/icons/twotone/__case_1/AddChart.kt",
+            "commonMain/androidx/compose/material/icons/twotone/__case_2/Addchart.kt"
+          ]
+        }
+      ],
+      "mappingSha256": "ffdafb12e6e10c6589064bc9ffdab642d2ba73aa85d0b8239d55b51c4f7a5e74"
+    }
+  },
+  "mavenInputs": {
+    "schemaVersion": 1,
+    "policy": "COMPLETE_OFFICIAL_COMMONMAIN_SOURCES_ORIGINAL_BYTES_NO_PATCHES",
+    "sourceSetDigest": "SHA256 of UTF-8 compact JSON sorted keys; records sorted by member; fields member,size,sha256 for all Kotlin entries",
+    "modules": {
+      "material-icons-core": {
+        "kotlinSourceCount": 281,
+        "compilePrefix": "commonMain/",
+        "compileSuffix": ".kt",
+        "sources": {
+          "path": "vendor/material-icons-core/material-icons-core-1.7.3-sources.jar",
+          "size": 284048,
+          "sha256": "b3f1be7fda4d13a6d938bb918275ddc143e9d6a2007727f284778480526f5f16"
+        },
+        "pom": {
+          "path": "vendor/material-icons-core/material-icons-core-1.7.3.pom",
+          "size": 2996,
+          "sha256": "c03be24a41650d1dd837ffad000ecc7fccbecb6100a0e8f480398470c42a846a"
+        },
+        "gmm": {
+          "path": "vendor/material-icons-core/material-icons-core-1.7.3.module",
+          "size": 21544,
+          "sha256": "6f330e6d0a62a292135a30c1c53ea5196ad7aeb048679af61e4fc92a662e9076"
+        },
+        "sourceSetSha256": "8a4755af41813e67ea22571afc9cf69e000dfb1dd03b3e1648675e733ce20b2a",
+        "sampleMembers": [
+          {
+            "member": "commonMain/androidx/compose/material/icons/Icons.kt",
+            "size": 11097,
+            "sha256": "14b1a6e6d508fc2c50c0ca241d0fe25a559f5143a3364760e48c0ef8a068a2e5"
+          },
+          {
+            "member": "commonMain/androidx/compose/material/icons/automirrored/outlined/KeyboardArrowLeft.kt",
+            "size": 1650,
+            "sha256": "c32776f8053aeaa4f4de28872ca1abbc8c458fa450d5f9b6eb1254ec25f0f5dc"
+          },
+          {
+            "member": "commonMain/androidx/compose/material/icons/automirrored/outlined/KeyboardArrowRight.kt",
+            "size": 1648,
+            "sha256": "a44f236c6cd97837a00e788ac82961a204a8cd403ad89d15a00c8c1d5ead035c"
+          }
+        ],
+        "upstreamCommonDependencies": [
+          {
+            "group": "org.jetbrains.compose.ui",
+            "module": "ui",
+            "version": {
+              "requires": "1.7.3"
+            }
+          },
+          {
+            "group": "org.jetbrains.compose.ui",
+            "module": "ui-graphics",
+            "version": {
+              "requires": "1.7.3"
+            }
+          },
+          {
+            "group": "org.jetbrains.compose.ui",
+            "module": "ui-unit",
+            "version": {
+              "requires": "1.7.3"
+            }
+          },
+          {
+            "group": "org.jetbrains.kotlin",
+            "module": "kotlin-stdlib-common",
+            "version": {
+              "requires": "1.9.24"
+            }
+          }
+        ]
+      },
+      "material-icons-extended": {
+        "kotlinSourceCount": 11105,
+        "compilePrefix": "commonMain/",
+        "compileSuffix": ".kt",
+        "sources": {
+          "path": "vendor/material-icons-extended/material-icons-extended-1.7.3-sources.jar",
+          "size": 12085967,
+          "sha256": "4e23237644f7da35c391cc4c0263b95248605f499ab46f6d2c92d4fe48793d5a"
+        },
+        "pom": {
+          "path": "vendor/material-icons-extended/material-icons-extended-1.7.3.pom",
+          "size": 2847,
+          "sha256": "dcdca2272eedeaf9406663b9b38ccc97c7179e85aa1ca78932ec6122e559958c"
+        },
+        "gmm": {
+          "path": "vendor/material-icons-extended/material-icons-extended-1.7.3.module",
+          "size": 21451,
+          "sha256": "b1fa9ad76bde01d9869f9bb0c7129cd2b072794f237e04d15e3ef7c8a66a4872"
+        },
+        "sourceSetSha256": "78ff1bcd5e8e0a0e466a951771b4c7ed232990e4067fa4fb7a4e2290f2f4d78a",
+        "sampleMembers": [
+          {
+            "member": "commonMain/androidx/compose/material/icons/filled/CalendarMonth.kt",
+            "size": 3693,
+            "sha256": "793de01d126f37e1d3289cdc23c0bf29753546546f36286cc9bdbb99e1cc8b7a"
+          },
+          {
+            "member": "commonMain/androidx/compose/material/icons/outlined/AccountBalanceWallet.kt",
+            "size": 3089,
+            "sha256": "e3e577ad9531c94e2a0909fb63e9afcc0311eedb770f2fc2bb7271e7f4e65153"
+          }
+        ],
+        "upstreamCommonDependencies": [
+          {
+            "group": "org.jetbrains.compose.material",
+            "module": "material-icons-core",
+            "version": {
+              "requires": "1.7.3"
+            }
+          },
+          {
+            "group": "org.jetbrains.compose.ui",
+            "module": "ui",
+            "version": {
+              "requires": "1.7.3"
+            }
+          },
+          {
+            "group": "org.jetbrains.compose.ui",
+            "module": "ui-graphics",
+            "version": {
+              "requires": "1.7.3"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "originalPortInputs": {
+    "schemaVersion": 1,
+    "originalPortCommit": "a2c2a1ddfc81e876ee2fe1686681aa3b00b160ac",
+    "upstreamForkCommit": "6a03ba934d30f31bf55c36d36e46aec9a7701477",
+    "note": "Material 1.7.3 Maven artifacts are not claimed to be byte-identical to the Git tree.",
+    "files": [
+      {
+        "originalPath": "harmony-build/ports/material-icons/MaterialIconsPort.py",
+        "forkPath": "ohos/MaterialIconsPort.py",
+        "size": 24618,
+        "sha256": "d807f6d859e0b7e84cb1d401d3093afd106731e5dbd15e2a5b47c915b3aa2f9b"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/README.md",
+        "forkPath": "ohos/README.md",
+        "size": 4894,
+        "sha256": "a3be026ba0101ec84a109787ef425cb2ab53b96d787cfb012aa358ad9c03d77c"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/build.gradle.kts",
+        "forkPath": "ohos/build.gradle.kts",
+        "size": 15632,
+        "sha256": "259a2f635136a73316d51d4d90294d3cc67833a16e02e7d919cfcf25dc2ed570"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/dependency-pins.json",
+        "forkPath": "ohos/dependency-pins.json",
+        "size": 9835,
+        "sha256": "84c193c01f9d76e49ea077c9314192f9e07cb75e3b77b2c96e5105716eb36d77"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/gradle.properties",
+        "forkPath": "ohos/gradle.properties",
+        "size": 314,
+        "sha256": "993600cfde45bf43788143c6eb2ebab1949c733ef38cc4abc3437c6e2112ed40"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/gradlew.bat",
+        "forkPath": "ohos/gradlew.bat",
+        "size": 455,
+        "sha256": "d81d8fdf6b2cb409fa270e4b7d3ae05ceb947643923b0e1fbb85b1d0b45a43e9"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/legal/LICENSE",
+        "forkPath": "ohos/legal/LICENSE",
+        "size": 11358,
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/legal/notice-lookups.json",
+        "forkPath": "ohos/legal/notice-lookups.json",
+        "size": 772,
+        "sha256": "382f6af18f27afea9918693bdc1b986e4a46a89c756217012acbdef7dd922ba5"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/legal/origins.json",
+        "forkPath": "ohos/legal/origins.json",
+        "size": 4224,
+        "sha256": "ebea35e670c448bfffb9a74c0a3f7ee70204eb09778e9fce836f5cc0ed28cc75"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/material-icons-core/build.gradle.kts",
+        "forkPath": "ohos/material-icons-core/build.gradle.kts",
+        "size": 89,
+        "sha256": "aa5af45b91816f1a61cbc96555260ba13c8bfd40e649bc9a73b0fac1aa9845e3"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/material-icons-extended/build.gradle.kts",
+        "forkPath": "ohos/material-icons-extended/build.gradle.kts",
+        "size": 89,
+        "sha256": "aa5af45b91816f1a61cbc96555260ba13c8bfd40e649bc9a73b0fac1aa9845e3"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/metadata-pins.json",
+        "forkPath": "ohos/metadata-pins.json",
+        "size": 866,
+        "sha256": "d8a3bc5839dc003c8b86795082a166250dc61628c66c464be8f5a15792ca04b8"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/port-config.json",
+        "forkPath": "ohos/port-config.json",
+        "size": 2070,
+        "sha256": "7fdd6b44388a1f54286bb14693b9adc0bec6716ead028346c90967a3299f40cf"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/settings.gradle.kts",
+        "forkPath": "ohos/settings.gradle.kts",
+        "size": 1915,
+        "sha256": "b001ab9b0cd0c3c7b3371bd844946d4a4a8965c61f9bfb5730a17221f9b49c51"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/source-inputs.json",
+        "forkPath": "ohos/source-inputs.json",
+        "size": 4519,
+        "sha256": "8c7a09e3fdc977232add5ccfe31e9ee01b881c9445dd50c0f834c6ae91898e7d"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/vendor/material-icons-core/material-icons-core-1.7.3-sources.jar",
+        "forkPath": "ohos/vendor/material-icons-core/material-icons-core-1.7.3-sources.jar",
+        "size": 284048,
+        "sha256": "b3f1be7fda4d13a6d938bb918275ddc143e9d6a2007727f284778480526f5f16"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/vendor/material-icons-core/material-icons-core-1.7.3.module",
+        "forkPath": "ohos/vendor/material-icons-core/material-icons-core-1.7.3.module",
+        "size": 21544,
+        "sha256": "6f330e6d0a62a292135a30c1c53ea5196ad7aeb048679af61e4fc92a662e9076"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/vendor/material-icons-core/material-icons-core-1.7.3.pom",
+        "forkPath": "ohos/vendor/material-icons-core/material-icons-core-1.7.3.pom",
+        "size": 2996,
+        "sha256": "c03be24a41650d1dd837ffad000ecc7fccbecb6100a0e8f480398470c42a846a"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/vendor/material-icons-extended/material-icons-extended-1.7.3-sources.jar",
+        "forkPath": "ohos/vendor/material-icons-extended/material-icons-extended-1.7.3-sources.jar",
+        "size": 12085967,
+        "sha256": "4e23237644f7da35c391cc4c0263b95248605f499ab46f6d2c92d4fe48793d5a"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/vendor/material-icons-extended/material-icons-extended-1.7.3.module",
+        "forkPath": "ohos/vendor/material-icons-extended/material-icons-extended-1.7.3.module",
+        "size": 21451,
+        "sha256": "b1fa9ad76bde01d9869f9bb0c7129cd2b072794f237e04d15e3ef7c8a66a4872"
+      },
+      {
+        "originalPath": "harmony-build/ports/material-icons/vendor/material-icons-extended/material-icons-extended-1.7.3.pom",
+        "forkPath": "ohos/vendor/material-icons-extended/material-icons-extended-1.7.3.pom",
+        "size": 2847,
+        "sha256": "dcdca2272eedeaf9406663b9b38ccc97c7179e85aa1ca78932ec6122e559958c"
+      },
+      {
+        "originalPath": "harmony-build/gradle/wrapper/gradle-wrapper.jar",
+        "forkPath": "ohos/gradle/wrapper/gradle-wrapper.jar",
+        "size": 43764,
+        "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172"
+      },
+      {
+        "originalPath": "harmony-build/gradle/wrapper/gradle-wrapper.properties",
+        "forkPath": "ohos/gradle/wrapper/gradle-wrapper.properties",
+        "size": 339,
+        "sha256": "93b4f2c5ddcfc9e6f630fc7e004b31b389695cd0228be6da42e196e5d4af7acb"
+      }
+    ]
+  },
+  "legal": {
+    "path": "legal/LICENSE",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "runtime": "NOT_RUN"
+}

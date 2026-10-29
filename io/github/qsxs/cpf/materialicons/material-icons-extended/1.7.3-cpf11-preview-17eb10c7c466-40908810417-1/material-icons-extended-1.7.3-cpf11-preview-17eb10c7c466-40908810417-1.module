@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.qsxs.cpf.materialicons",
+    "module": "material-icons-extended",
+    "version": "1.7.3-cpf11-preview-17eb10c7c466-40908810417-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.qsxs.cpf.materialicons",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.3-cpf11-preview-17eb10c7c466-40908810417-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-icons-extended-metadata-1.7.3-cpf11-preview-17eb10c7c466-40908810417-1.jar",
+          "url": "material-icons-extended-1.7.3-cpf11-preview-17eb10c7c466-40908810417-1.jar",
+          "size": 5554308,
+          "sha512": "fff018f493d19b9122e1535ebfbd2dfdb0d8d6d4cd2860612d7d00187df31e99aabb1a46bdb691039cccfb31e5339c17febc9d6e09b48d09d94db697d24234ea",
+          "sha256": "b44fb0beea15b43317880802fe5b2dee5e1b7a461215a9137697efa45b9488df",
+          "sha1": "5cb5dce532c65554d1716b99ed44d8eaafd2906d",
+          "md5": "1b4e4b2737546aa0692a8b61aba5d474"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "material-icons-extended-kotlin-1.7.3-cpf11-preview-17eb10c7c466-40908810417-1-sources.jar",
+          "url": "material-icons-extended-1.7.3-cpf11-preview-17eb10c7c466-40908810417-1-sources.jar",
+          "size": 12095224,
+          "sha512": "cf2397ed922fceb19ad115f7beb51de7e648c5712f897927b978190a6f3a290e5785d36894d75ba7a3d30e6d4daba9b89484b9047cce639f80b71d87f23c8fc0",
+          "sha256": "aa32d209082c8829a9bc5d76c92f7379914f7dfbc7175fa736383e9e231a5d4e",
+          "sha1": "8fbebae59937a595624290e4b1c78378af74a6c3",
+          "md5": "18d89edcd3640378173230c31252cf77"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-icons-extended-ohosarm64/1.7.3-cpf11-preview-17eb10c7c466-40908810417-1/material-icons-extended-ohosarm64-1.7.3-cpf11-preview-17eb10c7c466-40908810417-1.module",
+        "group": "io.github.qsxs.cpf.materialicons",
+        "module": "material-icons-extended-ohosarm64",
+        "version": "1.7.3-cpf11-preview-17eb10c7c466-40908810417-1"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-icons-extended-ohosarm64/1.7.3-cpf11-preview-17eb10c7c466-40908810417-1/material-icons-extended-ohosarm64-1.7.3-cpf11-preview-17eb10c7c466-40908810417-1.module",
+        "group": "io.github.qsxs.cpf.materialicons",
+        "module": "material-icons-extended-ohosarm64",
+        "version": "1.7.3-cpf11-preview-17eb10c7c466-40908810417-1"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-icons-extended-ohosx64/1.7.3-cpf11-preview-17eb10c7c466-40908810417-1/material-icons-extended-ohosx64-1.7.3-cpf11-preview-17eb10c7c466-40908810417-1.module",
+        "group": "io.github.qsxs.cpf.materialicons",
+        "module": "material-icons-extended-ohosx64",
+        "version": "1.7.3-cpf11-preview-17eb10c7c466-40908810417-1"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../material-icons-extended-ohosx64/1.7.3-cpf11-preview-17eb10c7c466-40908810417-1/material-icons-extended-ohosx64-1.7.3-cpf11-preview-17eb10c7c466-40908810417-1.module",
+        "group": "io.github.qsxs.cpf.materialicons",
+        "module": "material-icons-extended-ohosx64",
+        "version": "1.7.3-cpf11-preview-17eb10c7c466-40908810417-1"
+      }
+    }
+  ]
+}
