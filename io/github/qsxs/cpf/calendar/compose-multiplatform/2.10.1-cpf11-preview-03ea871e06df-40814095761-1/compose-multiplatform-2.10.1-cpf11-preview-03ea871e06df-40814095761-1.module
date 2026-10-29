@@ -1,0 +1,229 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.qsxs.cpf.calendar",
+    "module": "compose-multiplatform",
+    "version": "2.10.1-cpf11-preview-03ea871e06df-40814095761-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-ui-tooling-preview",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.annotation-internal",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-multiplatform-metadata-2.10.1-cpf11-preview-03ea871e06df-40814095761-1.jar",
+          "url": "compose-multiplatform-2.10.1-cpf11-preview-03ea871e06df-40814095761-1.jar",
+          "size": 94555,
+          "sha512": "c9a4b4a5f1b042e67107e77aae76ec9fec3b57cae020e66183d9ba11b1df1d80d15f47d2599c1f1d40de71995af9cb76f10d165d183b57167071c9a36afeac02",
+          "sha256": "a612535bfb7f7626312923cc7afff71628b79f90fbb6ed890510e455ffe2c986",
+          "sha1": "68a081eeb864ee5a50271cbbf5adf559836887cd",
+          "md5": "b124820ebdbf553ec3506e4f3c5f2930"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "compose-multiplatform-kotlin-2.10.1-cpf11-preview-03ea871e06df-40814095761-1-sources.jar",
+          "url": "compose-multiplatform-2.10.1-cpf11-preview-03ea871e06df-40814095761-1-sources.jar",
+          "size": 59790,
+          "sha512": "1f9e0c6723edbc063329512e83df55b08ee60ccdfcc35723dd344df2e197bf9ed566bab281e6289d0de24317d42730309fcd8150ee234708d13492d92c24706e",
+          "sha256": "e8fc6f2275030356673747c38614e98d65d56f816a4fc5345516636c1c94d408",
+          "sha1": "91c4acfe96c7250ba790815c75707bd167952c0d",
+          "md5": "332510846cf2ea3b0ef7f530b8f94762"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-ohosarm64/2.10.1-cpf11-preview-03ea871e06df-40814095761-1/compose-multiplatform-ohosarm64-2.10.1-cpf11-preview-03ea871e06df-40814095761-1.module",
+        "group": "io.github.qsxs.cpf.calendar",
+        "module": "compose-multiplatform-ohosarm64",
+        "version": "2.10.1-cpf11-preview-03ea871e06df-40814095761-1"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-ohosarm64/2.10.1-cpf11-preview-03ea871e06df-40814095761-1/compose-multiplatform-ohosarm64-2.10.1-cpf11-preview-03ea871e06df-40814095761-1.module",
+        "group": "io.github.qsxs.cpf.calendar",
+        "module": "compose-multiplatform-ohosarm64",
+        "version": "2.10.1-cpf11-preview-03ea871e06df-40814095761-1"
+      }
+    },
+    {
+      "name": "ohosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-ohosarm64/2.10.1-cpf11-preview-03ea871e06df-40814095761-1/compose-multiplatform-ohosarm64-2.10.1-cpf11-preview-03ea871e06df-40814095761-1.module",
+        "group": "io.github.qsxs.cpf.calendar",
+        "module": "compose-multiplatform-ohosarm64",
+        "version": "2.10.1-cpf11-preview-03ea871e06df-40814095761-1"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-ohosx64/2.10.1-cpf11-preview-03ea871e06df-40814095761-1/compose-multiplatform-ohosx64-2.10.1-cpf11-preview-03ea871e06df-40814095761-1.module",
+        "group": "io.github.qsxs.cpf.calendar",
+        "module": "compose-multiplatform-ohosx64",
+        "version": "2.10.1-cpf11-preview-03ea871e06df-40814095761-1"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-ohosx64/2.10.1-cpf11-preview-03ea871e06df-40814095761-1/compose-multiplatform-ohosx64-2.10.1-cpf11-preview-03ea871e06df-40814095761-1.module",
+        "group": "io.github.qsxs.cpf.calendar",
+        "module": "compose-multiplatform-ohosx64",
+        "version": "2.10.1-cpf11-preview-03ea871e06df-40814095761-1"
+      }
+    },
+    {
+      "name": "ohosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-multiplatform-ohosx64/2.10.1-cpf11-preview-03ea871e06df-40814095761-1/compose-multiplatform-ohosx64-2.10.1-cpf11-preview-03ea871e06df-40814095761-1.module",
+        "group": "io.github.qsxs.cpf.calendar",
+        "module": "compose-multiplatform-ohosx64",
+        "version": "2.10.1-cpf11-preview-03ea871e06df-40814095761-1"
+      }
+    }
+  ]
+}
