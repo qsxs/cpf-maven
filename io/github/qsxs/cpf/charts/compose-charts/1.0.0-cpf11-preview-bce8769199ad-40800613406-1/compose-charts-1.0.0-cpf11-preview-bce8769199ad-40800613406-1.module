@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.qsxs.cpf.charts",
+    "module": "compose-charts",
+    "version": "1.0.0-cpf11-preview-bce8769199ad-40800613406-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-charts-metadata-1.0.0-cpf11-preview-bce8769199ad-40800613406-1.jar",
+          "url": "compose-charts-1.0.0-cpf11-preview-bce8769199ad-40800613406-1.jar",
+          "size": 63470,
+          "sha512": "1a0949c2d9760276d31be7db9391c55bc4bbd8dfaf1fcc813be40a03f044f10665ef0adde65609dd676d33a1d4f9c448bba36ac62697e29f581d8fbe575d1af0",
+          "sha256": "37d7f029613b886dfc7a2fa4f93d2f28fc4edb882131d406d36d350d7a8051eb",
+          "sha1": "e375c43ebd0895daf40ecaaf257f787c72949bb1",
+          "md5": "d88626db18c548c47119dfe26f88e7ec"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "compose-charts-kotlin-1.0.0-cpf11-preview-bce8769199ad-40800613406-1-sources.jar",
+          "url": "compose-charts-1.0.0-cpf11-preview-bce8769199ad-40800613406-1-sources.jar",
+          "size": 66766,
+          "sha512": "89a91e841cf4d88dddcdcffe4f1e5a221f255f5361eae0c74557f5a9af007db55cdcc9a4496bc8a862851c4612611d5c7bc24c2368bfe6cfd267f969314bfe19",
+          "sha256": "20d7085e22f5ffd6df16b98283e2c35ba7deb6c1fb293ab8ffd2062cd197e6c3",
+          "sha1": "de5744c41ca10757c20e868fbb3c20d2d13e1859",
+          "md5": "54a66174d63ee85179361f0f19fb7760"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-charts-ohosarm64/1.0.0-cpf11-preview-bce8769199ad-40800613406-1/compose-charts-ohosarm64-1.0.0-cpf11-preview-bce8769199ad-40800613406-1.module",
+        "group": "io.github.qsxs.cpf.charts",
+        "module": "compose-charts-ohosarm64",
+        "version": "1.0.0-cpf11-preview-bce8769199ad-40800613406-1"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-charts-ohosarm64/1.0.0-cpf11-preview-bce8769199ad-40800613406-1/compose-charts-ohosarm64-1.0.0-cpf11-preview-bce8769199ad-40800613406-1.module",
+        "group": "io.github.qsxs.cpf.charts",
+        "module": "compose-charts-ohosarm64",
+        "version": "1.0.0-cpf11-preview-bce8769199ad-40800613406-1"
+      }
+    },
+    {
+      "name": "ohosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-charts-ohosarm64/1.0.0-cpf11-preview-bce8769199ad-40800613406-1/compose-charts-ohosarm64-1.0.0-cpf11-preview-bce8769199ad-40800613406-1.module",
+        "group": "io.github.qsxs.cpf.charts",
+        "module": "compose-charts-ohosarm64",
+        "version": "1.0.0-cpf11-preview-bce8769199ad-40800613406-1"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-charts-ohosx64/1.0.0-cpf11-preview-bce8769199ad-40800613406-1/compose-charts-ohosx64-1.0.0-cpf11-preview-bce8769199ad-40800613406-1.module",
+        "group": "io.github.qsxs.cpf.charts",
+        "module": "compose-charts-ohosx64",
+        "version": "1.0.0-cpf11-preview-bce8769199ad-40800613406-1"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-charts-ohosx64/1.0.0-cpf11-preview-bce8769199ad-40800613406-1/compose-charts-ohosx64-1.0.0-cpf11-preview-bce8769199ad-40800613406-1.module",
+        "group": "io.github.qsxs.cpf.charts",
+        "module": "compose-charts-ohosx64",
+        "version": "1.0.0-cpf11-preview-bce8769199ad-40800613406-1"
+      }
+    },
+    {
+      "name": "ohosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-charts-ohosx64/1.0.0-cpf11-preview-bce8769199ad-40800613406-1/compose-charts-ohosx64-1.0.0-cpf11-preview-bce8769199ad-40800613406-1.module",
+        "group": "io.github.qsxs.cpf.charts",
+        "module": "compose-charts-ohosx64",
+        "version": "1.0.0-cpf11-preview-bce8769199ad-40800613406-1"
+      }
+    }
+  ]
+}

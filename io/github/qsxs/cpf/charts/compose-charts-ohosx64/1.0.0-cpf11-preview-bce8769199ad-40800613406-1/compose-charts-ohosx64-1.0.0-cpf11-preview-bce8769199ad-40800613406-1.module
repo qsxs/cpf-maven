@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../compose-charts/1.0.0-cpf11-preview-bce8769199ad-40800613406-1/compose-charts-1.0.0-cpf11-preview-bce8769199ad-40800613406-1.module",
+    "group": "io.github.qsxs.cpf.charts",
+    "module": "compose-charts",
+    "version": "1.0.0-cpf11-preview-bce8769199ad-40800613406-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-charts-ohosX64Main-1.0.0-cpf11-preview-bce8769199ad-40800613406-1.klib",
+          "url": "compose-charts-ohosx64-1.0.0-cpf11-preview-bce8769199ad-40800613406-1.klib",
+          "size": 287745,
+          "sha512": "f83d0e958b5eed012d447c8d21b0085ce7d0c1a20326f630511a6464b1f58bf27658a097763205e9c37c5a40ee6aadcec15ff8d1780cd3bf883b1db76b46048b",
+          "sha256": "b8a9b704ab87bd2a035e0c1ed99837d25ad18725a8f8aecbe1fc7129dc0d2ba7",
+          "sha1": "f70e128c94950c19a3201bf5b53c814118287949",
+          "md5": "d0ef3a0ffaf96a3f41ca136337ffcf4e"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "compose-charts-ohosx64-1.0.0-cpf11-preview-bce8769199ad-40800613406-1-sources.jar",
+          "url": "compose-charts-ohosx64-1.0.0-cpf11-preview-bce8769199ad-40800613406-1-sources.jar",
+          "size": 66766,
+          "sha512": "e810d4f023c80aef8c34083850c923c0896f7fedb758d63252b266a05403f55703b653726187812bfdc5975a26d2c3167c3e1eb79e20e5b5276e33fc5639e98c",
+          "sha256": "9b3c03978856c75248eb7aed873671259b3896e4a2f69907912858b79acff6fe",
+          "sha1": "8f4d5b4fed0126e383941a41232499f4dc530b68",
+          "md5": "1ad94fd23f3b6289e0d4bebb7c508b95"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-charts-1.0.0-cpf11-preview-bce8769199ad-40800613406-1.kotlin_resources.zip",
+          "url": "compose-charts-ohosx64-1.0.0-cpf11-preview-bce8769199ad-40800613406-1-kotlin_resources.kotlin_resources.zip",
+          "size": 368,
+          "sha512": "98998ad680df75be2534003e8527e5305735f7ee20e741e944047b71bf571afae1bc5dd18f86e69a488c58a2591f91d5d2db8f7ae339624f2241c41133848112",
+          "sha256": "99abef08fe4deba9808ac541118dadb926ee58e2603781e025401a3f5308aa5d",
+          "sha1": "2c95982ef524e7bde3b5cbdc07fcd341840dbe6e",
+          "md5": "54fe6461326902f55f252680078c324c"
+        }
+      ]
+    }
+  ]
+}
