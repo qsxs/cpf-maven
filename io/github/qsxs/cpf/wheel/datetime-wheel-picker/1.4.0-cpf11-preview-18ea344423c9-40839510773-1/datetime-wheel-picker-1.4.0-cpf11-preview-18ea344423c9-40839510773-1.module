@@ -1,0 +1,201 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.qsxs.cpf.wheel",
+    "module": "datetime-wheel-picker",
+    "version": "1.4.0-cpf11-preview-18ea344423c9-40839510773-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "io.github.qsxs.cpf.lyricist",
+          "module": "lyricist",
+          "version": {
+            "requires": "1.8.0-cpf11-preview-fad3d9091c75-40827525373-1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datetime-wheel-picker-metadata-1.4.0-cpf11-preview-18ea344423c9-40839510773-1.jar",
+          "url": "datetime-wheel-picker-1.4.0-cpf11-preview-18ea344423c9-40839510773-1.jar",
+          "size": 55213,
+          "sha512": "75aaffc8c17fa9d9b3cecfacac301de82c1a903449667121af7c84ac1414f80d3e801758a1cf2386e18561af2181bf361731dca8e6a094b94199473879f0916b",
+          "sha256": "4d46fc6325ceee3ed2a86b49147805ffe1379107914d8cf1d23ccdbf90843977",
+          "sha1": "bfa2ad856063df25e4ad921a9d8fabdbdadf545e",
+          "md5": "88137f18b317086b5dd76aea915f0032"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "datetime-wheel-picker-kotlin-1.4.0-cpf11-preview-18ea344423c9-40839510773-1-sources.jar",
+          "url": "datetime-wheel-picker-1.4.0-cpf11-preview-18ea344423c9-40839510773-1-sources.jar",
+          "size": 64190,
+          "sha512": "092ae47a54ff94696ca0aa7d28cf27beb92c6b521b6847d4acc3cae2624d293fb393da9b758bfc2676b6ebf193a2bb6a3ecf1788a8772ef96b7fb230aac06467",
+          "sha256": "2d0f05d69b4b220c887c21b2d86305ca9342ad11df7e0906a94e117564b51cea",
+          "sha1": "b4d0adfa89b2c3a83d2cded8c32578452332f43d",
+          "md5": "4fc7e5272e06d2e47191982d6e452c0f"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datetime-wheel-picker-ohosarm64/1.4.0-cpf11-preview-18ea344423c9-40839510773-1/datetime-wheel-picker-ohosarm64-1.4.0-cpf11-preview-18ea344423c9-40839510773-1.module",
+        "group": "io.github.qsxs.cpf.wheel",
+        "module": "datetime-wheel-picker-ohosarm64",
+        "version": "1.4.0-cpf11-preview-18ea344423c9-40839510773-1"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datetime-wheel-picker-ohosarm64/1.4.0-cpf11-preview-18ea344423c9-40839510773-1/datetime-wheel-picker-ohosarm64-1.4.0-cpf11-preview-18ea344423c9-40839510773-1.module",
+        "group": "io.github.qsxs.cpf.wheel",
+        "module": "datetime-wheel-picker-ohosarm64",
+        "version": "1.4.0-cpf11-preview-18ea344423c9-40839510773-1"
+      }
+    },
+    {
+      "name": "ohosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datetime-wheel-picker-ohosarm64/1.4.0-cpf11-preview-18ea344423c9-40839510773-1/datetime-wheel-picker-ohosarm64-1.4.0-cpf11-preview-18ea344423c9-40839510773-1.module",
+        "group": "io.github.qsxs.cpf.wheel",
+        "module": "datetime-wheel-picker-ohosarm64",
+        "version": "1.4.0-cpf11-preview-18ea344423c9-40839510773-1"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datetime-wheel-picker-ohosx64/1.4.0-cpf11-preview-18ea344423c9-40839510773-1/datetime-wheel-picker-ohosx64-1.4.0-cpf11-preview-18ea344423c9-40839510773-1.module",
+        "group": "io.github.qsxs.cpf.wheel",
+        "module": "datetime-wheel-picker-ohosx64",
+        "version": "1.4.0-cpf11-preview-18ea344423c9-40839510773-1"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datetime-wheel-picker-ohosx64/1.4.0-cpf11-preview-18ea344423c9-40839510773-1/datetime-wheel-picker-ohosx64-1.4.0-cpf11-preview-18ea344423c9-40839510773-1.module",
+        "group": "io.github.qsxs.cpf.wheel",
+        "module": "datetime-wheel-picker-ohosx64",
+        "version": "1.4.0-cpf11-preview-18ea344423c9-40839510773-1"
+      }
+    },
+    {
+      "name": "ohosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../datetime-wheel-picker-ohosx64/1.4.0-cpf11-preview-18ea344423c9-40839510773-1/datetime-wheel-picker-ohosx64-1.4.0-cpf11-preview-18ea344423c9-40839510773-1.module",
+        "group": "io.github.qsxs.cpf.wheel",
+        "module": "datetime-wheel-picker-ohosx64",
+        "version": "1.4.0-cpf11-preview-18ea344423c9-40839510773-1"
+      }
+    }
+  ]
+}
