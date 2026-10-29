@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.qsxs.cpf.filekit",
+    "module": "filekit-core",
+    "version": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.1-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.annotation-internal",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1-0.1.0-11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filekit-core-metadata-0.16.0-cpf11-preview-22683094fd5d-40864370116-1.jar",
+          "url": "filekit-core-0.16.0-cpf11-preview-22683094fd5d-40864370116-1.jar",
+          "size": 37189,
+          "sha512": "f14f6cc6b9de0e35aaca17424dbe0c3fc6808fe957569232f1b06adfdc0f09da15ba2f47ef8dc8e2977081a43e28408f24a6a217fe76edf8f528a778c1cb340c",
+          "sha256": "70c5944ae35cde5b2dd6d8910273adac50f3af4f1618c51df5e15c36b8161cf1",
+          "sha1": "c23956b25e1af2d09f959b57a91f788c8e681a3b",
+          "md5": "3cd5c9763c9f9284ac9a2073e2c4c2a6"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "filekit-core-kotlin-0.16.0-cpf11-preview-22683094fd5d-40864370116-1-sources.jar",
+          "url": "filekit-core-0.16.0-cpf11-preview-22683094fd5d-40864370116-1-sources.jar",
+          "size": 36270,
+          "sha512": "66da1dcdb8b39ce958a726bf0b772b61b123fdca60f0ea53ce40b0001cce86aad6ada660840314b16feea98b9aea2282ae1481f4a61505e9e8739df98085d8b5",
+          "sha256": "913f1ef43b3181ea3e637f24cc904b6311cc8f49580e7196f4de36cf72887470",
+          "sha1": "462b8ffe1f42961e339a335019f66a6d545f7384",
+          "md5": "99234ff003ceecaec6d323414ae75c6a"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-core-ohosarm64/0.16.0-cpf11-preview-22683094fd5d-40864370116-1/filekit-core-ohosarm64-0.16.0-cpf11-preview-22683094fd5d-40864370116-1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-core-ohosarm64",
+        "version": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-core-ohosarm64/0.16.0-cpf11-preview-22683094fd5d-40864370116-1/filekit-core-ohosarm64-0.16.0-cpf11-preview-22683094fd5d-40864370116-1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-core-ohosarm64",
+        "version": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-core-ohosx64/0.16.0-cpf11-preview-22683094fd5d-40864370116-1/filekit-core-ohosx64-0.16.0-cpf11-preview-22683094fd5d-40864370116-1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-core-ohosx64",
+        "version": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-core-ohosx64/0.16.0-cpf11-preview-22683094fd5d-40864370116-1/filekit-core-ohosx64-0.16.0-cpf11-preview-22683094fd5d-40864370116-1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-core-ohosx64",
+        "version": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1"
+      }
+    }
+  ]
+}

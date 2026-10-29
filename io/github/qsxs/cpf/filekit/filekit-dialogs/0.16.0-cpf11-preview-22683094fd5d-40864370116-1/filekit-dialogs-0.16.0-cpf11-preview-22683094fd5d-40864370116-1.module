@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.qsxs.cpf.filekit",
+    "module": "filekit-dialogs",
+    "version": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.qsxs.cpf.filekit",
+          "module": "filekit-core",
+          "version": {
+            "requires": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filekit-dialogs-metadata-0.16.0-cpf11-preview-22683094fd5d-40864370116-1.jar",
+          "url": "filekit-dialogs-0.16.0-cpf11-preview-22683094fd5d-40864370116-1.jar",
+          "size": 36470,
+          "sha512": "27a5a2b1188aa3693bdf63e16e34f90ab82096ce131962447fe5d4c8b439554cbef7bb0129a9bc7b1ba926417924efe1d7e1cde654869b89651115759f82dc48",
+          "sha256": "faeccfa32ca8d8178571adf3d3d333850b2eeaf8eb4f4d75157e0629f3ead757",
+          "sha1": "62daaa88d7322fb2ab05ad614fff5db7de00561d",
+          "md5": "f7b706bd96b9fc27beb47c8363afe15c"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "filekit-dialogs-kotlin-0.16.0-cpf11-preview-22683094fd5d-40864370116-1-sources.jar",
+          "url": "filekit-dialogs-0.16.0-cpf11-preview-22683094fd5d-40864370116-1-sources.jar",
+          "size": 33529,
+          "sha512": "16537253831da405477ba37184409fc8d5d5f75f655ebc26d3445ce74325059476c5d74c641d7958a3be28f905b079369cd44442dd4a55f2f821094dd13eac73",
+          "sha256": "1fd50c457e2e35d83c3a5a0e12c5d6fccb70af6308e65ca1b8f0d207965b5f54",
+          "sha1": "f123d7e6894d6149a3a1f1cbc376c5c5cf7d5578",
+          "md5": "c5804e3aed9bbafb4429ef9b3a1a8d44"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-dialogs-ohosarm64/0.16.0-cpf11-preview-22683094fd5d-40864370116-1/filekit-dialogs-ohosarm64-0.16.0-cpf11-preview-22683094fd5d-40864370116-1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-dialogs-ohosarm64",
+        "version": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-dialogs-ohosarm64/0.16.0-cpf11-preview-22683094fd5d-40864370116-1/filekit-dialogs-ohosarm64-0.16.0-cpf11-preview-22683094fd5d-40864370116-1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-dialogs-ohosarm64",
+        "version": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-dialogs-ohosx64/0.16.0-cpf11-preview-22683094fd5d-40864370116-1/filekit-dialogs-ohosx64-0.16.0-cpf11-preview-22683094fd5d-40864370116-1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-dialogs-ohosx64",
+        "version": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-dialogs-ohosx64/0.16.0-cpf11-preview-22683094fd5d-40864370116-1/filekit-dialogs-ohosx64-0.16.0-cpf11-preview-22683094fd5d-40864370116-1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-dialogs-ohosx64",
+        "version": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1"
+      }
+    }
+  ]
+}
