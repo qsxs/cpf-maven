@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../lyricist-core/1.8.0-cpf11-preview-fad3d9091c75-40827525373-1/lyricist-core-1.8.0-cpf11-preview-fad3d9091c75-40827525373-1.module",
+    "group": "io.github.qsxs.cpf.lyricist",
+    "module": "lyricist-core",
+    "version": "1.8.0-cpf11-preview-fad3d9091c75-40827525373-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lyricist-core-ohosX64Main-1.8.0-cpf11-preview-fad3d9091c75-40827525373-1.klib",
+          "url": "lyricist-core-ohosx64-1.8.0-cpf11-preview-fad3d9091c75-40827525373-1.klib",
+          "size": 10979,
+          "sha512": "d73d74efbb7754cafd3266d5f5ae709f90f8e09c2e6c383b5c7f2dcc8af2db522a1406fb7f9c843f9dd417924b30649b254969c3aa6bf721044a8fc928383c65",
+          "sha256": "580dc14c78575b1e6dfd2e219b7040eacc0bddd3a8035ff0e89f9eff192f28d9",
+          "sha1": "fdd500f7538a814afcb73b797915dfe416be7924",
+          "md5": "7d48b88244eac0bd883638ca874955a3"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "lyricist-core-ohosx64-1.8.0-cpf11-preview-fad3d9091c75-40827525373-1-sources.jar",
+          "url": "lyricist-core-ohosx64-1.8.0-cpf11-preview-fad3d9091c75-40827525373-1-sources.jar",
+          "size": 4558,
+          "sha512": "7fec3696cb58fc526986d3ee8e9027fa292eb43f3d4aa31d9590f903e6c5a0cf3a3b110a83b4645c18a384c928c6e0adb623d44f415d34042db57ea31de2f34e",
+          "sha256": "706d1f956372504e97bb0512e2dd5f18b9dcc730b2aff8481c73a5c87a8df9c4",
+          "sha1": "df98ad177a482aa5591ef8228c25243bd0da26cd",
+          "md5": "090321843f8eea2597838fa3de827681"
+        }
+      ]
+    }
+  ]
+}

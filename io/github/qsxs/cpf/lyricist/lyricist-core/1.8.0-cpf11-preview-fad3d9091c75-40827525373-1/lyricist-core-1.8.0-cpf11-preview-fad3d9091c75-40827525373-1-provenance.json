@@ -1,0 +1,651 @@
+{
+  "fingerprint": "3fca02e7dea92db2eb7e7066f7d35898fbc44490ca7003fdfca3c2bf82b8ca9d",
+  "sourceCommit": "fad3d9091c75927320da3511350202e681269b2a",
+  "upstream": {
+    "repository": "https://github.com/adrielcafe/lyricist",
+    "version": "1.8.0",
+    "commit": "89b8b6821b288164f71e5196f33d8f706c758fae",
+    "license": "MIT"
+  },
+  "group": "io.github.qsxs.cpf.lyricist",
+  "modules": [
+    "lyricist",
+    "lyricist-core"
+  ],
+  "version": "1.8.0-cpf11-preview-fad3d9091c75-40827525373-1",
+  "toolingCommit": "d0cff88fd1ea2e4f08bb4409f1c802cca0c7f285",
+  "sources": [
+    {
+      "module": "lyricist",
+      "member": "commonMain/cafe/adriel/lyricist/LyricistCompose.kt",
+      "size": 1081,
+      "sha256": "d2a05223d74fb92311dfcd31f5358bba40688cfe925c79d5df8b1d901ebf38e1",
+      "gitPath": "lyricist-compose/src/commonMain/kotlin/cafe/adriel/lyricist/LyricistCompose.kt",
+      "gitBlob": "d5159a08f0bc6a488c1b5760fa45c92540c65306"
+    },
+    {
+      "module": "lyricist-core",
+      "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+      "size": 1734,
+      "sha256": "b0a3cff0ddc964a978193c79f5c7ce65208c4abf8f13754943ec30185aec9d69",
+      "gitPath": "lyricist-core/src/commonMain/kotlin/cafe.adriel.lyricist/Lyricist.kt",
+      "gitBlob": "5b07f4899df8350ea6fbe87237713cce59fcb16f"
+    }
+  ],
+  "recipe": [
+    {
+      "path": ".gitattributes",
+      "size": 32,
+      "sha256": "88dd86a092262c6d9d42acf6b0b59a9c9a17c62ad2e38fa271215caf536624c7"
+    },
+    {
+      "path": "LyricistPort.py",
+      "size": 44665,
+      "sha256": "fba985dcf9535650457c38cdf838fe15f4cb36cc713784705bfde6ef8d99e8cf"
+    },
+    {
+      "path": "README.md",
+      "size": 3079,
+      "sha256": "2377924954b42e91bab3a505e8a3d0752976b68dd5a31c684b93e38c2049b315"
+    },
+    {
+      "path": "build.gradle.kts",
+      "size": 19034,
+      "sha256": "114b599a141eeb73f2683ff05b2bc4916031bc475187d3dc7dd86ccef4105f49"
+    },
+    {
+      "path": "compiler-plugin-toolchain.json",
+      "size": 1223,
+      "sha256": "67fb3b78bcd767c83bd10eced7dd64daf1b55b63a09774815ed8c386f43ac900"
+    },
+    {
+      "path": "dependency-pins.json",
+      "size": 9835,
+      "sha256": "84c193c01f9d76e49ea077c9314192f9e07cb75e3b77b2c96e5105716eb36d77"
+    },
+    {
+      "path": "gradle.properties",
+      "size": 314,
+      "sha256": "993600cfde45bf43788143c6eb2ebab1949c733ef38cc4abc3437c6e2112ed40"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "size": 43764,
+      "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "size": 339,
+      "sha256": "93b4f2c5ddcfc9e6f630fc7e004b31b389695cd0228be6da42e196e5d4af7acb"
+    },
+    {
+      "path": "gradlew",
+      "size": 363,
+      "sha256": "0e96228f9589965a5e171190f69f6e820f128bdae180f7e2acc6e4d65f788ed5"
+    },
+    {
+      "path": "gradlew.bat",
+      "size": 272,
+      "sha256": "de67aa7ad9ed6930acff91f8f561a9d33697e8de8bf8baba93ff194cd860b048"
+    },
+    {
+      "path": "legal/LYRICIST-LICENSE.md",
+      "size": 1080,
+      "sha256": "b55f5b44f477d275044af430d3d8d1c0eb644bf586459c89226b216e1c225929"
+    },
+    {
+      "path": "lyricist-core/build.gradle.kts",
+      "size": 60,
+      "sha256": "bf63b5f8af30c486fd6b3ad9fcc80580a2be81612818469b11e85ed36f7939f8"
+    },
+    {
+      "path": "lyricist/build.gradle.kts",
+      "size": 121,
+      "sha256": "b5363caca7c1020ba9906ca2e55bf1742b3e99cbecee36221910ba8427c72ed4"
+    },
+    {
+      "path": "metadata-pins.json",
+      "size": 866,
+      "sha256": "d8a3bc5839dc003c8b86795082a166250dc61628c66c464be8f5a15792ca04b8"
+    },
+    {
+      "path": "port-config.json",
+      "size": 1028,
+      "sha256": "6a4744859d1ce83dc53a970f387a4ebeb65d52bf62077fc71624a458a36a15b1"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "size": 2452,
+      "sha256": "cc0973cdced5798547da0235c6058a69d7e0cba68aedde26d691d517088e4ece"
+    },
+    {
+      "path": "source-inputs.json",
+      "size": 19418,
+      "sha256": "95faad89d693eea9feaf6ebfce7e09b141656a34163a770db4215d7b013582cd"
+    },
+    {
+      "path": "tooling-lock.json",
+      "size": 4953,
+      "sha256": "886a9d79daae5c49dc9604cbaab9b709cf20d8dd7f607ada3a5610c3565243f0"
+    },
+    {
+      "path": "vendor/kotlin-compose-compiler-plugin-embeddable-2.4.20-0.1.0-08.pom",
+      "size": 1257,
+      "sha256": "d38ccafd8914713808fb9d66a5deb11b742dcd05d6420e8b0351ca146795540b"
+    },
+    {
+      "path": "vendor/lyricist-1.8.0-sources.jar",
+      "size": 1287,
+      "sha256": "7ace8ee1feb973684e4ec4f45867617d3377601706f835ed8da09eb1e61646fa"
+    },
+    {
+      "path": "vendor/lyricist-1.8.0.module",
+      "size": 23875,
+      "sha256": "0c7aedd9dfde5ff8dc138e62a92d352338d436e21555526a105516be175683a8"
+    },
+    {
+      "path": "vendor/lyricist-1.8.0.pom",
+      "size": 2165,
+      "sha256": "1a2784b43542b74576139dbdcb5aa09d5be52199a90f7a8b58fe82d10f44906c"
+    },
+    {
+      "path": "vendor/lyricist-core-1.8.0-sources.jar",
+      "size": 1238,
+      "sha256": "0ca9071f050457c8e3c164c6824168fc2d8827121879786681e9450035a368d6"
+    },
+    {
+      "path": "vendor/lyricist-core-1.8.0.module",
+      "size": 19178,
+      "sha256": "ad80662c94abedd168f242140fa47be64edebcfdead61530ae14a67eacd76b38"
+    },
+    {
+      "path": "vendor/lyricist-core-1.8.0.pom",
+      "size": 1989,
+      "sha256": "ce8232349214f698f2fed343c475be7da6366363bf53341914c75680514d7135"
+    },
+    {
+      "path": "vendor/lyricist-core-iosarm64-1.8.0.module",
+      "size": 3975,
+      "sha256": "5a32e34b408b8b3804dc5da5e9ab2f6703bd7611074dfb18b9aec673df41cc3b"
+    },
+    {
+      "path": "vendor/lyricist-core-iosarm64-1.8.0.pom",
+      "size": 2033,
+      "sha256": "7d5f67128f0d9a597d81a97499e33d9627ee34aad22aea683e6e92a612ae9fe6"
+    },
+    {
+      "path": "vendor/lyricist-core-upstream-build.gradle.kts",
+      "size": 359,
+      "sha256": "947f6436adf854e07f379d72263d80b9547623822742190b6ff10b80ccbb4449"
+    },
+    {
+      "path": "vendor/lyricist-iosarm64-1.8.0.module",
+      "size": 5889,
+      "sha256": "74edc23b0a44f3bcdf568eca4918c4fb24210edf8e8db7767c5f329601248884"
+    },
+    {
+      "path": "vendor/lyricist-iosarm64-1.8.0.pom",
+      "size": 2218,
+      "sha256": "e2ce4cedcb302ef3aff413cfa631e278a5189c47cecee636efc73c9e3ebeb313"
+    },
+    {
+      "path": "vendor/lyricist-upstream-build.gradle.kts",
+      "size": 564,
+      "sha256": "4a530c856f27b992f6d27227c330ace79b431519ac3f28e262e6652b61d11e1b"
+    }
+  ],
+  "sourceInputs": {
+    "lyricist": {
+      "sources": {
+        "path": "vendor/lyricist-1.8.0-sources.jar",
+        "size": 1287,
+        "sha256": "7ace8ee1feb973684e4ec4f45867617d3377601706f835ed8da09eb1e61646fa"
+      },
+      "pom": {
+        "path": "vendor/lyricist-1.8.0.pom",
+        "size": 2165,
+        "sha256": "1a2784b43542b74576139dbdcb5aa09d5be52199a90f7a8b58fe82d10f44906c"
+      },
+      "gmm": {
+        "path": "vendor/lyricist-1.8.0.module",
+        "size": 23875,
+        "sha256": "0c7aedd9dfde5ff8dc138e62a92d352338d436e21555526a105516be175683a8"
+      },
+      "upstreamBuild": {
+        "path": "vendor/lyricist-upstream-build.gradle.kts",
+        "size": 564,
+        "sha256": "4a530c856f27b992f6d27227c330ace79b431519ac3f28e262e6652b61d11e1b"
+      },
+      "license": {
+        "path": "legal/LYRICIST-LICENSE.md",
+        "size": 1080,
+        "sha256": "b55f5b44f477d275044af430d3d8d1c0eb644bf586459c89226b216e1c225929"
+      },
+      "nativeReferencePom": {
+        "path": "vendor/lyricist-iosarm64-1.8.0.pom",
+        "size": 2218,
+        "sha256": "e2ce4cedcb302ef3aff413cfa631e278a5189c47cecee636efc73c9e3ebeb313"
+      },
+      "nativeReferenceGmm": {
+        "path": "vendor/lyricist-iosarm64-1.8.0.module",
+        "size": 5889,
+        "sha256": "74edc23b0a44f3bcdf568eca4918c4fb24210edf8e8db7767c5f329601248884"
+      },
+      "archiveEntryCount": 7,
+      "members": [
+        {
+          "member": "META-INF/MANIFEST.MF",
+          "size": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff",
+          "compile": false
+        },
+        {
+          "member": "commonMain/cafe/adriel/lyricist/LyricistCompose.kt",
+          "size": 1081,
+          "sha256": "d2a05223d74fb92311dfcd31f5358bba40688cfe925c79d5df8b1d901ebf38e1",
+          "compile": true
+        }
+      ],
+      "sourceMembers": [
+        {
+          "member": "commonMain/cafe/adriel/lyricist/LyricistCompose.kt",
+          "size": 1081,
+          "sha256": "d2a05223d74fb92311dfcd31f5358bba40688cfe925c79d5df8b1d901ebf38e1"
+        }
+      ],
+      "sourceSetSha256": "1d19633d4a69cb3760212b1c056de8955f0c55775056e24b3e906b3e06e7377d",
+      "publicApi": {
+        "declarations": [
+          {
+            "owner": "cafe.adriel.lyricist.rememberStrings",
+            "kind": "function",
+            "name": "rememberStrings",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe/adriel/lyricist/LyricistCompose.kt",
+            "sourceLine": 13,
+            "sourceSignature": "public fun <T> rememberStrings(\n    translations: Map<LanguageTag, T>,\n    defaultLanguageTag: LanguageTag = \"en\",\n    currentLanguageTag: LanguageTag = Locale.current.toLanguageTag()\n): Lyricist<T>",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/rememberStrings\\|rememberStrings\\(kotlin\\.collections\\.Map<kotlin\\.String,[^;]+>;kotlin\\.String;kotlin\\.String\\)",
+            "evidenceChannel": "metadata",
+            "typeParameters": [
+              "T"
+            ],
+            "parameterTypes": [
+              "Map<LanguageTag,T>",
+              "LanguageTag",
+              "LanguageTag"
+            ]
+          },
+          {
+            "owner": "cafe.adriel.lyricist.ProvideStrings",
+            "kind": "function",
+            "name": "ProvideStrings",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe/adriel/lyricist/LyricistCompose.kt",
+            "sourceLine": 25,
+            "sourceSignature": "public fun <T> ProvideStrings(\n    lyricist: Lyricist<T>,\n    provider: ProvidableCompositionLocal<T>,\n    content: @Composable () -> Unit\n)",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/ProvideStrings\\|ProvideStrings\\(cafe\\.adriel\\.lyricist\\.Lyricist<[^;]+>;androidx\\.compose\\.runtime\\.ProvidableCompositionLocal<[^;]+>;kotlin\\.Function0<kotlin\\.Unit>\\)",
+            "evidenceChannel": "metadata",
+            "typeParameters": [
+              "T"
+            ],
+            "parameterTypes": [
+              "Lyricist<T>",
+              "ProvidableCompositionLocal<T>",
+              "@Composable () -> Unit"
+            ]
+          }
+        ],
+        "languageGeneratedMembers": [],
+        "excluded": [],
+        "expectActual": []
+      },
+      "sourceDependencies": {
+        "api": [
+          "io.github.qsxs.cpf.lyricist:lyricist-core"
+        ],
+        "implementation": [
+          "org.jetbrains.kotlinx:kotlinx-coroutines-core"
+        ],
+        "compileOnly": [
+          "org.jetbrains.compose.runtime:runtime",
+          "org.jetbrains.compose.ui:ui"
+        ]
+      },
+      "gitSources": {
+        "commonMain/cafe/adriel/lyricist/LyricistCompose.kt": "lyricist-compose/src/commonMain/kotlin/cafe/adriel/lyricist/LyricistCompose.kt"
+      }
+    },
+    "lyricist-core": {
+      "sources": {
+        "path": "vendor/lyricist-core-1.8.0-sources.jar",
+        "size": 1238,
+        "sha256": "0ca9071f050457c8e3c164c6824168fc2d8827121879786681e9450035a368d6"
+      },
+      "pom": {
+        "path": "vendor/lyricist-core-1.8.0.pom",
+        "size": 1989,
+        "sha256": "ce8232349214f698f2fed343c475be7da6366363bf53341914c75680514d7135"
+      },
+      "gmm": {
+        "path": "vendor/lyricist-core-1.8.0.module",
+        "size": 19178,
+        "sha256": "ad80662c94abedd168f242140fa47be64edebcfdead61530ae14a67eacd76b38"
+      },
+      "upstreamBuild": {
+        "path": "vendor/lyricist-core-upstream-build.gradle.kts",
+        "size": 359,
+        "sha256": "947f6436adf854e07f379d72263d80b9547623822742190b6ff10b80ccbb4449"
+      },
+      "license": {
+        "path": "legal/LYRICIST-LICENSE.md",
+        "size": 1080,
+        "sha256": "b55f5b44f477d275044af430d3d8d1c0eb644bf586459c89226b216e1c225929"
+      },
+      "nativeReferencePom": {
+        "path": "vendor/lyricist-core-iosarm64-1.8.0.pom",
+        "size": 2033,
+        "sha256": "7d5f67128f0d9a597d81a97499e33d9627ee34aad22aea683e6e92a612ae9fe6"
+      },
+      "nativeReferenceGmm": {
+        "path": "vendor/lyricist-core-iosarm64-1.8.0.module",
+        "size": 3975,
+        "sha256": "5a32e34b408b8b3804dc5da5e9ab2f6703bd7611074dfb18b9aec673df41cc3b"
+      },
+      "archiveEntryCount": 5,
+      "members": [
+        {
+          "member": "META-INF/MANIFEST.MF",
+          "size": 25,
+          "sha256": "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff",
+          "compile": false
+        },
+        {
+          "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+          "size": 1734,
+          "sha256": "b0a3cff0ddc964a978193c79f5c7ce65208c4abf8f13754943ec30185aec9d69",
+          "compile": true
+        }
+      ],
+      "sourceMembers": [
+        {
+          "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+          "size": 1734,
+          "sha256": "b0a3cff0ddc964a978193c79f5c7ce65208c4abf8f13754943ec30185aec9d69"
+        }
+      ],
+      "sourceSetSha256": "b16f0be3c10541911d0a1a658c5314034a2210f41f05660a43fe17a163185403",
+      "publicApi": {
+        "declarations": [
+          {
+            "owner": "cafe.adriel.lyricist.LanguageTag",
+            "kind": "typealias",
+            "name": "LanguageTag",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 7,
+            "sourceSignature": "public typealias LanguageTag = String",
+            "metadataPattern": null,
+            "evidenceChannel": "metadata-dump",
+            "metadataDumpPattern": "(?i)typealias\\s+LanguageTag\\b",
+            "runtimeType": false
+          },
+          {
+            "owner": "cafe.adriel.lyricist.Lyricist",
+            "kind": "class",
+            "name": "Lyricist",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 9,
+            "sourceSignature": "public class Lyricist<T>(\n    private val defaultLanguageTag: LanguageTag,\n    private val translations: Map<LanguageTag, T>\n)",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/Lyricist\\|",
+            "evidenceChannel": "metadata"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistState",
+            "kind": "data class",
+            "name": "LyricistState",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 43,
+            "sourceSignature": "public data class LyricistState<T> internal constructor(\n    val languageTag: LanguageTag,\n    val strings: T,\n)",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/LyricistState\\|",
+            "evidenceChannel": "metadata"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistException",
+            "kind": "class",
+            "name": "LyricistException",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 48,
+            "sourceSignature": "public class LyricistException internal constructor(\n    override val message: String\n) : RuntimeException()",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/LyricistException\\|",
+            "evidenceChannel": "metadata"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistStrings",
+            "kind": "annotation class",
+            "name": "LyricistStrings",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 54,
+            "sourceSignature": "public annotation class LyricistStrings(\n    val languageTag: LanguageTag,\n    val default: Boolean = false\n)",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/LyricistStrings\\|",
+            "evidenceChannel": "metadata"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.Lyricist.state",
+            "kind": "property",
+            "name": "state",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 16,
+            "sourceSignature": "",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/Lyricist\\.state\\|",
+            "evidenceChannel": "metadata"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.Lyricist.languageTag",
+            "kind": "property",
+            "name": "languageTag",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 19,
+            "sourceSignature": "",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/Lyricist\\.languageTag\\|",
+            "evidenceChannel": "metadata"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.Lyricist.strings",
+            "kind": "property",
+            "name": "strings",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 25,
+            "sourceSignature": "",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/Lyricist\\.strings\\|",
+            "evidenceChannel": "metadata"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistState.languageTag",
+            "kind": "property",
+            "name": "languageTag",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 44,
+            "sourceSignature": "val languageTag: LanguageTag,",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/LyricistState\\.languageTag\\|",
+            "evidenceChannel": "metadata"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistState.strings",
+            "kind": "property",
+            "name": "strings",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 45,
+            "sourceSignature": "val strings: T,",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/LyricistState\\.strings\\|",
+            "evidenceChannel": "metadata"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistException.message",
+            "kind": "property",
+            "name": "message",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 49,
+            "sourceSignature": "override val message: String",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/LyricistException\\.message\\|",
+            "evidenceChannel": "metadata"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistStrings.languageTag",
+            "kind": "property",
+            "name": "languageTag",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 55,
+            "sourceSignature": "val languageTag: LanguageTag,",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/LyricistStrings\\.languageTag\\|",
+            "evidenceChannel": "metadata"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistStrings.default",
+            "kind": "property",
+            "name": "default",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 56,
+            "sourceSignature": "val default: Boolean = false",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/LyricistStrings\\.default\\|",
+            "evidenceChannel": "metadata"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.Lyricist.<init>",
+            "kind": "constructor",
+            "name": "<init>",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 9,
+            "sourceSignature": "public class Lyricist<T>(\n    private val defaultLanguageTag: LanguageTag,\n    private val translations: Map<LanguageTag, T>\n)",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/Lyricist\\.<init>\\|<init>\\(kotlin\\.String;kotlin\\.collections\\.Map<kotlin\\.String,[^;]+>\\)",
+            "evidenceChannel": "metadata",
+            "parameterTypes": [
+              "kotlin.String",
+              "kotlin.collections.Map<kotlin.String,T>"
+            ]
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistStrings.<init>",
+            "kind": "constructor",
+            "name": "<init>",
+            "visibility": "public",
+            "visibilityOrigin": "explicit",
+            "member": "commonMain/cafe.adriel.lyricist/Lyricist.kt",
+            "sourceLine": 54,
+            "sourceSignature": "public annotation class LyricistStrings(\n    val languageTag: LanguageTag,\n    val default: Boolean = false\n)",
+            "metadataPattern": "^cafe\\.adriel\\.lyricist/LyricistStrings\\.<init>\\|<init>\\(kotlin\\.String;kotlin\\.Boolean\\)",
+            "evidenceChannel": "metadata",
+            "parameterTypes": [
+              "kotlin.String",
+              "kotlin.Boolean"
+            ]
+          }
+        ],
+        "languageGeneratedMembers": [
+          {
+            "owner": "cafe.adriel.lyricist.LyricistState.component1",
+            "kind": "data generated",
+            "name": "component1",
+            "signaturePattern": "^cafe\\.adriel\\.lyricist/LyricistState\\.component1\\|",
+            "evidenceChannel": "metadata-or-declaredIr",
+            "effectiveVisibility": "public"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistState.component2",
+            "kind": "data generated",
+            "name": "component2",
+            "signaturePattern": "^cafe\\.adriel\\.lyricist/LyricistState\\.component2\\|",
+            "evidenceChannel": "metadata-or-declaredIr",
+            "effectiveVisibility": "public"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistState.equals",
+            "kind": "data generated",
+            "name": "equals",
+            "signaturePattern": "^cafe\\.adriel\\.lyricist/LyricistState\\.equals\\|",
+            "evidenceChannel": "metadata-or-declaredIr",
+            "effectiveVisibility": "public"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistState.hashCode",
+            "kind": "data generated",
+            "name": "hashCode",
+            "signaturePattern": "^cafe\\.adriel\\.lyricist/LyricistState\\.hashCode\\|",
+            "evidenceChannel": "metadata-or-declaredIr",
+            "effectiveVisibility": "public"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistState.toString",
+            "kind": "data generated",
+            "name": "toString",
+            "signaturePattern": "^cafe\\.adriel\\.lyricist/LyricistState\\.toString\\|",
+            "evidenceChannel": "metadata-or-declaredIr",
+            "effectiveVisibility": "public"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistState.copy",
+            "kind": "data generated",
+            "name": "copy",
+            "signaturePattern": "^cafe\\.adriel\\.lyricist/LyricistState\\.copy\\|copy\\(",
+            "evidenceChannel": "metadata-or-declaredIr",
+            "effectiveVisibility": "CONSTRUCTOR_DERIVED_VERIFY_ACTUAL_METADATA_DUMP",
+            "note": "Not an explicitly public source declaration; preserve generated implementation and inspect configured compiler visibility rather than assuming historical public copy."
+          }
+        ],
+        "excluded": [
+          {
+            "owner": "cafe.adriel.lyricist.LyricistState.<init>",
+            "reason": "internal constructor"
+          },
+          {
+            "owner": "cafe.adriel.lyricist.LyricistException.<init>",
+            "reason": "internal constructor"
+          },
+          {
+            "reason": "private backing state/helper/companion excluded"
+          }
+        ],
+        "expectActual": []
+      },
+      "sourceDependencies": {
+        "api": [],
+        "implementation": [
+          "org.jetbrains.kotlinx:kotlinx-coroutines-core"
+        ],
+        "compileOnly": []
+      },
+      "gitSources": {
+        "commonMain/cafe.adriel.lyricist/Lyricist.kt": "lyricist-core/src/commonMain/kotlin/cafe.adriel.lyricist/Lyricist.kt"
+      }
+    }
+  },
+  "runtime": "NOT_RUN"
+}

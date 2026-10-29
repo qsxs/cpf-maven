@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../lyricist/1.8.0-cpf11-preview-fad3d9091c75-40827525373-1/lyricist-1.8.0-cpf11-preview-fad3d9091c75-40827525373-1.module",
+    "group": "io.github.qsxs.cpf.lyricist",
+    "module": "lyricist",
+    "version": "1.8.0-cpf11-preview-fad3d9091c75-40827525373-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.qsxs.cpf.lyricist",
+          "module": "lyricist-core",
+          "version": {
+            "requires": "1.8.0-cpf11-preview-fad3d9091c75-40827525373-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lyricist-ohosX64Main-1.8.0-cpf11-preview-fad3d9091c75-40827525373-1.klib",
+          "url": "lyricist-ohosx64-1.8.0-cpf11-preview-fad3d9091c75-40827525373-1.klib",
+          "size": 10393,
+          "sha512": "baa6032e5dfd51c47ba94fcefdbd8d973d57fea0c5f5f97c76b5f4c691143bab5006c1ff782b6dc6fda8f6e1a7b47fbc91042b9ef1f4cbb4a03adcdb75c0540d",
+          "sha256": "c9a4ec6cec181ade813c2170f8750bfd75e740a3e6abf1ed6f199dbbbdc0164e",
+          "sha1": "d3971e014e19d7d482c9429d56f45433f647d3c0",
+          "md5": "939b007155747eec9950dbcfd2afa13a"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "lyricist-ohosx64-1.8.0-cpf11-preview-fad3d9091c75-40827525373-1-sources.jar",
+          "url": "lyricist-ohosx64-1.8.0-cpf11-preview-fad3d9091c75-40827525373-1-sources.jar",
+          "size": 4587,
+          "sha512": "a2234c0f5c10a0a7188cf1e41647164e1ce87fe8255f2080d5d1cb9cbe2b53435d403e490d0bd89461fc60b92e9938865e2257b7e22e3390271a08ce605af86c",
+          "sha256": "f5fc6846cda895bed784cf498e76b2628b62af5059470fd3efe7879fb20eee9b",
+          "sha1": "5890bfd42791fc47e95fa8de67686cdaa8194c7e",
+          "md5": "df59aaf410783b26bc1c4b1a82cc4e12"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.qsxs.cpf.lyricist",
+          "module": "lyricist-core",
+          "version": {
+            "requires": "1.8.0-cpf11-preview-fad3d9091c75-40827525373-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lyricist-1.8.0-cpf11-preview-fad3d9091c75-40827525373-1.kotlin_resources.zip",
+          "url": "lyricist-ohosx64-1.8.0-cpf11-preview-fad3d9091c75-40827525373-1-kotlin_resources.kotlin_resources.zip",
+          "size": 360,
+          "sha512": "ca5a4aae29dcd972389be1e4f71095bb93f50e18635fe91e4f66832a3a28b256a82aa8dc9ba4a428e3d79b1af2d556706d757f66d42a459e367b38522799831e",
+          "sha256": "8c66f24e588538dc52e0070e35731edbdfb135bddfa3c1c41654c976a852bdb5",
+          "sha1": "0fb48011553ac7cce255dc18f345e2e10a622362",
+          "md5": "ed560281991f048744ac78b81b426b64"
+        }
+      ]
+    }
+  ]
+}
