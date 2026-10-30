@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../coil-network-ktor3/3.3.0-cpf11-preview-0e0e3189f920-40997275438-1/coil-network-ktor3-3.3.0-cpf11-preview-0e0e3189f920-40997275438-1.module",
+    "group": "io.github.qsxs.cpf.coil",
+    "module": "coil-network-ktor3",
+    "version": "3.3.0-cpf11-preview-0e0e3189f920-40997275438-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.qsxs.cpf.coil",
+          "module": "coil-core",
+          "version": {
+            "requires": "3.3.0-cpf11-preview-0e0e3189f920-40997275438-1"
+          }
+        },
+        {
+          "group": "io.github.qsxs.cpf.coil",
+          "module": "coil-network-core",
+          "version": {
+            "requires": "3.3.0-cpf11-preview-0e0e3189f920-40997275438-1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.1-0.1.0-01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-okio",
+          "version": {
+            "requires": "0.9.1-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coil-network-ktor3-ohosX64Main-3.3.0-cpf11-preview-0e0e3189f920-40997275438-1.klib",
+          "url": "coil-network-ktor3-ohosx64-3.3.0-cpf11-preview-0e0e3189f920-40997275438-1.klib",
+          "size": 18373,
+          "sha512": "b33c221a888a3d3c1b7fac296f3262976c7458d4852a973f4a04fd5588f4c6be611c95d409173ae78965d6d7b00e3100a15fd4a7811191a7ead8570edb35feb1",
+          "sha256": "41aa900c3982f6426c3ed2722072a9394ffd631af401535a26faee766f6152ac",
+          "sha1": "31c860e8d2f662617a0f9f2269e842b5ac2cd684",
+          "md5": "733716c343f9b48ca060ebf7ff52da11"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "coil-network-ktor3-ohosx64-3.3.0-cpf11-preview-0e0e3189f920-40997275438-1-sources.jar",
+          "url": "coil-network-ktor3-ohosx64-3.3.0-cpf11-preview-0e0e3189f920-40997275438-1-sources.jar",
+          "size": 28583,
+          "sha512": "fb9210035663113425c8ab563b99dbad6f40044dcacb1338c18ba3f402e8d4681b368e96975e345c51a2f9406f2034cfbc604fa2a98f89ce2dee7721616536a1",
+          "sha256": "48b4d9597681a0a7b168ab8455a881cceac73e8275c56c56b705df1b874c705b",
+          "sha1": "12aa4177671c1b7bba82fc416692cb6c864d228d",
+          "md5": "3eaf2f34a279fd91eae9575fc4ea2b53"
+        }
+      ]
+    }
+  ]
+}

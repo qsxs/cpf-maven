@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../coil-compose/3.3.0-cpf11-preview-0e0e3189f920-40997275438-1/coil-compose-3.3.0-cpf11-preview-0e0e3189f920-40997275438-1.module",
+    "group": "io.github.qsxs.cpf.coil",
+    "module": "coil-compose",
+    "version": "3.3.0-cpf11-preview-0e0e3189f920-40997275438-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.qsxs.cpf.coil",
+          "module": "coil",
+          "version": {
+            "requires": "3.3.0-cpf11-preview-0e0e3189f920-40997275438-1"
+          }
+        },
+        {
+          "group": "io.github.qsxs.cpf.coil",
+          "module": "coil-compose-core",
+          "version": {
+            "requires": "3.3.0-cpf11-preview-0e0e3189f920-40997275438-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coil-compose-ohosX64Main-3.3.0-cpf11-preview-0e0e3189f920-40997275438-1.klib",
+          "url": "coil-compose-ohosx64-3.3.0-cpf11-preview-0e0e3189f920-40997275438-1.klib",
+          "size": 24589,
+          "sha512": "1d383e75d47cd738bb0990b2ef06111bd38025137e99f9132d9c01e0d07e63a45d7873b8689043207573e3287de0151196020a3515384fd6b21c479c6cda26a2",
+          "sha256": "d23a1717fac5785fbf5c7bf2aae6f6df207679db8fd105f9868933512211213d",
+          "sha1": "ec3356ff0fab2d999ed0124c92c6c6b7f815f427",
+          "md5": "2eb08442b06f4fb39d90559705daf2fc"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "coil-compose-ohosx64-3.3.0-cpf11-preview-0e0e3189f920-40997275438-1-sources.jar",
+          "url": "coil-compose-ohosx64-3.3.0-cpf11-preview-0e0e3189f920-40997275438-1-sources.jar",
+          "size": 28912,
+          "sha512": "891e21758c6150642a236e52826666e70342baa31438fc01ee4dcf7b12124e923913c01e542590a112a309f21aa3edd31d3db9da2b6b1ed6d6a01001f45d51ee",
+          "sha256": "28078d5a4d80491462780e21571b62ae23f858a47b030519ced16df6464f0f6e",
+          "sha1": "a413b973bb7a4953ae1ce7acb21c096dd821e345",
+          "md5": "8c092f912e2e73b5b417f7764dcad995"
+        }
+      ]
+    }
+  ]
+}
