@@ -1,0 +1,2442 @@
+{
+  "assembly": "PUBLIC_KGP_COMPILE_INPUT_PLUS_CUSTOM_PSM_GMM_ASSEMBLY",
+  "baselineArchivalWitness": {
+    "bytes": 26961,
+    "path": "D:\\StudioProject\\chunjizhang\\ChunjizhangCompose-aidev\\.kmp-orchestrator\\runtime\\agentsflow\\tasks\\cpf-dependencies-p3-20261018\\curl-successful-baseline-b2597d235690802d2b98f139-witness\\archival-correspondence.json",
+    "sha256": "83b7a252caeae91afdae3fe86c5974fefe6d7911850187e04a29635c58cb041b"
+  },
+  "baselineConsumerReceipt": {
+    "bytes": 3690,
+    "path": "D:\\StudioProject\\chunjizhang\\ChunjizhangCompose-aidev\\harmony-build\\.local\\ktor-curl-baseline-b2597d235690802d2b98f139\\evidence\\consumer-verified.json",
+    "sha256": "cb2f9ba0ef396401d5a396d91a7b47b4bcfbde7953f854ca8fbf0ebdc0fbf94c"
+  },
+  "classification": "PR5908_ONLY_CANDIDATE_NOT_RUNTIME_PROVEN",
+  "commonizerTools": {
+    "configuration": "kotlinKlibCommonizerClasspath",
+    "expectedGraph": {
+      "edges": [
+        {
+          "constraint": false,
+          "from": "PROJECT",
+          "requested": "org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:2.4.20-0.1.0-08",
+          "selected": "org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:2.4.20-0.1.0-08"
+        },
+        {
+          "constraint": false,
+          "from": "org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:2.4.20-0.1.0-08",
+          "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+          "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+        },
+        {
+          "constraint": false,
+          "from": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+          "requested": "org.jetbrains:annotations:13.0",
+          "selected": "org.jetbrains:annotations:13.0"
+        },
+        {
+          "constraint": false,
+          "from": "org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:2.4.20-0.1.0-08",
+          "requested": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+          "selected": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08"
+        },
+        {
+          "constraint": false,
+          "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+          "requested": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08",
+          "selected": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08"
+        },
+        {
+          "constraint": false,
+          "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+          "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+          "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+        },
+        {
+          "constraint": false,
+          "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+          "requested": "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08",
+          "selected": "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08"
+        },
+        {
+          "constraint": false,
+          "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+          "requested": "org.jetbrains.kotlin:kotlin-reflect:1.6.10",
+          "selected": "org.jetbrains.kotlin:kotlin-reflect:1.6.10"
+        },
+        {
+          "constraint": false,
+          "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+          "requested": "org.jetbrains.kotlin:kotlin-daemon-embeddable:2.4.20-0.1.0-08",
+          "selected": "org.jetbrains.kotlin:kotlin-daemon-embeddable:2.4.20-0.1.0-08"
+        },
+        {
+          "constraint": false,
+          "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+          "requested": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0",
+          "selected": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0"
+        }
+      ],
+      "moduleGavs": [
+        "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08",
+        "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+        "org.jetbrains.kotlin:kotlin-daemon-embeddable:2.4.20-0.1.0-08",
+        "org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:2.4.20-0.1.0-08",
+        "org.jetbrains.kotlin:kotlin-reflect:1.6.10",
+        "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0",
+        "org.jetbrains:annotations:13.0"
+      ],
+      "projectRootComponents": 1,
+      "transitive": true
+    },
+    "kind": "FROZEN_JVM_COMMONIZER_POM_JAR_INPUTS",
+    "metadataClosureProvenance": {
+      "facts": {
+        "path": ".kmp-orchestrator/runtime/agentsflow/tasks/cpf-dependencies-p3-20261018/control/ktor-curl-commonizer-pom-metadata-closure-facts.json",
+        "sha256": "5197b2e02fcbe216ea955662568a7dd49f73bcd3f3ef4764a32541abc3f92147"
+      },
+      "newMirrorResolution": "NOT_RUN",
+      "scope": "One imported BOM POM needed to parse coroutines-core-jvm POM; not a selected GAV/edge/JAR"
+    },
+    "metadataOnlyPoms": [
+      {
+        "gav": "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.8.0",
+        "importedBy": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0",
+        "pom": {
+          "bytes": 4291,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-bom/1.8.0/ffe074f050e215c80d7d76f740f8c1095a8da403/kotlinx-coroutines-bom-1.8.0.pom",
+          "sha256": "1239e9dbe1397cd5971342956b2511bc3ace7b641842e4372a088dcfa8b9ad55"
+        },
+        "purpose": "MAVEN_DEPENDENCY_MANAGEMENT_IMPORT_ONLY_NOT_SELECTED_CLASSPATH",
+        "structure": {
+          "nestedImportCount": 0,
+          "packaging": "pom",
+          "parentCount": 0
+        },
+        "upstreamRepositoryOrigin": "UNKNOWN_GRADLE_FILES_2_1_CACHE"
+      }
+    ],
+    "modelProvenance": {
+      "actualModel": ".kmp-orchestrator/runtime/agentsflow/tasks/cpf-dependencies-p3-20261018/commonizer-tool-diagnostic-r2/commonizer-tool-model.json",
+      "actualModelSha256": "4ddbdc29a4a69956dc48491f30b20b10dc5d9cd5738116bc81fc1bc56ee762d8",
+      "facts": {
+        "path": ".kmp-orchestrator/runtime/agentsflow/tasks/cpf-dependencies-p3-20261018/control/ktor-curl-commonizer-tool-actual-model-facts.json",
+        "sha256": "c14fd25d3e5d662ea128b6372546b6418ac6ccf9c7996c4e99bcc71be4ad9d11"
+      },
+      "offline": true,
+      "transitive": true
+    },
+    "modules": [
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 3843199,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-klib-commonizer-embeddable/2.4.20-0.1.0-08/71be895337c82a2411965e62944de57174a6829/kotlin-klib-commonizer-embeddable-2.4.20-0.1.0-08.jar",
+          "sha256": "9ff11589b4ef1fab248928726e58a790bf082bc23ff8805ec2e59537dc909d58"
+        },
+        "pom": {
+          "bytes": 1657,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-klib-commonizer-embeddable/2.4.20-0.1.0-08/b440ff49d27b9ce696a02bf79b33315a21847edb/kotlin-klib-commonizer-embeddable-2.4.20-0.1.0-08.pom",
+          "sha256": "63572fb57b2546f41b191cb8606db980824918173c070aa8b97018f76f981c46"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 58620712,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/2.4.20-0.1.0-08/140fd0c25d3570e1c709569452bc962152f19596/kotlin-compiler-embeddable-2.4.20-0.1.0-08.jar",
+          "sha256": "95b0a5de08917b9ad8065df1d4e30262a779b0863c26fbddbdf9ec41e5a35cf6"
+        },
+        "pom": {
+          "bytes": 2692,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/2.4.20-0.1.0-08/5e9b9f3eacab25b438a1c1555f03ef3bc16320b1/kotlin-compiler-embeddable-2.4.20-0.1.0-08.pom",
+          "sha256": "448c9621d4b0a4f03b446f0fbacfdad0b7d5bba7f028c60e65a5b88f7a8a83cb"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 1853392,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.4.20-0.1.0-08/cff2e8b5aa4669570f12d34495cfdd87aa3b63ed/kotlin-stdlib-2.4.20-0.1.0-08.jar",
+          "sha256": "c2bc31023f6e93219c4aa39a358aa7caeeef7c9addbecfed9ad959f68d9db250"
+        },
+        "pom": {
+          "bytes": 2319,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.4.20-0.1.0-08/4d4672a6d41363f7680cdf08f8293a394b5b3b41/kotlin-stdlib-2.4.20-0.1.0-08.pom",
+          "sha256": "95fa99bc5463f6d8293c5ec09732b9088189a99fd5988025da3bda35f0736854"
+        }
+      },
+      {
+        "gav": "org.jetbrains:annotations:13.0",
+        "jar": {
+          "bytes": 17536,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar",
+          "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+        },
+        "pom": {
+          "bytes": 4930,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/fa7d3d07cc80547e2d15bf4839d3267c637c642f/annotations-13.0.pom",
+          "sha256": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 468283,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-tools-api/2.4.20-0.1.0-08/7fd43546996c2797d0fa43c149125a2186202819/kotlin-build-tools-api-2.4.20-0.1.0-08.jar",
+          "sha256": "0573955df509866a45469bc78c76704fd54315a9027609a2dbe0b8027abb4266"
+        },
+        "pom": {
+          "bytes": 1146,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-tools-api/2.4.20-0.1.0-08/548c5481b3169e6ac603478b7d9166d0ce43a39e/kotlin-build-tools-api-2.4.20-0.1.0-08.pom",
+          "sha256": "0c92c737538279dce88476b7d3bd06cbddb4f939b731566b539d13588589f579"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 46538,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/2.4.20-0.1.0-08/cb4d9d8caa449ebfdd0aff072aa323467ca45276/kotlin-script-runtime-2.4.20-0.1.0-08.jar",
+          "sha256": "1a040207c69fe0b7accb8e70577cd74c83af14a032ccf1c2978b8547ac04f87a"
+        },
+        "pom": {
+          "bytes": 1143,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/2.4.20-0.1.0-08/e265184a0c60640abb0944f1f002c4747329022b/kotlin-script-runtime-2.4.20-0.1.0-08.pom",
+          "sha256": "9126f7d26568d0ce52dce9ab2ef8dd9d0f199617a4a3452cff62dfa80774b94a"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-reflect:1.6.10",
+        "jar": {
+          "bytes": 3038560,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.6.10/1cbe9c92c12a94eea200d23c2bbaedaf3daf5132/kotlin-reflect-1.6.10.jar",
+          "sha256": "3277ac102ae17aad10a55abec75ff5696c8d109790396434b496e75087854203"
+        },
+        "pom": {
+          "bytes": 1375,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.6.10/535560dfd5b3dba98f57b12f3e921c7a83d0aafe/kotlin-reflect-1.6.10.pom",
+          "sha256": "57905524274a00ae028aaccc27283f6bc5925a934a046c1cc5d06c8ee4d6d5a9"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-daemon-embeddable:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 393417,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/2.4.20-0.1.0-08/b069e2cab7711cac9eb5b6c09e68e4c8f4260314/kotlin-daemon-embeddable-2.4.20-0.1.0-08.jar",
+          "sha256": "b97441a51c100056a7d3e5cf374f69bbeff799a41cfbbc148307b748369db4d5"
+        },
+        "pom": {
+          "bytes": 1182,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/2.4.20-0.1.0-08/6538c2797c80285f6e44dad34843b969cb042d9e/kotlin-daemon-embeddable-2.4.20-0.1.0-08.pom",
+          "sha256": "6776aaee9ff9abda0150adf23d522c5b1a53dcf6d35e78c7f65560f5163f9128"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0",
+        "jar": {
+          "bytes": 1548360,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.8.0/ac1dc37a30a93150b704022f8d895ee1bd3a36b3/kotlinx-coroutines-core-jvm-1.8.0.jar",
+          "sha256": "9860906a1937490bf5f3b06d2f0e10ef451e65b95b269f22daf68a3d1f5065c5"
+        },
+        "pom": {
+          "bytes": 2196,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.8.0/e780ad230da743bcd753190ac043e58e3187c591/kotlinx-coroutines-core-jvm-1.8.0.pom",
+          "sha256": "a5633abd53467ceb91622d81f2e982080877145e0b76e1b75788715434885d0b"
+        }
+      }
+    ],
+    "originLimitation": "The model records the exact JAR paths in harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1. POMs were read from the same Gradle files-2.1 cache. The model/cache does not retain the upstream repository origin for each file; do not label these as Maven Central or maven-develop provenance.",
+    "pomWildcardExclusions": [
+      {
+        "exclusions": [
+          "*:*"
+        ],
+        "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+        "selected": "org.jetbrains.kotlin:kotlin-reflect:1.6.10"
+      },
+      {
+        "exclusions": [
+          "*:*"
+        ],
+        "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+        "selected": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0"
+      }
+    ],
+    "repository": "CommonizerToolMirror",
+    "repositoryScope": {
+      "externalDependencyFallback": false,
+      "frozenGmmNotForConfigurations": [
+        "kotlinKlibCommonizerClasspath"
+      ],
+      "metadataSources": [
+        "mavenPom",
+        "ignoreGradleMetadataRedirection"
+      ],
+      "onlyForConfigurations": [
+        "kotlinKlibCommonizerClasspath"
+      ]
+    },
+    "runtimePatch": "NONE_UNPATCHED_BASELINE",
+    "schemaVersion": 1,
+    "upstreamRepositoryOrigin": "UNKNOWN_GRADLE_FILES_2_1_CACHE"
+  },
+  "compilerTools": {
+    "configurations": [
+      "kotlinCompilerClasspath",
+      "kotlinBuildToolsApiClasspath",
+      "kotlinCompilerPluginClasspathMetadataMain"
+    ],
+    "expectedGraphs": {
+      "kotlinBuildToolsApiClasspath": {
+        "edges": [
+          {
+            "constraint": false,
+            "from": "PROJECT",
+            "requested": "org.jetbrains.kotlin:kotlin-build-tools-compat:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-build-tools-compat:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-compat:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-tooling-core:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-tooling-core:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "PROJECT",
+            "requested": "org.jetbrains.kotlin:kotlin-build-tools-impl:{strictly 2.4.20-0.1.0-08}",
+            "selected": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains:annotations:13.0",
+            "selected": "org.jetbrains:annotations:13.0"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-build-tools-cri-impl:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-build-tools-cri-impl:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-cri-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-cri-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-tooling-core:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-tooling-core:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-reflect:1.6.10",
+            "selected": "org.jetbrains.kotlin:kotlin-reflect:1.6.10"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-daemon-embeddable:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-daemon-embeddable:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0",
+            "selected": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-compiler-runner:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-compiler-runner:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-runner:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-daemon-client:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-daemon-client:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-daemon-client:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-runner:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0",
+            "selected": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-runner:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08"
+          }
+        ],
+        "moduleGavs": [
+          "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-build-tools-compat:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-build-tools-cri-impl:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-compiler-runner:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-daemon-client:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-daemon-embeddable:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-reflect:1.6.10",
+          "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-tooling-core:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0",
+          "org.jetbrains:annotations:13.0"
+        ],
+        "projectRootComponents": 1,
+        "transitive": true
+      },
+      "kotlinCompilerClasspath": {
+        "edges": [
+          {
+            "constraint": false,
+            "from": "PROJECT",
+            "requested": "org.jetbrains.kotlin:kotlin-build-tools-compat:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-build-tools-compat:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-compat:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-tooling-core:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-tooling-core:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "PROJECT",
+            "requested": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains:annotations:13.0",
+            "selected": "org.jetbrains:annotations:13.0"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-build-tools-cri-impl:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-build-tools-cri-impl:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-cri-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-cri-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-tooling-core:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-tooling-core:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-reflect:1.6.10",
+            "selected": "org.jetbrains.kotlin:kotlin-reflect:1.6.10"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-daemon-embeddable:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-daemon-embeddable:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0",
+            "selected": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-compiler-runner:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-compiler-runner:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-runner:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-daemon-client:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-daemon-client:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-daemon-client:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-runner:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0",
+            "selected": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-compiler-runner:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08"
+          }
+        ],
+        "moduleGavs": [
+          "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-build-tools-compat:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-build-tools-cri-impl:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-compiler-runner:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-daemon-client:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-daemon-embeddable:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-reflect:1.6.10",
+          "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-tooling-core:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0",
+          "org.jetbrains:annotations:13.0"
+        ],
+        "projectRootComponents": 1,
+        "transitive": true
+      },
+      "kotlinCompilerPluginClasspathMetadataMain": {
+        "edges": [
+          {
+            "constraint": false,
+            "from": "PROJECT",
+            "requested": "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-scripting-common:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-scripting-common:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-scripting-common:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains:annotations:13.0",
+            "selected": "org.jetbrains:annotations:13.0"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-scripting-jvm:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-scripting-jvm:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-scripting-jvm:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-scripting-jvm:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-scripting-jvm:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-scripting-common:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-scripting-common:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-scripting-common:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-scripting-common:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-scripting-jvm:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-scripting-jvm:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+          },
+          {
+            "constraint": false,
+            "from": "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.4.20-0.1.0-08",
+            "requested": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+            "selected": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08"
+          }
+        ],
+        "moduleGavs": [
+          "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-scripting-common:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-scripting-jvm:2.4.20-0.1.0-08",
+          "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+          "org.jetbrains:annotations:13.0"
+        ],
+        "projectRootComponents": 1,
+        "transitive": true
+      }
+    },
+    "kind": "FROZEN_JVM_COMPILER_POM_JAR_INPUTS",
+    "metadataOnlyPoms": [
+      {
+        "gav": "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.8.0",
+        "importedBy": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0",
+        "pom": {
+          "bytes": 4291,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-bom/1.8.0/ffe074f050e215c80d7d76f740f8c1095a8da403/kotlinx-coroutines-bom-1.8.0.pom",
+          "sha256": "1239e9dbe1397cd5971342956b2511bc3ace7b641842e4372a088dcfa8b9ad55"
+        },
+        "purpose": "MAVEN_DEPENDENCY_MANAGEMENT_IMPORT_ONLY_NOT_SELECTED_CLASSPATH",
+        "structure": {
+          "nestedImportCount": 0,
+          "packaging": "pom",
+          "parentCount": 0
+        },
+        "upstreamRepositoryOrigin": "UNKNOWN_GRADLE_FILES_2_1_CACHE"
+      }
+    ],
+    "modelProvenance": {
+      "consumerGraph": "NOT_CAPTURED_MUST_RESOLVE_AND_COMPARE_IN_REAL_CONSUMER",
+      "facts": {
+        "path": ".kmp-orchestrator/runtime/agentsflow/tasks/cpf-dependencies-p3-20261018/control/ktor-curl-all-jvm-tool-closure-facts.json",
+        "sha256": "c42e79c24a6475ed4720777da6875ed77d3fbfa5b0478e189abdceb208daf93c"
+      },
+      "producerModels": {
+        "kotlinBuildToolsApiClasspath": {
+          "bytes": 36406,
+          "compilationExecuted": false,
+          "path": ".kmp-orchestrator/runtime/agentsflow/tasks/cpf-dependencies-p3-20261018/compiler-aux-tool-diagnostic/compiler-aux-tool-model.json",
+          "resolutionOnly": true,
+          "sha256": "76fe4de91da77734e7e7f580b43e294cea894037703bf6e3a6887a5718dad5a3"
+        },
+        "kotlinCompilerClasspath": {
+          "bytes": 22208,
+          "compilationExecuted": false,
+          "path": ".kmp-orchestrator/runtime/agentsflow/tasks/cpf-dependencies-p3-20261018/compiler-tool-diagnostic-r3/compiler-tool-model.json",
+          "resolutionOnly": true,
+          "sha256": "95748de3519645c12c271c8f522efb2e84a8083ffc07a9eb511ff01db58cba73"
+        },
+        "kotlinCompilerPluginClasspathMetadataMain": {
+          "bytes": 36406,
+          "compilationExecuted": false,
+          "path": ".kmp-orchestrator/runtime/agentsflow/tasks/cpf-dependencies-p3-20261018/compiler-aux-tool-diagnostic/compiler-aux-tool-model.json",
+          "resolutionOnly": true,
+          "sha256": "76fe4de91da77734e7e7f580b43e294cea894037703bf6e3a6887a5718dad5a3"
+        }
+      }
+    },
+    "modules": [
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-build-tools-compat:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 135987,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-tools-compat/2.4.20-0.1.0-08/5d1ab99d2bd14965b35fea0684f017055adf92c/kotlin-build-tools-compat-2.4.20-0.1.0-08.jar",
+          "sha256": "35beab821e6035da8ebbbcb50230f6d3449513bf4c48f7d3a92675bfbf48e89f"
+        },
+        "pom": {
+          "bytes": 1392,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-tools-compat/2.4.20-0.1.0-08/c5c0ba9587b16cb05b0e9ad6fa26826a5dc64496/kotlin-build-tools-compat-2.4.20-0.1.0-08.pom",
+          "sha256": "e75e821de06e320b924d3b16da9744ff1aaa86f9f4f17911016efca18b2b39d9"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-scripting-jvm:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 136428,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/2.4.20-0.1.0-08/62d23e67b0efa59e4b2a0043708b0efff2ce6b1e/kotlin-scripting-jvm-2.4.20-0.1.0-08.jar",
+          "sha256": "9e3905138dabcd8d3af43d740592ccfaf74de84bc6257d5a6acc12c86fcfb155"
+        },
+        "pom": {
+          "bytes": 1781,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/2.4.20-0.1.0-08/e57acf1594c42efd54ab7593a674b5023f7c529c/kotlin-scripting-jvm-2.4.20-0.1.0-08.pom",
+          "sha256": "40adec2d82171ffbe0852732509bef8ac18c6b2ef26ee2b5798bb074d8e31e6f"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-scripting-common:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 207849,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/2.4.20-0.1.0-08/da562580d60c64912052bf6f0b5897a657f2d914/kotlin-scripting-common-2.4.20-0.1.0-08.jar",
+          "sha256": "431b49d8895675f4583c62247e6237bccb128f24c8f442f7328264f4d2c278e3"
+        },
+        "pom": {
+          "bytes": 1380,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/2.4.20-0.1.0-08/f477341e1eb989f33f2adb04212f239672a4ede1/kotlin-scripting-common-2.4.20-0.1.0-08.pom",
+          "sha256": "027c6d17ea01ced8fbf1c80a75439d5c71cbfc547479aed158f92618e3f12525"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 800404,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable/2.4.20-0.1.0-08/45de0d2fba00caff55135ded19c509a9bf759c73/kotlin-scripting-compiler-embeddable-2.4.20-0.1.0-08.jar",
+          "sha256": "eb783b03cc5b230820b01a006a281c2d22775572c69edda3cd7b7965df079688"
+        },
+        "pom": {
+          "bytes": 2076,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable/2.4.20-0.1.0-08/396cabba5a648928c659620e27ac2981530abe8e/kotlin-scripting-compiler-embeddable-2.4.20-0.1.0-08.pom",
+          "sha256": "898970c96faf4bd24cbda4662c3c9ad4bc67ed448792f62912b93cdfca94812b"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-daemon-client:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 265901,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/2.4.20-0.1.0-08/9515bba5bf8da518634961d82030d9fb643a6630/kotlin-daemon-client-2.4.20-0.1.0-08.jar",
+          "sha256": "b6e46c6b36eba479aad54ac06498fdf16ba64681ae31bf6410c48483a040dc38"
+        },
+        "pom": {
+          "bytes": 1362,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/2.4.20-0.1.0-08/c3d86355d2f8e18f35d961f69bfc694b25523e5c/kotlin-daemon-client-2.4.20-0.1.0-08.pom",
+          "sha256": "6554544779db9a147aec2b6a343da69796c872280750320c2929b673252af7e9"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-compiler-runner:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 20376,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/2.4.20-0.1.0-08/a2ccc60d7c1352843888cb3abd90efb350e606b/kotlin-compiler-runner-2.4.20-0.1.0-08.jar",
+          "sha256": "1f545be0a1bbf8c3fcd2f405f2a4dd71f86c11508bde12a940a0eca0bf0e9f00"
+        },
+        "pom": {
+          "bytes": 1951,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/2.4.20-0.1.0-08/5e3066f8ea9dc8e2c002f72888eceb761ba1c1c3/kotlin-compiler-runner-2.4.20-0.1.0-08.pom",
+          "sha256": "8b636f0efcd09742dffeaa7e00611ee92d1bcff6c050e418e272ee102921cf35"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0",
+        "jar": {
+          "bytes": 1548360,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.8.0/ac1dc37a30a93150b704022f8d895ee1bd3a36b3/kotlinx-coroutines-core-jvm-1.8.0.jar",
+          "sha256": "9860906a1937490bf5f3b06d2f0e10ef451e65b95b269f22daf68a3d1f5065c5"
+        },
+        "pom": {
+          "bytes": 2196,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.8.0/e780ad230da743bcd753190ac043e58e3187c591/kotlinx-coroutines-core-jvm-1.8.0.pom",
+          "sha256": "a5633abd53467ceb91622d81f2e982080877145e0b76e1b75788715434885d0b"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-daemon-embeddable:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 393417,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/2.4.20-0.1.0-08/b069e2cab7711cac9eb5b6c09e68e4c8f4260314/kotlin-daemon-embeddable-2.4.20-0.1.0-08.jar",
+          "sha256": "b97441a51c100056a7d3e5cf374f69bbeff799a41cfbbc148307b748369db4d5"
+        },
+        "pom": {
+          "bytes": 1182,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/2.4.20-0.1.0-08/6538c2797c80285f6e44dad34843b969cb042d9e/kotlin-daemon-embeddable-2.4.20-0.1.0-08.pom",
+          "sha256": "6776aaee9ff9abda0150adf23d522c5b1a53dcf6d35e78c7f65560f5163f9128"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 199457,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable/2.4.20-0.1.0-08/aeabc93d0d46e990d9db8feefde42312b5c33a54/kotlin-scripting-compiler-impl-embeddable-2.4.20-0.1.0-08.jar",
+          "sha256": "4c86bec0982a48686558a0f7902800066739f0379d66c10630c4e1f99a03f0bf"
+        },
+        "pom": {
+          "bytes": 1874,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable/2.4.20-0.1.0-08/1d3d1735da40ed45498a2bfa951a65f4f4a81fa2/kotlin-scripting-compiler-impl-embeddable-2.4.20-0.1.0-08.pom",
+          "sha256": "b5edcd3c18a79eea0da5a5bff495e796ed9f90bc85bd72891e763a52498f6451"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-reflect:1.6.10",
+        "jar": {
+          "bytes": 3038560,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.6.10/1cbe9c92c12a94eea200d23c2bbaedaf3daf5132/kotlin-reflect-1.6.10.jar",
+          "sha256": "3277ac102ae17aad10a55abec75ff5696c8d109790396434b496e75087854203"
+        },
+        "pom": {
+          "bytes": 1375,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.6.10/535560dfd5b3dba98f57b12f3e921c7a83d0aafe/kotlin-reflect-1.6.10.pom",
+          "sha256": "57905524274a00ae028aaccc27283f6bc5925a934a046c1cc5d06c8ee4d6d5a9"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 58620712,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/2.4.20-0.1.0-08/140fd0c25d3570e1c709569452bc962152f19596/kotlin-compiler-embeddable-2.4.20-0.1.0-08.jar",
+          "sha256": "95b0a5de08917b9ad8065df1d4e30262a779b0863c26fbddbdf9ec41e5a35cf6"
+        },
+        "pom": {
+          "bytes": 2692,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/2.4.20-0.1.0-08/5e9b9f3eacab25b438a1c1555f03ef3bc16320b1/kotlin-compiler-embeddable-2.4.20-0.1.0-08.pom",
+          "sha256": "448c9621d4b0a4f03b446f0fbacfdad0b7d5bba7f028c60e65a5b88f7a8a83cb"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-build-tools-cri-impl:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 568970,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-tools-cri-impl/2.4.20-0.1.0-08/d978d302841ea729cad661cb891933e4f7eb455a/kotlin-build-tools-cri-impl-2.4.20-0.1.0-08.jar",
+          "sha256": "c87fe846d13f1a010cc6ac6e6fe9a0dcbf1ab2f97916b1de2d71ab539c4fb1a3"
+        },
+        "pom": {
+          "bytes": 1597,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-tools-cri-impl/2.4.20-0.1.0-08/cd09fe676efd3b0bb05b02d9de9d92f9032fcb4e/kotlin-build-tools-cri-impl-2.4.20-0.1.0-08.pom",
+          "sha256": "1a061cdf4b67673d2cf893bf5bf141468c997564a5ff0d1d565825b9f6488f2a"
+        }
+      },
+      {
+        "gav": "org.jetbrains:annotations:13.0",
+        "jar": {
+          "bytes": 17536,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar",
+          "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+        },
+        "pom": {
+          "bytes": 4930,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/fa7d3d07cc80547e2d15bf4839d3267c637c642f/annotations-13.0.pom",
+          "sha256": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 1853392,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.4.20-0.1.0-08/cff2e8b5aa4669570f12d34495cfdd87aa3b63ed/kotlin-stdlib-2.4.20-0.1.0-08.jar",
+          "sha256": "c2bc31023f6e93219c4aa39a358aa7caeeef7c9addbecfed9ad959f68d9db250"
+        },
+        "pom": {
+          "bytes": 2319,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.4.20-0.1.0-08/4d4672a6d41363f7680cdf08f8293a394b5b3b41/kotlin-stdlib-2.4.20-0.1.0-08.pom",
+          "sha256": "95fa99bc5463f6d8293c5ec09732b9088189a99fd5988025da3bda35f0736854"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-build-tools-api:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 468283,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-tools-api/2.4.20-0.1.0-08/7fd43546996c2797d0fa43c149125a2186202819/kotlin-build-tools-api-2.4.20-0.1.0-08.jar",
+          "sha256": "0573955df509866a45469bc78c76704fd54315a9027609a2dbe0b8027abb4266"
+        },
+        "pom": {
+          "bytes": 1146,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-tools-api/2.4.20-0.1.0-08/548c5481b3169e6ac603478b7d9166d0ce43a39e/kotlin-build-tools-api-2.4.20-0.1.0-08.pom",
+          "sha256": "0c92c737538279dce88476b7d3bd06cbddb4f939b731566b539d13588589f579"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-build-tools-impl:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 3455890,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-tools-impl/2.4.20-0.1.0-08/e0a8698f8cb73a0a41adb33223cf375a3ccecce9/kotlin-build-tools-impl-2.4.20-0.1.0-08.jar",
+          "sha256": "9fab4101277a0d8076028654b3ff74f57cb3d28677d3155d4b6580e0822fb720"
+        },
+        "pom": {
+          "bytes": 2411,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-tools-impl/2.4.20-0.1.0-08/80bc5a9eab385a9ab55a6a7096a7f200f48faf49/kotlin-build-tools-impl-2.4.20-0.1.0-08.pom",
+          "sha256": "9890c4b0206b609c15e06434fa5e00ed14319c43951fbbed32c29c15a3f5a704"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-tooling-core:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 89152,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-tooling-core/2.4.20-0.1.0-08/a92e365882e147d1054b6245d2aa822cbaa77ad6/kotlin-tooling-core-2.4.20-0.1.0-08.jar",
+          "sha256": "5fc5db083803232857408ed5c25bcc307c703b04bdef6cb2c34ebf4db611a622"
+        },
+        "pom": {
+          "bytes": 1137,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-tooling-core/2.4.20-0.1.0-08/3aa2814e91eb1a7ac6678bb6b30c017e3a156925/kotlin-tooling-core-2.4.20-0.1.0-08.pom",
+          "sha256": "2b51096477fc8eb79b3cf9c120d760cd7f5759f896d8e968b636e5cf4418927f"
+        }
+      },
+      {
+        "gav": "org.jetbrains.kotlin:kotlin-script-runtime:2.4.20-0.1.0-08",
+        "jar": {
+          "bytes": 46538,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/2.4.20-0.1.0-08/cb4d9d8caa449ebfdd0aff072aa323467ca45276/kotlin-script-runtime-2.4.20-0.1.0-08.jar",
+          "sha256": "1a040207c69fe0b7accb8e70577cd74c83af14a032ccf1c2978b8547ac04f87a"
+        },
+        "pom": {
+          "bytes": 1143,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/2.4.20-0.1.0-08/e265184a0c60640abb0944f1f002c4747329022b/kotlin-script-runtime-2.4.20-0.1.0-08.pom",
+          "sha256": "9126f7d26568d0ce52dce9ab2ef8dd9d0f199617a4a3452cff62dfa80774b94a"
+        }
+      }
+    ],
+    "originLimitation": "Exact source cache files and SHA/bytes are recorded; the Gradle files-2.1 cache and diagnostic models do not preserve upstream repository identity.",
+    "repository": "CompilerToolMirror",
+    "repositoryScope": {
+      "externalDependencyFallback": false,
+      "frozenGmmNotForConfigurations": [
+        "kotlinCompilerClasspath",
+        "kotlinBuildToolsApiClasspath",
+        "kotlinCompilerPluginClasspathMetadataMain"
+      ],
+      "metadataSources": [
+        "mavenPom",
+        "ignoreGradleMetadataRedirection"
+      ],
+      "onlyForConfigurations": [
+        "kotlinCompilerClasspath",
+        "kotlinBuildToolsApiClasspath",
+        "kotlinCompilerPluginClasspathMetadataMain"
+      ]
+    },
+    "runtimePatch": "NONE_UNPATCHED_BASELINE",
+    "schemaVersion": 1,
+    "upstreamRepositoryOrigin": "UNKNOWN_GRADLE_FILES_2_1_CACHE",
+    "versionSelectionAndExclusions": {
+      "compilerBuildToolsImplRequest": "kotlinBuildToolsApiClasspath requestedDependencies records required=.08 and strict=.08 for kotlin-build-tools-impl; corresponding edge display contains {strictly .08}. KGP plugin code strictly pins impl to compilerVersion/pluginVersion.",
+      "compilerClasspathModelConstraintLimit": "R3 records requested coordinates and edge.constraint, not requested versionConstraint; the BTA graph supplies the exact strict impl constraint. No selected edge is a Gradle constraint edge.",
+      "constraintEdges": 0,
+      "noOlderStdlibOrAnnotationsArtifactsFromExcludedBranches": true,
+      "stdlibConflict": "Compiler and BTA graphs select kotlin-stdlib .08 with a CONFLICT_RESOLUTION reason between .08 and 2.2.21. kotlin-daemon-client POM requests 2.2.21; selected version remains .08.",
+      "wildcardExclusions": [
+        "kotlin-compiler-embeddable POM declares kotlin-reflect:1.6.10 and kotlinx-coroutines-core-jvm:1.8.0 dependencies with *:* exclusions; the two modules themselves remain selected. Their excluded transitive children are not selected.",
+        "kotlin-reflect POM declares kotlin-stdlib:1.6.10, but that edge is absent under the wildcard exclusion.",
+        "kotlinx-coroutines-core-jvm POM imports kotlinx-coroutines-bom:1.8.0 and declares annotations:23.0.0 and kotlin-stdlib:1.9.21; these child edges are excluded in the selected compiler/commonizer graphs. The BOM POM is still metadata-only input."
+      ]
+    }
+  },
+  "identity": "6fc836fe0c4704d85667e544f10b59dbc44ea5866616384dfae550ef31f3a57c",
+  "originalPublishedBinaryProvenance": "UNKNOWN",
+  "producerSourceLedger": [
+    {
+      "bytes": 2053,
+      "path": "desktopMain/io/ktor/client/engine/curl/Curl.kt",
+      "sha256": "5d78b4f1d29e0a2d9890c6f66a0cfc8a567ebb371baa526a01b46a6f6ca7f720"
+    },
+    {
+      "bytes": 3531,
+      "path": "desktopMain/io/ktor/client/engine/curl/CurlClientEngine.kt",
+      "sha256": "6e2a0cfc2fd4bd85db2e4d95a59a03815c6ec04807144eeb73b881644b9f26c9"
+    },
+    {
+      "bytes": 1557,
+      "path": "desktopMain/io/ktor/client/engine/curl/CurlClientEngineConfig.kt",
+      "sha256": "22bf7d547450ab1ca1509e944f5f785ff693e58ed74fa370d231873e4817bacc"
+    },
+    {
+      "bytes": 5594,
+      "path": "desktopMain/io/ktor/client/engine/curl/CurlProcessor.kt",
+      "sha256": "521e4d73280f1b225797777283278fd228bc68079d34c6476bc650b94b1a94ec"
+    },
+    {
+      "bytes": 517,
+      "path": "desktopMain/io/ktor/client/engine/curl/ResponseUtils.kt",
+      "sha256": "17a45d271bb22f4977954d1ea8f340b3592e61593ebf878bda873c33d990c821"
+    },
+    {
+      "bytes": 9078,
+      "path": "desktopMain/io/ktor/client/engine/curl/internal/CurlAdapters.kt",
+      "sha256": "7d10872156555796a8861861bf822730f967a1e6451a65dd95b892a113776bb7"
+    },
+    {
+      "bytes": 3233,
+      "path": "desktopMain/io/ktor/client/engine/curl/internal/CurlCallbacks.kt",
+      "sha256": "c9f278ed9e4ca6091d7f1deb5f0b6a62932532a2dffd52cddfb6528d9a8299cd"
+    },
+    {
+      "bytes": 2503,
+      "path": "desktopMain/io/ktor/client/engine/curl/internal/CurlHttpResponseBody.kt",
+      "sha256": "e0be7abbab96d9cae7d8a65601485ffd249bc4fe555662179402ec0fa6693b89"
+    },
+    {
+      "bytes": 16239,
+      "path": "desktopMain/io/ktor/client/engine/curl/internal/CurlMultiApiHandler.kt",
+      "sha256": "86154c3ef4b6691735c60cf2e7270b58ef83813898186bbb958d151827fa7bd6"
+    },
+    {
+      "bytes": 3589,
+      "path": "desktopMain/io/ktor/client/engine/curl/internal/CurlRaw.kt",
+      "sha256": "97e920e4dc81d7ec2d0b31ec0fa90df425e58b524e2e7a17778b7a8135a2b9e5"
+    },
+    {
+      "bytes": 4754,
+      "path": "desktopMain/io/ktor/client/engine/curl/internal/CurlWebSocketResponseBody.kt",
+      "sha256": "b26d2638faa42e86e3f1d56971ca061dbc459574972f11f542851499266441ec"
+    },
+    {
+      "bytes": 3330,
+      "path": "desktopMain/io/ktor/client/engine/curl/internal/CurlWebSocketSession.kt",
+      "sha256": "2789ef7a6afb5a988711a38303389795aa4b27fa1d444b3f73d25064fb03574b"
+    },
+    {
+      "bytes": 747,
+      "path": "desktopMain/io/ktor/client/engine/curl/internal/Libcurl.kt",
+      "sha256": "c59aa96b95ac441f99bc160560136681e70f4787f03c13139add375c64702f90"
+    },
+    {
+      "bytes": 607,
+      "path": "desktopMain/io/ktor/client/engine/curl/internal/NativeUtils.kt",
+      "sha256": "d264136882b0dbd21a7e5fe277d5bae42b3559df74db52086679a4eeb5038a02"
+    }
+  ],
+  "rawSourceLedger": [
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/Curl.kt",
+      "bytes": 2053,
+      "lines": 63,
+      "provenance": "PUBLISHED_SOURCES_ONLY",
+      "sha256": "5d78b4f1d29e0a2d9890c6f66a0cfc8a567ebb371baa526a01b46a6f6ca7f720"
+    },
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/CurlClientEngine.kt",
+      "bytes": 3531,
+      "lines": 94,
+      "provenance": "PUBLISHED_SOURCES_ONLY",
+      "sha256": "6e2a0cfc2fd4bd85db2e4d95a59a03815c6ec04807144eeb73b881644b9f26c9"
+    },
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/CurlClientEngineConfig.kt",
+      "bytes": 1557,
+      "lines": 44,
+      "provenance": "PUBLISHED_SOURCES_ONLY",
+      "sha256": "22bf7d547450ab1ca1509e944f5f785ff693e58ed74fa370d231873e4817bacc"
+    },
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/CurlProcessor.kt",
+      "bytes": 5098,
+      "lines": 157,
+      "provenance": "PUBLISHED_SOURCES_AND_EXACT_CPF_9c285b8eb3f2fbe25cb9ab46dbdf50e28d540f5c",
+      "sha256": "7ceaa5a8af420c3cc6a41263d9d629a4b908ee3c4d7d98d5cc4ab06766766651"
+    },
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/ResponseUtils.kt",
+      "bytes": 517,
+      "lines": 21,
+      "provenance": "PUBLISHED_SOURCES_ONLY",
+      "sha256": "17a45d271bb22f4977954d1ea8f340b3592e61593ebf878bda873c33d990c821"
+    },
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlAdapters.kt",
+      "bytes": 9078,
+      "lines": 205,
+      "provenance": "PUBLISHED_SOURCES_ONLY",
+      "sha256": "7d10872156555796a8861861bf822730f967a1e6451a65dd95b892a113776bb7"
+    },
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlCallbacks.kt",
+      "bytes": 3233,
+      "lines": 107,
+      "provenance": "PUBLISHED_SOURCES_ONLY",
+      "sha256": "c9f278ed9e4ca6091d7f1deb5f0b6a62932532a2dffd52cddfb6528d9a8299cd"
+    },
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlHttpResponseBody.kt",
+      "bytes": 2503,
+      "lines": 77,
+      "provenance": "PUBLISHED_SOURCES_ONLY",
+      "sha256": "e0be7abbab96d9cae7d8a65601485ffd249bc4fe555662179402ec0fa6693b89"
+    },
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlMultiApiHandler.kt",
+      "bytes": 16003,
+      "lines": 454,
+      "provenance": "PUBLISHED_SOURCES_AND_EXACT_CPF_9c285b8eb3f2fbe25cb9ab46dbdf50e28d540f5c",
+      "sha256": "ce74d9bfcdd04d33b64eaf570d8a85dac7c30c76a20e474b69fd0795ab5865ee"
+    },
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlRaw.kt",
+      "bytes": 3589,
+      "lines": 112,
+      "provenance": "PUBLISHED_SOURCES_ONLY",
+      "sha256": "97e920e4dc81d7ec2d0b31ec0fa90df425e58b524e2e7a17778b7a8135a2b9e5"
+    },
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlWebSocketResponseBody.kt",
+      "bytes": 4754,
+      "lines": 136,
+      "provenance": "PUBLISHED_SOURCES_ONLY",
+      "sha256": "b26d2638faa42e86e3f1d56971ca061dbc459574972f11f542851499266441ec"
+    },
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlWebSocketSession.kt",
+      "bytes": 3330,
+      "lines": 112,
+      "provenance": "PUBLISHED_SOURCES_ONLY",
+      "sha256": "2789ef7a6afb5a988711a38303389795aa4b27fa1d444b3f73d25064fb03574b"
+    },
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/Libcurl.kt",
+      "bytes": 747,
+      "lines": 22,
+      "provenance": "PUBLISHED_SOURCES_ONLY",
+      "sha256": "c59aa96b95ac441f99bc160560136681e70f4787f03c13139add375c64702f90"
+    },
+    {
+      "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/NativeUtils.kt",
+      "bytes": 607,
+      "lines": 16,
+      "provenance": "PUBLISHED_SOURCES_ONLY",
+      "sha256": "d264136882b0dbd21a7e5fe277d5bae42b3559df74db52086679a4eeb5038a02"
+    }
+  ],
+  "recipe": [
+    {
+      "bytes": 78,
+      "path": ".gitattributes",
+      "sha256": "7e7e74905334704b7939f37c8dddef98b33b086c51f8f7f7bf96a2b21f2ad821"
+    },
+    {
+      "bytes": 27832,
+      "path": "README.md",
+      "sha256": "b2efea9fda4f2abb1774f4c6b1faabdc168340716650b828d6ae06cdf845df38"
+    },
+    {
+      "bytes": 2294,
+      "path": "port-config.json",
+      "sha256": "053ae639fd9dde6e849b8b84103be31e65508e65f4d690314ec3ef3685fc330f"
+    },
+    {
+      "bytes": 52178,
+      "path": "source-inputs.json",
+      "sha256": "5117c427eba2a4b33f844d76dc14ca7052d1f9ee5fd89a07542dae8e9e7a7cf4"
+    },
+    {
+      "bytes": 4019,
+      "path": "dependency-pins.json",
+      "sha256": "b5e7bda86392964fe0ba5e3463217d16976ce86123eb4547822f249239108a5e"
+    },
+    {
+      "bytes": 6521,
+      "path": "tool-inputs.json",
+      "sha256": "c1c812c28e8fa4268d6bcd07133add14c4dc882f1c68af25a4ce1591b2f8a7c0"
+    },
+    {
+      "bytes": 14045,
+      "path": "commonizer-tool-inputs.json",
+      "sha256": "a17039b78b569a287209d4ae0fddbcbd32e679994be906fcf5baca0175df69ea"
+    },
+    {
+      "bytes": 39010,
+      "path": "compiler-tool-inputs.json",
+      "sha256": "18ae512c266b17cbaf23ddb62988ea5e0998a575ffc3fb6ce1c1b551e39b51b4"
+    },
+    {
+      "bytes": 531,
+      "path": "gradlew.bat",
+      "sha256": "ab4ecb92a12b8a766e08b96fbf59734ba6210af7d13a17149c8be1b38149f393"
+    },
+    {
+      "bytes": 1547,
+      "path": "settings.gradle.kts",
+      "sha256": "68328eb8c03bfbb8bd16507929ae64aed2453bffe8e62ea059e66d6daa704f53"
+    },
+    {
+      "bytes": 311,
+      "path": "gradle.properties",
+      "sha256": "d768c75eb749acb2e2ed367bdd9a25b31e93f10401ca8148df11667890659661"
+    },
+    {
+      "bytes": 17390,
+      "path": "build.gradle.kts",
+      "sha256": "c3897e273790412323c3f37ce6b5a074e1789849296085a008cb30a371e462db"
+    },
+    {
+      "bytes": 105348,
+      "path": "CurlPort.py",
+      "sha256": "7702a2d032456675022f9d16d3d32156b91b02084ad1380cf158c21542fec4b6"
+    },
+    {
+      "bytes": 1901,
+      "path": "consumer/settings.gradle.kts",
+      "sha256": "5c91667b8f684a2f5df8c9f38229e8e815b41374c007b7461307fa1ea1b87037"
+    },
+    {
+      "bytes": 12475,
+      "path": "consumer/build.gradle.kts",
+      "sha256": "5c36cd34fe193c6e9fcb75e8013d7e53a60f690572bf5658b361793bc8c00d98"
+    },
+    {
+      "bytes": 909,
+      "path": "consumer/src/ohosMain/kotlin/CurlConsumer.kt",
+      "sha256": "7c46c78905976c3a2aec6e5d1fa3c431bfd273e56b0495659c822a947e2f62b2"
+    }
+  ],
+  "runtime": "NOT_RUN",
+  "runtimePatch": "PR5908_ONLY",
+  "runtimePatchCommit": "af0faffc0bbe71fff8221dc3a80325fabff2648f",
+  "runtimePatchManifest": {
+    "bytes": 13208,
+    "path": "D:\\StudioProject\\chunjizhang\\ChunjizhangCompose-aidev\\harmony-build\\.local\\ktor-curl-baseline-6fc836fe0c4704d85667e544\\runtime-patch-manifest.json",
+    "sha256": "8bbed02655dc0d73839928863af00d73247eaaa3046ddf98b73bb379ff5d551d"
+  },
+  "sourceSetMapping": "desktopMain -> ohosMain; exact raw source or approved two-file PR5908 overlay",
+  "sources": {
+    "companions": {
+      "ohosarm64": {
+        "bytes": 3725349,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/ktor-client-curl-ohosarm64-3.5.1-0.1.0-01-cinterop-libcurl.klib",
+        "sha256": "c929eac927536d84528cdcbff4954525b9e370b05809935ded371a14b43b7ac2",
+        "staticArchives": [
+          {
+            "bytes": 9280800,
+            "path": "default/targets/ohos_arm64/included/libcrypto.a",
+            "sha256": "ba5b0d9ce24eec916687398ee543f14fda9945667cb45a783a284fae0cbe4719"
+          },
+          {
+            "bytes": 2149630,
+            "path": "default/targets/ohos_arm64/included/libcurl.a",
+            "sha256": "d4e455c441830514a40e6e948fb0c3aedb2e4281e88216e381833de544b11352"
+          },
+          {
+            "bytes": 403132,
+            "path": "default/targets/ohos_arm64/included/libnghttp2.a",
+            "sha256": "4c60fb874222e29afeb5c9653440f50421f5194f5c425cda7fad76007fcdf3b8"
+          },
+          {
+            "bytes": 1791440,
+            "path": "default/targets/ohos_arm64/included/libssl.a",
+            "sha256": "2ab4b1e4918666f6eb121b8a0117d55aaa43ed5e144219184759d2d434faf3f6"
+          }
+        ]
+      },
+      "ohosx64": {
+        "bytes": 3686258,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/ktor-client-curl-ohosx64-3.5.1-0.1.0-01-cinterop-libcurl.klib",
+        "sha256": "11e25a18b1e2fe8b908e9c08605a9ab96f343a15388c692f93fba88aca6f4c9d",
+        "staticArchives": [
+          {
+            "bytes": 9020614,
+            "path": "default/targets/ohos_x64/included/libcrypto.a",
+            "sha256": "ad7868962f2f9858429e056580e3335da43a2e10e488dd31a93689b6a5135d8f"
+          },
+          {
+            "bytes": 2107046,
+            "path": "default/targets/ohos_x64/included/libcurl.a",
+            "sha256": "631071325cd5dac1abf02fa4c24afbedd708cc5c947262bacfe9ebcc58e0e1c8"
+          },
+          {
+            "bytes": 429124,
+            "path": "default/targets/ohos_x64/included/libnghttp2.a",
+            "sha256": "7fe05f4cce7238d0db555167ad07b544ab0cc1a34bbd18acaf06b4808f1eb386"
+          },
+          {
+            "bytes": 1829248,
+            "path": "default/targets/ohos_x64/included/libssl.a",
+            "sha256": "ca58f0456af297db195e7c29cbe0079c4d76f7206bb9b32590351f954f9a2975"
+          }
+        ]
+      }
+    },
+    "cpfCommit": "9c285b8eb3f2fbe25cb9ab46dbdf50e28d540f5c",
+    "dependencyClosure": {
+      "coordinates": [
+        "io.ktor:ktor-client-core:3.5.1-0.1.0-01",
+        "io.ktor:ktor-client-core-ohosarm64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-client-core-ohosx64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-events:3.5.1-0.1.0-01",
+        "io.ktor:ktor-events-ohosarm64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-events-ohosx64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-http:3.5.1-0.1.0-01",
+        "io.ktor:ktor-http-cio:3.5.1-0.1.0-01",
+        "io.ktor:ktor-http-cio-ohosarm64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-http-cio-ohosx64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-http-ohosarm64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-http-ohosx64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-io:3.5.1-0.1.0-01",
+        "io.ktor:ktor-io-ohosarm64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-io-ohosx64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-serialization:3.5.1-0.1.0-01",
+        "io.ktor:ktor-serialization-ohosarm64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-serialization-ohosx64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-sse:3.5.1-0.1.0-01",
+        "io.ktor:ktor-sse-ohosarm64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-sse-ohosx64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-utils:3.5.1-0.1.0-01",
+        "io.ktor:ktor-utils-ohosarm64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-utils-ohosx64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-websocket-serialization:3.5.1-0.1.0-01",
+        "io.ktor:ktor-websocket-serialization-ohosarm64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-websocket-serialization-ohosx64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-websockets:3.5.1-0.1.0-01",
+        "io.ktor:ktor-websockets-ohosarm64:3.5.1-0.1.0-01",
+        "io.ktor:ktor-websockets-ohosx64:3.5.1-0.1.0-01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.20-0.1.0-08",
+        "org.jetbrains.kotlinx:atomicfu:0.33.0-0.1.0-07",
+        "org.jetbrains.kotlinx:atomicfu-ohosarm64:0.33.0-0.1.0-07",
+        "org.jetbrains.kotlinx:atomicfu-ohosx64:0.33.0-0.1.0-07",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0-0.1.0-07",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core-ohosarm64:1.11.0-0.1.0-07",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core-ohosx64:1.11.0-0.1.0-07",
+        "org.jetbrains.kotlinx:kotlinx-io-bytestring:0.9.1-0.1.0-07",
+        "org.jetbrains.kotlinx:kotlinx-io-bytestring-ohosarm64:0.9.1-0.1.0-07",
+        "org.jetbrains.kotlinx:kotlinx-io-bytestring-ohosx64:0.9.1-0.1.0-07",
+        "org.jetbrains.kotlinx:kotlinx-io-core:0.9.1-0.1.0-07",
+        "org.jetbrains.kotlinx:kotlinx-io-core-ohosarm64:0.9.1-0.1.0-07",
+        "org.jetbrains.kotlinx:kotlinx-io-core-ohosx64:0.9.1-0.1.0-07",
+        "org.jetbrains.kotlinx:kotlinx-serialization-core:1.11.0-0.1.0-07",
+        "org.jetbrains.kotlinx:kotlinx-serialization-core-ohosarm64:1.11.0-0.1.0-07",
+        "org.jetbrains.kotlinx:kotlinx-serialization-core-ohosx64:1.11.0-0.1.0-07"
+      ],
+      "files": [
+        {
+          "bytes": 3710,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-client-core-ohosarm64/3.5.1-0.1.0-01/1e18eec857a0a59cc8c05af6ae48b703d7419067/ktor-client-core-ohosarm64-3.5.1-0.1.0-01.module",
+          "sha256": "b36d041a20b526fa53ff8d40a5be3d44dee9b019c0e01d16ed599a3558726716"
+        },
+        {
+          "bytes": 589493,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-client-core-ohosarm64/3.5.1-0.1.0-01/fd925fc9b175b5769be510123cbf1a9c1723ef2d/ktor-client-core-ohosArm64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "09159120eba93c60f0e1c1ad4c21b806c14c91332a37231d0fb5b895bb424398"
+        },
+        {
+          "bytes": 3694,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-client-core-ohosx64/3.5.1-0.1.0-01/2495082956714bbdb8e48e04a9af71d0d27743ca/ktor-client-core-ohosx64-3.5.1-0.1.0-01.module",
+          "sha256": "265f3fd0d75c9780a5379439ddb6746ea79ac3c71b0cedeb55b60799fcc0bfd3"
+        },
+        {
+          "bytes": 589480,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-client-core-ohosx64/3.5.1-0.1.0-01/8d711919cfa4e226db0dbcc764f0b8a01d015b0c/ktor-client-core-ohosX64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "e3bcebd75cd11f1c0d6da0daf3c178bbf92b58fbca8b93254bfc3621cc067b3e"
+        },
+        {
+          "bytes": 96705,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-client-core/3.5.1-0.1.0-01/3127cf8347c418cd1c2f99db9e47a5c03f62b4b6/ktor-client-core-metadata-3.5.1-0.1.0-01.jar",
+          "sha256": "f9a1631d9cbfe108e869d96464c57799081278015d5142a2dbe5902ec7cc66c4"
+        },
+        {
+          "bytes": 42607,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-client-core/3.5.1-0.1.0-01/e0b82987342919a35ddbaf435737a179e320580/ktor-client-core-3.5.1-0.1.0-01.module",
+          "sha256": "403795c17b30816b518c233f5a7d3bcd18fcc9e80eba1213b206516ab314c953"
+        },
+        {
+          "bytes": 10384,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-events-ohosarm64/3.5.1-0.1.0-01/d27867dcee9eb128708873b84c83a420783c308c/ktor-events-ohosArm64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "86d2447f0b57001298fbf2b1edfa238e0c9f5d4ba21c3b0b3b9f9051cc38ccb1"
+        },
+        {
+          "bytes": 3009,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-events-ohosarm64/3.5.1-0.1.0-01/f7e72a101b0309e24ec0cac7f464253c8e150b5/ktor-events-ohosarm64-3.5.1-0.1.0-01.module",
+          "sha256": "d5e8e4523854fb392b7d84eb8ee3f393bb0878685c6ac3d702986e7011c9fb88"
+        },
+        {
+          "bytes": 10371,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-events-ohosx64/3.5.1-0.1.0-01/2ed61e5d0a7f3c3a4bb88fc94b69f1fd846c55a9/ktor-events-ohosX64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "1c7e4a09ded6b65c9c6258e5a22e91eafb0f8e35a8be419482c95f7b1811891a"
+        },
+        {
+          "bytes": 2993,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-events-ohosx64/3.5.1-0.1.0-01/6adfbbb800f36f340535b97b100f5568425bd489/ktor-events-ohosx64-3.5.1-0.1.0-01.module",
+          "sha256": "89b734edb23438a2bf0decabce1f38665f3c3dae5b454e6ad823704c748c3eb1"
+        },
+        {
+          "bytes": 41016,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-events/3.5.1-0.1.0-01/6a39d6fa8c037d15c65f1cd7d312f5a1881bd2ab/ktor-events-3.5.1-0.1.0-01.module",
+          "sha256": "bfac2c1df29f76900a8797e73f74e6bd06ea2f3c09d9a5f3af3e0563c44d906d"
+        },
+        {
+          "bytes": 3121,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-events/3.5.1-0.1.0-01/799a7024a134c516444d14122a754a32eef68782/ktor-events-metadata-3.5.1-0.1.0-01.jar",
+          "sha256": "bb5f083f70f4b62653aeca705e2725981970de68b041ea2f8c5a7f7b603c376e"
+        },
+        {
+          "bytes": 116907,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-http-cio-ohosarm64/3.5.1-0.1.0-01/1b04d3a96fe3c5124bc8a2d4285abbb2a86f69ea/ktor-http-cio-ohosArm64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "0143fb93b8fb29fb1790f265de41c4e48db7eb2b3b7a7ff9b894d3584df7f55a"
+        },
+        {
+          "bytes": 3182,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-http-cio-ohosarm64/3.5.1-0.1.0-01/e762b2846940d9132d98f277b686bb788e8717a2/ktor-http-cio-ohosarm64-3.5.1-0.1.0-01.module",
+          "sha256": "2461b184e6c54e085b0dba90a33de32554b5f8641d5985734bb2a17bbb913cd1"
+        },
+        {
+          "bytes": 3166,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-http-cio-ohosx64/3.5.1-0.1.0-01/747e22bb4771102f199621b8e88d84d79de55381/ktor-http-cio-ohosx64-3.5.1-0.1.0-01.module",
+          "sha256": "31b5ec78ecefa36181bdb0308868614a21b74e237c14c281fdea038b697ace2f"
+        },
+        {
+          "bytes": 116894,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-http-cio-ohosx64/3.5.1-0.1.0-01/d943d6fd86b4a970655ccca6e3f144b1bb68bf7e/ktor-http-cio-ohosX64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "b9d45cdb89f40acdce56e85cd1030e28969a91e265e30e0882d0d08c81639a65"
+        },
+        {
+          "bytes": 21816,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-http-cio/3.5.1-0.1.0-01/5243158b731967d0ec64bc40aaecf68f89e54c86/ktor-http-cio-metadata-3.5.1-0.1.0-01.jar",
+          "sha256": "f1bf38817761946198f16030dad5c323c053f1ef88212c1a75fe259f4ed22ac0"
+        },
+        {
+          "bytes": 41545,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-http-cio/3.5.1-0.1.0-01/ec380d7e00f35651b2daf0f1bbcc9176949d7d57/ktor-http-cio-3.5.1-0.1.0-01.module",
+          "sha256": "dc24c51ad4900ba6f3e13ad071275e0265d20884c58856b53979ca6a5945d428"
+        },
+        {
+          "bytes": 402568,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-http-ohosarm64/3.5.1-0.1.0-01/bc72b9d8013779267ac43824c961629f4858cf59/ktor-http-ohosArm64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "422bb5a528a596b02ca41929828029d5cd7f39472699fbf856b3a860e0132e02"
+        },
+        {
+          "bytes": 3189,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-http-ohosarm64/3.5.1-0.1.0-01/fb3b7812f8aee9966648557f4e495cda5df6a3e6/ktor-http-ohosarm64-3.5.1-0.1.0-01.module",
+          "sha256": "1d1464fb79d890f69ca487d5732d9c7e9fe14d82d3eb80bd9ab77d43461f3feb"
+        },
+        {
+          "bytes": 402555,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-http-ohosx64/3.5.1-0.1.0-01/2390b74d671be5590c81e0fff9a03e3eefc4901e/ktor-http-ohosX64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "98c8aef0bcb3ecd21a46a85665218c07b948ab1373a0f93c27007401e9f41d8d"
+        },
+        {
+          "bytes": 3173,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-http-ohosx64/3.5.1-0.1.0-01/3fbe3478ba35bd9fd5a67ea0452cfafbab6cf88d/ktor-http-ohosx64-3.5.1-0.1.0-01.module",
+          "sha256": "af75f285b252da9a28c90df5ee47e305956b5b7fccb7e185c235365a263d541c"
+        },
+        {
+          "bytes": 56550,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-http/3.5.1-0.1.0-01/9cbc1264725908651306d3d167d83c498d779e50/ktor-http-metadata-3.5.1-0.1.0-01.jar",
+          "sha256": "7259ec174cc2a2547fe216ecf100bf00d7dd2ffdacff54a00f7f79f1649c3435"
+        },
+        {
+          "bytes": 40840,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-http/3.5.1-0.1.0-01/bd2bf96a2d2cfd00d2444afdee49e35c33b5a666/ktor-http-3.5.1-0.1.0-01.module",
+          "sha256": "c869623d24df6e0cdd2a6652ce039d615195b57b12a8b57f0cc9ca5be26ea127"
+        },
+        {
+          "bytes": 8866,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-io-ohosarm64/3.5.1-0.1.0-01/4d6abfc1041ef46db8d24c3ef36f55c706602e69/ktor-io-ohosArm64Cinterop-mutexMain-3.5.1-0.1.0-01.klib",
+          "sha256": "5cee2fc29113a1852b656070d12f174504b85bb27dead25468c082b9c8348380"
+        },
+        {
+          "bytes": 3551,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-io-ohosarm64/3.5.1-0.1.0-01/e91044341a1ba2078cd60c8e2c7bc140c68ca3ff/ktor-io-ohosarm64-3.5.1-0.1.0-01.module",
+          "sha256": "bcbc95054449638ade37eacdb607c86ceb82801e849d600373384d3d0592cd87"
+        },
+        {
+          "bytes": 212187,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-io-ohosarm64/3.5.1-0.1.0-01/fd188873d6056e485c319971a446733060beebdf/ktor-io-ohosArm64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "dd628bc13c1f7c7e7fc4f7fc45e9b32875c1ff4fa9c187fe17468db3f61bed04"
+        },
+        {
+          "bytes": 8723,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-io-ohosx64/3.5.1-0.1.0-01/371570ad7ec69e86e7a3d191cd40e400c32cd287/ktor-io-ohosX64Cinterop-mutexMain-3.5.1-0.1.0-01.klib",
+          "sha256": "80a1dc6b993feb0c8e5a413470fb8217da8b8a072c1d5319ae341511d16fc8bc"
+        },
+        {
+          "bytes": 3531,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-io-ohosx64/3.5.1-0.1.0-01/b2dae29f3ea0f143e2f07aafa3b32c55dd6f42f3/ktor-io-ohosx64-3.5.1-0.1.0-01.module",
+          "sha256": "d1d55c2a87403718cb9bb8ef364009a20583ebe82626fb5a9b56ee039af3ce10"
+        },
+        {
+          "bytes": 212174,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-io-ohosx64/3.5.1-0.1.0-01/fcb1edcefd9d73414b2c26354f11f7d9da50c988/ktor-io-ohosX64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "81411c1492c8bb9caba798ad87ca8f3f094e2516ce7136a1fa558a2e32301150"
+        },
+        {
+          "bytes": 40298,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-io/3.5.1-0.1.0-01/6ced2cff181e31980aec430727b5137ebf044692/ktor-io-3.5.1-0.1.0-01.module",
+          "sha256": "c3d39596d77932ea76dd7e87bee30a51c7eb51d1f9b100ac0a23acf0b1196e99"
+        },
+        {
+          "bytes": 118185,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-io/3.5.1-0.1.0-01/fd441c350cf3c30cc6753886c254bd8d53d92872/ktor-io-metadata-3.5.1-0.1.0-01.jar",
+          "sha256": "7dbd9cfaac7088751471b263c6ed350f002a224f0e4d89d657cbffec3433a953"
+        },
+        {
+          "bytes": 15933,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-serialization-ohosarm64/3.5.1-0.1.0-01/93a6b42be6b729679d8daeb5509100cb7dee8e72/ktor-serialization-ohosArm64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "46cced23d6d367f37e6f720ef6f3d5195f9a2bdc54de9cb21d545f2441c57405"
+        },
+        {
+          "bytes": 3063,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-serialization-ohosarm64/3.5.1-0.1.0-01/99cdc9a97911e7431d50fc47e5d98b460aa29e2e/ktor-serialization-ohosarm64-3.5.1-0.1.0-01.module",
+          "sha256": "cfc3b7ae45206e7324c3996e6772c5f03de60009bf94e29c0107573beae379fc"
+        },
+        {
+          "bytes": 15920,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-serialization-ohosx64/3.5.1-0.1.0-01/5d469843bb08085c52d421e7bb52a635fedfc986/ktor-serialization-ohosX64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "6fca475473f9045b8906861174a36bbb04acb016bb8667fe590a317b75b07685"
+        },
+        {
+          "bytes": 3047,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-serialization-ohosx64/3.5.1-0.1.0-01/c35e37bddf2b4577af55c28015a1f5b3e2ccd94f/ktor-serialization-ohosx64-3.5.1-0.1.0-01.module",
+          "sha256": "d10441a58d0c9a2c42d704b51c6edb79e6c540e94f87d3da5ae63aa11ba09539"
+        },
+        {
+          "bytes": 4382,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-serialization/3.5.1-0.1.0-01/2add24f63339eb6753813b972b22fffb6f67839d/ktor-serialization-metadata-3.5.1-0.1.0-01.jar",
+          "sha256": "dbe30bf1b771ae9787af129bc0a4fd2e0db76d5a9583369ea7b6e403b817be64"
+        },
+        {
+          "bytes": 42316,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-serialization/3.5.1-0.1.0-01/745f0bcb0a436b4a6df0ad8644f27bdd33700912/ktor-serialization-3.5.1-0.1.0-01.module",
+          "sha256": "59e05b6dbaefefd233debe3dd9a9b75a90d2c1c9d152a50cc8a21876e0c533ac"
+        },
+        {
+          "bytes": 13246,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-sse-ohosarm64/3.5.1-0.1.0-01/38e11c59f3f67def2f36a205a8a358153fe5ec34/ktor-sse-ohosArm64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "c2be73d3a4741f00704509da891b4aee48e99158f151bb587faa6ac0ea3cd663"
+        },
+        {
+          "bytes": 2988,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-sse-ohosarm64/3.5.1-0.1.0-01/c6d14f40ef11c7bb602b4bb283088dbbb4ece1df/ktor-sse-ohosarm64-3.5.1-0.1.0-01.module",
+          "sha256": "67c1bcc6a9c64b679fcfb72cced5ebe42b773ff1a0c75373855de19e162d0174"
+        },
+        {
+          "bytes": 2972,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-sse-ohosx64/3.5.1-0.1.0-01/4d3239881cf780059aff14fc939f4ea3dd137913/ktor-sse-ohosx64-3.5.1-0.1.0-01.module",
+          "sha256": "72740b035749884d74049ad365dcebb8d150f1737106fadd93f51bc585d31d90"
+        },
+        {
+          "bytes": 13233,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-sse-ohosx64/3.5.1-0.1.0-01/a6f9de8a89df91f47b83858ed76b1e2313fcd984/ktor-sse-ohosX64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "eccf4630033ceba0599b6c832f29a19b5b3f419c67d46310cfc6fd1ce8bfbb5c"
+        },
+        {
+          "bytes": 3359,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-sse/3.5.1-0.1.0-01/8720ced625b0daa78a47103a67f680b899876eb6/ktor-sse-metadata-3.5.1-0.1.0-01.jar",
+          "sha256": "0819a091fa00f3885ac190884d9511751fbf833b53c0833b26a5b27d659b9f70"
+        },
+        {
+          "bytes": 40461,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-sse/3.5.1-0.1.0-01/f0565a3e92f914e479ead643a2ec7e9fe6600048/ktor-sse-3.5.1-0.1.0-01.module",
+          "sha256": "8a89b09ea0c42e11569a7addfd0c0bd95af2bf6f7a5966fbc1d8a8fe9308b192"
+        },
+        {
+          "bytes": 6606,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-utils-ohosarm64/3.5.1-0.1.0-01/42a4736413510b0177dff1ba6e02757f61d805f2/ktor-utils-ohosArm64Cinterop-threadUtilsMain-3.5.1-0.1.0-01.klib",
+          "sha256": "76089b8b707fd6cc982480bd3cc395ef80c284ce4464d2a99eac5c9081b63c80"
+        },
+        {
+          "bytes": 3760,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-utils-ohosarm64/3.5.1-0.1.0-01/85a11fc14a0f6fe1e025e323833ddd3274f53d73/ktor-utils-ohosarm64-3.5.1-0.1.0-01.module",
+          "sha256": "95a35f52649577405e65cf0fa466938d1309ec6a200986dc46583330bc09df4f"
+        },
+        {
+          "bytes": 305759,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-utils-ohosarm64/3.5.1-0.1.0-01/ffa7cb72401bd5dec8ca917c7d32b3869b30df6d/ktor-utils-ohosArm64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "7d7e5e34b4930889415002106dd3b16e43d1d5bf3c6ea6694fb4b1f4883299a3"
+        },
+        {
+          "bytes": 6800,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-utils-ohosx64/3.5.1-0.1.0-01/54dd08e24046fdb440ef925cf15951703bfd3146/ktor-utils-ohosX64Cinterop-threadUtilsMain-3.5.1-0.1.0-01.klib",
+          "sha256": "bb83d8e81d5699a818341948f792019f729f4a177df25fe82f138b16986aa3bf"
+        },
+        {
+          "bytes": 3740,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-utils-ohosx64/3.5.1-0.1.0-01/96148ce750f04a5d70adfaa55207beff9562f103/ktor-utils-ohosx64-3.5.1-0.1.0-01.module",
+          "sha256": "75bd4f3fb1c9ebd1d1bf310ad9d84dcafc71e0475269ce7dfbe621483dcbae9b"
+        },
+        {
+          "bytes": 305746,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-utils-ohosx64/3.5.1-0.1.0-01/c75dacd5db3721e7be6d369832fc0f9a979467b6/ktor-utils-ohosX64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "dc04b33e256250fb9c6af7bf434d61238857aac682997657b2f58538a33b15be"
+        },
+        {
+          "bytes": 88462,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-utils/3.5.1-0.1.0-01/6de6597056ff0a4c435523744d73a6fe1ee5a78b/ktor-utils-metadata-3.5.1-0.1.0-01.jar",
+          "sha256": "d4b6564a4cf6989ebff1e0d89bf4fdc3a0b5392633e794baa13c98eb190efb75"
+        },
+        {
+          "bytes": 41022,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-utils/3.5.1-0.1.0-01/80d58e4720f3ef626f5b72422253f54fa11e60bb/ktor-utils-3.5.1-0.1.0-01.module",
+          "sha256": "22c3b0577368866d989cd5ee2110915833bcbac9411babffb506f0bfd42fae9a"
+        },
+        {
+          "bytes": 10954,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-websocket-serialization-ohosarm64/3.5.1-0.1.0-01/884a7aaab3f2e000bdcf36b088ba34bff944dac9/ktor-websocket-serialization-ohosArm64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "b41b9e76b59e71c81dc6fef2611e070b9c3f8ecb7daa24a60bf26d88f17f4a77"
+        },
+        {
+          "bytes": 3136,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-websocket-serialization-ohosarm64/3.5.1-0.1.0-01/d3cd1b66f51f55719676051b1761a3c358394b79/ktor-websocket-serialization-ohosarm64-3.5.1-0.1.0-01.module",
+          "sha256": "ad725107ad562a5d21929ff81da6c4c01046662dc33d41a6ac7162b82d61f8a0"
+        },
+        {
+          "bytes": 3120,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-websocket-serialization-ohosx64/3.5.1-0.1.0-01/b49e68cfdf62f12942ef1a43049f61c7ea616239/ktor-websocket-serialization-ohosx64-3.5.1-0.1.0-01.module",
+          "sha256": "c5f0f2f5b9216cbdd8c4fa627cb3a1fce71f866b51e4efc30aeb6f17959071e7"
+        },
+        {
+          "bytes": 10941,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-websocket-serialization-ohosx64/3.5.1-0.1.0-01/cb0754205e09be9d6385d284d9885d801bc0d786/ktor-websocket-serialization-ohosX64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "6b0bca8572f7b1a5b95d2d952f50479d55b0b58c0be88fcc43257e2b1b7a83be"
+        },
+        {
+          "bytes": 3033,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-websocket-serialization/3.5.1-0.1.0-01/5a23537e62add2df41077d0c98474497f657ca5d/ktor-websocket-serialization-metadata-3.5.1-0.1.0-01.jar",
+          "sha256": "b20cc7de62b7c98011ad7bfb104987b3eb862e32301dd8a39a5fa29987b43da7"
+        },
+        {
+          "bytes": 44169,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-websocket-serialization/3.5.1-0.1.0-01/a38f1ffd0083f7448577fb874bc9953029453297/ktor-websocket-serialization-3.5.1-0.1.0-01.module",
+          "sha256": "bdfe312dbdadcd47f400301c972da5d57d545a633bd4c0b7a40dca079efc7a52"
+        },
+        {
+          "bytes": 93603,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-websockets-ohosarm64/3.5.1-0.1.0-01/9b083910e78f6915f7eb4bd4af44d95b0b264068/ktor-websockets-ohosArm64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "8b49de43166308e4c11a47c34f329ac7e18eff3926c3e496a8c68fb15e75209b"
+        },
+        {
+          "bytes": 3198,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-websockets-ohosarm64/3.5.1-0.1.0-01/f9f9093fd5615827588f74e9789aba29d8aaf219/ktor-websockets-ohosarm64-3.5.1-0.1.0-01.module",
+          "sha256": "867f3e5f21d2ce9281d43af38b1f63c278fc1b520f295e0ff3b1e99a1fc512b7"
+        },
+        {
+          "bytes": 3182,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-websockets-ohosx64/3.5.1-0.1.0-01/1857580f2b14ecd2485e28bf0d44730866526403/ktor-websockets-ohosx64-3.5.1-0.1.0-01.module",
+          "sha256": "1d33c3ef30eb61cc0763320123895b268fa11115a72f515e6d892321c331411e"
+        },
+        {
+          "bytes": 93590,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-websockets-ohosx64/3.5.1-0.1.0-01/4d391b55e1954ea31870ef2fbf6d637f3a9f7b06/ktor-websockets-ohosX64Main-3.5.1-0.1.0-01.klib",
+          "sha256": "f13a5e3ba69241a1bc1bd3119a29c455a7228c5229262252d2df4a7d2bf27f2d"
+        },
+        {
+          "bytes": 41918,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-websockets/3.5.1-0.1.0-01/5fa43aa99b26461564487a5ded5a0e04799d0cf/ktor-websockets-3.5.1-0.1.0-01.module",
+          "sha256": "3c65264de5528bf9fdeb9e60567923f53f21a25d27433961d8bfee7f1388e116"
+        },
+        {
+          "bytes": 19670,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/io.ktor/ktor-websockets/3.5.1-0.1.0-01/6ef0a8c52371990e5304a2e27f0f06e1cf6dadf1/ktor-websockets-metadata-3.5.1-0.1.0-01.jar",
+          "sha256": "794c0d83b002c3026558c3b4a468c53353267207b9632462a1755b7014e100ce"
+        },
+        {
+          "bytes": 12809,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.4.20-0.1.0-08/590903a301a4247e5721bdb2607334ad65071d5/kotlin-stdlib-2.4.20-0.1.0-08.module",
+          "sha256": "ba42dd4c74163eec3bb7cd1c0cb42dffa89dbcf8b87fd7ecf213f52bdd1b2cee"
+        },
+        {
+          "bytes": 218485,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.4.20-0.1.0-08/7f2bd6e2eead16fcb779a823f856c2c2812b91d1/kotlin-stdlib-2.4.20-0.1.0-08-all.jar",
+          "sha256": "a662ed1691e222438f618a93e7626ccd312a33d80d12feaeea69b6c55568afe5"
+        },
+        {
+          "bytes": 3042,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-ohosarm64/0.33.0-0.1.0-07/65bb3a12368a1414a4475a03f2b5138232da75e8/atomicfu-ohosarm64-0.33.0-0.1.0-07.module",
+          "sha256": "c00b092d6cde941f11a1b587e56835474db7ae404ffa0653af88cbf59ffae9cc"
+        },
+        {
+          "bytes": 112945,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-ohosarm64/0.33.0-0.1.0-07/6ace2caec97cd198f56484bcf7fe42b5cbf513bb/atomicfu-ohosArm64Main-0.33.0-0.1.0-07.klib",
+          "sha256": "c575c819d85a84a31113a7bbb34fe5949c18733a347232db4dccb631e0111b68"
+        },
+        {
+          "bytes": 3473,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-ohosarm64/0.33.0-0.1.0-07/9397fe688c68401c9ac654329ab6971333127e8a/atomicfu-ohosArm64Cinterop-interopMain-0.33.0-0.1.0-07.klib",
+          "sha256": "9013a7a3a24039092fe5a6b16bbc89cd846297ba4fe22965003fc198256f409c"
+        },
+        {
+          "bytes": 112932,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-ohosx64/0.33.0-0.1.0-07/20bb9590ac81be43c87ceacbae44fb354aaafd04/atomicfu-ohosX64Main-0.33.0-0.1.0-07.klib",
+          "sha256": "58d3cfdd826698edb2e3f5634f28f53aec4bfb9e6167d91789f7fcde6905dd7c"
+        },
+        {
+          "bytes": 3454,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-ohosx64/0.33.0-0.1.0-07/a4368d6a9e720aa0aa2735a545194e50898fc787/atomicfu-ohosX64Cinterop-interopMain-0.33.0-0.1.0-07.klib",
+          "sha256": "0c6a37f53412754e08fd16f726c5d4cae1a9a3cc27f481821ce0de2f6834ece8"
+        },
+        {
+          "bytes": 3022,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-ohosx64/0.33.0-0.1.0-07/ee0735f45c8e1e5ccfae9a720e31d338475efc1b/atomicfu-ohosx64-0.33.0-0.1.0-07.module",
+          "sha256": "7e6c75a9c3db81209193f6d2a56d121b92bc924977a3ecd1548ffc4004af19b2"
+        },
+        {
+          "bytes": 47946,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.33.0-0.1.0-07/c651b462ab8d8456cd7c81609438377e50cbc3d4/atomicfu-0.33.0-0.1.0-07.module",
+          "sha256": "d395bfdbce89462a4af3870602febc28e0d2cc9fcb07d15b4bc88e71f5b25196"
+        },
+        {
+          "bytes": 47936,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.33.0-0.1.0-07/cbc3db305032e250e71de8a352acb92121ff6939/atomicfu-metadata-0.33.0-0.1.0-07.jar",
+          "sha256": "c985bf16bfee84372f551e96ddd504f7568c0bfff69898884f6f1d1392de397a"
+        },
+        {
+          "bytes": 1095832,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-ohosarm64/1.11.0-0.1.0-07/41794350e0c485d8cd464923a352b7ab6c3aff2e/kotlinx-coroutines-core-ohosArm64Main-1.11.0-0.1.0-07.klib",
+          "sha256": "c4b9d2c33022ffca254a98b9b33afc0ae9abada6dc7a02b41619b2bc6fca7255"
+        },
+        {
+          "bytes": 7300,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-ohosarm64/1.11.0-0.1.0-07/e56b24ed1e46f42124858d04618c37b0ae191946/kotlinx-coroutines-core-ohosArm64Cinterop-interopMain-1.11.0-0.1.0-07.klib",
+          "sha256": "7ac59b262728f1d84c3a245ca3f8c7ca76ebb935257095cd2f4a813cd073d29b"
+        },
+        {
+          "bytes": 3356,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-ohosarm64/1.11.0-0.1.0-07/f0fd06a2853ab9ae926e996ba7bb4fd691770ac/kotlinx-coroutines-core-ohosarm64-1.11.0-0.1.0-07.module",
+          "sha256": "19b07947a10c870819cfd3fcf61859bf80c4549a17ef3ec77218e649c45de3e4"
+        },
+        {
+          "bytes": 7365,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-ohosx64/1.11.0-0.1.0-07/3b67b8e5ac6052db63eb4ca830827281ad508324/kotlinx-coroutines-core-ohosX64Cinterop-interopMain-1.11.0-0.1.0-07.klib",
+          "sha256": "75279a1a56c428742842062cce6e8e4f7a2888cd5da140e345bea0336fce45ad"
+        },
+        {
+          "bytes": 1095819,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-ohosx64/1.11.0-0.1.0-07/a54d97a36a3daa6c127c2292783487dc09e4ee35/kotlinx-coroutines-core-ohosX64Main-1.11.0-0.1.0-07.klib",
+          "sha256": "c821aaf227ee76c6a493866453a2a869595903123837f50014cc830359d08a46"
+        },
+        {
+          "bytes": 3336,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-ohosx64/1.11.0-0.1.0-07/c0e7d89692947fa1a095ed1fe963e51bee86ac52/kotlinx-coroutines-core-ohosx64-1.11.0-0.1.0-07.module",
+          "sha256": "69d977f89b6f653cc29094fd30a22d21a96922d62fe980d97fe18cdc9ec65764"
+        },
+        {
+          "bytes": 158686,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.11.0-0.1.0-07/3dd9faff56472c69c1a171fd3737740b9a3e82e4/kotlinx-coroutines-core-metadata-1.11.0-0.1.0-07.jar",
+          "sha256": "4fc97872bce0b5cc0578f52886c5c879fd0be399d4bcb22ef3331336e22d7f5d"
+        },
+        {
+          "bytes": 49969,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.11.0-0.1.0-07/dd8c118291998ddeabc80dae8a7df500175b4faf/kotlinx-coroutines-core-1.11.0-0.1.0-07.module",
+          "sha256": "d961e6148319bf94212b786db7fea4b1f5d133b39ef980f465f811be95d5d356"
+        },
+        {
+          "bytes": 2568,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring-ohosarm64/0.9.1-0.1.0-07/5581b43a17df354eb0a9bb9b3b0c154b0a93671b/kotlinx-io-bytestring-ohosarm64-0.9.1-0.1.0-07.module",
+          "sha256": "3c5cb9a4730140c3fe46fc76fc9304dbecf827f4ee2ab86720d2b015eabf1380"
+        },
+        {
+          "bytes": 36268,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring-ohosarm64/0.9.1-0.1.0-07/61bdd8f3914b5e5af4a2808332b09139b7b034bd/kotlinx-io-bytestring-ohosArm64Main-0.9.1-0.1.0-07.klib",
+          "sha256": "3ed93055992e9069732acfefdea43c8d31204b1cff5fe165145734402df50e32"
+        },
+        {
+          "bytes": 2552,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring-ohosx64/0.9.1-0.1.0-07/4341d9102f1213c614e2147c81468a43a5153159/kotlinx-io-bytestring-ohosx64-0.9.1-0.1.0-07.module",
+          "sha256": "e7a9d26acf95b1de5035abc94bf81f7c73d502426bbf49c46331a029d5eade5b"
+        },
+        {
+          "bytes": 36255,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring-ohosx64/0.9.1-0.1.0-07/9c768ec4344255e1165671d95661cf9598955a1b/kotlinx-io-bytestring-ohosX64Main-0.9.1-0.1.0-07.klib",
+          "sha256": "c9461605eb3d6345f02d5008cfc61620abe37b5b12e3fd877a23a7df3dc63481"
+        },
+        {
+          "bytes": 9588,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring/0.9.1-0.1.0-07/da3d9cf728ecd00a9ac3500419390c7fbf6e9e72/kotlinx-io-bytestring-metadata-0.9.1-0.1.0-07.jar",
+          "sha256": "c0bbcc9ee7813ec62d727c0b71a63b214badb1b40404a02522f4ab494d8469dc"
+        },
+        {
+          "bytes": 50561,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring/0.9.1-0.1.0-07/e7fdb5c17c2f203179bf08f86ef4ad1e53109d18/kotlinx-io-bytestring-0.9.1-0.1.0-07.module",
+          "sha256": "8a72b9fdda5f79a8740211da40cd614abc52790ac36ff1511ef3d97af7ca635a"
+        },
+        {
+          "bytes": 241269,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core-ohosarm64/0.9.1-0.1.0-07/a7c4b08d99310a8d409ccbd745911cdaf5d04ae7/kotlinx-io-core-ohosArm64Main-0.9.1-0.1.0-07.klib",
+          "sha256": "66a9db0020400924654a2b38834f73e1c8d86500ab627eabe2050ee8abc69965"
+        },
+        {
+          "bytes": 2713,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core-ohosarm64/0.9.1-0.1.0-07/aa4c963e5889baf4336dec68cf9200abb6d070ee/kotlinx-io-core-ohosarm64-0.9.1-0.1.0-07.module",
+          "sha256": "9aa2017222ce7f70a97c6ceb209d22400ace67a697046cc2d1969cb2d42bf6aa"
+        },
+        {
+          "bytes": 2697,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core-ohosx64/0.9.1-0.1.0-07/f341e90678a8047285649a13faca8a7f6faa13e1/kotlinx-io-core-ohosx64-0.9.1-0.1.0-07.module",
+          "sha256": "1e3df67af92e2f7eb9408c1b6fe53abb896c4eb440b170f6cd097690879fecf1"
+        },
+        {
+          "bytes": 241257,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core-ohosx64/0.9.1-0.1.0-07/f89855eb1d7eaca733e276a26f46be42982d526c/kotlinx-io-core-ohosX64Main-0.9.1-0.1.0-07.klib",
+          "sha256": "b5fb7d2947034f940dcf882a166bf92695621129a4945bca357e2c18b3bf70dd"
+        },
+        {
+          "bytes": 49440,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core/0.9.1-0.1.0-07/10a15499d4bdbae541dd993f78c2cd31860f5b8c/kotlinx-io-core-0.9.1-0.1.0-07.module",
+          "sha256": "8cb44a7354b89f41a46131b3d1b267094077a51574c73bbcee48fab723a059f9"
+        },
+        {
+          "bytes": 47109,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core/0.9.1-0.1.0-07/6eaeaa63569067337bc14ad63b83076078940560/kotlinx-io-core-metadata-0.9.1-0.1.0-07.jar",
+          "sha256": "bd394c99a9f603c6d1e506527018d027de886e1eb808ed4a660cabfd744fb5bd"
+        },
+        {
+          "bytes": 357081,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-ohosarm64/1.11.0-0.1.0-07/3791a9457b9a7febfb75e05253ca7e98ebd9ecce/kotlinx-serialization-core-ohosArm64Main-1.11.0-0.1.0-07.klib",
+          "sha256": "804552bfcbd610ccc96f288a596dbf77f7e0cc6f978734a6fd985d98e16569de"
+        },
+        {
+          "bytes": 2612,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-ohosarm64/1.11.0-0.1.0-07/8f3ea8bd2ef6e19e2e0e00e6109834750363f53e/kotlinx-serialization-core-ohosarm64-1.11.0-0.1.0-07.module",
+          "sha256": "425a8ec316b55bc8dbca4cb77011640623ce8f6dcaa6f27f16d618daca8ced31"
+        },
+        {
+          "bytes": 357068,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-ohosx64/1.11.0-0.1.0-07/8f7dfcbbb3fad81792ca47d9b1ae5f0b36b72963/kotlinx-serialization-core-ohosX64Main-1.11.0-0.1.0-07.klib",
+          "sha256": "d362e8a3e739cbbc01a3710ce88bb33f46b111d7c79a56eba3d4cab57a2beaf0"
+        },
+        {
+          "bytes": 2596,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-ohosx64/1.11.0-0.1.0-07/e15fd845a9a715382882b303796086442ebb7e31/kotlinx-serialization-core-ohosx64-1.11.0-0.1.0-07.module",
+          "sha256": "c34dcaa38b80fe1957aec36802002766c59acf0cbe1f98efd0f80568f17025f0"
+        },
+        {
+          "bytes": 51871,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core/1.11.0-0.1.0-07/3c08c77da4e01e6499e00704e0dff9f13e74b50a/kotlinx-serialization-core-1.11.0-0.1.0-07.module",
+          "sha256": "5528b6dcf73a84d9eb01f82ce1447a37edbd672ea8029d450593a062df32f96f"
+        },
+        {
+          "bytes": 56554,
+          "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core/1.11.0-0.1.0-07/af29cd21f2a9b2da9ff929cbacc1381c5df74f1d/kotlinx-serialization-core-metadata-1.11.0-0.1.0-07.jar",
+          "sha256": "2efdb7635099e4e6d934f0c7585514c3bf2da76d610509880c83af3fe65cd062"
+        }
+      ],
+      "pinnedOverrides": [
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:atomicfu-ohosarm64:0.33.0-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": null
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:atomicfu-ohosx64:0.33.0-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": null
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:atomicfu:0.33.0-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": null
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:kotlinx-coroutines-core-ohosarm64:1.11.0-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": "2.4.20-0.1.0-07"
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:kotlinx-coroutines-core-ohosx64:1.11.0-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": "2.4.20-0.1.0-07"
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": "2.4.20-0.1.0-07"
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:kotlinx-io-bytestring-ohosarm64:0.9.1-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": "2.4.20-0.1.0-07"
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:kotlinx-io-bytestring-ohosx64:0.9.1-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": "2.4.20-0.1.0-07"
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:kotlinx-io-bytestring:0.9.1-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": "2.4.20-0.1.0-07"
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:kotlinx-io-core-ohosarm64:0.9.1-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": "2.4.20-0.1.0-07"
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:kotlinx-io-core-ohosx64:0.9.1-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": "2.4.20-0.1.0-07"
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:kotlinx-io-core:0.9.1-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": "2.4.20-0.1.0-07"
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:kotlinx-serialization-core-ohosarm64:1.11.0-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": "2.4.20-0.1.0-07"
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:kotlinx-serialization-core-ohosx64:1.11.0-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": "2.4.20-0.1.0-07"
+        },
+        {
+          "dependency": "org.jetbrains.kotlin:kotlin-stdlib",
+          "from": "org.jetbrains.kotlinx:kotlinx-serialization-core:1.11.0-0.1.0-07",
+          "pinned": "2.4.20-0.1.0-08",
+          "requested": "2.4.20-0.1.0-07"
+        }
+      ],
+      "selection": "metadata and dual OHOS API variants; support versions from dependency-pins; original GMM bytes preserved"
+    },
+    "files": [
+      {
+        "bytes": 44891,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-client-content-negotiation.module",
+        "sha256": "73bf03a8b544581a10db82002fce7e97a1448a87277f79330695b874876cfd9f"
+      },
+      {
+        "bytes": 42607,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-client-core.module",
+        "sha256": "403795c17b30816b518c233f5a7d3bcd18fcc9e80eba1213b206516ab314c953"
+      },
+      {
+        "bytes": 13128,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-client-curl.module",
+        "sha256": "39ce3ea15c417a13ebe1980ce4c9df413e545e836ca6f538cc1fc2ea7c92fa68"
+      },
+      {
+        "bytes": 42504,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-client-logging.module",
+        "sha256": "1056c610c7e1921aab69e5f1eb807f4451f4941e899915377daab5ebb6b2a26e"
+      },
+      {
+        "bytes": 41016,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-events.module",
+        "sha256": "bfac2c1df29f76900a8797e73f74e6bd06ea2f3c09d9a5f3af3e0563c44d906d"
+      },
+      {
+        "bytes": 41545,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-http-cio.module",
+        "sha256": "dc24c51ad4900ba6f3e13ad071275e0265d20884c58856b53979ca6a5945d428"
+      },
+      {
+        "bytes": 40840,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-http.module",
+        "sha256": "c869623d24df6e0cdd2a6652ce039d615195b57b12a8b57f0cc9ca5be26ea127"
+      },
+      {
+        "bytes": 40298,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-io.module",
+        "sha256": "c3d39596d77932ea76dd7e87bee30a51c7eb51d1f9b100ac0a23acf0b1196e99"
+      },
+      {
+        "bytes": 45119,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-serialization-kotlinx-json.module",
+        "sha256": "2cbab96fcaec4e238288574b40c0bb30a43333122946b064099a8e39a830b571"
+      },
+      {
+        "bytes": 43991,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-serialization-kotlinx.module",
+        "sha256": "e91a18958f52e6bf01241cb3a412c637fb06ad37b6cd4d866370b09126941b8a"
+      },
+      {
+        "bytes": 42316,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-serialization.module",
+        "sha256": "59e05b6dbaefefd233debe3dd9a9b75a90d2c1c9d152a50cc8a21876e0c533ac"
+      },
+      {
+        "bytes": 40461,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-sse.module",
+        "sha256": "8a89b09ea0c42e11569a7addfd0c0bd95af2bf6f7a5966fbc1d8a8fe9308b192"
+      },
+      {
+        "bytes": 41022,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-utils.module",
+        "sha256": "22c3b0577368866d989cd5ee2110915833bcbac9411babffb506f0bfd42fae9a"
+      },
+      {
+        "bytes": 44169,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-websocket-serialization.module",
+        "sha256": "bdfe312dbdadcd47f400301c972da5d57d545a633bd4c0b7a40dca079efc7a52"
+      },
+      {
+        "bytes": 41918,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/gmm/ktor-websockets.module",
+        "sha256": "3c65264de5528bf9fdeb9e60567923f53f21a25d27433961d8bfee7f1388e116"
+      },
+      {
+        "bytes": 13128,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/ktor-client-curl-3.5.1-0.1.0-01.module",
+        "sha256": "39ce3ea15c417a13ebe1980ce4c9df413e545e836ca6f538cc1fc2ea7c92fa68"
+      },
+      {
+        "bytes": 3789,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/ktor-client-curl-ohosarm64-3.5.1-0.1.0-01.module",
+        "sha256": "c3998df09cecccdbd8d3cf2b15cd2cdd9aa5104aa4847b42e1eb89696510b6d4"
+      },
+      {
+        "bytes": 3769,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/ktor-client-curl-ohosx64-3.5.1-0.1.0-01.module",
+        "sha256": "511261bdc9c2fa52cc0f4cc1f47edfd22b23be28b1e1a285e075ecce2676d1a6"
+      },
+      {
+        "bytes": 5098,
+        "path": "harmony-build/.local/p3-source-cache/ktor351-private-curl/cpf-9c285b8/CurlProcessor.kt",
+        "sha256": "7ceaa5a8af420c3cc6a41263d9d629a4b908ee3c4d7d98d5cc4ab06766766651"
+      },
+      {
+        "bytes": 16003,
+        "path": "harmony-build/.local/p3-source-cache/ktor351-private-curl/cpf-9c285b8/CurlMultiApiHandler.kt",
+        "sha256": "ce74d9bfcdd04d33b64eaf570d8a85dac7c30c76a20e474b69fd0795ab5865ee"
+      }
+    ],
+    "license": {
+      "bytes": 11351,
+      "path": "harmony-build/.local/p3-source-cache/ktor351-private-curl/LICENSE",
+      "sha256": "883b820629750db15375940d0581ea74bad8b685c8b0ef5b098c3cc631c74515"
+    },
+    "runtimePatch": "NONE_UNPATCHED_BASELINE",
+    "schemaVersion": 1,
+    "sharedInterop": {
+      "jar": {
+        "bytes": 462988,
+        "path": "harmony-build/.local/p3-source-cache/ktor-prebuilt-publication-api/ktor-client-curl-3.5.1-0.1.0-01.jar",
+        "sha256": "57b4a14ed73441845c6cb8e5621ee6fd94b0a8fb205b713bfc44a3e316332e96"
+      },
+      "sharedManifest": "abi_version=2.4.0\nbuiltins_platform=NATIVE\ncommonizer_native_targets=ohos_arm64 ohos_x64\ncommonizer_target=(ohos_arm64, ohos_x64)\ncompiler_version=2.4.20-0.1.0-08\ndepends=org.jetbrains.kotlin.native.platform.posix stdlib\nexportForwardDeclarations=cnames.structs.Curl_URL cnames.structs.curl_mime cnames.structs.curl_mimepart cnames.structs.curl_pushheaders\nincludedForwardDeclarations=cnames.structs.Curl_URL cnames.structs.curl_mime cnames.structs.curl_mimepart cnames.structs.curl_pushheaders\ninterop=true\nir_signature_versions=1,2\nmetadata_version=2.4.0\nnative_targets=ohos_arm64 ohos_x64\npackage=libcurl\nunique_name=io.ktor\\:ktor-client-curl-cinterop-libcurl\n",
+      "sharedMemberCount": 18,
+      "sharedMemberSetSha256": "7d4d5fe5e694800a92e3ffa2b7a90d0323d6186770424b55f3ec26e392ab946a",
+      "sharedMembers": [
+        {
+          "bytes": 54,
+          "path": "default/linkdata/module",
+          "sha256": "216d43477235169c9ec0f061939adddc171fa880ffec04becb9eb311389761b6"
+        },
+        {
+          "bytes": 8056,
+          "path": "default/linkdata/package_libcurl/00_libcurl.knm",
+          "sha256": "622f2bac553eaa1557442f9f447dc8fb40687d48b1ace341653c9365c261d8e2"
+        },
+        {
+          "bytes": 9485,
+          "path": "default/linkdata/package_libcurl/01_libcurl.knm",
+          "sha256": "a03e1fc7ed1f3ea038890b769743e6e201ec8f873fd6ce70cfa100e67d5fb955"
+        },
+        {
+          "bytes": 9581,
+          "path": "default/linkdata/package_libcurl/02_libcurl.knm",
+          "sha256": "2f3cca337c00f56e44612b555626b1fbaa239d369b56044f9bd0b3fb6cf3312f"
+        },
+        {
+          "bytes": 9321,
+          "path": "default/linkdata/package_libcurl/03_libcurl.knm",
+          "sha256": "f4a89846212451fe8fa07deda08b10c0e48b7c9d185743467676c4f9ee72ad78"
+        },
+        {
+          "bytes": 9392,
+          "path": "default/linkdata/package_libcurl/04_libcurl.knm",
+          "sha256": "eb7973197cca5b390977178aff8bc83c9ac41805dc15f3e9bc37820e8128099a"
+        },
+        {
+          "bytes": 2778,
+          "path": "default/linkdata/package_libcurl/05_libcurl.knm",
+          "sha256": "702ae0d10da1d192dc0025bf5ad448297334ec1cb2689581368f55d872f59f92"
+        },
+        {
+          "bytes": 12200,
+          "path": "default/linkdata/package_libcurl/06_libcurl.knm",
+          "sha256": "2617c45b5b01ef69caf581898deceeaab10cc35c145e0c292fbcb7209d242d0d"
+        },
+        {
+          "bytes": 9479,
+          "path": "default/linkdata/package_libcurl/07_libcurl.knm",
+          "sha256": "07109e384027ae4742f2a533e3cb962e6f488a02690565481c1e488ff2aac628"
+        },
+        {
+          "bytes": 7136,
+          "path": "default/linkdata/package_libcurl/08_libcurl.knm",
+          "sha256": "f87c5584cca9c3148a0446bfcfcbf30900b61c82f9f6beba4efe947ab612cfce"
+        },
+        {
+          "bytes": 7044,
+          "path": "default/linkdata/package_libcurl/09_libcurl.knm",
+          "sha256": "c40dbc43e94d8ea01fcd7789126bd45599b592b60004c47a43eb264d64824b23"
+        },
+        {
+          "bytes": 7090,
+          "path": "default/linkdata/package_libcurl/10_libcurl.knm",
+          "sha256": "d32dd07d72443dcdae42315da036651eaab5e14b83bcf9e9e1eb5c81745e6225"
+        },
+        {
+          "bytes": 7016,
+          "path": "default/linkdata/package_libcurl/11_libcurl.knm",
+          "sha256": "feff4bec060e0e9db04cf6a7d716495fce4a81971c9f9e194bc46f3f292edce3"
+        },
+        {
+          "bytes": 7067,
+          "path": "default/linkdata/package_libcurl/12_libcurl.knm",
+          "sha256": "bda3d31acac730e481b9364fa7554aed08540544e9f7d1b718b5bce2e34c8890"
+        },
+        {
+          "bytes": 7207,
+          "path": "default/linkdata/package_libcurl/13_libcurl.knm",
+          "sha256": "daee501d9bf4e99c9ea391944d1d0b39a63a568313263e60eb54c8099da5a7ad"
+        },
+        {
+          "bytes": 7117,
+          "path": "default/linkdata/package_libcurl/14_libcurl.knm",
+          "sha256": "52f8d4c4441760b9fd14a16c0e242ca013d9d41ad4369d6ef6856a9ab0d12e13"
+        },
+        {
+          "bytes": 1578,
+          "path": "default/linkdata/package_libcurl/15_libcurl.knm",
+          "sha256": "3636186cd9828c363a1987f167f885f05947f408b65473dc5b99ad7869eadc1c"
+        },
+        {
+          "bytes": 663,
+          "path": "default/manifest",
+          "sha256": "a5468fcea89b42a6c7caaa9f90b0552bf0394c9668e33e52b830a3b2e435c5e8"
+        }
+      ],
+      "sharedPrefix": "ohosMain-cinterop/io.ktor_ktor-client-curl-cinterop-libcurl/"
+    },
+    "source": {
+      "archive": {
+        "bytes": 21561,
+        "path": "harmony-build/.local/p3-source-cache/ktor-coil/ktor/candidate-3.5.1/ktor-client-curl-ohosx64-3.5.1-0.1.0-01-sources.jar",
+        "sha256": "4fa9589f743b24da811a2e6a5b28d63b2f96acfa3fd5a8d56f5375272fd5eb9f"
+      },
+      "correction": "旧 readiness/source-manifest 的12文件描述已经R2纠正；本轮重新完整遍历为14，并与两CPF核心逐字节核对。其他12文件只标发布sources来源；不改旧证据。",
+      "count": 14,
+      "files": [
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/Curl.kt",
+          "bytes": 2053,
+          "lines": 63,
+          "provenance": "PUBLISHED_SOURCES_ONLY",
+          "sha256": "5d78b4f1d29e0a2d9890c6f66a0cfc8a567ebb371baa526a01b46a6f6ca7f720"
+        },
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/CurlClientEngine.kt",
+          "bytes": 3531,
+          "lines": 94,
+          "provenance": "PUBLISHED_SOURCES_ONLY",
+          "sha256": "6e2a0cfc2fd4bd85db2e4d95a59a03815c6ec04807144eeb73b881644b9f26c9"
+        },
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/CurlClientEngineConfig.kt",
+          "bytes": 1557,
+          "lines": 44,
+          "provenance": "PUBLISHED_SOURCES_ONLY",
+          "sha256": "22bf7d547450ab1ca1509e944f5f785ff693e58ed74fa370d231873e4817bacc"
+        },
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/CurlProcessor.kt",
+          "bytes": 5098,
+          "lines": 157,
+          "provenance": "PUBLISHED_SOURCES_AND_EXACT_CPF_9c285b8eb3f2fbe25cb9ab46dbdf50e28d540f5c",
+          "sha256": "7ceaa5a8af420c3cc6a41263d9d629a4b908ee3c4d7d98d5cc4ab06766766651"
+        },
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/ResponseUtils.kt",
+          "bytes": 517,
+          "lines": 21,
+          "provenance": "PUBLISHED_SOURCES_ONLY",
+          "sha256": "17a45d271bb22f4977954d1ea8f340b3592e61593ebf878bda873c33d990c821"
+        },
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlAdapters.kt",
+          "bytes": 9078,
+          "lines": 205,
+          "provenance": "PUBLISHED_SOURCES_ONLY",
+          "sha256": "7d10872156555796a8861861bf822730f967a1e6451a65dd95b892a113776bb7"
+        },
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlCallbacks.kt",
+          "bytes": 3233,
+          "lines": 107,
+          "provenance": "PUBLISHED_SOURCES_ONLY",
+          "sha256": "c9f278ed9e4ca6091d7f1deb5f0b6a62932532a2dffd52cddfb6528d9a8299cd"
+        },
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlHttpResponseBody.kt",
+          "bytes": 2503,
+          "lines": 77,
+          "provenance": "PUBLISHED_SOURCES_ONLY",
+          "sha256": "e0be7abbab96d9cae7d8a65601485ffd249bc4fe555662179402ec0fa6693b89"
+        },
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlMultiApiHandler.kt",
+          "bytes": 16003,
+          "lines": 454,
+          "provenance": "PUBLISHED_SOURCES_AND_EXACT_CPF_9c285b8eb3f2fbe25cb9ab46dbdf50e28d540f5c",
+          "sha256": "ce74d9bfcdd04d33b64eaf570d8a85dac7c30c76a20e474b69fd0795ab5865ee"
+        },
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlRaw.kt",
+          "bytes": 3589,
+          "lines": 112,
+          "provenance": "PUBLISHED_SOURCES_ONLY",
+          "sha256": "97e920e4dc81d7ec2d0b31ec0fa90df425e58b524e2e7a17778b7a8135a2b9e5"
+        },
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlWebSocketResponseBody.kt",
+          "bytes": 4754,
+          "lines": 136,
+          "provenance": "PUBLISHED_SOURCES_ONLY",
+          "sha256": "b26d2638faa42e86e3f1d56971ca061dbc459574972f11f542851499266441ec"
+        },
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/CurlWebSocketSession.kt",
+          "bytes": 3330,
+          "lines": 112,
+          "provenance": "PUBLISHED_SOURCES_ONLY",
+          "sha256": "2789ef7a6afb5a988711a38303389795aa4b27fa1d444b3f73d25064fb03574b"
+        },
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/Libcurl.kt",
+          "bytes": 747,
+          "lines": 22,
+          "provenance": "PUBLISHED_SOURCES_ONLY",
+          "sha256": "c59aa96b95ac441f99bc160560136681e70f4787f03c13139add375c64702f90"
+        },
+        {
+          "archiveEntry": "desktopMain/io/ktor/client/engine/curl/internal/NativeUtils.kt",
+          "bytes": 607,
+          "lines": 16,
+          "provenance": "PUBLISHED_SOURCES_ONLY",
+          "sha256": "d264136882b0dbd21a7e5fe277d5bae42b3559df74db52086679a4eeb5038a02"
+        }
+      ],
+      "totalLines": 1620
+    }
+  },
+  "tools": {
+    "files": [
+      {
+        "bytes": 43764,
+        "path": "harmony-build/gradle/wrapper/gradle-wrapper.jar",
+        "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172"
+      },
+      {
+        "bytes": 339,
+        "path": "harmony-build/gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "93b4f2c5ddcfc9e6f630fc7e004b31b389695cd0228be6da42e196e5d4af7acb"
+      },
+      {
+        "bytes": 30715451,
+        "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/2.4.20-0.1.0-08/d9fe45962458a52e57003dd0c79e16e0533f29ae/kotlin-gradle-plugin-2.4.20-0.1.0-08-gradle813.jar",
+        "sha256": "f99bb12ca943958cf40d54be48120698e7d3b169cfddd38638bff1ddfc3eda1c"
+      },
+      {
+        "bytes": 279289,
+        "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/2.4.20-0.1.0-08/4e98b4ce8b86267b04e510d8ca6f458888af4e81/kotlin-gradle-plugin-api-2.4.20-0.1.0-08-gradle811.jar",
+        "sha256": "aa391366ff085f6f64b1f8de321010f95bd075d1c27db32b6abe23e8800d6d94"
+      },
+      {
+        "bytes": 279289,
+        "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/2.4.20-0.1.0-08/4e98b4ce8b86267b04e510d8ca6f458888af4e81/kotlin-gradle-plugin-api-2.4.20-0.1.0-08-gradle813.jar",
+        "sha256": "aa391366ff085f6f64b1f8de321010f95bd075d1c27db32b6abe23e8800d6d94"
+      },
+      {
+        "bytes": 7216,
+        "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-annotations/2.4.20-0.1.0-08/355aa1dec91a7c4ceb252ec01ed9ef9b8bdd7dee/kotlin-gradle-plugin-annotations-2.4.20-0.1.0-08.jar",
+        "sha256": "66b74c5559922dc166a9bfece69e7997e05f5c9a9f6a287bf4efd8faca10acd5"
+      },
+      {
+        "bytes": 420740,
+        "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-native-utils/2.4.20-0.1.0-08/cf9a35b1e7276823aad0a7f974777103cb920081/kotlin-native-utils-2.4.20-0.1.0-08.jar",
+        "sha256": "d49ff5ab34f722370f2c615ba8650760d432a61abc110b728b278137bbbd2909"
+      },
+      {
+        "bytes": 751146,
+        "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-util-klib/2.4.20-0.1.0-08/823db4b4db88e9622798aa23b950729fdc95c802/kotlin-util-klib-2.4.20-0.1.0-08.jar",
+        "sha256": "5d477cbcae64dceb3bb1e85f39f851cc4cb23961a05a3b51143a0d2c7197f885"
+      },
+      {
+        "bytes": 89152,
+        "path": "harmony-build/.local/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-tooling-core/2.4.20-0.1.0-08/a92e365882e147d1054b6245d2aa822cbaa77ad6/kotlin-tooling-core-2.4.20-0.1.0-08.jar",
+        "sha256": "5fc5db083803232857408ed5c25bcc307c703b04bdef6cb2c34ebf4db611a622"
+      }
+    ],
+    "jdk": [
+      {
+        "bytes": 51928,
+        "path": "bin/java.exe",
+        "sha256": "9bc3276ab8bfbae6094b5e0e7866cac65dcdeb7ade24fb26b451fb34047b5096"
+      },
+      {
+        "bytes": 12800664,
+        "path": "bin/server/jvm.dll",
+        "sha256": "ffb29fb5f6d6fca0e31eccb7848f3f5b076dcc50e7e343088ecc55acf711a5c1"
+      },
+      {
+        "bytes": 1303,
+        "path": "release",
+        "sha256": "0b615cb96fed5d2d8cc97fde20389b85e513a24f58680e074d40ae7d166cf8d7"
+      },
+      {
+        "bytes": 128424639,
+        "path": "lib/modules",
+        "sha256": "178cea53404708b6eddbf47b19b8c0098fdfb1ba90a492e1c6e250eacdfc0e70"
+      }
+    ],
+    "schemaVersion": 1,
+    "trees": [
+      {
+        "members": 13,
+        "path": "harmony-build/.local/konan/kotlin-native-prebuilt-windows-x86_64-2.4.20-0.1.0-08/bin",
+        "sha256": "0ec9514f5b7107c94d57e225be47544c372c4092553856093289314d54af0675"
+      },
+      {
+        "members": 2338,
+        "path": "harmony-build/.local/konan/kotlin-native-prebuilt-windows-x86_64-2.4.20-0.1.0-08/konan",
+        "sha256": "5d2dabf87cde19c75c32add8df6de27f303042cb28e86b83d80a0f5baf8cb8e0"
+      },
+      {
+        "members": 512,
+        "path": "harmony-build/.local/konan/kotlin-native-prebuilt-windows-x86_64-2.4.20-0.1.0-08/klib/common/stdlib",
+        "sha256": "af687d708954cb8daf05bac5b2c4683750789f06e42fee1c3c0acda627bca0bc"
+      },
+      {
+        "members": 1607,
+        "path": "harmony-build/.local/konan/kotlin-native-prebuilt-windows-x86_64-2.4.20-0.1.0-08/klib/platform/ohos_x64",
+        "sha256": "59f562dd5807f65b9c0953e39db5f95aca45a8e004409e331064f48ef7cc5b58"
+      },
+      {
+        "members": 1606,
+        "path": "harmony-build/.local/konan/kotlin-native-prebuilt-windows-x86_64-2.4.20-0.1.0-08/klib/platform/ohos_arm64",
+        "sha256": "c9b54a37952d2324e4d4ef50301e327e66b6e1ae4b943aab243aaffb3beabca0"
+      },
+      {
+        "members": 7394,
+        "path": "harmony-build/.local/konan/dependencies/cpf-llvm-19-x86_64-windows-dev-21",
+        "sha256": "bf5af2b315b6db5afb1529c614c90b08719dc0e196eec1e450ca556b32a7c2b4"
+      },
+      {
+        "members": 2496,
+        "path": "harmony-build/.local/konan/dependencies/sysroot-ohos-26.0.0.38-01",
+        "sha256": "26a7c79bed2c17dd054ba4773e5fbfa711a6c053d5d0e1b278508f80acea5806"
+      },
+      {
+        "members": 180,
+        "path": "harmony-build/.local/konan/dependencies/sysroot-hms-26.0.0.38-01",
+        "sha256": "1d19eb030c8112213a30b3f7c591303386100b64f4ebc050748d9a7401f7baab"
+      },
+      {
+        "members": 13,
+        "path": "harmony-build/.local/konan/dependencies/libffi-3.3-windows-x64-1",
+        "sha256": "d9537e19261ace7155df647feb45f4f63a3577e26266d21b89c91d90ac9cf306"
+      },
+      {
+        "classification": "FIXED_EXISTING_NATIVE08_COMMONIZED_PLATFORM_INPUT_NOT_REGENERATION_PROOF",
+        "members": 1544,
+        "path": "harmony-build/.local/konan/kotlin-native-prebuilt-windows-x86_64-2.4.20-0.1.0-08/klib/commonized/2.4.20-0.1.0-08/(ohos_arm64, ohos_x64)",
+        "sha256": "62a49139b9a22f4ca9d6aac93e5fd1772aa689a31f50c828fd18906b8d1bfd37",
+        "sourceTargets": [
+          {
+            "members": 1607,
+            "path": "harmony-build/.local/konan/kotlin-native-prebuilt-windows-x86_64-2.4.20-0.1.0-08/klib/platform/ohos_x64",
+            "sha256": "59f562dd5807f65b9c0953e39db5f95aca45a8e004409e331064f48ef7cc5b58"
+          },
+          {
+            "members": 1606,
+            "path": "harmony-build/.local/konan/kotlin-native-prebuilt-windows-x86_64-2.4.20-0.1.0-08/klib/platform/ohos_arm64",
+            "sha256": "c9b54a37952d2324e4d4ef50301e327e66b6e1ae4b943aab243aaffb3beabca0"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "3.5.1-0.1.0-01-chunjizhang-cpf08-curl-p3r1-pr5908-6fc836fe0c47"
+}

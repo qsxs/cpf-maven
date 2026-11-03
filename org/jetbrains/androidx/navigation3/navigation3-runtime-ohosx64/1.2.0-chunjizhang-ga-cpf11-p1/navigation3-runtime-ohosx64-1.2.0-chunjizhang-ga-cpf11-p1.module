@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../navigation3-runtime/1.2.0-chunjizhang-ga-cpf11-p1/navigation3-runtime-1.2.0-chunjizhang-ga-cpf11-p1.module",
+    "group": "org.jetbrains.androidx.navigation3",
+    "module": "navigation3-runtime",
+    "version": "1.2.0-chunjizhang-ga-cpf11-p1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.5.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.savedstate",
+          "module": "savedstate-compose",
+          "version": {
+            "requires": "1.5.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.11.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigationevent",
+          "module": "navigationevent",
+          "version": {
+            "requires": "1.1.1-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.annotation-internal",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.collection-internal",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0-0.1.0-11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigation3-runtime-ohosX64Main-1.2.0-chunjizhang-ga-cpf11-p1.klib",
+          "url": "navigation3-runtime-ohosx64-1.2.0-chunjizhang-ga-cpf11-p1.klib",
+          "size": 188748,
+          "sha512": "2b2680722eb214278f6ab2a38dad47139c45e72208e3b4fa0a8bb89fc854dc62dfcdff2dae486c46fd214cb97db36938c032440d3d5754566da39f02253559a2",
+          "sha256": "45c49d5f1f4418d430bfce6c767c092fd0f3f0db6064149cabc68b1dbddb2a43",
+          "sha1": "e94dc5008fb54ec87f30446d42d6d291abd650d9",
+          "md5": "9e6b559415132ebac0895f7ff496bd54"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "navigation3-runtime-ohosx64-1.2.0-chunjizhang-ga-cpf11-p1-sources.jar",
+          "url": "navigation3-runtime-ohosx64-1.2.0-chunjizhang-ga-cpf11-p1-sources.jar",
+          "size": 78733,
+          "sha512": "9c51b1bd1385cf8be72ff430e179e14ffe05ee00d835b54af400cc51423ab46f01e97abcdc159e9176bdd42ffc2d0f0dcc8291075d848d525f909488ebe30372",
+          "sha256": "4c45288306c60e4368fd932663f626b7980859d54e5b44adfa52e95b0339be7a",
+          "sha1": "302a5b5200ea947c16cfbbee889d1ce753591494",
+          "md5": "5b60ea129bf57d2f65631cd3d578dc10"
+        }
+      ]
+    }
+  ]
+}

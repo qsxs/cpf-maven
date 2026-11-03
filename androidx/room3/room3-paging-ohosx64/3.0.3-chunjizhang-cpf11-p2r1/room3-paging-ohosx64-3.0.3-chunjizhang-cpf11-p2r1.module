@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../room3-paging/3.0.3-chunjizhang-cpf11-p2r1/room3-paging-3.0.3-chunjizhang-cpf11-p2r1.module",
+    "group": "androidx.room3",
+    "module": "room3-paging",
+    "version": "3.0.3-chunjizhang-cpf11-p2r1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.annotation-internal",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1-0.1.0-11"
+          }
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-runtime",
+          "version": {
+            "requires": "3.0.3-chunjizhang-cpf11-p2r1"
+          }
+        },
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.5.0-chunjizhang-cpf11-p2r1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-async",
+          "version": {
+            "requires": "2.7.1-chunjizhang-cpf11-p2r1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room3-paging-ohosX64Main-3.0.3-chunjizhang-cpf11-p2r1.klib",
+          "url": "room3-paging-ohosx64-3.0.3-chunjizhang-cpf11-p2r1.klib",
+          "size": 25143,
+          "sha512": "e2c0e4b1440030a95d2c4e3ad5e3ae7f8d5ce312adb029bcea8d454f15cc117e7c850d59827343c84770e1bd2929311f8c6a2aa26a1002226be4a00aa64d1f28",
+          "sha256": "e747da358ac7bd5144aeb4afd567992cecc133506508dd7dd212ef471dc14b3e",
+          "sha1": "e3bce89130c0fb85a32b4d7803a9f41090a3b60e",
+          "md5": "61527b9223b2739675be7e55fd554d17"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "room3-paging-ohosx64-3.0.3-chunjizhang-cpf11-p2r1-sources.jar",
+          "url": "room3-paging-ohosx64-3.0.3-chunjizhang-cpf11-p2r1-sources.jar",
+          "size": 23785,
+          "sha512": "19d6422b07d55f970f54d16592aca1d42409003f3fe2cb215bfcbcab479e4519b8aa18d81b676307975890c8f710d84b34bdd5379a1ff05ce8f1d47b8611f66c",
+          "sha256": "18f750f1db1d5f104b3da7a6249d31b5105c8dfd70d5edd6ac314560af9fd47b",
+          "sha1": "06c257e95c8ecf8387b2bb84ed00e0ebc2c073e5",
+          "md5": "04508fe4c39107920f54921661a3ff67"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../datastore-core/1.3.0-rc01-chunjizhang-cpf11-p2r1/datastore-core-1.3.0-rc01-chunjizhang-cpf11-p2r1.module",
+    "group": "androidx.datastore",
+    "module": "datastore-core",
+    "version": "1.3.0-rc01-chunjizhang-cpf11-p2r1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.annotation-internal",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-core-ohosX64Main-1.3.0-rc01-chunjizhang-cpf11-p2r1.klib",
+          "url": "datastore-core-ohosx64-1.3.0-rc01-chunjizhang-cpf11-p2r1.klib",
+          "size": 81846,
+          "sha512": "24cae90e27231646ccb2e688b2175da47d83f480ea3dd8053f2a6afde4c46e90d6e42b88caf84287ed7e5f7d234bc618fed4b7ae72d77f0b2bce75655376d9ac",
+          "sha256": "2799df6be707dd281e76e6c056d783ea0144677247d1db78016911880dfb988a",
+          "sha1": "38ab973fb60e3a42f84cbbbfd22073c999d32d36",
+          "md5": "9b1534219a64e7370be04bdee9ca7e76"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "datastore-core-ohosx64-1.3.0-rc01-chunjizhang-cpf11-p2r1-sources.jar",
+          "url": "datastore-core-ohosx64-1.3.0-rc01-chunjizhang-cpf11-p2r1-sources.jar",
+          "size": 53162,
+          "sha512": "14a9ea9d93e16fab5cbfcc5633d52d19d13a007517630d59affe0493c11e19bd58dd99e310895dc6c1f123c0ffbaf4591fca88e393f8756d07a85d8267ca1a89",
+          "sha256": "4686774f16004935a89c41ea7ce20cee8b127d4b0965771cf506e38f7ae0714c",
+          "sha1": "021fcc295dbff944747e286b7f5b501da8f098f2",
+          "md5": "ffdcc2aca1b241e1532d3930581ffe53"
+        }
+      ]
+    }
+  ]
+}

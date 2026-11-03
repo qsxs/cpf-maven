@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../room3-runtime/3.0.3-chunjizhang-cpf11-p2r1/room3-runtime-3.0.3-chunjizhang-cpf11-p2r1.module",
+    "group": "androidx.room3",
+    "module": "room3-runtime",
+    "version": "3.0.3-chunjizhang-cpf11-p2r1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.annotation-internal",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1-0.1.0-11"
+          }
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-common",
+          "version": {
+            "requires": "3.0.3-chunjizhang-cpf11-p2r1"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.7.1-chunjizhang-cpf11-p2r1"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-async",
+          "version": {
+            "requires": "2.7.1-chunjizhang-cpf11-p2r1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-framework",
+          "version": {
+            "requires": "2.7.1-chunjizhang-cpf11-p2r1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.collection-internal",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0-0.1.0-11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room3-runtime-ohosX64Main-3.0.3-chunjizhang-cpf11-p2r1.klib",
+          "url": "room3-runtime-ohosx64-3.0.3-chunjizhang-cpf11-p2r1.klib",
+          "size": 286613,
+          "sha512": "ddd4509f33c213f07c6f6e6ecc49806279c22910500f78dceead405f8b2f2b8b6ff120cb97488359e79f065e51ace98bfc10e6983cde8086c91eca8082c41940",
+          "sha256": "42f81412195f65f93e6da273d9e4c6aa9a09895c4af67b778b15abfdcb0fc5b3",
+          "sha1": "94e7cd1004f724054a2358d9c4c1e182c490e8d4",
+          "md5": "49597e81c13b115cc21af723b6583cc8"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "room3-runtime-ohosx64-3.0.3-chunjizhang-cpf11-p2r1-sources.jar",
+          "url": "room3-runtime-ohosx64-3.0.3-chunjizhang-cpf11-p2r1-sources.jar",
+          "size": 122688,
+          "sha512": "181e2a7ac5dc9c6b18ede0f4a9aef92fb2cf13b25b6a40f5d80021abd3e06c6863b57e3dde0bdddaffb58204c4081da1d9ae1cd084cb13d8a4e881564512a1c4",
+          "sha256": "f7fbdcbf7bd282df8f48b9b88f65e0465c2e697c259601d53d5d72b72658511a",
+          "sha1": "c867b14dea782a99bb7519cfec5220f431eec591",
+          "md5": "a816a01ca73eab0c72a0be8341f20a4f"
+        }
+      ]
+    }
+  ]
+}

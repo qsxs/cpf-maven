@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../room3-common/3.0.3-chunjizhang-cpf11-p2r1/room3-common-3.0.3-chunjizhang-cpf11-p2r1.module",
+    "group": "androidx.room3",
+    "module": "room3-common",
+    "version": "3.0.3-chunjizhang-cpf11-p2r1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.annotation-internal",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room3-common-ohosX64Main-3.0.3-chunjizhang-cpf11-p2r1.klib",
+          "url": "room3-common-ohosx64-3.0.3-chunjizhang-cpf11-p2r1.klib",
+          "size": 114333,
+          "sha512": "9312c9c6fb0da27f069173c27885162fe11d035d371cad19bfc6458f0328ed4c122eef7f8f453eb467e5dfe97dc97143fba9281f2444eaf6d7533f1962afe9a0",
+          "sha256": "8153c5b7b211c4474448657ce2903f42257972f262a7c2d16cc0672348b66d5d",
+          "sha1": "a15e66223f1c4e970c198b4f1b47274dd078281a",
+          "md5": "b11c7b4b14c7bf5b0b79affacfee67bc"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "room3-common-ohosx64-3.0.3-chunjizhang-cpf11-p2r1-sources.jar",
+          "url": "room3-common-ohosx64-3.0.3-chunjizhang-cpf11-p2r1-sources.jar",
+          "size": 87269,
+          "sha512": "845bb3708c4d8f34cf74d6850bcfe153fad4b2acb60202a5215ce61e76ad7624321d59833dae6747182737b2fed9f6173858e5df378ee30d60f5d5bef1659148",
+          "sha256": "e4de43b12c64fcdc9f41f578b6dd26984a1d21565045e566bda7dae0197a1fde",
+          "sha1": "a5f99b878c1bc2952805dbc574e44da0e6fdbe2b",
+          "md5": "092c31142560595062167065a05e19ef"
+        }
+      ]
+    }
+  ]
+}

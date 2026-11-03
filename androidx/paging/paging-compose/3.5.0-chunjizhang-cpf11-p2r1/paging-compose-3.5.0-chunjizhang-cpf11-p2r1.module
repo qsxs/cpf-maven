@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.paging",
+    "module": "paging-compose",
+    "version": "3.5.0-chunjizhang-cpf11-p2r1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.paging",
+          "module": "paging-common",
+          "version": {
+            "requires": "3.5.0-chunjizhang-cpf11-p2r1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-compose-metadata-3.5.0-chunjizhang-cpf11-p2r1.jar",
+          "url": "paging-compose-3.5.0-chunjizhang-cpf11-p2r1.jar",
+          "size": 17738,
+          "sha512": "f60ef5dd4ec8e2dbcd8bf27c04d723bb65cd4461fe3ee76e941ff3dc7020d435c79181e3037b2a5b442c308695e9bf7f898841e624c4da9411222dee116ca321",
+          "sha256": "0bf929e7525646f8280e7a864f0d59fe504a1ac5c3ef628676a21182bdcb92c4",
+          "sha1": "e13b6a7bb4521f99d8bb165e21a7b9f7b42f0099",
+          "md5": "a71f3c9c1898d4b8445f1039319ff407"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "paging-compose-kotlin-3.5.0-chunjizhang-cpf11-p2r1-sources.jar",
+          "url": "paging-compose-3.5.0-chunjizhang-cpf11-p2r1-sources.jar",
+          "size": 18950,
+          "sha512": "fc58f85fb724bf9f4d61a8ec8ed14f19469cc09ce32fbb67fee1eea56209fcb0bf6c1acc6dc8c4aed2db22a8ecb00207a0d644809b9063512aa22698ff60db50",
+          "sha256": "40791755bfb23cac305bc34a0c8fcdd899837524627a59d16f4b6febbaa9db28",
+          "sha1": "9452b04a2f1c9d7bedb3a2d4f01763a1c5a3ff07",
+          "md5": "340dc7553e2faac6febc46b16001c36e"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-compose-ohosarm64/3.5.0-chunjizhang-cpf11-p2r1/paging-compose-ohosarm64-3.5.0-chunjizhang-cpf11-p2r1.module",
+        "group": "androidx.paging",
+        "module": "paging-compose-ohosarm64",
+        "version": "3.5.0-chunjizhang-cpf11-p2r1"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-compose-ohosarm64/3.5.0-chunjizhang-cpf11-p2r1/paging-compose-ohosarm64-3.5.0-chunjizhang-cpf11-p2r1.module",
+        "group": "androidx.paging",
+        "module": "paging-compose-ohosarm64",
+        "version": "3.5.0-chunjizhang-cpf11-p2r1"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-compose-ohosx64/3.5.0-chunjizhang-cpf11-p2r1/paging-compose-ohosx64-3.5.0-chunjizhang-cpf11-p2r1.module",
+        "group": "androidx.paging",
+        "module": "paging-compose-ohosx64",
+        "version": "3.5.0-chunjizhang-cpf11-p2r1"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../paging-compose-ohosx64/3.5.0-chunjizhang-cpf11-p2r1/paging-compose-ohosx64-3.5.0-chunjizhang-cpf11-p2r1.module",
+        "group": "androidx.paging",
+        "module": "paging-compose-ohosx64",
+        "version": "3.5.0-chunjizhang-cpf11-p2r1"
+      }
+    }
+  ]
+}

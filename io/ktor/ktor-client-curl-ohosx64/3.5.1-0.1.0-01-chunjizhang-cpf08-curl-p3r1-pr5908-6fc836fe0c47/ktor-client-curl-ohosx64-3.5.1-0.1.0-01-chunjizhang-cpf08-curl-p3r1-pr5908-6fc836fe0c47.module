@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "attributes": {
+      "org.gradle.status": "release"
+    },
+    "group": "io.ktor",
+    "module": "ktor-client-curl",
+    "url": "../../ktor-client-curl/3.5.1-0.1.0-01-chunjizhang-cpf08-curl-p3r1-pr5908-6fc836fe0c47/ktor-client-curl-3.5.1-0.1.0-01-chunjizhang-cpf08-curl-p3r1-pr5908-6fc836fe0c47.module",
+    "version": "3.5.1-0.1.0-01-chunjizhang-cpf08-curl-p3r1-pr5908-6fc836fe0c47"
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.1-0.1.0-01"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "3.5.1-0.1.0-01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "md5": "ee4b304dad464d155373ba98032655e6",
+          "name": "ktor-client-curl-ohosX64Main-3.5.1-0.1.0-01-chunjizhang-cpf08-curl-p3r1-pr5908-6fc836fe0c47.klib",
+          "sha1": "cf644fa50e2d09a704637baba27eb469247f7a92",
+          "sha256": "3320819983b7a0888a9f62921d136456c2fc3e41508c227bb4036f38b1ff9003",
+          "sha512": "233b08d04da477cbeda1d429f94f6593099d501dd491c49e08dbf90e6d725f6941e582a9d72b610ac4ae2dc8ddf2a5a3bec20f2bd3d49b5e393f5ab13c8f95cf",
+          "size": 95396,
+          "url": "ktor-client-curl-ohosx64-3.5.1-0.1.0-01-chunjizhang-cpf08-curl-p3r1-pr5908-6fc836fe0c47.klib"
+        },
+        {
+          "md5": "780d908680168a4ee56703ae1d0d4231",
+          "name": "ktor-client-curl-ohosx64-3.5.1-0.1.0-01-chunjizhang-cpf08-curl-p3r1-pr5908-6fc836fe0c47-cinterop-libcurl.klib",
+          "sha1": "45c34f9df1a3b3e32185eeb11366fc61844fe3dd",
+          "sha256": "11e25a18b1e2fe8b908e9c08605a9ab96f343a15388c692f93fba88aca6f4c9d",
+          "sha512": "6f1aeb6c99a10f8ea229b9f91898a82ff17365099a53f4f9becab5551f033f9e708f70df4ac731ceae12b2e09d455bcd4a812b820fb8687317101d64a8b6c101",
+          "size": 3686258,
+          "url": "ktor-client-curl-ohosx64-3.5.1-0.1.0-01-chunjizhang-cpf08-curl-p3r1-pr5908-6fc836fe0c47-cinterop-libcurl.klib"
+        }
+      ],
+      "name": "ohosX64ApiElements-published"
+    },
+    {
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "md5": "b9acee9db8e9fae38de397a802cf5381",
+          "name": "ktor-client-curl-ohosx64-3.5.1-0.1.0-01-chunjizhang-cpf08-curl-p3r1-pr5908-6fc836fe0c47-sources.jar",
+          "sha1": "8bda48a3200baf67723ddf1a49a59f9461b4faa4",
+          "sha256": "32f05f1bf334bb36e5501c6dca9ea928ae12fbf0fca1d6c13069572381a65abc",
+          "sha512": "571db32a7f0c14b9529686d7239223c5b5ec817119625953610f8ba826b795ce90376ffe1ab438660b99d49180b8d92c850392a156f102ae4675125ee06c8a43",
+          "size": 50678,
+          "url": "ktor-client-curl-ohosx64-3.5.1-0.1.0-01-chunjizhang-cpf08-curl-p3r1-pr5908-6fc836fe0c47-sources.jar"
+        }
+      ],
+      "name": "ohosX64SourcesElements-published"
+    }
+  ]
+}

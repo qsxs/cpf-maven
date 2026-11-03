@@ -1,0 +1,193 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.room3",
+    "module": "room3-runtime",
+    "version": "3.0.3-chunjizhang-cpf11-p2r1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.annotation-internal",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1-0.1.0-11"
+          }
+        },
+        {
+          "group": "androidx.room3",
+          "module": "room3-common",
+          "version": {
+            "requires": "3.0.3-chunjizhang-cpf11-p2r1"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.7.1-chunjizhang-cpf11-p2r1"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-async",
+          "version": {
+            "requires": "2.7.1-chunjizhang-cpf11-p2r1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.collection-internal",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-framework",
+          "version": {
+            "requires": "2.7.1-chunjizhang-cpf11-p2r1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room3-runtime-metadata-3.0.3-chunjizhang-cpf11-p2r1.jar",
+          "url": "room3-runtime-3.0.3-chunjizhang-cpf11-p2r1.jar",
+          "size": 71683,
+          "sha512": "1a9c6e87f6ef829e8284b6c5b2a20743e28451539e6e8d8096d2ad911221e6dc419ad692aabb8c889b8cb6540f5235e493626c65af747a72ca5577d477897eab",
+          "sha256": "ca293d424d8d9b7906d6ed755fb4853ca5873af901a27aea55d08972e3a1f43c",
+          "sha1": "5abae6ca5bdfa9b081b756acf3f5123b4b5e4e85",
+          "md5": "ba62a3f68194104fbf4827b6e0dd1e19"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "room3-runtime-kotlin-3.0.3-chunjizhang-cpf11-p2r1-sources.jar",
+          "url": "room3-runtime-3.0.3-chunjizhang-cpf11-p2r1-sources.jar",
+          "size": 122688,
+          "sha512": "f27382cb097da195b9d0963b033fc0e914fda08a89f0f5f0392fe0088f6e70f4f878e5aa30012855ecb78e2644815f7baeb98c478c3164c8179a4d621be18062",
+          "sha256": "2084cbde3a11d92bf597325bffc60833b363df12121a2c0b780b838dcc3457f4",
+          "sha1": "5d9a466e1ed46c7bab37105dba5c8e6827d86c2e",
+          "md5": "724ea4025398c8bc838c22c022287103"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../room3-runtime-ohosarm64/3.0.3-chunjizhang-cpf11-p2r1/room3-runtime-ohosarm64-3.0.3-chunjizhang-cpf11-p2r1.module",
+        "group": "androidx.room3",
+        "module": "room3-runtime-ohosarm64",
+        "version": "3.0.3-chunjizhang-cpf11-p2r1"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../room3-runtime-ohosarm64/3.0.3-chunjizhang-cpf11-p2r1/room3-runtime-ohosarm64-3.0.3-chunjizhang-cpf11-p2r1.module",
+        "group": "androidx.room3",
+        "module": "room3-runtime-ohosarm64",
+        "version": "3.0.3-chunjizhang-cpf11-p2r1"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../room3-runtime-ohosx64/3.0.3-chunjizhang-cpf11-p2r1/room3-runtime-ohosx64-3.0.3-chunjizhang-cpf11-p2r1.module",
+        "group": "androidx.room3",
+        "module": "room3-runtime-ohosx64",
+        "version": "3.0.3-chunjizhang-cpf11-p2r1"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../room3-runtime-ohosx64/3.0.3-chunjizhang-cpf11-p2r1/room3-runtime-ohosx64-3.0.3-chunjizhang-cpf11-p2r1.module",
+        "group": "androidx.room3",
+        "module": "room3-runtime-ohosx64",
+        "version": "3.0.3-chunjizhang-cpf11-p2r1"
+      }
+    }
+  ]
+}

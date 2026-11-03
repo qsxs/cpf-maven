@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.sqlite",
+    "module": "sqlite-bundled",
+    "version": "2.7.1-chunjizhang-cpf11-p2r1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.7.1-chunjizhang-cpf11-p2r1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-framework",
+          "version": {
+            "requires": "2.7.1-chunjizhang-cpf11-p2r1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqlite-bundled-metadata-2.7.1-chunjizhang-cpf11-p2r1.jar",
+          "url": "sqlite-bundled-2.7.1-chunjizhang-cpf11-p2r1.jar",
+          "size": 32004,
+          "sha512": "e10e34b85398dc024c71d0225d2cfa00e1929ebf431701d92ba37801b7833344a6bfefe2445bf5205ccdf1c4f13b004ca4701f4d414f6a8ded2f67fb3f9cd84b",
+          "sha256": "2077294b5379e9b3ba0ca0eefa54ce9bcb953fe70c56f7f69b7c542e8210910e",
+          "sha1": "f838feae13d1a5c95bc0f600044808597592ca49",
+          "md5": "dab20d66187c470ef51f4324ecbb42f5"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "sqlite-bundled-kotlin-2.7.1-chunjizhang-cpf11-p2r1-sources.jar",
+          "url": "sqlite-bundled-2.7.1-chunjizhang-cpf11-p2r1-sources.jar",
+          "size": 21484,
+          "sha512": "5ff02cbe83b02589642c48533608bcb327646907e2b2c333d2c7368ac3c4138c992142ea3e5bc640876fc97fc02216be50e819c51bd64b0df7b7fdc6042ca235",
+          "sha256": "2e901bf19ee0a63fbf08d274b494420eb47321df3e01e267de48a2f4a053002c",
+          "sha1": "1258468b744595fcd8c45a0cedbdd4c0987cbcf3",
+          "md5": "18917b16cb839e06116b489632d16d01"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sqlite-bundled-ohosarm64/2.7.1-chunjizhang-cpf11-p2r1/sqlite-bundled-ohosarm64-2.7.1-chunjizhang-cpf11-p2r1.module",
+        "group": "androidx.sqlite",
+        "module": "sqlite-bundled-ohosarm64",
+        "version": "2.7.1-chunjizhang-cpf11-p2r1"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sqlite-bundled-ohosarm64/2.7.1-chunjizhang-cpf11-p2r1/sqlite-bundled-ohosarm64-2.7.1-chunjizhang-cpf11-p2r1.module",
+        "group": "androidx.sqlite",
+        "module": "sqlite-bundled-ohosarm64",
+        "version": "2.7.1-chunjizhang-cpf11-p2r1"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sqlite-bundled-ohosx64/2.7.1-chunjizhang-cpf11-p2r1/sqlite-bundled-ohosx64-2.7.1-chunjizhang-cpf11-p2r1.module",
+        "group": "androidx.sqlite",
+        "module": "sqlite-bundled-ohosx64",
+        "version": "2.7.1-chunjizhang-cpf11-p2r1"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../sqlite-bundled-ohosx64/2.7.1-chunjizhang-cpf11-p2r1/sqlite-bundled-ohosx64-2.7.1-chunjizhang-cpf11-p2r1.module",
+        "group": "androidx.sqlite",
+        "module": "sqlite-bundled-ohosx64",
+        "version": "2.7.1-chunjizhang-cpf11-p2r1"
+      }
+    }
+  ]
+}

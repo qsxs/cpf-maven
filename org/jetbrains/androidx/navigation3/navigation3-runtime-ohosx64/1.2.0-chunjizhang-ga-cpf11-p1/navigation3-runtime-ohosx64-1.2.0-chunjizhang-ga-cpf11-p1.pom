@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jetbrains.androidx.navigation3</groupId>
+  <artifactId>navigation3-runtime-ohosx64</artifactId>
+  <version>1.2.0-chunjizhang-ga-cpf11-p1</version>
+  <packaging>klib</packaging>
+  <name>navigation3-runtime</name>
+  <description>Google Navigation3 1.2.0 GA with the CPF OHOS transition actual; private port</description>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.compose.runtime</groupId>
+      <artifactId>runtime-ohosx64</artifactId>
+      <version>1.12.0-0.1.0-11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.androidx.savedstate</groupId>
+      <artifactId>savedstate-ohosx64</artifactId>
+      <version>1.5.0-0.1.0-11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.androidx.savedstate</groupId>
+      <artifactId>savedstate-compose-ohosx64</artifactId>
+      <version>1.5.0-0.1.0-11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.compose.runtime</groupId>
+      <artifactId>runtime-saveable-ohosx64</artifactId>
+      <version>1.12.0-0.1.0-11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime-ohosx64</artifactId>
+      <version>2.11.0-0.1.0-11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.androidx.navigationevent</groupId>
+      <artifactId>navigationevent-ohosx64</artifactId>
+      <version>1.1.1-0.1.0-11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-serialization-core-ohosx64</artifactId>
+      <version>1.11.0-0.1.0-07</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>2.4.20-0.1.0-08</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.compose.annotation-internal</groupId>
+      <artifactId>annotation-ohosx64</artifactId>
+      <version>1.9.1-0.1.0-11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.compose.collection-internal</groupId>
+      <artifactId>collection-ohosx64</artifactId>
+      <version>1.5.0-0.1.0-11</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

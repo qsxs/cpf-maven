@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../paging-common/3.5.0-chunjizhang-cpf11-p2r1/paging-common-3.5.0-chunjizhang-cpf11-p2r1.module",
+    "group": "androidx.paging",
+    "module": "paging-common",
+    "version": "3.5.0-chunjizhang-cpf11-p2r1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.annotation-internal",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paging-common-ohosX64Main-3.5.0-chunjizhang-cpf11-p2r1.klib",
+          "url": "paging-common-ohosx64-3.5.0-chunjizhang-cpf11-p2r1.klib",
+          "size": 339564,
+          "sha512": "c1f8cdb1adce514e056edc0f4f4bc5b7c4bb78df03a8952b45fa6b63e87393186dc2b374e507739e2836cf77486ead16c03b6f19e525ca195e12a6ebdc8b0cf2",
+          "sha256": "53587c69f44948e57b6d0a62ee8308f44b5dd575e6554fa27ab14825d8a95dd0",
+          "sha1": "51b62caafa2bca578c0e3009573308e99f6fe2d4",
+          "md5": "25f9241dc85188ea6af126efbfef87e5"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "paging-common-ohosx64-3.5.0-chunjizhang-cpf11-p2r1-sources.jar",
+          "url": "paging-common-ohosx64-3.5.0-chunjizhang-cpf11-p2r1-sources.jar",
+          "size": 125927,
+          "sha512": "bfb9a5f91777dfde3f6f499a856a30462298df5fadbd589b28dcea0cfa069cd07c51be5a7c5574b37b1c36625722fe507c2669a2a50c7eb1b94b666a3795b985",
+          "sha256": "384f156b514aa37b150c4582d9c1846d716ec132ff01aadcd33e57f2aa62735c",
+          "sha1": "17819309de3a2d56ceddb9e23a7e39e360df226a",
+          "md5": "fe40b589d6575ceb879353e8eb7b1c5b"
+        }
+      ]
+    }
+  ]
+}

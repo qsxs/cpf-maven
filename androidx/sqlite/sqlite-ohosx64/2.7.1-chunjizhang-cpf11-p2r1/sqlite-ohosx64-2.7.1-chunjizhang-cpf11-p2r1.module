@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sqlite/2.7.1-chunjizhang-cpf11-p2r1/sqlite-2.7.1-chunjizhang-cpf11-p2r1.module",
+    "group": "androidx.sqlite",
+    "module": "sqlite",
+    "version": "2.7.1-chunjizhang-cpf11-p2r1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.annotation-internal",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1-0.1.0-11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqlite-ohosX64Main-2.7.1-chunjizhang-cpf11-p2r1.klib",
+          "url": "sqlite-ohosx64-2.7.1-chunjizhang-cpf11-p2r1.klib",
+          "size": 20014,
+          "sha512": "3bc4b8413aaf5430f90201f2e4493982afd3a7de4b983e8ae5df2de6c3bfaf8fefa28021111f5417762dd3b83869593e9759caad344e654955af94bcef27ec18",
+          "sha256": "f14e73c7a1a0e32c43a80ccd2e87275b8b6165428e734bb21cc4f3f753dd8761",
+          "sha1": "f454f55c274a70c3516122dfab5803ff486bbd74",
+          "md5": "9ffedddeb8ed3f27cc320d91d90bf4d6"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "sqlite-ohosx64-2.7.1-chunjizhang-cpf11-p2r1-sources.jar",
+          "url": "sqlite-ohosx64-2.7.1-chunjizhang-cpf11-p2r1-sources.jar",
+          "size": 23736,
+          "sha512": "eea6a8d17a1d15d032c08d1929daa8fb457177322f97f9b97d0c3b3063b58b15a0fcae8833979397ca9cea19f6c8da30907c4d7fd9713ebc7f9dff03b568ead9",
+          "sha256": "12e11a7f02cbb6cb4c2ebdfef480dad502a76d18305038f6bf551498b2ad77ad",
+          "sha1": "e0b42ff375d60b40b450ec44a03d30a53f173617",
+          "md5": "9acfc1d0a38fe0977bc71f1ca9a4fb7b"
+        }
+      ]
+    }
+  ]
+}

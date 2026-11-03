@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../datastore-core-okio/1.3.0-rc01-chunjizhang-cpf11-p2r1/datastore-core-okio-1.3.0-rc01-chunjizhang-cpf11-p2r1.module",
+    "group": "androidx.datastore",
+    "module": "datastore-core-okio",
+    "version": "1.3.0-rc01-chunjizhang-cpf11-p2r1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-core",
+          "version": {
+            "requires": "1.3.0-rc01-chunjizhang-cpf11-p2r1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.17.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20-0.1.0-08"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "datastore-core-okio-ohosX64Main-1.3.0-rc01-chunjizhang-cpf11-p2r1.klib",
+          "url": "datastore-core-okio-ohosx64-1.3.0-rc01-chunjizhang-cpf11-p2r1.klib",
+          "size": 23828,
+          "sha512": "e907a72455720fc2262e3b179e104fe2e52403d35a9545cd7106da297ff8e7f7e9049c19275477eaf1db21d8ac0642e7f4c9daa9a66dc12b26bbb358ab12dbe2",
+          "sha256": "e403b66525a270bf7718a62deed40595f8105f1020ad7ce03b7e0a04256a4eec",
+          "sha1": "a6b926db7fc566e5cc4bfdb329c0da8a787201be",
+          "md5": "fe72de08716092443773407c8ef8c5ce"
+        }
+      ]
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "datastore-core-okio-ohosx64-1.3.0-rc01-chunjizhang-cpf11-p2r1-sources.jar",
+          "url": "datastore-core-okio-ohosx64-1.3.0-rc01-chunjizhang-cpf11-p2r1-sources.jar",
+          "size": 17049,
+          "sha512": "5117b5d6363ef2cedd70bcb1f07cf264a8e158227b150130e610fb42af7e6d35f36aea85be54ccbd78f9dc9897ed61835df340ee4bc445c97b6b7c3488653aba",
+          "sha256": "4d04b1fc106946db1bb6db1119029445b86d66a1760fa6dc8a58014788e27f66",
+          "sha1": "4d0e5e3770c62ff31b20c848a4c7515d7881077c",
+          "md5": "648702037dfecb2674f7d32b7370147b"
+        }
+      ]
+    }
+  ]
+}
