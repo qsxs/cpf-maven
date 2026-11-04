@@ -1,0 +1,31 @@
+{
+  "kind": "EXACT_ACCEPTED_HAR_REPUBLICATION",
+  "version": "1.12.0-0.1.0-03-chunjizhang-p5b-b7c8116f208d",
+  "ohpmPackage": "@cpf-kmp-cmp/compose",
+  "source": {
+    "repository": "https://gitcode.com/CPF-KMP-CMP/compose-multiplatform-core",
+    "commit": "6d622480498ffefdf54a2f63b9abbbd4f5850e33",
+    "sourceVersion": "1.12.0-0.1.0-03",
+    "license": "Apache-2.0"
+  },
+  "fingerprint": "b7c8116f208d046d58cbfa9bfc258f54eea9e2001a6bc936c481eae0d5c98686",
+  "semantics": "Official ETS/C++ implementations unchanged; accepted build/SDK/version metadata retained; no new source-build or runtime claim",
+  "artifacts": [
+    {
+      "abi": "x86_64",
+      "path": "io/github/qsxs/cpf/compose-har/1.12.0-0.1.0-03-chunjizhang-p5b-b7c8116f208d/compose-har-1.12.0-0.1.0-03-chunjizhang-p5b-b7c8116f208d-x86_64.har",
+      "url": "https://qsxs.github.io/cpf-maven/io/github/qsxs/cpf/compose-har/1.12.0-0.1.0-03-chunjizhang-p5b-b7c8116f208d/compose-har-1.12.0-0.1.0-03-chunjizhang-p5b-b7c8116f208d-x86_64.har",
+      "bytes": 875571,
+      "sha256": "345f6cf26c038f57a39c36121d86cc633ed3a5bce95f72380a6d6fd7e8e5ff4a",
+      "sha1": "afe4d6f73127ac66440fb1356cb7f1460d53f6ba"
+    },
+    {
+      "abi": "arm64-v8a",
+      "path": "io/github/qsxs/cpf/compose-har/1.12.0-0.1.0-03-chunjizhang-p5b-b7c8116f208d/compose-har-1.12.0-0.1.0-03-chunjizhang-p5b-b7c8116f208d-arm64-v8a.har",
+      "url": "https://qsxs.github.io/cpf-maven/io/github/qsxs/cpf/compose-har/1.12.0-0.1.0-03-chunjizhang-p5b-b7c8116f208d/compose-har-1.12.0-0.1.0-03-chunjizhang-p5b-b7c8116f208d-arm64-v8a.har",
+      "bytes": 848092,
+      "sha256": "7a6ee717951ce15b1d6cddbbf989b66bc5bc2f22529027678139ac4b614f658a",
+      "sha1": "96336b13eb33faaa2c7df90014ac18e4b997dcd5"
+    }
+  ]
+}
