@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.qsxs.cpf.filekit",
+    "module": "filekit-dialogs",
+    "version": "0.16.0-cpf-sharemanager-3ea52e3f3ab1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.qsxs.cpf.filekit",
+          "module": "filekit-core",
+          "version": {
+            "requires": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21-0.1.0-13"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-0.1.0-23"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-adaptive",
+          "version": {
+            "requires": "1.12.0-0.1.0-23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filekit-dialogs-metadata-0.16.0-cpf-sharemanager-3ea52e3f3ab1.jar",
+          "url": "filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.jar",
+          "size": 27262,
+          "sha512": "652ac79629d22e809a138c794702e6f71f000bd628855013036132a1baaa3f9bf9777befe75ccd45cd96ff9a019a6fef986ccb11a0d7fa662fc7fcbb8e89aa84",
+          "sha256": "dfe12d0217857fb16d2ae9419e37fb689646261b83cc4304d984d240fc5769e0",
+          "sha1": "34683337d2297568be6d1c2366b4b50ac7457f0b",
+          "md5": "43eb5de1c82f72b8d811d2a0922a4543"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "filekit-dialogs-kotlin-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar",
+          "url": "filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar",
+          "size": 25366,
+          "sha512": "52dbae525298db4e3ae3c355fb724ffbc7492f211c6d17aa54b791d0e1df52330978ec9e9e9eb25a95ee697a148c424071daff004429a82ef7ba9d1246e10813",
+          "sha256": "3b2cad033cb90b857ffd35283be0ec8c122a97a5cf8bbc6462cc5ee38dd070f4",
+          "sha1": "3fbe968111aa291be68b9863b1747cded7c8766e",
+          "md5": "a7fbf14b06ba56ce888ef575e779bfa7"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-dialogs-ohosarm64",
+        "version": "0.16.0-cpf-sharemanager-3ea52e3f3ab1"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-dialogs-ohosarm64",
+        "version": "0.16.0-cpf-sharemanager-3ea52e3f3ab1"
+      }
+    },
+    {
+      "name": "ohosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-dialogs-ohosarm64",
+        "version": "0.16.0-cpf-sharemanager-3ea52e3f3ab1"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-dialogs-ohosx64",
+        "version": "0.16.0-cpf-sharemanager-3ea52e3f3ab1"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-dialogs-ohosx64",
+        "version": "0.16.0-cpf-sharemanager-3ea52e3f3ab1"
+      }
+    },
+    {
+      "name": "ohosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module",
+        "group": "io.github.qsxs.cpf.filekit",
+        "module": "filekit-dialogs-ohosx64",
+        "version": "0.16.0-cpf-sharemanager-3ea52e3f3ab1"
+      }
+    }
+  ]
+}

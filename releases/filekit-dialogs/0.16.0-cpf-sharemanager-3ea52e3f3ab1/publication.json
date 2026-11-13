@@ -1,0 +1,808 @@
+{
+  "schemaVersion": 1,
+  "coordinate": "io.github.qsxs.cpf.filekit:filekit-dialogs:0.16.0-cpf-sharemanager-3ea52e3f3ab1",
+  "version": "0.16.0-cpf-sharemanager-3ea52e3f3ab1",
+  "source": "https://github.com/qsxs/FileKit/tree/3ea52e3f3ab14d9a45cbe51f238afebfc5c75403",
+  "sourceCommit": "3ea52e3f3ab14d9a45cbe51f238afebfc5c75403",
+  "coreVersion": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1",
+  "kotlin": "2.4.21-0.1.0-13",
+  "compose": "1.12.0-0.1.0-23",
+  "variants": {
+    "filekit-dialogs": [
+      "metadataApiElements",
+      "metadataSourcesElements",
+      "ohosArm64ApiElements-published",
+      "ohosArm64SourcesElements-published",
+      "ohosArm64ResourcesElements-published",
+      "ohosX64ApiElements-published",
+      "ohosX64SourcesElements-published",
+      "ohosX64ResourcesElements-published"
+    ],
+    "filekit-dialogs-ohosx64": [
+      "ohosX64ApiElements-published",
+      "ohosX64SourcesElements-published",
+      "ohosX64ResourcesElements-published"
+    ],
+    "filekit-dialogs-ohosarm64": [
+      "ohosArm64ApiElements-published",
+      "ohosArm64SourcesElements-published",
+      "ohosArm64ResourcesElements-published"
+    ]
+  },
+  "dependencies": {
+    "filekit-dialogs": [
+      "io.github.qsxs.cpf.filekit:filekit-core:0.16.0-cpf11-preview-22683094fd5d-40864370116-1",
+      "org.jetbrains.compose.runtime:runtime:1.12.0-0.1.0-23",
+      "org.jetbrains.compose.ui:ui-adaptive:1.12.0-0.1.0-23",
+      "org.jetbrains.kotlin:kotlin-stdlib:2.4.21-0.1.0-13",
+      "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0-0.1.0-07",
+      "org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0-0.1.0-07"
+    ],
+    "filekit-dialogs-ohosx64": [
+      "io.github.qsxs.cpf.filekit:filekit-core:0.16.0-cpf11-preview-22683094fd5d-40864370116-1",
+      "org.jetbrains.compose.runtime:runtime:1.12.0-0.1.0-23",
+      "org.jetbrains.compose.ui:ui-adaptive:1.12.0-0.1.0-23",
+      "org.jetbrains.kotlin:kotlin-stdlib:2.4.21-0.1.0-13",
+      "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0-0.1.0-07",
+      "org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0-0.1.0-07"
+    ],
+    "filekit-dialogs-ohosarm64": [
+      "io.github.qsxs.cpf.filekit:filekit-core:0.16.0-cpf11-preview-22683094fd5d-40864370116-1",
+      "org.jetbrains.compose.runtime:runtime:1.12.0-0.1.0-23",
+      "org.jetbrains.compose.ui:ui-adaptive:1.12.0-0.1.0-23",
+      "org.jetbrains.kotlin:kotlin-stdlib:2.4.21-0.1.0-13",
+      "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0-0.1.0-07",
+      "org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0-0.1.0-07"
+    ]
+  },
+  "sourceMembers": {
+    "filekit-dialogs": [
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKit.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogException.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogSettings.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogsInternalApi.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitMode.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitPickerException.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitPickerState.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitType.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileSaverName.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/Utils.kt",
+      "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKit.mobile.kt",
+      "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitCameraType.kt",
+      "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitOpenCameraSettings.kt",
+      "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitShareSettings.kt",
+      "filekit-dialogs/src/nonWebMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKit.nonWeb.kt",
+      "filekit-dialogs/src/nonWebMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitOpenFileSettings.kt",
+      "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogs.ohos.kt",
+      "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/OhosFileShare.kt",
+      "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/OhosNapi.kt",
+      "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/OhosSystemDialogs.kt"
+    ],
+    "filekit-dialogs-ohosx64": [
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKit.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogException.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogSettings.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogsInternalApi.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitMode.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitPickerException.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitPickerState.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitType.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileSaverName.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/Utils.kt",
+      "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKit.mobile.kt",
+      "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitCameraType.kt",
+      "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitOpenCameraSettings.kt",
+      "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitShareSettings.kt",
+      "filekit-dialogs/src/nonWebMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKit.nonWeb.kt",
+      "filekit-dialogs/src/nonWebMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitOpenFileSettings.kt",
+      "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogs.ohos.kt",
+      "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/OhosFileShare.kt",
+      "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/OhosNapi.kt",
+      "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/OhosSystemDialogs.kt",
+      "filekit-dialogs/src/ohosX64Main/kotlin/io/github/vinceglb/filekit/dialogs/MainHandler.ohos.kt"
+    ],
+    "filekit-dialogs-ohosarm64": [
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKit.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogException.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogSettings.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogsInternalApi.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitMode.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitPickerException.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitPickerState.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitType.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileSaverName.kt",
+      "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/Utils.kt",
+      "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKit.mobile.kt",
+      "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitCameraType.kt",
+      "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitOpenCameraSettings.kt",
+      "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitShareSettings.kt",
+      "filekit-dialogs/src/nonWebMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKit.nonWeb.kt",
+      "filekit-dialogs/src/nonWebMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitOpenFileSettings.kt",
+      "filekit-dialogs/src/ohosArm64Main/kotlin/io/github/vinceglb/filekit/dialogs/MainHandler.ohos.kt",
+      "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogs.ohos.kt",
+      "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/OhosFileShare.kt",
+      "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/OhosNapi.kt",
+      "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/OhosSystemDialogs.kt"
+    ]
+  },
+  "versionFiles": [
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt",
+      "bytes": 1075,
+      "sha256": "a41675c6f02403d7845edd2488c5eafbe1dc5f20daac608e09f71c42fe9ff22b"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt.md5",
+      "bytes": 32,
+      "sha256": "22d4ab72c05ac713b57f97c1183eef0ba066fe424e7877aa9e8e3a535811834a"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt.sha1",
+      "bytes": 40,
+      "sha256": "4212ac2a8af49a3d6e0bb8d23681cb9c80f03442799d8e10b66f9e0b7f0bd41f"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt.sha256",
+      "bytes": 64,
+      "sha256": "336cbb5f8281f59f09792ed82521d1a99c4b8eab4c087a142be09c389857a0ad"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt.sha512",
+      "bytes": 128,
+      "sha256": "3822f8a564675d47ec7bc8a7017d42befda49747a3ef102887fb277a0ccb4fc8"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin-tooling-metadata.json",
+      "bytes": 1306,
+      "sha256": "ad2f6d45e3d09ae86209abea989d23e7041b4ed9816c199be5c2efa43632dda8"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin-tooling-metadata.json.md5",
+      "bytes": 32,
+      "sha256": "26dd8b1e090fc7546f9a8fbdddfeb8428c9e8183d952b483ee51dc7f81cda433"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin-tooling-metadata.json.sha1",
+      "bytes": 40,
+      "sha256": "bb6720b1bf2f36ee058c31efc2df477d7e5b0ee251da9dc9b90de254da5cb9fa"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin-tooling-metadata.json.sha256",
+      "bytes": 64,
+      "sha256": "d18a86cec756c3907858114d478b904d469f911b1ecb1b987bf5ff22b4762169"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin-tooling-metadata.json.sha512",
+      "bytes": 128,
+      "sha256": "fe18dd9aa4166401434c80a327e8ce6f94c6bbb45f12310fd3f74432cb99e900"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json",
+      "bytes": 4271,
+      "sha256": "dadf06eee4f08104cb6b0367aae96874fdefd264f697a37af3043a6fd073b139"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json.md5",
+      "bytes": 32,
+      "sha256": "fef17fafcce7131080690de90f15405b9ba83122844918356595377a410d0206"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json.sha1",
+      "bytes": 40,
+      "sha256": "0d11bfec77bfc6086eec0aa9d894b725eec16ff2c8f0505f5bbdbc9686a7e995"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json.sha256",
+      "bytes": 64,
+      "sha256": "925c296b2c7047afb1c33171ae9d7326ad75ad02013a571951bb4b6650d91043"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json.sha512",
+      "bytes": 128,
+      "sha256": "4ab3ba97b3b7d1b15482c3a44015e425b6c94d35c3e256ed7aa505c16a53d33f"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar",
+      "bytes": 25366,
+      "sha256": "3b2cad033cb90b857ffd35283be0ec8c122a97a5cf8bbc6462cc5ee38dd070f4"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar.md5",
+      "bytes": 32,
+      "sha256": "59755cc0f1fc4fb3ec06152db5f808c18a18f6765139e77f78b654b198ab6ed9"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar.sha1",
+      "bytes": 40,
+      "sha256": "1b1e20268b8229b7445406359fc745b7302908a1dfddce394469e3a2ef43376a"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar.sha256",
+      "bytes": 64,
+      "sha256": "469768c8b4640a07b1f740614b2f9ede753a8bda4cc3585274c38e853deae43c"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar.sha512",
+      "bytes": 128,
+      "sha256": "f5bfcb68248e1d848c220f0ea39234610b540d4f2d214cea15fb177c0bf3daa0"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt",
+      "bytes": 1075,
+      "sha256": "5ceb0f372844932c328a4d34bfb6b1903b157d4b3467c5de484bfec8e5aea7ca"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt.md5",
+      "bytes": 32,
+      "sha256": "9af1a665960d9a7e83d5dda9ada49bcdf43f9d05de4ee262cbfcf7c7b481cb58"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt.sha1",
+      "bytes": 40,
+      "sha256": "c860b4eb267e75cd46a1fdcb1177902abe58a2111b9c0a36ecf72469d3fc80aa"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt.sha256",
+      "bytes": 64,
+      "sha256": "c46324ff43ffe7dc7d3a18b129f104df7c01ec78c39a1fdcb8a10ba71bb5e963"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt.sha512",
+      "bytes": 128,
+      "sha256": "5b96f9895abd95609da74cfd0d4f3ad0fdee8bffa70c206a9e0208e68f40e17a"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.jar",
+      "bytes": 27262,
+      "sha256": "dfe12d0217857fb16d2ae9419e37fb689646261b83cc4304d984d240fc5769e0"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.jar.md5",
+      "bytes": 32,
+      "sha256": "80e476040a67fc12b0ae00736d607aef59af486c5aed2c0b0125c8af51f94b8e"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.jar.sha1",
+      "bytes": 40,
+      "sha256": "6f7737f9265fee65b75bb9ba92eaa746e5844a9eb3fcc5a12edfcad658298454"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.jar.sha256",
+      "bytes": 64,
+      "sha256": "532f635573fc97e6920505a3b6d1b0dcd8fd3e0aad9599603b281fbeaf69a32b"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.jar.sha512",
+      "bytes": 128,
+      "sha256": "7d2b8686bb8f996bd7c41d244b8e5a6cb63f58011b0b9a263472039d03628126"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module",
+      "bytes": 7921,
+      "sha256": "bd3a48d0e3f1f1a1af9c63049be0d17841223dd791cfc1e2ffdbb9ff03dc8bad"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module.md5",
+      "bytes": 32,
+      "sha256": "bebce01623f31b1bd19ba9a0549b7b7f8419f82b15cf2a64bb1e8b5c979c45ef"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module.sha1",
+      "bytes": 40,
+      "sha256": "47b9165660bb57509d7feb0668232eee3553e0a082902a749ba2c72288d92fce"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module.sha256",
+      "bytes": 64,
+      "sha256": "849685b9ef6ca6a1eacabdc756895e4e9db400dd6d4e3e5161fcd3c4fed78b6a"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module.sha512",
+      "bytes": 128,
+      "sha256": "9914948d31f2eacb8b4dfb3327b7e849e76cf418f13d87184a334b47a0d7569e"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom",
+      "bytes": 2568,
+      "sha256": "3392fe9462f2d1ab052545f57434979503652f0877c643a068fd2a42d67e35c6"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom.md5",
+      "bytes": 32,
+      "sha256": "cd9173b1fc881ccf5e6beb85e9d9672bb070097be2491f658cbc30e7585a0574"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom.sha1",
+      "bytes": 40,
+      "sha256": "aca5083daed0fcb7fa00491c091d1e555d1d855c887aa73f99c5b16c4609b5a5"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom.sha256",
+      "bytes": 64,
+      "sha256": "4d0142f152c07e039ffc4fa8b784f91d75bb7343a224ee7d18a869ee60ee9da9"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom.sha512",
+      "bytes": 128,
+      "sha256": "8ef37658585c187f761c569d9aa335d3ef6d1dc3cea36addbc90dca157bf052d"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt",
+      "bytes": 1075,
+      "sha256": "a41675c6f02403d7845edd2488c5eafbe1dc5f20daac608e09f71c42fe9ff22b"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt.md5",
+      "bytes": 32,
+      "sha256": "22d4ab72c05ac713b57f97c1183eef0ba066fe424e7877aa9e8e3a535811834a"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt.sha1",
+      "bytes": 40,
+      "sha256": "4212ac2a8af49a3d6e0bb8d23681cb9c80f03442799d8e10b66f9e0b7f0bd41f"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt.sha256",
+      "bytes": 64,
+      "sha256": "336cbb5f8281f59f09792ed82521d1a99c4b8eab4c087a142be09c389857a0ad"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt.sha512",
+      "bytes": 128,
+      "sha256": "3822f8a564675d47ec7bc8a7017d42befda49747a3ef102887fb277a0ccb4fc8"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin_resources.kotlin_resources.zip",
+      "bytes": 372,
+      "sha256": "e19037673a819442e34287464b62015a3ab2268b4304e59ef03de70ad46bbab7"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin_resources.kotlin_resources.zip.md5",
+      "bytes": 32,
+      "sha256": "6a8b57838bbc5c6049c2e818b1948dcf1a8e1956b8089b792afdbb5884dd8bfd"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin_resources.kotlin_resources.zip.sha1",
+      "bytes": 40,
+      "sha256": "94ec4a6a6accb1202592b86814917206c7b4911a3e6974301c8a29c2078e3a16"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin_resources.kotlin_resources.zip.sha256",
+      "bytes": 64,
+      "sha256": "51c74989e347a68fe29db5eea407bed12878c9222b30b8bb77ba41ca4c090a7a"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin_resources.kotlin_resources.zip.sha512",
+      "bytes": 128,
+      "sha256": "fb2aac50ee466eac29e4e9c65c4eb4f9b0067a86a785197bb9b17978765ac72b"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json",
+      "bytes": 4271,
+      "sha256": "dadf06eee4f08104cb6b0367aae96874fdefd264f697a37af3043a6fd073b139"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json.md5",
+      "bytes": 32,
+      "sha256": "fef17fafcce7131080690de90f15405b9ba83122844918356595377a410d0206"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json.sha1",
+      "bytes": 40,
+      "sha256": "0d11bfec77bfc6086eec0aa9d894b725eec16ff2c8f0505f5bbdbc9686a7e995"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json.sha256",
+      "bytes": 64,
+      "sha256": "925c296b2c7047afb1c33171ae9d7326ad75ad02013a571951bb4b6650d91043"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json.sha512",
+      "bytes": 128,
+      "sha256": "4ab3ba97b3b7d1b15482c3a44015e425b6c94d35c3e256ed7aa505c16a53d33f"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar",
+      "bytes": 26576,
+      "sha256": "e6a08ba5d949ceb367d187acfd154063b242278fb139fdbebd98be88cdd09023"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar.md5",
+      "bytes": 32,
+      "sha256": "2bee11e53e6406c9c25fc5d09259734e0cabd54db1d2e3f7572fecda01bbd49e"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar.sha1",
+      "bytes": 40,
+      "sha256": "4a2b9ef22e7b91724aece5f64a964afa855f2773e6619ee5e7b9fc7fbb88485a"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar.sha256",
+      "bytes": 64,
+      "sha256": "2dddfa2b251849e133a83dd8a818aef2253148c27ce10de45815f161c8aba81f"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar.sha512",
+      "bytes": 128,
+      "sha256": "c50d419c3ca0dcecba6ee34ec199c0a2e469dcc98a1f89280ebeb4e2e50eeb82"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt",
+      "bytes": 1075,
+      "sha256": "5ceb0f372844932c328a4d34bfb6b1903b157d4b3467c5de484bfec8e5aea7ca"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt.md5",
+      "bytes": 32,
+      "sha256": "9af1a665960d9a7e83d5dda9ada49bcdf43f9d05de4ee262cbfcf7c7b481cb58"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt.sha1",
+      "bytes": 40,
+      "sha256": "c860b4eb267e75cd46a1fdcb1177902abe58a2111b9c0a36ecf72469d3fc80aa"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt.sha256",
+      "bytes": 64,
+      "sha256": "c46324ff43ffe7dc7d3a18b129f104df7c01ec78c39a1fdcb8a10ba71bb5e963"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt.sha512",
+      "bytes": 128,
+      "sha256": "5b96f9895abd95609da74cfd0d4f3ad0fdee8bffa70c206a9e0208e68f40e17a"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.klib",
+      "bytes": 104775,
+      "sha256": "4a2641e93dd05c91dcfa37f18ba8185417ea0a1ed2da2dac7589dd5fa3432561"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.klib.md5",
+      "bytes": 32,
+      "sha256": "8487ebf832fdb772fdaefc5178533d0f5d8a2e5c667d8a4ddbf9becabdee7667"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.klib.sha1",
+      "bytes": 40,
+      "sha256": "aec3c29ae85406af6aa280b626693b07380224d8a1a1e8654bf50a3176137b08"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.klib.sha256",
+      "bytes": 64,
+      "sha256": "5438f2b1c1a7acac64226bb7d9049584c9fec630fe58358b4a05504df60fbd92"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.klib.sha512",
+      "bytes": 128,
+      "sha256": "3b7160b66a65351bb89bf33b17dd5888c56e4a75744a4b694eaee3b35f5acefc"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module",
+      "bytes": 5919,
+      "sha256": "9d9688a2faa4797937589e8fef1876fc0ee8c5fabe7c7ee0add41939dcc06a98"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module.md5",
+      "bytes": 32,
+      "sha256": "8369c85f64fdd8bf6c6814c9be51e06aca1bbe94469ae8dd70aca38fe42fd87c"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module.sha1",
+      "bytes": 40,
+      "sha256": "08649a13c3ed9829a551264a600ab0dda3155109a1928cad74e430d58c855dc2"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module.sha256",
+      "bytes": 64,
+      "sha256": "639ab0e16a423502fe8181a19b71bf75c588f046ad3911e7d657a2c23bef137c"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module.sha512",
+      "bytes": 128,
+      "sha256": "242bd4847af074c8c770d39f8da65710048e1bb375c94f0c18df11dce35878bb"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom",
+      "bytes": 2642,
+      "sha256": "cbeef21f1061657512942079a04cb6ba972963ed7dfee49849b25080d6f95cc4"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom.md5",
+      "bytes": 32,
+      "sha256": "46115f19a2ebbc8f079a4cc0d240def44c75be3d7f619fcd2163bd41e7186d15"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom.sha1",
+      "bytes": 40,
+      "sha256": "e9ec8412856ebe07aaa3a108220a55f7bde18a4f08b534093cf8206d34433d4d"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom.sha256",
+      "bytes": 64,
+      "sha256": "7ba6cc0a5b911c9448f1a5c4f168431681eeb36c648db0ba351163a297a581fe"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosx64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom.sha512",
+      "bytes": 128,
+      "sha256": "013ff0c1496ad756e638ad423c5f09e1072c3d3cb5dd70b22046b782bebf99bc"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt",
+      "bytes": 1075,
+      "sha256": "a41675c6f02403d7845edd2488c5eafbe1dc5f20daac608e09f71c42fe9ff22b"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt.md5",
+      "bytes": 32,
+      "sha256": "22d4ab72c05ac713b57f97c1183eef0ba066fe424e7877aa9e8e3a535811834a"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt.sha1",
+      "bytes": 40,
+      "sha256": "4212ac2a8af49a3d6e0bb8d23681cb9c80f03442799d8e10b66f9e0b7f0bd41f"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt.sha256",
+      "bytes": 64,
+      "sha256": "336cbb5f8281f59f09792ed82521d1a99c4b8eab4c087a142be09c389857a0ad"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-community-license.txt.sha512",
+      "bytes": 128,
+      "sha256": "3822f8a564675d47ec7bc8a7017d42befda49747a3ef102887fb277a0ccb4fc8"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin_resources.kotlin_resources.zip",
+      "bytes": 372,
+      "sha256": "8d227cb0bb322dcf756babd92257a02c7fdba91e150d4903f67db00be208fc6c"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin_resources.kotlin_resources.zip.md5",
+      "bytes": 32,
+      "sha256": "7a9d41e10f2184ad3ea6a5fb8691444959c53314c4e0161b5ed340f23d6201f1"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin_resources.kotlin_resources.zip.sha1",
+      "bytes": 40,
+      "sha256": "fa1e062824decb9d4379516257e2ae761240cdaaba91fadb43fbbc310fdd7293"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin_resources.kotlin_resources.zip.sha256",
+      "bytes": 64,
+      "sha256": "a373f2ff6e29d3c888706e73b36f41c1c28f4b2fbf5c586b295c5d300103757a"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin_resources.kotlin_resources.zip.sha512",
+      "bytes": 128,
+      "sha256": "71a64f4be77b4f1b59dd5d60f88c6922f2e9bd9bd5e1dd847dca895c2a82a6f7"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json",
+      "bytes": 4271,
+      "sha256": "dadf06eee4f08104cb6b0367aae96874fdefd264f697a37af3043a6fd073b139"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json.md5",
+      "bytes": 32,
+      "sha256": "fef17fafcce7131080690de90f15405b9ba83122844918356595377a410d0206"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json.sha1",
+      "bytes": 40,
+      "sha256": "0d11bfec77bfc6086eec0aa9d894b725eec16ff2c8f0505f5bbdbc9686a7e995"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json.sha256",
+      "bytes": 64,
+      "sha256": "925c296b2c7047afb1c33171ae9d7326ad75ad02013a571951bb4b6650d91043"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-provenance.json.sha512",
+      "bytes": 128,
+      "sha256": "4ab3ba97b3b7d1b15482c3a44015e425b6c94d35c3e256ed7aa505c16a53d33f"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar",
+      "bytes": 26604,
+      "sha256": "8568d288b013fac95bb3b70556c36a8fcf86460eaf171fbadfcc2b79d31f0c2d"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar.md5",
+      "bytes": 32,
+      "sha256": "936ec5e3348f249b86a29fdfc3d3da972d9610a7fb6b2198b85157194e9fe8fe"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar.sha1",
+      "bytes": 40,
+      "sha256": "8f6442d6d21e85962e9f710917901d9a4b1e001d772a4dc196919ec27303c23b"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar.sha256",
+      "bytes": 64,
+      "sha256": "7ef758860fd6afc7f9d6b32057da44312b572bc3e108114db8f12a5bd5d8573d"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar.sha512",
+      "bytes": 128,
+      "sha256": "2189fb2866bf374042f43bc0ace379fddf0c962358f23d3100c93408311a9766"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt",
+      "bytes": 1075,
+      "sha256": "5ceb0f372844932c328a4d34bfb6b1903b157d4b3467c5de484bfec8e5aea7ca"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt.md5",
+      "bytes": 32,
+      "sha256": "9af1a665960d9a7e83d5dda9ada49bcdf43f9d05de4ee262cbfcf7c7b481cb58"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt.sha1",
+      "bytes": 40,
+      "sha256": "c860b4eb267e75cd46a1fdcb1177902abe58a2111b9c0a36ecf72469d3fc80aa"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt.sha256",
+      "bytes": 64,
+      "sha256": "c46324ff43ffe7dc7d3a18b129f104df7c01ec78c39a1fdcb8a10ba71bb5e963"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-upstream-license.txt.sha512",
+      "bytes": 128,
+      "sha256": "5b96f9895abd95609da74cfd0d4f3ad0fdee8bffa70c206a9e0208e68f40e17a"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.klib",
+      "bytes": 104791,
+      "sha256": "ff1ec0140b5f71e892009ce4e314f1cf8a3b4eaf4f958805e10cef9e15c6beeb"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.klib.md5",
+      "bytes": 32,
+      "sha256": "b271241a9ddefae761b890ce154e15342ba15bb3e8bb667313bb28d5f9207470"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.klib.sha1",
+      "bytes": 40,
+      "sha256": "4d307b4fed7d5f29ebee76bae0b6974cf2aed0acb53b8ba0ad1c2f1611d314bb"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.klib.sha256",
+      "bytes": 64,
+      "sha256": "963f32c28ef467f620ed9210d95ce11d348c0440845973066d76b4ac2f84412c"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.klib.sha512",
+      "bytes": 128,
+      "sha256": "b63e8786749946a2d41e4222fab2e1bf5bfd79951dfa8081ad8d645584f53a3f"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module",
+      "bytes": 5941,
+      "sha256": "65552cf1cc5ab6142ab1c4dcc088df9249990b5b92d2ac5abec32dfb69f943dd"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module.md5",
+      "bytes": 32,
+      "sha256": "6c24fbc34a4cb6602b7ca960c845448d661b5fb236de2eb359b660486c6a1ace"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module.sha1",
+      "bytes": 40,
+      "sha256": "99b2452fb80bc7cc8aa58993959093b81a2c3e4f832677ba90e23b170a246a20"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module.sha256",
+      "bytes": 64,
+      "sha256": "5c4c30bc9d2439aa1ecd9c838525b6fe67099a65f1cc09135237a82791d33ad9"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module.sha512",
+      "bytes": 128,
+      "sha256": "2bbdfea2b2d38a5feb7bb7f542dd6386eae08fe1d7eba873d20e62624568e0cc"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom",
+      "bytes": 2654,
+      "sha256": "1e984edc93d2092b799ff5f4120b9e96dfa6cfeb4949b972e927d1e165a55f9b"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom.md5",
+      "bytes": 32,
+      "sha256": "63fbe985eb37adc856bb075669932345baaa1b7c21a169a86b2bcefb5c194355"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom.sha1",
+      "bytes": 40,
+      "sha256": "fc8e4c5050e18577ca06da0dc5c54316fbb76806043da91177560dbe09d43ff3"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom.sha256",
+      "bytes": 64,
+      "sha256": "e8a7fcd980de5f6129621f89340d8b6e55e3bb79e2621142802594056b24bdb1"
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.pom.sha512",
+      "bytes": 128,
+      "sha256": "86873c965b73c6d6e28f063c2f81d19db4a1347556c1d94f8a205ac8e20c7fd1"
+    }
+  ],
+  "indexes": [
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/maven-metadata.xml",
+      "sha256": "190b4794bac812d2ab48a23bf2a4a98ad3b128d587f88e760657741561ed8a0f",
+      "bytes": 514
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/maven-metadata.xml.md5",
+      "sha256": "0f3c112465181293b0158e43df3141bd8fdb937bb007907ac39acbe79af83ce8",
+      "bytes": 32
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/maven-metadata.xml.sha1",
+      "sha256": "005dce1924022245fd84c27af47948aa0f834f46d396f0acd83597253afd0263",
+      "bytes": 40
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/maven-metadata.xml.sha256",
+      "sha256": "8f3b5c1b295e97b2fe4628993b05483a44005349c02f83fad9580d82e2ba1a72",
+      "bytes": 64
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs/maven-metadata.xml.sha512",
+      "sha256": "4eaed9f44cdb9074cb1c773b82d2d4e8a0bc86742ebd09a82ec30e5fd47b79a8",
+      "bytes": 128
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/maven-metadata.xml",
+      "sha256": "093b0cba044aaff76040ebced922558aff1fc9bfcfea6be0f6a7b7623ecfd62d",
+      "bytes": 524
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/maven-metadata.xml.md5",
+      "sha256": "5a35322f7133537c68937a8756653073671ad6706f78fe766fec35b87da2a258",
+      "bytes": 32
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/maven-metadata.xml.sha1",
+      "sha256": "48326e3962a9b71a6f9b0f262fc6d72550ee00368928be6400821631a84bf074",
+      "bytes": 40
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/maven-metadata.xml.sha256",
+      "sha256": "083d3abe9d6cfa4ad787a4b57907fe008263c7ba5df9516a73efb69cf7d367c7",
+      "bytes": 64
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosarm64/maven-metadata.xml.sha512",
+      "sha256": "678d35d623f03e606d070d7a61e6a25a5c8921827c1f2d237ea098f116432fb4",
+      "bytes": 128
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/maven-metadata.xml",
+      "sha256": "b7c91e294b3509b42fca4f45f779f1f08c48bc1a2fb6797a0dbec029be8a4a4a",
+      "bytes": 522
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/maven-metadata.xml.md5",
+      "sha256": "2149243ee039495e895228281d7341c11ba8999ab073bd707f536e55a50e256f",
+      "bytes": 32
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/maven-metadata.xml.sha1",
+      "sha256": "28c0964219c6e9d7b4e94f7a8b870923f3ccf2b6610873a12bbe38c6cfba98f8",
+      "bytes": 40
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/maven-metadata.xml.sha256",
+      "sha256": "97a2afad3f1d43990d5c5616e09b1630465de92544a6bb38a317448fcb1ed801",
+      "bytes": 64
+    },
+    {
+      "path": "io/github/qsxs/cpf/filekit/filekit-dialogs-ohosx64/maven-metadata.xml.sha512",
+      "sha256": "69eb33eb04ce686eb6a63ea5b584829bbebcb5bed1ce269dcac7ec58d8618942",
+      "bytes": 128
+    }
+  ],
+  "pagesBase": "c481d2d9e3b890a25f90140a5382443503e67a7d"
+}

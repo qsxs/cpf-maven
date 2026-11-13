@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../filekit-dialogs/0.16.0-cpf-sharemanager-3ea52e3f3ab1/filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.module",
+    "group": "io.github.qsxs.cpf.filekit",
+    "module": "filekit-dialogs",
+    "version": "0.16.0-cpf-sharemanager-3ea52e3f3ab1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.qsxs.cpf.filekit",
+          "module": "filekit-core",
+          "version": {
+            "requires": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21-0.1.0-13"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-0.1.0-23"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-adaptive",
+          "version": {
+            "requires": "1.12.0-0.1.0-23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filekit-dialogs-ohosArm64Main-0.16.0-cpf-sharemanager-3ea52e3f3ab1.klib",
+          "url": "filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1.klib",
+          "size": 104791,
+          "sha512": "2e9cdedc05fb801aa724c0e61ec5c17a86429c29bc971c703a303d00863ad2943546685f19f8057396378ee4ec69006af94db4f8f1dfeabc3ae0be572e504c38",
+          "sha256": "ff1ec0140b5f71e892009ce4e314f1cf8a3b4eaf4f958805e10cef9e15c6beeb",
+          "sha1": "9eff47775c61673ea3be9fb7c373facf3f69dfd0",
+          "md5": "594a79e033e443cec1722c170ac23788"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar",
+          "url": "filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-sources.jar",
+          "size": 26604,
+          "sha512": "967e7781331e8ce68e8f19408574c228430f93516cf601717409211ad305a4f3b9606c649d1e2bc16ae587fc16cd864f37c536b49a1647f3cb6c6a6389e3029d",
+          "sha256": "8568d288b013fac95bb3b70556c36a8fcf86460eaf171fbadfcc2b79d31f0c2d",
+          "sha1": "297ece66dcdeb614ce06c2392aef213ac88ceca9",
+          "md5": "7c824f5d95fa902560d72cb8d7508926"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.qsxs.cpf.filekit",
+          "module": "filekit-core",
+          "version": {
+            "requires": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21-0.1.0-13"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.0-0.1.0-23"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-adaptive",
+          "version": {
+            "requires": "1.12.0-0.1.0-23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filekit-dialogs-0.16.0-cpf-sharemanager-3ea52e3f3ab1.kotlin_resources.zip",
+          "url": "filekit-dialogs-ohosarm64-0.16.0-cpf-sharemanager-3ea52e3f3ab1-kotlin_resources.kotlin_resources.zip",
+          "size": 372,
+          "sha512": "e8071c187450cb82067bcca29e8ab9c60a5ac9c9fb1d14cefcfe0bfe1fb9c9651e33565474a62d2b770a60efceb72af1087cb44bad18c3299e74b4987762c0d0",
+          "sha256": "8d227cb0bb322dcf756babd92257a02c7fdba91e150d4903f67db00be208fc6c",
+          "sha1": "c92da6029b2376ff0abbba79ae38e1cbf8ebf233",
+          "md5": "c7b8bff50b5561690d9d75da54de7bd2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "repository": "https://github.com/qsxs/FileKit",
+    "sourceCommit": "3ea52e3f3ab14d9a45cbe51f238afebfc5c75403",
+    "kotlin": "2.4.21-0.1.0-13",
+    "compose": "1.12.0-0.1.0-23",
+    "coreVersion": "0.16.0-cpf11-preview-22683094fd5d-40864370116-1",
+    "sha256": {
+        "LICENSE": "5ceb0f372844932c328a4d34bfb6b1903b157d4b3467c5de484bfec8e5aea7ca",
+        "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKit.kt": "10376c7cb91f5cd437d84bfccf2a336544d5f6955dd46bab95b426948c4c8bae",
+        "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogException.kt": "76274c376034207f5a11f35cb508c0e355ca9233a5182e7d29deaf7d5100eda8",
+        "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogSettings.kt": "7f20a76cf7cdc3b9b232be9728a5522f0397914088a0b8646f0e252bd11a9c15",
+        "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogsInternalApi.kt": "b168162d1db26c87ad45a0f7cf4022e4d3fbc64ae224950147f480ffada5408d",
+        "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitMode.kt": "b6806d7dc90fef53f9913ce78c9858e852570b9313dcf5765f63108818fca4e4",
+        "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitPickerException.kt": "4f86c20f167689f9289bb302ee548e3d8754d164ed6eb836d2190d70537bb6d7",
+        "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitPickerState.kt": "1854f64f7a0f153bcdbe9495d0c7c9fa683d56787340f3b3b6ce2a6d9fec8eb1",
+        "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitType.kt": "e817bfcec090ad8ee38ef3b2906c1a1b758f494973e7249d2a918cf8ee7aa778",
+        "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/FileSaverName.kt": "de453ce88a7e55fcd9e9a76a495a6d1767c04321571628d5a52f39903f9777b7",
+        "filekit-dialogs/src/commonMain/kotlin/io/github/vinceglb/filekit/dialogs/Utils.kt": "a140d66c314505fc5f1d6a2c3fb3e63368c5588278bb5c742e114609fd4041d4",
+        "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKit.mobile.kt": "3be219d1748b4a7f9ef72e9a7b31406967f63d38d8910114a0000f1e279d77c7",
+        "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitCameraType.kt": "d1747ed37e207b52878af884913f3405292cd0ccb55b90ba1ad7f5634adfa67f",
+        "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitOpenCameraSettings.kt": "e94c06e603eb6c0547e95bc579fbe430cbef9efe696b11d2dab8ec8124100a8e",
+        "filekit-dialogs/src/mobileMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitShareSettings.kt": "b2e640c2f49dc2ddfba4a977229d829c867e28de30e7dea635dfd68f34f1d0b8",
+        "filekit-dialogs/src/nonWebMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKit.nonWeb.kt": "f27447fc50e3b69a67e97097d88643613ef447784e8f8f084d320c1f788006c1",
+        "filekit-dialogs/src/nonWebMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitOpenFileSettings.kt": "6734cf3052dc2e11aefccc4fa9272844784876b166f81b8939270d495ab235c7",
+        "filekit-dialogs/src/ohosArm64Main/kotlin/io/github/vinceglb/filekit/dialogs/MainHandler.ohos.kt": "f8715b9405f85400058a6842090253ba4976aa19f02eea8929fc0d01ab191573",
+        "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/FileKitDialogs.ohos.kt": "0cf249ec39c7b1646f39327eada5befbde0dd4a3cdd24a1483e92303dc17a20f",
+        "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/OhosFileShare.kt": "7c3b5e7be52913b03af6e271adb7871cf2d988dd23c71aeb1842bc7539794f93",
+        "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/OhosNapi.kt": "f1835a2752166a00a024839a0c2326922fb791c449e650d0e12db2d5c4f04e5c",
+        "filekit-dialogs/src/ohosMain/kotlin/io/github/vinceglb/filekit/dialogs/OhosSystemDialogs.kt": "a84af6ba54a16fe05607852fec8abacfcdaba4b2d511df4d1da10266a06902c9",
+        "filekit-dialogs/src/ohosX64Main/kotlin/io/github/vinceglb/filekit/dialogs/MainHandler.ohos.kt": "f8715b9405f85400058a6842090253ba4976aa19f02eea8929fc0d01ab191573",
+        "ohos/provenance/vendor/community/LICENSE": "a41675c6f02403d7845edd2488c5eafbe1dc5f20daac608e09f71c42fe9ff22b"
+    }
+}
