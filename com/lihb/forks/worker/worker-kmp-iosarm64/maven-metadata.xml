@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.lihb.forks.worker</groupId>
+  <artifactId>worker-kmp-iosarm64</artifactId>
+  <versioning>
+    <latest>4.0.8-cpf.3-ios.1</latest>
+    <release>4.0.8-cpf.3-ios.1</release>
+    <versions>
+      <version>4.0.8-cpf.3-ios.1</version>
+    </versions>
+    <lastUpdated>20261113103040</lastUpdated>
+  </versioning>
+</metadata>

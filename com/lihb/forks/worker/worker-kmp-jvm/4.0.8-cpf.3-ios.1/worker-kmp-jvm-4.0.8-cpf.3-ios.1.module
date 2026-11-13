@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../worker-kmp/4.0.8-cpf.3-ios.1/worker-kmp-4.0.8-cpf.3-ios.1.module",
+    "group": "com.lihb.forks.worker",
+    "module": "worker-kmp",
+    "version": "4.0.8-cpf.3-ios.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "worker-kmp-jvm-4.0.8-cpf.3-ios.1.jar",
+          "url": "worker-kmp-jvm-4.0.8-cpf.3-ios.1.jar",
+          "size": 174279,
+          "sha512": "e5571395322ca67cbad1d83a80b49696f51b7dd70a675936efbab54f6912a8d002d614bc55c638a20ca0eb094e4d20845f9e53efa07439a7687871bc9a0a6dc1",
+          "sha256": "723841bbb34735c626b770915c4edc80dca605b4dc74a82c83f015c3b4cc6208",
+          "sha1": "8deac3f7a6069e8cdc4dd71fc3790a1d546ee47d",
+          "md5": "0050012ea8d9a75962510aaa148e5c37"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "worker-kmp-jvm-4.0.8-cpf.3-ios.1.jar",
+          "url": "worker-kmp-jvm-4.0.8-cpf.3-ios.1.jar",
+          "size": 174279,
+          "sha512": "e5571395322ca67cbad1d83a80b49696f51b7dd70a675936efbab54f6912a8d002d614bc55c638a20ca0eb094e4d20845f9e53efa07439a7687871bc9a0a6dc1",
+          "sha256": "723841bbb34735c626b770915c4edc80dca605b4dc74a82c83f015c3b4cc6208",
+          "sha1": "8deac3f7a6069e8cdc4dd71fc3790a1d546ee47d",
+          "md5": "0050012ea8d9a75962510aaa148e5c37"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "worker-kmp-jvm-4.0.8-cpf.3-ios.1-sources.jar",
+          "url": "worker-kmp-jvm-4.0.8-cpf.3-ios.1-sources.jar",
+          "size": 49221,
+          "sha512": "ff956c4a144fae96da5de8430c4cef446ce43f8206dea71c009ddbbb68749aeb9d59b403f8c8efdc6c84b23d5333b419a3387386d55cef72b138b95eec53ae04",
+          "sha256": "4b4388f8626bd4ec9e83a82803202866f375d755d07d22641124ba6857aa65f7",
+          "sha1": "79179786cdd4cbbaa1927a70bfe97e8d308eebd8",
+          "md5": "d90a3c0baf0a2bae1c41fd535cdd35e3"
+        }
+      ]
+    }
+  ]
+}

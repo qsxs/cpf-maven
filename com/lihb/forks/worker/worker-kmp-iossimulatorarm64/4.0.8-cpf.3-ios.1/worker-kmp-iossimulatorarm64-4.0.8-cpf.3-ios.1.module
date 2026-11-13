@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../worker-kmp/4.0.8-cpf.3-ios.1/worker-kmp-4.0.8-cpf.3-ios.1.module",
+    "group": "com.lihb.forks.worker",
+    "module": "worker-kmp",
+    "version": "4.0.8-cpf.3-ios.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "worker-kmp-iosSimulatorArm64Main-4.0.8-cpf.3-ios.1.klib",
+          "url": "worker-kmp-iossimulatorarm64-4.0.8-cpf.3-ios.1.klib",
+          "size": 152643,
+          "sha512": "f69d5544ebcb632564295eeb71fa97d533209a8f56fca207c86757ad1c8329bad033771fff0f159bd0653a2feb4e45ac0e2ea47fecfdce19990aae9f58d65457",
+          "sha256": "0078440967ee751727f2b5e6703f7066a738bc4427edfcc39e4f1d3e1a54aaf5",
+          "sha1": "dd17973afe8f0943b03117c8ce6b2e57098576ca",
+          "md5": "d0e8c693f294bf1e937c20e71d574a7c"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "worker-kmp-iossimulatorarm64-4.0.8-cpf.3-ios.1-sources.jar",
+          "url": "worker-kmp-iossimulatorarm64-4.0.8-cpf.3-ios.1-sources.jar",
+          "size": 51478,
+          "sha512": "206ca5b330744db565ee78c0cbfb79650518c7fdab7028432f083846dd2f94910bfab6e1574d5dbc1713402b741a8ba1c00f8f103284ca61d2ce785f1e0b0f8c",
+          "sha256": "f00886ed09bdc78bb4929eaaea92083d572f1754ca3531abe0320ea12b614368",
+          "sha1": "5507987589f6afa2f9a4c7e9d2f4777387253db6",
+          "md5": "6f926698c494e01a1f52a2d0d35834f7"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "worker-kmp-iossimulatorarm64-4.0.8-cpf.3-ios.1-metadata.jar",
+          "url": "worker-kmp-iossimulatorarm64-4.0.8-cpf.3-ios.1-metadata.jar",
+          "size": 6008,
+          "sha512": "6e04db7552de414d0bc2d6173b243888e5432ad76fdcbc48cd940b6935aac0c9fbbdc15c9210d80b1fe96aac836caacf3d837e67117d1fcea5953e6a8a373fe2",
+          "sha256": "147f0df4c9f8339ab0308e7f776e7724b3c5c92f64edcc57037d28560ba267be",
+          "sha1": "11aa23852560ad09793b6be2673100335064c5eb",
+          "md5": "3cafbd87441fc41318c263812d62df76"
+        }
+      ]
+    }
+  ]
+}
