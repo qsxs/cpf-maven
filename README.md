@@ -172,3 +172,8 @@ io.github.qsxs.cpf.filekit:filekit-dialogs:0.16.0-cpf11-preview-22683094fd5d-408
   实际完成 metadata 与双 ABI 编译；两个 Native 编译器读取的各 7 个 KLIB 摘要与公开制品一致。
 - 新制品的最终链接、x64 运行、ARM64 真机、Gradle 8.11.1 消费和 Android/iOS 回归均未执行；
   consumer 输出二进制未上传，不能独立复哈。旧 P3 的运行结果只适用于旧制品，主工程依赖未切换。
+
+## Worker KMP OHOS 4.0.8-cpf.3-ohos.3
+
+- 根坐标为 `com.lihb.forks.worker:worker-kmp:4.0.8-cpf.3-ohos.3`。Gradle 根据模块元数据选择同版 `worker-kmp-ohosx64` 或 `worker-kmp-ohosarm64`。[根 POM](https://qsxs.github.io/cpf-maven/com/lihb/forks/worker/worker-kmp/4.0.8-cpf.3-ohos.3/worker-kmp-4.0.8-cpf.3-ohos.3.pom)
+- 源码来自 `qsxs/worker-kmp` 的 `168346443f1f1f0a443b86c5da164cc4cb1724c9`，由 CPF Kotlin `2.4.21-0.1.0-13` 和 Gradle `8.11.1` 构建。发布文件来自通过双 ABI 独立链接的 Maven 暂存目录。[源码提交](https://github.com/qsxs/worker-kmp/commit/168346443f1f1f0a443b86c5da164cc4cb1724c9) · [Apache 2.0 许可证](com/lihb/forks/worker/worker-kmp/4.0.8-cpf.3-ohos.3/LICENSE)

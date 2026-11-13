@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lihb.forks.worker",
+    "module": "worker-kmp",
+    "version": "4.0.8-cpf.3-ohos.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0-0.1.0-07"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.8-1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21-0.1.0-13"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-bundled",
+          "version": {
+            "requires": "2.7.1-chunjizhang-cpf11-p2r1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.17.0-0.1.0-07"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "worker-kmp-metadata-4.0.8-cpf.3-ohos.3.jar",
+          "url": "worker-kmp-4.0.8-cpf.3-ohos.3.jar",
+          "size": 75046,
+          "sha512": "a27019427a6a999893dd8ad3cf3b326353a32ae4da02ebe97534343d45677f6cb015f65de48b39f94a31ad81fdd7f1c3bba6b05e1470d42789653ecda9eeca7f",
+          "sha256": "93c37fad7033f09e6d163f4e52a6b3685c2a996b73bcf1d90b895d7728083c18",
+          "sha1": "78e3326983db932cb38ef661b5d62a792217e21c",
+          "md5": "83776774fa678e7584a01f9d47298688"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "worker-kmp-kotlin-4.0.8-cpf.3-ohos.3-sources.jar",
+          "url": "worker-kmp-4.0.8-cpf.3-ohos.3-sources.jar",
+          "size": 75908,
+          "sha512": "e22558a3f40dab167c1a7c2aa228a649a2f6447f45c4f0e48dd1c586d94b9482fa19466d3f9d04a07b0ee1597a232f8e3c6ea69c23829a62086acf5c93d982d6",
+          "sha256": "bc245deff662c5d3a7a0c636cb70484029204aee9b524408bcee4e208c40e92a",
+          "sha1": "eac86c3ee0ba572a1f07c930e7bab6cd3365fc3d",
+          "md5": "63aa372b1da566b8a481fa3393be2faf"
+        }
+      ]
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-ohosarm64/4.0.8-cpf.3-ohos.3/worker-kmp-ohosarm64-4.0.8-cpf.3-ohos.3.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-ohosarm64",
+        "version": "4.0.8-cpf.3-ohos.3"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-ohosarm64/4.0.8-cpf.3-ohos.3/worker-kmp-ohosarm64-4.0.8-cpf.3-ohos.3.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-ohosarm64",
+        "version": "4.0.8-cpf.3-ohos.3"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-ohosx64/4.0.8-cpf.3-ohos.3/worker-kmp-ohosx64-4.0.8-cpf.3-ohos.3.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-ohosx64",
+        "version": "4.0.8-cpf.3-ohos.3"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-ohosx64/4.0.8-cpf.3-ohos.3/worker-kmp-ohosx64-4.0.8-cpf.3-ohos.3.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-ohosx64",
+        "version": "4.0.8-cpf.3-ohos.3"
+      }
+    }
+  ]
+}
