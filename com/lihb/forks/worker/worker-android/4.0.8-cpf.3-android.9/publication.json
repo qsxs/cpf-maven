@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "version": "4.0.8-cpf.3-android.9",
+  "sourceRepository": "https://github.com/qsxs/worker-kmp",
+  "sourceCommit": "7aba8c880d4a2b3d602b6b1b2d7c6cdaef88b5df",
+  "publicationMode": "byte-preserving-copy-of-accepted-android-artifacts",
+  "artifactsSha256": {
+    "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.3-android.9/worker-android-android-4.0.8-cpf.3-android.9-sources.jar": "8fc11f7991719c08cf9b64e66fabfd44895619221b5b014086ea9de31fadfc09",
+    "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.3-android.9/worker-android-android-4.0.8-cpf.3-android.9.aar": "e2614e26180722207cf851cf1fa42affffaf0cc3652f57f037939735cfac11ff",
+    "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.3-android.9/worker-android-android-4.0.8-cpf.3-android.9.module": "af9f241f019527b77ba3e5157e8436646645c6b5e9e0ec6a87ff92098cd542c2",
+    "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.3-android.9/worker-android-android-4.0.8-cpf.3-android.9.pom": "0ea8aaec2fa0354860010ff9202121980aee4a9cbfab8cef443d782283267436",
+    "com/lihb/forks/worker/worker-android/4.0.8-cpf.3-android.9/worker-android-4.0.8-cpf.3-android.9-sources.jar": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+    "com/lihb/forks/worker/worker-android/4.0.8-cpf.3-android.9/worker-android-4.0.8-cpf.3-android.9.jar": "d12dd0b8c089f1200004d176563db524a613b6ce3216ae89925e7c6de62d42ef",
+    "com/lihb/forks/worker/worker-android/4.0.8-cpf.3-android.9/worker-android-4.0.8-cpf.3-android.9.module": "8e59f66e0bf73e3d14a6b5f7a4b83c5baad2c602e6ef67af5bba0aeea635d041",
+    "com/lihb/forks/worker/worker-android/4.0.8-cpf.3-android.9/worker-android-4.0.8-cpf.3-android.9.pom": "401424216ee8cd8d9de6aa326977239419d57c34a18941b83e5aa44a02b0b2f7",
+    "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.3-android.9/worker-kmp-jvm-4.0.8-cpf.3-android.9-sources.jar": "4be2e09a1d50d2a9f7e2c3fa718c2e78b32ee648f412cbafc5f9fed0fb347539",
+    "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.3-android.9/worker-kmp-jvm-4.0.8-cpf.3-android.9.jar": "d05e4ea69f69944ab36c1a094ae051e6c34e3d9e0be107f34d857ff749169043",
+    "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.3-android.9/worker-kmp-jvm-4.0.8-cpf.3-android.9.module": "03165907f55355aea5dfa3a7b56e567e980f291677050bcf19259b959439a3bb",
+    "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.3-android.9/worker-kmp-jvm-4.0.8-cpf.3-android.9.pom": "aeeb191968231f1dd6e46a2edbaa053494fef4c3d67e372c5e18e355175695f4",
+    "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.3-android.9/worker-kmp-4.0.8-cpf.3-android.9-sources.jar": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+    "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.3-android.9/worker-kmp-4.0.8-cpf.3-android.9.jar": "089e24417bf9f6c34eec5720eebb2cbcc82ea2855ecef90133eb17e1079d5868",
+    "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.3-android.9/worker-kmp-4.0.8-cpf.3-android.9.module": "ab9752819cdf8c8f508d86ae02f604bc9e291c02d1a063e41db30bb0ae863548",
+    "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.3-android.9/worker-kmp-4.0.8-cpf.3-android.9.pom": "c8b4631c0d0bd0e4e46849dd94cebb9385f8e9a4e8fc072a06cc26567efc63c2"
+  }
+}

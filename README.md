@@ -182,3 +182,8 @@ io.github.qsxs.cpf.filekit:filekit-dialogs:0.16.0-cpf11-preview-22683094fd5d-408
 
 - 根坐标为 `com.lihb.forks.worker:worker-ios:4.0.8-cpf.3-ios.1`，传递依赖同版 `worker-kmp`。模块元数据提供 iOS 真机 ARM64 和模拟器 ARM64 变体。
 - macOS 构建使用 Kotlin 2.4.20、JDK 21 和 Xcode 26.6，原样发布 Maven 构建输出并附 Apache 2.0 许可证。[源码提交](https://github.com/qsxs/worker-kmp/commit/3ec2787ad71b2f73a45bbe6252e6f67e55655aaa) · [构建与独立链接](https://github.com/qsxs/worker-kmp/actions/runs/43409347360)
+
+## Worker KMP Android 4.0.8-cpf.3-android.9
+
+- 根坐标为 `com.lihb.forks.worker:worker-android:4.0.8-cpf.3-android.9`。模块元数据选择同版 `worker-android-android` AAR，传递解析 `worker-kmp` 与 `worker-kmp-jvm`。
+- [发布源码](https://github.com/qsxs/worker-kmp/commit/7aba8c880d4a2b3d602b6b1b2d7c6cdaef88b5df)对应此前已验收的 Android fork。此次原样发布既有 16 个 Maven 文件，未重新构建；全部 SHA-256 保留在[发布记录](com/lihb/forks/worker/worker-android/4.0.8-cpf.3-android.9/publication.json)，并附[Apache 2.0 许可证](com/lihb/forks/worker/worker-android/4.0.8-cpf.3-android.9/LICENSE)。

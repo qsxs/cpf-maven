@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <metadata>
   <groupId>com.lihb.forks.worker</groupId>
   <artifactId>worker-kmp-jvm</artifactId>
   <versioning>
-    <latest>4.0.8-cpf.3-ios.1</latest>
-    <release>4.0.8-cpf.3-ios.1</release>
+    <latest>4.0.8-cpf.3-android.9</latest>
+    <release>4.0.8-cpf.3-android.9</release>
     <versions>
       <version>4.0.8-cpf.3-ios.1</version>
+      <version>4.0.8-cpf.3-android.9</version>
     </versions>
-    <lastUpdated>20261113103050</lastUpdated>
+    <lastUpdated>20261113111751</lastUpdated>
   </versioning>
 </metadata>
