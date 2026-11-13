@@ -1,0 +1,308 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lihb.forks.worker",
+    "module": "worker-kmp",
+    "version": "4.0.8-cpf.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "worker-kmp-metadata-4.0.8-cpf.4.jar",
+          "url": "worker-kmp-4.0.8-cpf.4.jar",
+          "size": 45984,
+          "sha512": "817026b9a6a8be9d4b77b89c42767eda17fff9a520f37366037a2b8a8c2d961150ded06669f74e2fbcc9e52417500f8a17f9bd8ce2e974207b61d1192d60c02f",
+          "sha256": "bcb959e48f7b4ff27977ba4b2083dfeba434517916bdfe490bc9a181d907cbf3",
+          "sha1": "fb842a0456bc7ab60d4a3be4419bab5bb6f419bd",
+          "md5": "ba5afd18fbcd204a91313d63a3691261"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "worker-kmp-kotlin-4.0.8-cpf.4-sources.jar",
+          "url": "worker-kmp-4.0.8-cpf.4-sources.jar",
+          "size": 85602,
+          "sha512": "729cf4058c43061eca608171b568c869d1aa3c6e151421958194b4ea942d66d62f8b804cb4813b7379921e916824bc43e5e6626f6a076569ac3a014fa8d1326f",
+          "sha256": "31fb7953f15783ecbd637f14559a4c59bb19b97ce3db6adfba4a63a67120183e",
+          "sha1": "14abeb3504a088c551969add59c3a2cf5bbbad02",
+          "md5": "2e4ecb06ebb2efec0ccbe939396fae25"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-iosarm64",
+        "version": "4.0.8-cpf.4"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-iosarm64",
+        "version": "4.0.8-cpf.4"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-iosarm64",
+        "version": "4.0.8-cpf.4"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-iossimulatorarm64",
+        "version": "4.0.8-cpf.4"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-iossimulatorarm64",
+        "version": "4.0.8-cpf.4"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-iossimulatorarm64",
+        "version": "4.0.8-cpf.4"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-jvm",
+        "version": "4.0.8-cpf.4"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-jvm",
+        "version": "4.0.8-cpf.4"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-jvm",
+        "version": "4.0.8-cpf.4"
+      }
+    },
+    {
+      "name": "ohosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-ohosarm64",
+        "version": "4.0.8-cpf.4"
+      }
+    },
+    {
+      "name": "ohosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-ohosarm64",
+        "version": "4.0.8-cpf.4"
+      }
+    },
+    {
+      "name": "ohosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-ohosx64",
+        "version": "4.0.8-cpf.4"
+      }
+    },
+    {
+      "name": "ohosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ohos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.module",
+        "group": "com.lihb.forks.worker",
+        "module": "worker-kmp-ohosx64",
+        "version": "4.0.8-cpf.4"
+      }
+    }
+  ]
+}

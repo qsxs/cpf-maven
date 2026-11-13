@@ -187,3 +187,9 @@ io.github.qsxs.cpf.filekit:filekit-dialogs:0.16.0-cpf11-preview-22683094fd5d-408
 
 - 根坐标为 `com.lihb.forks.worker:worker-android:4.0.8-cpf.3-android.9`。模块元数据选择同版 `worker-android-android` AAR，传递解析 `worker-kmp` 与 `worker-kmp-jvm`。
 - [发布源码](https://github.com/qsxs/worker-kmp/commit/7aba8c880d4a2b3d602b6b1b2d7c6cdaef88b5df)对应此前已验收的 Android fork。此次原样发布既有 16 个 Maven 文件，未重新构建；全部 SHA-256 保留在[发布记录](com/lihb/forks/worker/worker-android/4.0.8-cpf.3-android.9/publication.json)，并附[Apache 2.0 许可证](com/lihb/forks/worker/worker-android/4.0.8-cpf.3-android.9/LICENSE)。
+
+## Worker KMP 4.0.8-cpf.4（Android / iOS / OHOS）
+
+- 三端使用同一个版本：Android 根模块 `worker-android`，iOS 根模块 `worker-ios`，OHOS 根模块 `worker-kmp`；group 均为 `com.lihb.forks.worker`。完整发布包括 11 个模块与 JVM、iOS ARM64/模拟器 ARM64、OHOS x64/ARM64 变体。
+- 原平台二进制保持；统一 core 使用已验 iOS 版本的 common/JVM，公共与 OHOS 元数据按源码集组合。Android/iOS 继续解析官方依赖；OHOS Native 叶保留完整 CPF、SQLite/Okio 依赖，OHOS 消费端沿用对应工具链的版本对齐。
+- [发布工具与唯一版本来源](https://github.com/qsxs/worker-kmp/commit/58e4f4ed27dc82b6dea1894996d48999d2d3ebba) · [组合原件与摘要](releases/worker-kmp/4.0.8-cpf.4/composition.json) · [发布记录](releases/worker-kmp/4.0.8-cpf.4/publication.json)。组合回执的索引摘要对应隔离候选；公开仓库索引保留旧版，实际摘要见发布记录。三端消费编译已验，iOS Native 叶沿用此前已链接原件。

@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <metadata>
   <groupId>com.lihb.forks.worker</groupId>
   <artifactId>worker-kmp-ohosarm64</artifactId>
   <versioning>
-    <latest>4.0.8-cpf.3-ohos.3</latest>
-    <release>4.0.8-cpf.3-ohos.3</release>
+    <latest>4.0.8-cpf.4</latest>
+    <release>4.0.8-cpf.4</release>
     <versions>
       <version>4.0.8-cpf.3-ohos.3</version>
+      <version>4.0.8-cpf.4</version>
     </versions>
-    <lastUpdated>20261113084856</lastUpdated>
+    <lastUpdated>20261113121432</lastUpdated>
   </versioning>
 </metadata>

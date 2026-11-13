@@ -1,0 +1,1191 @@
+{
+  "schemaVersion": 1,
+  "version": "4.0.8-cpf.4",
+  "configurationRepository": "https://github.com/qsxs/worker-kmp",
+  "configurationCommit": "58e4f4ed27dc82b6dea1894996d48999d2d3ebba",
+  "sourceCommits": {
+    "android": "7aba8c880d4a2b3d602b6b1b2d7c6cdaef88b5df",
+    "ios": "3ec2787ad71b2f73a45bbe6252e6f67e55655aaa",
+    "ohos": "168346443f1f1f0a443b86c5da164cc4cb1724c9"
+  },
+  "sourceVersions": {
+    "android": "4.0.8-cpf.3-android.9",
+    "ios": "4.0.8-cpf.3-ios.1",
+    "ohos": "4.0.8-cpf.3-ohos.3"
+  },
+  "modules": [
+    "worker-kmp",
+    "worker-kmp-jvm",
+    "worker-kmp-iosarm64",
+    "worker-kmp-iossimulatorarm64",
+    "worker-kmp-ohosx64",
+    "worker-kmp-ohosarm64",
+    "worker-android",
+    "worker-android-android",
+    "worker-ios",
+    "worker-ios-iosarm64",
+    "worker-ios-iossimulatorarm64"
+  ],
+  "compositionReceipt": "releases/worker-kmp/4.0.8-cpf.4/composition.json",
+  "notice": "Composition receipt hashes describe the isolated candidate. Shared Maven indexes retain earlier versions and are recorded separately below.",
+  "versionFiles": [
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4-sources.jar",
+      "sha256": "8fc11f7991719c08cf9b64e66fabfd44895619221b5b014086ea9de31fadfc09"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4-sources.jar.md5",
+      "sha256": "85c707a1b6342f2ea533764d8d23001a50d48ff2d057a41e9b2b7f374427c8d8"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4-sources.jar.sha1",
+      "sha256": "ac75288e8c8c1289090dca9cb37fc416de7cd80d9332d4638bdd1808807d67dc"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4-sources.jar.sha256",
+      "sha256": "70a23d69727171f447601b57092dd069937fb4d19e091562aca93adc784b32bd"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4-sources.jar.sha512",
+      "sha256": "43465ccf3ad0c754395802b545efc5d75a82074056fe658d89aebaaa543ed1ab"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.aar",
+      "sha256": "e2614e26180722207cf851cf1fa42affffaf0cc3652f57f037939735cfac11ff"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.aar.md5",
+      "sha256": "d224fb91369ed2fff1760c32f84bc59cccc9b8805c805540eff2d658bfb98a58"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.aar.sha1",
+      "sha256": "708cd3701c103833b224d4b3aa2bbd7d71b40f73773d2419599e9b71d632dcfa"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.aar.sha256",
+      "sha256": "4c3d7a9390b77795e9219f5c8b99f884979afadd1099cf0255f4b22fff81bf7b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.aar.sha512",
+      "sha256": "2ab83b7568275efd45b03b24d3d3aad3095870ffda0a72acc0b4a8c24f487829"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.module",
+      "sha256": "7d0ccb315be77bf7dc6ea728e1b26b9f67a810b0e04c24c37b902bcf3b571a22"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.module.md5",
+      "sha256": "763f692e1680461432897ec60f4fbead814a92089c8c70671838a8599d350fb3"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.module.sha1",
+      "sha256": "0232e05626ef7d83ce2e5c75ebf382489672fa1ca3d4f3762d798080c983144a"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.module.sha256",
+      "sha256": "36b05b670dfd3b0ae20ea020a99a438b52248bfd4c640b473d98fc6724b75c5d"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.module.sha512",
+      "sha256": "d48cd539944f78cefd447e604e5449abf0deeee26a43fa65a726dc464555fb40"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.pom",
+      "sha256": "c2445feee99e8352087a4ee639a71827cadc009215ec1bb8d7edb3a2a3b345dc"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.pom.md5",
+      "sha256": "faaf73a98fa9fc6d5bb2df075aa5591854e2050f7f97d066f9dd3cfcf1953d1d"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.pom.sha1",
+      "sha256": "4cd9509cd37e14e6ce7ad46ff3875446929a4fa15952bb2909dc472e70790729"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.pom.sha256",
+      "sha256": "a2a7a406f8fd3c3dbfba481503e7404dd943b2d30930e29ec1a4b7e3abe7f4e7"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/4.0.8-cpf.4/worker-android-android-4.0.8-cpf.4.pom.sha512",
+      "sha256": "d10e7b6630a0b92adc88cfddcdd0dc8a05151c15cf0bf45e5eb4a58858341191"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/LICENSE.md5",
+      "sha256": "bf6485fc298caabc3351dffcda0d0ab056bed72325a1acaa6faaa10e7dafd278"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/LICENSE.sha1",
+      "sha256": "b860b6b9a026c0c7abd6d34a8789f6510d27f966e2c42d73278834e55fb699c8"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/LICENSE.sha256",
+      "sha256": "fcd6880d0c2607e334f19d8cfb18234959f66887cf097b94b37b2e51e290d218"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/LICENSE.sha512",
+      "sha256": "ecf0343b560d2daa326c78b9a71df6ccf732f0375f70203a0f0719fc6a35802a"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4-sources.jar",
+      "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4-sources.jar.md5",
+      "sha256": "1cefc235021245575e030f83eb6ce7ad2bcc403c1663b67dedc50e3b55ead90b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4-sources.jar.sha1",
+      "sha256": "b97f8a22b7bf88b41ac653e36b73a8e485f21b86800d5af08bcc97021fdf4a6b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4-sources.jar.sha256",
+      "sha256": "72f2468942c37dd1dd2fc61cbe160bfefff8b66a4455a4be584564c588d252e0"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4-sources.jar.sha512",
+      "sha256": "b5a5c80bdf6a4a3e656936672781a27df89bfd6973098faeba9385cf32d5116d"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.jar",
+      "sha256": "d12dd0b8c089f1200004d176563db524a613b6ce3216ae89925e7c6de62d42ef"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.jar.md5",
+      "sha256": "4518b616cfd7586305b56e4f3af2a293066ab9bb997e4df05e73071fac2029a7"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.jar.sha1",
+      "sha256": "55befe926a8a7bbcf70a688b358585e691892185eb7f9b5a20cf9359a789c95b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.jar.sha256",
+      "sha256": "52cff0b3dda31ae9e8d98c5563f08f983b65051d05a11d12a6a60b1acd25b7bc"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.jar.sha512",
+      "sha256": "62be511ec9c2ec97c1588e6588220c1c59b88859388519713fb6a4ec55f19758"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.module",
+      "sha256": "96c7702de3c8c3e1d50cf5e2ca31b89f77919187898e0b43944d22143b4d3a14"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.module.md5",
+      "sha256": "e1b9f8dd4b3448e6a331002ca6e18b9c6336b0ca6b007793bad8ca0c52acc8fe"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.module.sha1",
+      "sha256": "8a8cb2cc634751e3df8d5e2293edb30b8c5720f65db5ad099c8bf3099059d86c"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.module.sha256",
+      "sha256": "d22a8f7acdd8841daec4bd842840d049c081ba8ec2db585a97791a12a655bcd4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.module.sha512",
+      "sha256": "b983bd381c788c5ec4e15176ef6929721255e4043f4f56ccc1dd1943a21b6d52"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.pom",
+      "sha256": "603f04a58d98fdb37ad07617986b080b547021d8616a1af2307840d5af3ab882"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.pom.md5",
+      "sha256": "0cd355a1291d647efd59c50e9d2bacf1404a24a8848c11309c8ba21e2ccdf06d"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.pom.sha1",
+      "sha256": "14e42fc528ccd61dfd8f906e36493c884e20687c5ebfff08c5bd4f3bc033186d"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.pom.sha256",
+      "sha256": "f39eb6641b72ef015fc3b2ad8a98661771dd8819f25b5941ec434aba6a0270bf"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/4.0.8-cpf.4/worker-android-4.0.8-cpf.4.pom.sha512",
+      "sha256": "99880eb384c5da238169d16de9f28b4d527052566df2d47025ea5173389080ec"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4-metadata.jar",
+      "sha256": "22f0bc03b87477e1e93a772acdc5d888b4b1e304238514ac7e2d69a220f719eb"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4-metadata.jar.md5",
+      "sha256": "4660f9c83bceb54728f1dc99165f153d29e9d5cc68d7e332851f5fa0dc771674"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4-metadata.jar.sha1",
+      "sha256": "0c9726282f1aa603c9472271d273d8a881ea91aec24da4377f43d62226b8feb2"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4-metadata.jar.sha256",
+      "sha256": "a600472d02cc4e674455621e5a327c5c8638fcd2b52d596b2330ed76ef7f5529"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4-metadata.jar.sha512",
+      "sha256": "fd73549c2c39125e654af16540aa052eeb8563f17b0ea9f41ff4683ed6ed54c0"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4-sources.jar",
+      "sha256": "c78c4e22c1ce1b8c34d50e48ed90ec29108733ed07f568cc23d50c03de0e7815"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4-sources.jar.md5",
+      "sha256": "0abf02453fd32fb37d38c4b890a72b38a51c82c7afb325754bf96839e6b00f5b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4-sources.jar.sha1",
+      "sha256": "ecab737c6556730e111efdde3b4616a288f0bbb32d2a7bded4f8955957be12b9"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4-sources.jar.sha256",
+      "sha256": "b3e3f5bcb02b1dd52b192e2580484eb40d24b8bca37a2c96d77cdafa6a185d38"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4-sources.jar.sha512",
+      "sha256": "5573e402c4d104405924a0660f1449e792604da51d8a4a90788f850294f821f5"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.klib",
+      "sha256": "0e960e8608b02eaf84649b5120e8a6a6bbc0084afc95d707fd7cf72bc3843d2e"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.klib.md5",
+      "sha256": "50c8fd03c792171f698fcfb274129c4f2c2d3c02f45e81b697c236e98de18916"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.klib.sha1",
+      "sha256": "d415bf5f1a434315c203ed93a6042b19925851921312672c75123f2649bdd504"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.klib.sha256",
+      "sha256": "96c21581cdce11592ded02a364dd4866bcd35d4dcb537fb2beb107d8f9ec17f3"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.klib.sha512",
+      "sha256": "3ab6d810ca6408a585d05c0e66675402643b5c7d5748d095d87e0750d3958f1b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.module",
+      "sha256": "bea9a602286ac9873a99322c5e45550f839ab92c4c298e2cb15f085c86506613"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.module.md5",
+      "sha256": "9ba925aaed9de26bd6a266e36615680802308f6c53fb2a73a6cdbea29c18eaa4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.module.sha1",
+      "sha256": "9e355a1b1a41fa2b82f74336827fdd9b5fc409980e44d907e573ab8686fb423f"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.module.sha256",
+      "sha256": "5b1005334f214aac617e60a386f4a31feff7fadf213bea20715be73d482a80f9"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.module.sha512",
+      "sha256": "8434192b239cd8c01b5d576a300c8f065152eb87a281a8cc54cc21bda0e300ae"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.pom",
+      "sha256": "7cb2d069d8501962298bb8bb93bdd65e1ca44fa8d6dedaf429ae5a6bbc4cfd28"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.pom.md5",
+      "sha256": "688917fb8df569636272bc927aeff9d7f08d6e3b783b34bda15aa1047508beca"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.pom.sha1",
+      "sha256": "66a569e0e464764f85af885d8ba87218ddcd5bf87144bd4050a833e08db0500e"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.pom.sha256",
+      "sha256": "fabc180312aeb9a9af93ac95e20a1c2b6b99d9a4abb3debd01af443493fceb12"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/4.0.8-cpf.4/worker-ios-iosarm64-4.0.8-cpf.4.pom.sha512",
+      "sha256": "7eb642c0aa3a691b6deb4331dc3a77eea28d06dea0598b03ff7259a4cd0b4fe4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4-metadata.jar",
+      "sha256": "22f0bc03b87477e1e93a772acdc5d888b4b1e304238514ac7e2d69a220f719eb"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4-metadata.jar.md5",
+      "sha256": "4660f9c83bceb54728f1dc99165f153d29e9d5cc68d7e332851f5fa0dc771674"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4-metadata.jar.sha1",
+      "sha256": "0c9726282f1aa603c9472271d273d8a881ea91aec24da4377f43d62226b8feb2"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4-metadata.jar.sha256",
+      "sha256": "a600472d02cc4e674455621e5a327c5c8638fcd2b52d596b2330ed76ef7f5529"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4-metadata.jar.sha512",
+      "sha256": "fd73549c2c39125e654af16540aa052eeb8563f17b0ea9f41ff4683ed6ed54c0"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4-sources.jar",
+      "sha256": "c78c4e22c1ce1b8c34d50e48ed90ec29108733ed07f568cc23d50c03de0e7815"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4-sources.jar.md5",
+      "sha256": "0abf02453fd32fb37d38c4b890a72b38a51c82c7afb325754bf96839e6b00f5b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4-sources.jar.sha1",
+      "sha256": "ecab737c6556730e111efdde3b4616a288f0bbb32d2a7bded4f8955957be12b9"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4-sources.jar.sha256",
+      "sha256": "b3e3f5bcb02b1dd52b192e2580484eb40d24b8bca37a2c96d77cdafa6a185d38"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4-sources.jar.sha512",
+      "sha256": "5573e402c4d104405924a0660f1449e792604da51d8a4a90788f850294f821f5"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.klib",
+      "sha256": "3110b8d735ed105a017786ea5fa0ed5a41f6e76a1234ed799c7702085ac9d453"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.klib.md5",
+      "sha256": "6154e567ec62fe6eca59b1d0f1bbeb6c5fa32314a30020a279419cd0d7d32869"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.klib.sha1",
+      "sha256": "9b7d89472cdda8d64f59b23c4e9787c8d79926e5686f0508d6e95aedbbc6b1e6"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.klib.sha256",
+      "sha256": "160918e253f19c1146383476a9ce8bef3002753c3d7e0c5ea694169c24f03f2b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.klib.sha512",
+      "sha256": "bab7702effd563e162e922c3ba088d26d4b840af8aa22853dbe0775ee1127bcf"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.module",
+      "sha256": "16ea4c15e74ca5b6de4b41aed164f460a86af41d754f8dd34a1822810918cb48"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.module.md5",
+      "sha256": "668a2f970672e1e5db16c000992a7d6ffd046fe60f7066a860adedf16ef477c2"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.module.sha1",
+      "sha256": "65cb329221f3c4a0889e204c26717a8d2967b85ad7b4d696e0ad222e1ec90f73"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.module.sha256",
+      "sha256": "97a476b955338c534e9e817ec111d04c254f4070d9af7e8f711f502ecbdd6573"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.module.sha512",
+      "sha256": "dfeaf3e2d8dc752e9da2a3b702ce324b23cfe3e6cb47146a561523ca3aea12fa"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.pom",
+      "sha256": "56dd55086455c129dafc2963cc06864cbfa58fbb255ef4e17470043f77d6054a"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.pom.md5",
+      "sha256": "fab83c40da647156a2b4c7c4cdaf778af7e7131131580917a77565a9d5660627"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.pom.sha1",
+      "sha256": "6a8340585ab3e46bdd6c4ae435cebd7d190de83e1a6672a3397864a23e5d71e5"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.pom.sha256",
+      "sha256": "926be4983db586f61951beab2c9175106f0a255b94c8b87d168b331a3539434b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/4.0.8-cpf.4/worker-ios-iossimulatorarm64-4.0.8-cpf.4.pom.sha512",
+      "sha256": "318c284a2ca166abd3ba20834ad522fdea81ef68be37fb50de6ca4950376ee1c"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/LICENSE.md5",
+      "sha256": "bf6485fc298caabc3351dffcda0d0ab056bed72325a1acaa6faaa10e7dafd278"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/LICENSE.sha1",
+      "sha256": "b860b6b9a026c0c7abd6d34a8789f6510d27f966e2c42d73278834e55fb699c8"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/LICENSE.sha256",
+      "sha256": "fcd6880d0c2607e334f19d8cfb18234959f66887cf097b94b37b2e51e290d218"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/LICENSE.sha512",
+      "sha256": "ecf0343b560d2daa326c78b9a71df6ccf732f0375f70203a0f0719fc6a35802a"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4-kotlin-tooling-metadata.json",
+      "sha256": "c7c6cbcd636190ae195097ca24a086befc4d88bf86ed141de13cb34eaecf966b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4-kotlin-tooling-metadata.json.md5",
+      "sha256": "ba2429aeaedb9140d2e71df293dab94c00ce739f1e77d6c90f6b1581a68e3464"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4-kotlin-tooling-metadata.json.sha1",
+      "sha256": "f210773146d88aa44c97d804f4754d6ea25af1acb871cb735690ad9293d6dabf"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4-kotlin-tooling-metadata.json.sha256",
+      "sha256": "a917eee189a7fa84cf6bf8323094608728d44a6899c6340a41084b871941eb55"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4-kotlin-tooling-metadata.json.sha512",
+      "sha256": "747e32b42c1ab0f853bab297c22610f0e90232bbc2346f10bc087487718a812c"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4-sources.jar",
+      "sha256": "0facec444ccd86939f92de19b37075c20b168292fb5ae17a28722752a4f4a062"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4-sources.jar.md5",
+      "sha256": "8ce786c5ad51d53350f09a9874c72cf3eabb8a4bcf25210d8c530feab8563226"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4-sources.jar.sha1",
+      "sha256": "cfa24d718579877cfc1d64f46c0adb986c5b2c9cf5047a4b33e3236e395d4a30"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4-sources.jar.sha256",
+      "sha256": "df88e6eb8185084ef6530f244b00ea7e56e2a62aa36c6ce170fcc1924fcee060"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4-sources.jar.sha512",
+      "sha256": "e8c96bd0ef271618be5d802280562392d2a3fa47a77ae36f12f786695eba0020"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.jar",
+      "sha256": "829821b27e00c6457ce3736372ac6f1c2d7ebd7802c645943b887f042ba18c9c"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.jar.md5",
+      "sha256": "a713c4e7ac7a6257e1195a5108a0119f17d5239478b5f2e09f17851ffb178098"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.jar.sha1",
+      "sha256": "998826c9465e5ffc2890095b6fbed647a737c711e05bf6be8e753d8ae9c9df3b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.jar.sha256",
+      "sha256": "a08da8d55757643f9f67b75e4af0f90f2d915db9adec237326d4842cbcfea827"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.jar.sha512",
+      "sha256": "56ce4e30d7f8eb24468341596079f46764111180b9aa4a60c877be8553abd839"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.module",
+      "sha256": "968d88f8c050638bdfeec2f76f52bfde653f92e3ca94fad4bad3a77bf7160857"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.module.md5",
+      "sha256": "e3743180c023c7f54640b25bf754cda3732eeeb010f386faeae89e26e3afb9f5"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.module.sha1",
+      "sha256": "896799d4512c32e6d610979ac68627050d7fd23a17b5f3285d3f5db563c57a14"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.module.sha256",
+      "sha256": "60e28aad05820fb07b3e196bfb97216bcbb8946c553b9af65e9e5437f2b0b7ec"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.module.sha512",
+      "sha256": "b290ecca64212b962356b3ea925f1500b02ccf760f92d5eaae5530f518a4c88d"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.pom",
+      "sha256": "c2c9c1ed5f354ca7f846e6922cbcce603bfc5f057fd9ceb74bdfc7fff08cdf24"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.pom.md5",
+      "sha256": "a535106759d684ee3bcf37730e27b69825c5fd77acdc2bfb1027b2a56b1ff05c"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.pom.sha1",
+      "sha256": "405d2303a39700eaaaf50f03d00c80d28463041ccbcce07228d827f852af7bdc"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.pom.sha256",
+      "sha256": "8ccaec437a3d88a7e18ae274b979910a53727e0f59aa2167cfa69d7937af9e8b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/4.0.8-cpf.4/worker-ios-4.0.8-cpf.4.pom.sha512",
+      "sha256": "8d2a20ac2a1b2659000932b2edda1e5f8dbea7c134c19853af31dcb48f15219b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4-metadata.jar",
+      "sha256": "147f0df4c9f8339ab0308e7f776e7724b3c5c92f64edcc57037d28560ba267be"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4-metadata.jar.md5",
+      "sha256": "7ca71d0ec6d44569eae357ab0ce30ff9415212189c91ceaeda88d854cc9883c3"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4-metadata.jar.sha1",
+      "sha256": "7a633d6207015e09c160add57c685234de23752b8947c5e5fde9035e7cfc9ea6"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4-metadata.jar.sha256",
+      "sha256": "fb680f744ca213767df0f445dcfcdb28a6075ff9090f471b616b1acd42d61e71"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4-metadata.jar.sha512",
+      "sha256": "8e51bfe9cf1db5dd2ad4c9eaaa71b31c93f828be9d28fa7277f741a3c32d4a7b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4-sources.jar",
+      "sha256": "f00886ed09bdc78bb4929eaaea92083d572f1754ca3531abe0320ea12b614368"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4-sources.jar.md5",
+      "sha256": "b3e1b30f4cff81438ddff76f47668e3e874e08e4823de7dbdcdc5f3ebbdeabe9"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4-sources.jar.sha1",
+      "sha256": "20cd30d7e9bc1d12b82436cda7a029ac8ef68c4e1a6abbecebb8e403c555596f"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4-sources.jar.sha256",
+      "sha256": "5954b4f1acff0b8a29d59f20f7e1ce8dbf941f84b4cc54b0def53f1424b0f001"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4-sources.jar.sha512",
+      "sha256": "943f86b1335b334058e7936fc59ba3546bb418060f800c6dfdf40378f256b04a"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.klib",
+      "sha256": "560ffa75d77995bb9e4f31e29b57dbd822439a08fabb91fabbd63add87803379"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.klib.md5",
+      "sha256": "0eff8ff5ecd08b375df09cd65888d4d314a8cab97aa0d432ed2bb7fce52788b7"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.klib.sha1",
+      "sha256": "d029a5d033882e43553cf407a21ee9cacf6d0af4992c1cb6a2d79176e1561311"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.klib.sha256",
+      "sha256": "3ea7ae6a811aed0eeef56006317d2cdbb99b63510c3d71ed41c2e5bfaee3f641"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.klib.sha512",
+      "sha256": "9b960c8bef91169fc36f54d0152318ce84bc66757d1503a33a397d1720cd237f"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.module",
+      "sha256": "84871f9f7769804d2e5c4693ab3fa40df0a01a353d4d8fec67f829adc04ecf49"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.module.md5",
+      "sha256": "8106eb7c774919cfd4b609199af54277a267904010832bc1f5e8391b555e33ce"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.module.sha1",
+      "sha256": "36d2dbec92ed05b7b76eee88d7e0aec84f66c96be653a972037f2a3e84a4a153"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.module.sha256",
+      "sha256": "9236928f9503320c11a0bd1e7eb1cc5d9fe9059119e1c3793e73c2f59e75ff0f"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.module.sha512",
+      "sha256": "575e33b8d0770b33ae239ecbb6f958709ec4f83045aafe0814522f037449f07e"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.pom",
+      "sha256": "f5ad7e52efb068f9b5313cc1fb59bffd0f97848c7a15c7c6abb4aa682fef18ca"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.pom.md5",
+      "sha256": "7d225fb7999ab035516e4aa9fae21f488ffc2cee1b09450691ad80ed74defeba"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.pom.sha1",
+      "sha256": "d1e1a140ca49c59af4356375031b53f1e3f69d57aef9d4e9f1fcdbf17d0c36fa"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.pom.sha256",
+      "sha256": "b1dd0ea43461a891b28ba6662188b8d95730b9149745c6b4b717272d210d62ca"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/4.0.8-cpf.4/worker-kmp-iosarm64-4.0.8-cpf.4.pom.sha512",
+      "sha256": "168f9bbc069b2bc50cdde459498cd5801068f531f46a1886b9da2292a979627c"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4-metadata.jar",
+      "sha256": "147f0df4c9f8339ab0308e7f776e7724b3c5c92f64edcc57037d28560ba267be"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4-metadata.jar.md5",
+      "sha256": "7ca71d0ec6d44569eae357ab0ce30ff9415212189c91ceaeda88d854cc9883c3"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4-metadata.jar.sha1",
+      "sha256": "7a633d6207015e09c160add57c685234de23752b8947c5e5fde9035e7cfc9ea6"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4-metadata.jar.sha256",
+      "sha256": "fb680f744ca213767df0f445dcfcdb28a6075ff9090f471b616b1acd42d61e71"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4-metadata.jar.sha512",
+      "sha256": "8e51bfe9cf1db5dd2ad4c9eaaa71b31c93f828be9d28fa7277f741a3c32d4a7b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4-sources.jar",
+      "sha256": "f00886ed09bdc78bb4929eaaea92083d572f1754ca3531abe0320ea12b614368"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4-sources.jar.md5",
+      "sha256": "b3e1b30f4cff81438ddff76f47668e3e874e08e4823de7dbdcdc5f3ebbdeabe9"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4-sources.jar.sha1",
+      "sha256": "20cd30d7e9bc1d12b82436cda7a029ac8ef68c4e1a6abbecebb8e403c555596f"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4-sources.jar.sha256",
+      "sha256": "5954b4f1acff0b8a29d59f20f7e1ce8dbf941f84b4cc54b0def53f1424b0f001"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4-sources.jar.sha512",
+      "sha256": "943f86b1335b334058e7936fc59ba3546bb418060f800c6dfdf40378f256b04a"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.klib",
+      "sha256": "0078440967ee751727f2b5e6703f7066a738bc4427edfcc39e4f1d3e1a54aaf5"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.klib.md5",
+      "sha256": "b10937fde9d09df4b6f6acc7a1558e27b922797e735b58f1feeb371617c4a45d"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.klib.sha1",
+      "sha256": "1f8099c0e5dba2394fa2781f8878b87930f56243092fdce4c6314dbc17b795e7"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.klib.sha256",
+      "sha256": "57640af709653f117d7219322278c59edcffd1b78feb1916da27ea321faf8725"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.klib.sha512",
+      "sha256": "932992c8cecef0e84cd2deec7f8894cf4158ac2daa4eb74f72fa05dc070dc43b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.module",
+      "sha256": "24f3022841979e70e7bbd0410266d2dc60faed3b564c37074c83adf6dd29359c"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.module.md5",
+      "sha256": "c6d82087a0cbdb0286b166792be1bf9ec667b3cd81eb2d60491fa35dcc066c13"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.module.sha1",
+      "sha256": "a6716a0ac853585ce82aa6140ba51e965816b61c4a01c01237d322d42b586baf"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.module.sha256",
+      "sha256": "b579a95a21d8a429cc0bab0e47d947b449a10e5d0fa3f891d7ed4f9f8d83081e"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.module.sha512",
+      "sha256": "89456edbfe30dec3292636aeffa11a32c7bcf846bf64a34acd1161911970b29e"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.pom",
+      "sha256": "a34691d786d70896761b44e2853a06d175b410f051063b888a3175c4f88038a3"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.pom.md5",
+      "sha256": "47f002c797bc6bae2caa5ac5b2739a52b7c4c0a0e20373ffb7c17ed1bac42de8"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.pom.sha1",
+      "sha256": "24a53f80bf915a3b034b518f6ae03cdc71c161893dab1667325c0d05348ddaf4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.pom.sha256",
+      "sha256": "4f7fabee86538be9f9db47c147540c999adc672bd80a2045fadfc8e7e8b53e14"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/4.0.8-cpf.4/worker-kmp-iossimulatorarm64-4.0.8-cpf.4.pom.sha512",
+      "sha256": "94d3932a2aea2b2b0f6cc58400a987df96196f86e3179a2ffc737a9116701c20"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4-sources.jar",
+      "sha256": "4b4388f8626bd4ec9e83a82803202866f375d755d07d22641124ba6857aa65f7"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4-sources.jar.md5",
+      "sha256": "98d29aa3ce0f50654b5f836678be8452435b0bae8f1ac0a1f68af2c9ce6482c0"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4-sources.jar.sha1",
+      "sha256": "3c06684c4de08d068a082330cdd7ba942a2cf93191a5b4512b52eaec4a506c21"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4-sources.jar.sha256",
+      "sha256": "5c0ef18e1de4bcd6a8a7cb5be3e34e26704504dd8c07e10f434d8a4dfc8bdf24"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4-sources.jar.sha512",
+      "sha256": "e2ad4ae045ae0c8a011d8b810113b708f5fa7b073cb12b69dadb9df571b204b1"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.jar",
+      "sha256": "723841bbb34735c626b770915c4edc80dca605b4dc74a82c83f015c3b4cc6208"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.jar.md5",
+      "sha256": "fcd1695eac23397327ea7151285a2413c15278c77b5ac36fa5e95b77f338d5cd"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.jar.sha1",
+      "sha256": "c69c149d045749949e64cb4f84be768c3a6f12b8a44c47029bc6b139657c298e"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.jar.sha256",
+      "sha256": "5887e2f643989e448a03837acdb6a10b1e7988610e2fdad8e5f1aba198195f01"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.jar.sha512",
+      "sha256": "3c2389d5b7016f1b7b7e0b3c154286e2a906cc7d304b4358b7223b0d7076be25"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.module",
+      "sha256": "251cd1e0cb6185b8735fff79f351ff5c1f768ea6eb1e71f52504f04b8019d515"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.module.md5",
+      "sha256": "8e8c4c533d04ce2051e12590e5d68984997270f9e34ace8b9968ff69c756da85"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.module.sha1",
+      "sha256": "58abd91791f619b9ffddd7027ddcf8faa2bc568421c55fdb9f70a34bf9496266"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.module.sha256",
+      "sha256": "bdf4e5de5a17db2f859893a79dac5696945669731b74af209522c41d440501c8"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.module.sha512",
+      "sha256": "d49a08888f6039a0fb2a1c6fdd75e4716eda49a84da6ecf438a42d8765b843b3"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.pom",
+      "sha256": "48e802696d95ce92c1621348b306a0fdd6c154d28847339cfb3566a411e5b6f8"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.pom.md5",
+      "sha256": "208114bede54f7b5fe829736e06703437f2a45d012a2aa003c5eb416431238d7"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.pom.sha1",
+      "sha256": "e8daa5909678c6ad475c58e095aa28599310f0c70d4758f32f41c873e76dd8e3"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.pom.sha256",
+      "sha256": "9adb6ef81558ae3c22acace08c1a1a3d53b6cbd21969dd567850df93ea8566f1"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/4.0.8-cpf.4/worker-kmp-jvm-4.0.8-cpf.4.pom.sha512",
+      "sha256": "0bd93a458e2171a65017a2fc5b4aefb7b91ca29fcc8490ae4368ba3898a31290"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4-sources.jar",
+      "sha256": "c551cea7305f74c0cb852d0f802377e70b90f6192ad3216870011976f22a6af4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4-sources.jar.md5",
+      "sha256": "322324e4c39032512ac3a10da6476d7f08952fad092d2a60d936ff5da6f78186"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4-sources.jar.sha1",
+      "sha256": "f04b703b04036e7241536514e470d6759f8c8f312feea2a1ecf3841c7ae94330"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4-sources.jar.sha256",
+      "sha256": "2bf0061fc863e35b2ba411f5e77b06532ea03a9564d3a63c530cd182f7a68589"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4-sources.jar.sha512",
+      "sha256": "f0a627af7bbfb118b930aac5b084ef02cc8d2fe4b4a729910aea83ec1c64f5f3"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.klib",
+      "sha256": "882cd0ae858fdd2b93c489f8258ac97b22f3024eda964659c80f933830229e88"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.klib.md5",
+      "sha256": "8e328734908163966b51704faefc236d41828383fa23dcf5269c4e597b82d945"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.klib.sha1",
+      "sha256": "c1fe8afc9fc8a7de7c13fd29bfdda9d03479d67606664bf72de4f98b17e3cc51"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.klib.sha256",
+      "sha256": "377d2ba05ea8e2a092d8312c7ef5f9821070a9948d60a72715bb12b6ef08ffb6"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.klib.sha512",
+      "sha256": "20ef677273563857baa6949c5edbe6941f0c6ecfb2347fc0de142deb9112bae9"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.module",
+      "sha256": "ce7ef9723273120f9c8f5c590515c897c11e53152d6f4360e9b47758387f678f"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.module.md5",
+      "sha256": "31d9b0c862f51a5be9f9216b514abc03d44138044fbfd1288588ca589c549d5b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.module.sha1",
+      "sha256": "5edab40c3a26fd8d8843347b436cf7ee4af1a9957c734734caf6a1b9a7028ff7"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.module.sha256",
+      "sha256": "da4435d3b8b34b61c0448fa0cb7b886565509a8b2f2f15f31ce7a205af2927cf"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.module.sha512",
+      "sha256": "446a46ae9c4cebc985757bda34f6f03c18574310ea606829e6b563c3b1d4c543"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.pom",
+      "sha256": "1ebbd7ed38f2011f9be1d4ecc016aa4eb6d95543d35877462288a62ba486a367"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.pom.md5",
+      "sha256": "cb4f47fdf469ec1c62168b6fd06afcca7118b631754aefe1f38abe8dbcd85a9b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.pom.sha1",
+      "sha256": "9600cad5fa95926fce27a3468710dc444c615791a56ca0213ed20ed871a0d229"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.pom.sha256",
+      "sha256": "4975b703edcf146009e6a025df6a0f0196754bdcaa8b45aa69b95581ae76fc50"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/4.0.8-cpf.4/worker-kmp-ohosarm64-4.0.8-cpf.4.pom.sha512",
+      "sha256": "273c6858ccf1c7cf91581d398d072404740bc1d424cce067fe4625c96cc308d2"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4-sources.jar",
+      "sha256": "c551cea7305f74c0cb852d0f802377e70b90f6192ad3216870011976f22a6af4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4-sources.jar.md5",
+      "sha256": "322324e4c39032512ac3a10da6476d7f08952fad092d2a60d936ff5da6f78186"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4-sources.jar.sha1",
+      "sha256": "f04b703b04036e7241536514e470d6759f8c8f312feea2a1ecf3841c7ae94330"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4-sources.jar.sha256",
+      "sha256": "2bf0061fc863e35b2ba411f5e77b06532ea03a9564d3a63c530cd182f7a68589"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4-sources.jar.sha512",
+      "sha256": "f0a627af7bbfb118b930aac5b084ef02cc8d2fe4b4a729910aea83ec1c64f5f3"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.klib",
+      "sha256": "1da0e3a3cb485c036aa3d7f2b71b4a2f63301f0df012a38159389361beece652"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.klib.md5",
+      "sha256": "ea8812585bd60f5c186a46385598daca1478369391b132579664ad8dda7f8e7e"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.klib.sha1",
+      "sha256": "2db8becd17ff5b3c8d2707588187972481fada0240acb7c567650b586131a110"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.klib.sha256",
+      "sha256": "467e935c2a26838082e3de87e03e9b1222457c9d42d9170bb6360b51df2f6bdf"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.klib.sha512",
+      "sha256": "49ab3a176c03689bf125208bcc46453b603aa2d24a0b1c69a93634bd935e3379"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.module",
+      "sha256": "0065e0d844b415999bd24a0f8bd5095fd52c1c0461650bcd2e83174b2db90c0e"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.module.md5",
+      "sha256": "65752473dc74950348a5459b459ebcdfa7c7aae6518060ba213a6f0a6d56d216"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.module.sha1",
+      "sha256": "c473c2af3645c45ee24017d3ff9dff59ab18d767669722593cf8893c98d32079"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.module.sha256",
+      "sha256": "446154f683099ac7586647f4dcf22affc78095681301b128b0330a0389ca9812"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.module.sha512",
+      "sha256": "e8c0c0007c256e7f6a7833f7df24ddaea89e86b0b13c4aa465526b4916d6de6c"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.pom",
+      "sha256": "0da9443afbb8b66b57a22dc97afa81b9dcb9ef84374b76204b6d51774935843d"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.pom.md5",
+      "sha256": "76e596ebab5c47e5579de59e24e1f1fab5220e7971ede63d7a77af37b8e88fb1"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.pom.sha1",
+      "sha256": "301b6364872080d405fb7b0e61fd041a6431b108a9b62751453967d1e09cbde4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.pom.sha256",
+      "sha256": "42ad46b9587508c5b5fbbb46c7e42cfc1c009f8d4742943e07ce6358f73b50d1"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/4.0.8-cpf.4/worker-kmp-ohosx64-4.0.8-cpf.4.pom.sha512",
+      "sha256": "e693770fd80b1a2eff755dba7d1822f52c13644d16afdffcf51eee84fe95dae2"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/LICENSE.md5",
+      "sha256": "bf6485fc298caabc3351dffcda0d0ab056bed72325a1acaa6faaa10e7dafd278"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/LICENSE.sha1",
+      "sha256": "b860b6b9a026c0c7abd6d34a8789f6510d27f966e2c42d73278834e55fb699c8"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/LICENSE.sha256",
+      "sha256": "fcd6880d0c2607e334f19d8cfb18234959f66887cf097b94b37b2e51e290d218"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/LICENSE.sha512",
+      "sha256": "ecf0343b560d2daa326c78b9a71df6ccf732f0375f70203a0f0719fc6a35802a"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4-kotlin-tooling-metadata.json",
+      "sha256": "c256a0bf5947692e8d432ca22d87c998c1ec016dda47e37be1ff2295d24cb98b"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4-kotlin-tooling-metadata.json.md5",
+      "sha256": "b9f1baf359865bb8d3704eb247cfc064b88a459eac6960a2376e8dcbb37033d9"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4-kotlin-tooling-metadata.json.sha1",
+      "sha256": "75d94b9132575afa65c352aadf6959775ee6c161b41568ca91a2fe0c857833d3"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4-kotlin-tooling-metadata.json.sha256",
+      "sha256": "6473de7a48e6959ffd999f6b74e46dbcadfb9011b4714c5bf29d7a3fb45a8a62"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4-kotlin-tooling-metadata.json.sha512",
+      "sha256": "440289e2e1df71d0fddc6a8c01223484e91320ebb281e9c9f73180dad8dc18f4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4-sources.jar",
+      "sha256": "31fb7953f15783ecbd637f14559a4c59bb19b97ce3db6adfba4a63a67120183e"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4-sources.jar.md5",
+      "sha256": "47f0149a212fdd76fe7474e6e538fbe955684b601b5ed927b7bc694502b98979"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4-sources.jar.sha1",
+      "sha256": "e5e92edddebaa93afcfcb7c378b1521d443bd7def4746092ad474d68d89970d1"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4-sources.jar.sha256",
+      "sha256": "65d689f2906ae89d228de125fa5ca59513124a96550c704e312142978fdf74f2"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4-sources.jar.sha512",
+      "sha256": "ea69c48003ee1fd92717db27a346c646456e54937c2e352958b601ce7a38426c"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.jar",
+      "sha256": "bcb959e48f7b4ff27977ba4b2083dfeba434517916bdfe490bc9a181d907cbf3"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.jar.md5",
+      "sha256": "e80b735c142b2641eb08791bec4ab722fd74e17cc17672da2d82b064a6753dde"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.jar.sha1",
+      "sha256": "fe5d3de5183407bfa0b6ffc1981eef94ee32ccf0899c9e3065aa0e63b051c1e3"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.jar.sha256",
+      "sha256": "e2223db5a205701d1d7d322a009ca695f87d9135c88150ddb618ef6708e09a55"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.jar.sha512",
+      "sha256": "5cb1704698cb5ae4985185e69d794b42de79cd2c326bfb4a763d9a32432ea801"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.module",
+      "sha256": "fa589b5efd3bb9ad9eaeb60d8dfe649e0e22bbfc0bbe59c709a703ac23b4c499"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.module.md5",
+      "sha256": "fa152fed47334bb172297e2b43a947c915e67ac80592463c9a57f55a6465a941"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.module.sha1",
+      "sha256": "004abb56052bc1c0f6fa422c518426c57a70935f8ca9e622a983ee2d51e62227"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.module.sha256",
+      "sha256": "ccece545b98b3aa9f33fb4e3979db4d28a024a045e8a250a252902aeb0c2810f"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.module.sha512",
+      "sha256": "dbca98bc3d311b1eda15b43350b018e6add3ffe6bed4a2b34f64f30190036283"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.pom",
+      "sha256": "62f1465ff1625973b3d48f5cbfddf1f0f47d05a6df84d69cfeb0169c176dec6a"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.pom.md5",
+      "sha256": "63e83fb4c5bc57e9ad3e0434389cead7cbbdf6740fa3e01c134daed932304874"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.pom.sha1",
+      "sha256": "24385847da352e2ada953c64e093b5cb4b7aca184a0d748984b835ed534aa234"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.pom.sha256",
+      "sha256": "98f49cbc0844c6d7a57d56e0709af0e8d108f77ecbb3dc2915c6d13542405f1c"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/4.0.8-cpf.4/worker-kmp-4.0.8-cpf.4.pom.sha512",
+      "sha256": "97ba3ed94db85c08a15ba64fe6041011bc5c3f3a1411c68403c4e4e4f41e6f0f"
+    }
+  ],
+  "indexes": [
+    {
+      "path": "com/lihb/forks/worker/worker-kmp/maven-metadata.xml",
+      "sha256": "32ff3ac00ea46c3f32eedc6dbe1e728b6896b81715a8064830a3560b1d7585c8",
+      "retainedVersions": [
+        "4.0.8-cpf.3-ios.1",
+        "4.0.8-cpf.3-ohos.3",
+        "4.0.8-cpf.3-android.9"
+      ],
+      "addedVersion": "4.0.8-cpf.4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-jvm/maven-metadata.xml",
+      "sha256": "5c6d6319024d6f4a6889e101bcc80e381482c0c8354f1752eadaa45de7717994",
+      "retainedVersions": [
+        "4.0.8-cpf.3-ios.1",
+        "4.0.8-cpf.3-android.9"
+      ],
+      "addedVersion": "4.0.8-cpf.4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iosarm64/maven-metadata.xml",
+      "sha256": "5bb2cf3900b01df3d8a62dbabe3ab7598b66f399d94ef42bfc3ebb31d6189e23",
+      "retainedVersions": [
+        "4.0.8-cpf.3-ios.1"
+      ],
+      "addedVersion": "4.0.8-cpf.4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-iossimulatorarm64/maven-metadata.xml",
+      "sha256": "f1b4179158e4d919778645f1fad055d8cf9e5a251e0d459dddc15e6be8011053",
+      "retainedVersions": [
+        "4.0.8-cpf.3-ios.1"
+      ],
+      "addedVersion": "4.0.8-cpf.4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosx64/maven-metadata.xml",
+      "sha256": "7a1a9d9c79f8439ebfcef971f549fdaa6911063d73a7594b2e6daf32795d3467",
+      "retainedVersions": [
+        "4.0.8-cpf.3-ohos.3"
+      ],
+      "addedVersion": "4.0.8-cpf.4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-kmp-ohosarm64/maven-metadata.xml",
+      "sha256": "9a0d308c15bd3e07e32490c4f1b5dafa5d50e6a3a259b6eb89097b7aa461104c",
+      "retainedVersions": [
+        "4.0.8-cpf.3-ohos.3"
+      ],
+      "addedVersion": "4.0.8-cpf.4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android/maven-metadata.xml",
+      "sha256": "19524364284f8edaab3abf1bb20d88767a1f3f1250d94d4e0b8f5f880d225498",
+      "retainedVersions": [
+        "4.0.8-cpf.3-android.9"
+      ],
+      "addedVersion": "4.0.8-cpf.4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-android-android/maven-metadata.xml",
+      "sha256": "a51010f87219213775b5a5056d59111186519328683b53da03e460fad20cb4bf",
+      "retainedVersions": [
+        "4.0.8-cpf.3-android.9"
+      ],
+      "addedVersion": "4.0.8-cpf.4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios/maven-metadata.xml",
+      "sha256": "c75c8136b417259e61259bd3efc625a2015afd3bcb43d072b31269304118e8cf",
+      "retainedVersions": [
+        "4.0.8-cpf.3-ios.1"
+      ],
+      "addedVersion": "4.0.8-cpf.4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iosarm64/maven-metadata.xml",
+      "sha256": "1ce3993711c193722384c6e8865ff49e57aaf9ef9126262f538eea8533c45ac7",
+      "retainedVersions": [
+        "4.0.8-cpf.3-ios.1"
+      ],
+      "addedVersion": "4.0.8-cpf.4"
+    },
+    {
+      "path": "com/lihb/forks/worker/worker-ios-iossimulatorarm64/maven-metadata.xml",
+      "sha256": "ff32681679b7ef18fd96c33f1fabca6ab4c796479d53da50a7496d0a4da86f37",
+      "retainedVersions": [
+        "4.0.8-cpf.3-ios.1"
+      ],
+      "addedVersion": "4.0.8-cpf.4"
+    }
+  ],
+  "validation": {
+    "android": "compileDebugKotlin passed",
+    "ios": "iOS metadata and both ARM64 KLIB compilation passed; original Native KLIB bytes retained",
+    "ohos": "OHOS metadata compilation passed; both ABI Native compile/link tasks passed with unchanged binary inputs"
+  }
+}
